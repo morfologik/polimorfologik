@@ -1,5 +1,5 @@
 A	A	0	0		subst:sg:nom:f
-ACMN	ACMN	0	0		subst:pltant:nom.acc:n
+ACMN	ACMN	0	0		subst:sg:nom:f
 ALmN	ALmN	0	0		subst:sg:nom:f
 ALmNT	ALmNT	0	0		subst:sg:nom:f
 ALN	ALN	0	0		subst:sg:nom:f
@@ -329,7 +329,7 @@ MOsST	MOsST	0	0		subst:sg:nom:m
 MoST	MoST	0	0		subst:sg:nom:f+subst:sg:nom:m
 MQsST	MQsST	0	0		subst:sg:nom.acc:m3+subst:sg:nom:m
 MQSsT	MQSsT	0	0		subst:sg:nom.acc:m3+subst:sg:nom:m
-MqST	MqST	0	0		subst:sg:nom:f
+MqST	MqST	0	0		subst:sg:nom:m1
 MSs	MSs	0	0		subst:sg:nom:f+subst:sg:nom:m
 MST	MST	0	0		subst:sg:nom:f+subst:sg:nom:m
 mW	mW	0	0		subst:pltant:nom.acc:n+subst:sg:nom:f
@@ -439,12 +439,12 @@ TUV	TUV	0	0		subst:sg:nom.acc:n
 TV	TV	0	0		subst:sg:nom:m
 tzZ	tzZ	0	0		subst:sg:nom:m1
 U	U	0	0		subst:sg:nom.acc:n
-UV	UV	0	0		adv
+UV	UV	0	0		subst:sg:nom.acc:n
 UvV	UvV	0	0		subst:pltant:nom.acc:n
 UVv	UVv	0	0		subst:pltant:nom.acc:n+subst:sg:nom.acc:n
 UvW	UvW	0	0		subst:pltant:nom.acc:n+subst:sg:nom.acc:n
 UW	UW	0	0		subst:pltant:nom.acc:n+subst:sg:nom.acc:n
-V	V	0	0		adv+subst:sg:nom.acc.voc:n+subst:sg:nom:n+subst:sg:nom.acc:n
+V	V	0	0		subst:sg:nom.acc.voc:n
 vW	vW	0	0		subst:pltant:nom.acc:n
 W	W	0	0		subst:pltant:nom.acc:n
 wzZ	wzZ	0	0		subst:sg:nom:m1
