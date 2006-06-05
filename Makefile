@@ -23,7 +23,6 @@ slownik:
 	gawk -f morpher.awk formy_ost.txt >slownik_regularny.txt
 #przygotowanie form nieregularnych 
 	gawk -f nietypowe.awk A >bez_flag.txt
-	gawk -f spr_bez_flag.awk bez_flag.txt >slownik_nieodm.txt
 	gawk -f dopisane.awk odm.txt >nieregularne.txt
 	gawk -f anot_niereg.awk nieregularne.txt > slownik_niereg.txt
 #po³¹czenie

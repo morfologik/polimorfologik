@@ -1,6 +1,6 @@
 #program s³u¿¹cy do anotacji morfologicznej
 BEGIN {FS="\t"
-glosfile="morph_base_join1.txt"; #s³ownik anotacje ispell - anotacje morfosyntaktyczne
+glosfile="baza_morfologiczna.txt"; #s³ownik anotacje ispell - anotacje morfosyntaktyczne
 while ((getline < glosfile)  > 0){ 
 	if (lista_obecnosci[$1FS$2FS$3FS$4FS$5]=="" ||lista_obecnosci[$1FS$2FS$3FS$4FS$5]=$6)
 		lista_obecnosci[$1FS$2FS$3FS$4FS$5]=$6
