@@ -31,10 +31,7 @@ slownik:
 fsa:
 	gawk -f morph_data.awk morfologik.txt | ./fsa_ubuild -O -o polish.dict
 	
-all:
-	afiksy
-	formy
-	slownik
+all: afiksy formy lacz slownik fsa
 
 test:
 #formy_ht_3.txt - plik testowy
