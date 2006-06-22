@@ -24,6 +24,7 @@ slownik:
 #przygotowanie form nieregularnych 
 	gawk -f nietypowe.awk A >bez_flag.txt
 	gawk -f dopisane.awk odm.txt >nieregularne.txt
+anot:
 	gawk -f anot_niereg.awk nieregularne.txt > slownik_niereg.txt
 #po³¹czenie
 	cat slownik*.txt | sort -u > morfologik.txt
@@ -31,7 +32,7 @@ slownik:
 fsa:
 	gawk -f morph_data.awk morfologik.txt | ./fsa_ubuild -O -o polish.dict
 	
-all: afiksy formy lacz slownik fsa
+all: afiksy formy lacz slownik anot fsa
 
 test:
 #formy_ht_3.txt - plik testowy
