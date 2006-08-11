@@ -7,16 +7,16 @@
 #pojedyncze.txt - wyrazy nieodmienne
 #nieregularne.txt - odmiany nieregularne
 #slownik_regularny - s³ownik morfologiczny odmian regularnych, generowany
-#morph_base_join.txt - wygenerowana baza morfologiczna (odwzorowanie flagi i koñcówki ispella -> oznaczenia morfosyntaktyczne)
+#morfo_baza.txt - baza morfologiczna (odwzorowanie flagi i koñcówki ispella -> oznaczenia morfosyntaktyczne)
 #baza_nieodmiennych.txt - wyrazy z rêcznie dobranymi anotacjami
 
 afiksy:
 	./build A
 	./ispell -e2 -d ./polish <A >afiksy.txt
-formy:
+formy: formy.txt formy_pdst.txt
 	gawk -f aff3.awk afiksy.txt >formy.txt
 	gawk -f forma_pdst.awk A >formy_pdst.txt 
-lacz:
+lacz: formy_ost.txt
 	cat formy.txt formy_pdst.txt | sort -u > formy_ost.txt
 slownik:
 #slownik regularny
@@ -30,13 +30,15 @@ anot:
 	cat slownik*.txt | sort -u > morfologik.txt
 
 fsa:
-	gawk -f morph_data.awk morfologik.txt | ./fsa_ubuild -O -o polish.dict
+	gawk -f morph_data.awk morfologik.txt | fsa_ubuild -O -o polish.dict
 	
 all: afiksy formy lacz slownik anot fsa
 
 test:
 #formy_ht_3.txt - plik testowy
 	gawk -f compare.awk formy_ht_3.txt >konflikty.txt
+	grep "##" slownik_regularny.txt >raport.txt
+	gawk -f test_oboczne.awk slownik_regularny.txt >>raport.txt
 
 clean:
 	rm formy*.txt
