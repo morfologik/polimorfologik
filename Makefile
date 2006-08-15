@@ -9,13 +9,14 @@
 #slownik_regularny - s³ownik morfologiczny odmian regularnych, generowany
 #morfo_baza.txt - baza morfologiczna (odwzorowanie flagi i koñcówki ispella -> oznaczenia morfosyntaktyczne)
 #baza_nieodmiennych.txt - wyrazy z rêcznie dobranymi anotacjami
+#polish.all - ze s³ownika alternatywnego
 
 afiksy:
-	./build A
-	./ispell -e2 -d ./polish <A >afiksy.txt
+	./build polish.all
+	./ispell -e2 -d ./polish <polish.all >afiksy.txt
 formy: formy.txt formy_pdst.txt
 	gawk -f aff3.awk afiksy.txt >formy.txt
-	gawk -f forma_pdst.awk A >formy_pdst.txt 
+	gawk -f forma_pdst.awk polish.all >formy_pdst.txt 
 lacz: formy_ost.txt
 	cat formy.txt formy_pdst.txt | sort -u > formy_ost.txt
 slownik:

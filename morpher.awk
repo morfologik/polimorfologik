@@ -49,6 +49,19 @@ while ((getline < glosfile)  > 0){
 lexem_flag=gensub(/[b\!]/,"","g", sort_flags($3))
 form_flag=gensub(/[b\!]/,"","g", sort_flags($4))
 
+#specjalny znacznik do regu³y pisowni ³±czniej z "nie"
+potencjalna_negacja=""
+if ($3~/b/ && $4!~/b/)
+	potencjalna_negacja=":pneg"
+#stopieñ najwy¿szy
+sup=""
+if (potencjalna_negacja=="" && $2"__END"~/naj.*(t|b|p|j|w|r|¿)szy__END/)
+	sup=":sup"
+#stopieñ wy¿szy
+comp=""
+if (potencjalna_negacja=="" && sup=="" && $2"__END"~/.*(t|b|p|j|w|r|¿)szy__END/)
+	comp=":comp"
+	
 if ($4~/b/) {
 if (sort_flags($3)!=sort_flags($4))
 	print $1FS$2FS negate_pos(lista_obecnosci[lexem_flag FS form_flag FS$5FS$6FS$7])
@@ -58,7 +71,21 @@ else
 }
 else {
 if (lista_obecnosci[ lexem_flag FS form_flag FS$5FS$6FS$7]!="")
-	{print $1FS$2FS lista_obecnosci[lexem_flag FS form_flag FS$5FS$6FS$7] }
+{
+split(lista_obecnosci[lexem_flag FS form_flag FS$5FS$6FS$7],znaczniki_pos,"+")
+plus=""
+znacznik=""
+for (ppp in znaczniki_pos)
+	{
+	if (sup!="") znacznik=znacznik plus znaczniki_pos[ppp] sup potencjalna_negacja
+	else {
+	if (comp!="") znacznik=znacznik plus znaczniki_pos[ppp] comp potencjalna_negacja
+	else znacznik=znacznik plus znaczniki_pos[ppp] potencjalna_negacja
+	}
+	plus="+"
+	}
+	{print $1FS$2FS znacznik}
+}
 else
 	print "##" lexem_flag FS form_flag FS$5FS$6FS$7 FS $1FS$2FS
 	}

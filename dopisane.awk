@@ -44,7 +44,7 @@ if (hasla[$1]!="nieodm")
 		}
 END {
 for (n in hasla)
-	if (hasla[n]!="nieodm" && hasla[n]!="") 
+	if (hasla[n]!~/nieodm/ && hasla[n]!="") 
 	{
 	split(hasla[n], wyrazy, "+")
 	for (j in wyrazy)
