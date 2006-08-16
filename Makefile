@@ -10,6 +10,7 @@
 #morfo_baza.txt - baza morfologiczna (odwzorowanie flagi i koñcówki ispella -> oznaczenia morfosyntaktyczne)
 #baza_nieodmiennych.txt - wyrazy z rêcznie dobranymi anotacjami
 #polish.all - ze s³ownika alternatywnego
+#build - ze s³ownika alternatywnego
 
 afiksy:
 	./build polish.all
