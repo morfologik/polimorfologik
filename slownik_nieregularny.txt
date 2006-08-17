@@ -2409,7 +2409,7 @@ powoluteñku	powoluteñku	adv
 powolutku	powolutku	adv
 powszechniej	powszechnie	adv:comp
 powy¿ej	powy¿ej	prep:gen
-poza	poza	prep:inst
+poza	poza	prep:acc.inst
 pozawczoraj	pozawczoraj	adv
 pozytywniej	pozytywnie	adv:comp
 po³yskliwiej	po³yskliwie	adv:comp
@@ -2942,7 +2942,7 @@ vice	vice	indecl
 video	video	subst:sg:nom.gen.dat.acc.inst.loc.voc:n+subst:pl:nom.gen.dat.acc.inst.loc.voc:n
 voto	voto	subst:sg:nom.acc.voc:n
 votum	votum	subst:sg:nom.gen.dat.acc.inst.loc.voc:n
-w	w	prep:loc
+w	w	prep:acc.loc
 wadliwiej	wadliwie	adv:comp
 waleczniej	walecznie	adv:comp
 walniej	walnie	adv:comp

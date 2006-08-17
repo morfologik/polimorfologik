@@ -20313,7 +20313,7 @@ GHIdik	G	æ	³e	[jtu]aæ	adj:sg:nom.acc.voc:n+adj:pl:nom.acc.voc:n
 GHIdik	G	æ	³ego	[jtu]aæ	adj:sg:gen:n+adj:sg:acc.gen:m
 GHIdik	G	æ	³ej	[jtu]aæ	adj:sg:gen.dat.loc:f
 GHIdik	G	æ	³emu	[jtu]aæ	adj:sg:dat:m.n
-GHIdik	G	æ	³y	[jtu]aæ	adj:nom.voc:m1
+GHIdik	G	æ	³y	[jtu]aæ	adj:sg:nom.voc:m1
 GHIdik	G	æ	³ych	[jtu]aæ	adj:pl:acc.gen.loc:m+adj:pl:gen.loc:f.n
 GHIdik	G	æ	³ym	[jtu]aæ	adj:pl:dat:m.n+adj:sg:inst.loc:m.n
 GHIdik	G	æ	³ymi	[jtu]aæ	adj:pl:inst:f.m.n
@@ -25014,7 +25014,7 @@ Nn	Nn	0	0		subst:sg:nom:f
 Nn	n	a		.a	subst:pl:gen:f
 Nn	n	a		[^z]a	subst:pl:gen:f
 O	O	0	0		subst:sg:nom:m
-O	O	0	a	[^ó]w	subst:sg:gen:m1
+O	O	0	a	[^ó]w	subst:sg:acc.gen:m1
 O	O	0	a	[^æño¶w¼x]	subst:sg:gen:m
 O	O	0	em	[^ó]w	subst:sg:inst:m1
 O	O	0	em	[^ægkño¶w¼x]	subst:sg:inst:m
@@ -25316,7 +25316,7 @@ OST	S	o	ami	o	subst:pl:inst:m
 OST	T	0	ów	[^aæoñ¶w¼x]	subst:pl:gen:m
 OST	T	0	ów	[^ó]w	subst:pl:gen:m
 OST	T	o	ów	o	subst:pl:gen:m
-OSTo	O	0	a	[^ó]w	subst:sg:gen:m
+OSTo	O	0	a	[^ó]w	subst:sg:acc.gen:m
 OSTo	O	0	a	[^æño¶w¼x]	subst:sg:gen:m
 OSTo	O	0	em	[^ó]w	subst:sg:inst:m
 OSTo	O	0	em	[^ægkño¶w¼x]	subst:sg:inst:m
@@ -25443,7 +25443,7 @@ OSToqs	s	0	i	[kg]	subst:pl:nom:m
 OSToqs	s	0	y	[^acægjklño¶z¼¿x]	subst:pl:nom:m
 OSToqs	s	0	y	[^cds]z	subst:pl:gen:m1
 OSToqs	s	x	ksy	x	subst:pl:nom:m
-OSTos	O	0	a	[^ó]w	subst:sg:gen:m
+OSTos	O	0	a	[^ó]w	subst:sg:acc.gen:m
 OSTos	O	0	a	[^æño¶w¼x]	subst:sg:gen:m
 OSTos	O	0	em	[^ó]w	subst:sg:inst:m
 OSTos	O	0	em	[^ægkño¶w¼x]	subst:sg:inst:m
@@ -27896,7 +27896,7 @@ X	X	0	mi	[iy]	subst:pl:inst:m1
 X	X	en	nego	den	subst:sg:acc.gen:m
 X	X	en	nemu	den	subst:sg:dat:m
 X	X	en	nych	den	subst:pl:acc.gen.loc:m1
-X	X	en	nym	den	subst:pl:sg:inst.loc:m1+subst:pl:dat:m1
+X	X	en	nym	den	subst:sg:inst.loc:m1+subst:pl:dat:m1
 X	X	en	nymi	den	subst:pl:inst:m1
 X	X	i	ego	li	subst:sg:acc.gen:m
 X	X	i	emu	li	subst:sg:dat:m
@@ -27951,7 +27951,7 @@ XYx	X	0	mi	[iy]	adj:pl:inst:m1
 XYx	X	en	nego	den	adj:sg:acc.gen:m
 XYx	X	en	nemu	den	adj:sg:dat:m
 XYx	X	en	nych	den	adj:pl:acc.gen.loc:m1
-XYx	X	en	nym	den	adj:pl:sg:inst.loc:m1.m2.m3.n1.n2+adj:pl:dat:m1.m2.m3.f.n1.n2
+XYx	X	en	nym	den	adj:sg:inst.loc:m1.m2.m3.n1.n2+adj:pl:dat:m1.m2.m3.f.n1.n2
 XYx	X	en	nymi	den	adj:pl:inst:m1
 XYx	X	en	ych	[^d]en	adj:pl:acc.gen.loc:m1
 XYx	X	en	ym	[^d]en	adj:pl:dat:m1+adj:sg:inst.loc:m
@@ -27991,7 +27991,7 @@ XYx	Y	³y	li	[^osz]³y	adj:pl:nom:m
 XYx	Y	³y	li	[^s]o³y	adj:pl:nom.voc:m1
 XYx	Y	³y	li	sz³y	adj:pl:nom.voc:m1
 XYx	Y	¿y	zi	¿y	adj:pl:nom.voc:m1
-XYx	x	0	e	[^l]i	adj:sg:nom:n+adj:pl:nom:f.n
+XYx	x	0	e	[^l]i	adj:sg:nom:n+adj:pl:acc.nom.voc:f.n
 XYx	x	0	ej	[^l]i	adj:sg:gen.dat.loc:f
 XYx	x	en	a	[^d]en	adj:sg:nom:f
 XYx	x	en	na	den	adj:sg:nom.voc:f
@@ -28039,7 +28039,7 @@ XYxy	x	0	ej	[^l]i	adj:sg:gen.dat.loc:f
 XYxy	x	i	a	[gkl]i	adj:sg:nom:f
 XYxy	x	i	±	[gkl]i	adj:sg:acc.inst:f
 XYxy	x	y	a	y	adj:sg:nom:f
-XYxy	x	y	e	y	adj:sg:nom:n+adj:pl:nom:f.n
+XYxy	x	y	e	y	adj:sg:nom:n+adj:pl:nom.acc.voc:f.n
 XYxy	x	y	ej	y	adj:sg:gen.dat.loc:f
 XYxy	x	y	±	y	adj:sg:acc.inst:f
 XYxy	y	i	o	[gk]i	adv
@@ -28087,15 +28087,15 @@ Xx	X	y	ego	y	adj:sg:acc.gen:m1.m2.m3.n1.n2+adj:sg:acc:m1.m2.m3.n1.n2
 Xx	X	y	emu	y	adj:sg:dat:m
 Xx	Xx	0	0		adj:sg:nom:m
 Xx	x	0	a	[^gkl]i	adj:sg:nom:f
-Xx	x	0	e	[^l]i	adj:sg:nom:n+adj:pl:nom:f.n
+Xx	x	0	e	[^l]i	adj:sg:nom:n+adj:pl:nom.acc.voc:f.n
 Xx	x	0	ej	[^l]i	adj:sg:gen.dat.loc:f
 Xx	x	0	±	[^gkl]i	adj:sg:inst:f
 Xx	x	i	a	[gkl]i	adj:sg:nom:f
-Xx	x	i	e	li	adj:sg:nom:n+adj:pl:nom:f.n
+Xx	x	i	e	li	adj:sg:nom:n+adj:pl:nom.acc.voc:f.n
 Xx	x	i	ej	li	adj:sg:gen.dat.loc:f
 Xx	x	i	±	[gkl]i	adj:sg:acc.inst:f
 Xx	x	y	a	y	adj:sg:nom:f
-Xx	x	y	e	y	adj:sg:nom:n+adj:pl:nom:f.n
+Xx	x	y	e	y	adj:sg:nom:n+adj:pl:nom.acc.voc:f.n
 Xx	x	y	ej	y	adj:sg:gen.dat.loc:f
 Xx	x	y	±	y	adj:sg:acc.inst:f
 Xxy	X	0	ch	[iy]	adj:pl:gen:f.n+adj:pl:acc.gen:m
