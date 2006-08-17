@@ -965,7 +965,7 @@ m這du	m這du	adv
 m這dziej	m這do	adv:comp
 m軼iwiej	m軼iwie	adv:comp
 m篡軼iej	m篡sto	adv:comp
-na	na	prep:loc
+na	na	prep:acc.loc
 nabo積iej	nabo積ie	adv:comp
 nachalniej	nachalnie	adv:comp
 nad	nad	prep:inst
