@@ -231,7 +231,7 @@ clostridium	clostridium	subst:sg:nom.acc:n
 clou	clou	subst:sg:nom.gen.dat.acc.inst.loc.voc:n+subst:pl:nom.gen.dat.acc.inst.loc.voc:n
 cm	cm	qub
 cnotliwiej	cnotliwie	adv:comp
-co	co	prep:acc
+co	co	prep:nom.acc.gen
 co	co	subst:sg:nom.acc:n2
 cocktailparty	cocktailparty	subst:sg:nom.gen.dat.acc.inst.loc.voc:n+subst:pl:nom.gen.dat.acc.inst.loc.voc:n
 collage	collage	subst:sg:nom.gen.dat.acc.inst.loc.voc:n+subst:pl:nom.gen.dat.acc.inst.loc.voc:n
