@@ -27991,7 +27991,7 @@ XYx	Y	³y	li	[^osz]³y	adj:pl:nom:m
 XYx	Y	³y	li	[^s]o³y	adj:pl:nom.voc:m1
 XYx	Y	³y	li	sz³y	adj:pl:nom.voc:m1
 XYx	Y	¿y	zi	¿y	adj:pl:nom.voc:m1
-XYx	x	0	e	[^l]i	adj:sg:nom:n+adj:pl:acc.nom.voc:f.n
+XYx	x	0	e	[^l]i	adj:sg:nom.acc.voc:n+adj:pl:acc.nom.voc:f.n
 XYx	x	0	ej	[^l]i	adj:sg:gen.dat.loc:f
 XYx	x	en	a	[^d]en	adj:sg:nom:f
 XYx	x	en	na	den	adj:sg:nom.voc:f
@@ -28004,7 +28004,7 @@ XYx	x	i	a	[gkl]i	adj:sg:nom:f
 XYx	x	i	±	[gkl]i	adj:sg:inst:f
 XYx	x	n	j	[^d]en	adj:sg:gen.dat.loc:f
 XYx	x	y	a	y	adj:sg:nom:f
-XYx	x	y	e	y	adj:pl:nom:f+adj:sg:nom:n
+XYx	x	y	e	y	adj:pl:nom.acc.voc:f.n+adj:sg:nom.acc.voc:n
 XYx	x	y	ej	y	adj:sg:gen.dat.loc:f
 XYx	x	y	±	y	adj:sg:inst:f
 XYxy	X	0	ch	[iy]	adj:pl:acc.gen.loc:m1
@@ -28039,7 +28039,7 @@ XYxy	x	0	ej	[^l]i	adj:sg:gen.dat.loc:f
 XYxy	x	i	a	[gkl]i	adj:sg:nom:f
 XYxy	x	i	±	[gkl]i	adj:sg:acc.inst:f
 XYxy	x	y	a	y	adj:sg:nom:f
-XYxy	x	y	e	y	adj:sg:nom:n+adj:pl:nom.acc.voc:f.n
+XYxy	x	y	e	y	adj:sg:nom.acc.voc:n+adj:pl:nom.acc.voc:f.n
 XYxy	x	y	ej	y	adj:sg:gen.dat.loc:f
 XYxy	x	y	±	y	adj:sg:acc.inst:f
 XYxy	y	i	o	[gk]i	adv
@@ -28087,15 +28087,15 @@ Xx	X	y	ego	y	adj:sg:acc.gen:m1.m2.m3.n1.n2+adj:sg:acc:m1.m2.m3.n1.n2
 Xx	X	y	emu	y	adj:sg:dat:m
 Xx	Xx	0	0		adj:sg:nom:m
 Xx	x	0	a	[^gkl]i	adj:sg:nom:f
-Xx	x	0	e	[^l]i	adj:sg:nom:n+adj:pl:nom.acc.voc:f.n
+Xx	x	0	e	[^l]i	adj:sg:nom.acc.voc:n+adj:pl:nom.acc.voc:f.n
 Xx	x	0	ej	[^l]i	adj:sg:gen.dat.loc:f
 Xx	x	0	±	[^gkl]i	adj:sg:inst:f
 Xx	x	i	a	[gkl]i	adj:sg:nom:f
-Xx	x	i	e	li	adj:sg:nom:n+adj:pl:nom.acc.voc:f.n
+Xx	x	i	e	li	adj:sg:nom.acc.voc:n+adj:pl:nom.acc.voc:f.n
 Xx	x	i	ej	li	adj:sg:gen.dat.loc:f
 Xx	x	i	±	[gkl]i	adj:sg:acc.inst:f
 Xx	x	y	a	y	adj:sg:nom:f
-Xx	x	y	e	y	adj:sg:nom:n+adj:pl:nom.acc.voc:f.n
+Xx	x	y	e	y	adj:sg:nom.acc.voc:n+adj:pl:nom.acc.voc:f.n
 Xx	x	y	ej	y	adj:sg:gen.dat.loc:f
 Xx	x	y	±	y	adj:sg:acc.inst:f
 Xxy	X	0	ch	[iy]	adj:pl:gen:f.n+adj:pl:acc.gen:m
