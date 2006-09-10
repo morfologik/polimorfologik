@@ -22,6 +22,18 @@ if (negated_pos=="") print "##B³¹d konwersji" pos
 return negated_pos 
 }
 
+function can_negate_pos(pos) {
+negated_pos=""
+split(pos,elements,"+")
+for (n in elements)
+   if (negated_pos=="") 
+	negated_pos=elements[n] ":pneg" 
+    else 
+	negated_pos=negated_pos "+" elements[n] ":pneg" 
+if (negated_pos=="") print "##B³¹d konwersji" pos
+return negated_pos 
+}
+
 BEGIN {FS="\t"
 glosfile="morfo_baza.txt"; #s³ownik anotacje ispell - anotacje morfosyntaktyczne
 while ((getline < glosfile)  > 0){
@@ -67,7 +79,7 @@ if (sort_flags($3)!=sort_flags($4))
 	print $1FS$2FS negate_pos(lista_obecnosci[lexem_flag FS form_flag FS$5FS$6FS$7])
 else
 	#forma podstawowa bez negacji
-	print $1FS$2FS lista_obecnosci[lexem_flag FS form_flag FS$5FS$6FS$7] 
+	print $1FS$2FS can_negate_pos(lista_obecnosci[lexem_flag FS form_flag FS$5FS$6FS$7])
 }
 else {
 if (lista_obecnosci[ lexem_flag FS form_flag FS$5FS$6FS$7]!="")

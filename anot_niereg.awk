@@ -20,7 +20,11 @@ while ((getline < glosfile)  > 0){
 	{
 	if (wyrazy[$3"\t"$2]!="") {
 	split(wyrazy[$3"\t"$2], znaczniki, ":")
-	print $1"\t"$2"\t"znaczniki[1]":irreg" }
+	if ($1"__END"~/[³w]szy__END/)
+		print $1"\t"$2"\tpant:perf"
+	else 
+		print $1"\t"$2"\t"znaczniki[1]":irreg" 
+	}
 	else print $1 "\t" $2 "\tqub"
 	}
 }

@@ -38,7 +38,7 @@ all: afiksy formy lacz slownik anot fsa
 
 test:
 #formy_ht_3.txt - plik testowy
-	gawk -f compare.awk formy_ht_3.txt >konflikty.txt
+#	gawk -f compare.awk formy_ht_3.txt >konflikty.txt
 	grep "##" slownik_regularny.txt >raport.txt
 	gawk -f test_oboczne.awk slownik_regularny.txt >>raport.txt
 
