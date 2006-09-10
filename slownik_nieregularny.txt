@@ -3018,6 +3018,8 @@ wonniej	wonnie	adv:comp
 wpierw	wpierw	indecl
 wprawdzie	wprawdzie	adv
 wprawniej	wprawnie	adv:comp
+wrêcz	wrêcz	adv
+wrêcz	wrêcz	qub
 wprost	wprost	adv
 wprzód	wprzód	adv
 wprzódy	wprzódy	adj:sg:nom:m
