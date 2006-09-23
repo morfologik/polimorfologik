@@ -12,11 +12,8 @@
 #polish.all - ze s³ownika alternatywnego
 #build - ze s³ownika alternatywnego
 
-afiksy:
-	./build polish.all
-	./ispell -e2 -d ./polish <polish.all >afiksy.txt
 formy: formy.txt formy_pdst.txt
-	gawk -f aff3.awk afiksy.txt >formy.txt
+	gawk -f aff5.awk polish.all >formy.txt
 	gawk -f forma_pdst.awk polish.all >formy_pdst.txt 
 lacz: formy_ost.txt
 	cat formy.txt formy_pdst.txt | sort -u > formy_ost.txt
@@ -34,13 +31,13 @@ anot:
 fsa:
 	gawk -f morph_data.awk morfologik.txt | fsa_ubuild -O -o polish.dict
 	
-all: afiksy formy lacz slownik anot fsa
+all: formy lacz slownik anot fsa
 
 test:
 #formy_ht_3.txt - plik testowy
 #	gawk -f compare.awk formy_ht_3.txt >konflikty.txt
 	grep "##" slownik_regularny.txt >raport.txt
-	gawk -f test_oboczne.awk slownik_regularny.txt >>raport.txt
+#	gawk -f test_oboczne.awk slownik_regularny.txt >>raport.txt
 
 clean:
 	rm formy*.txt
