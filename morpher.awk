@@ -67,11 +67,11 @@ if ($3~/b/ && $4!~/b/)
 	potencjalna_negacja=":pneg"
 #stopieñ najwy¿szy
 sup=""
-if (potencjalna_negacja=="" && $2"__END"~/naj.*(t|b|p|j|w|r|¿)szy__END/)
+if (potencjalna_negacja=="" && $2"__END"~/naj.*[ktbpjwr¿l]szy__END/)
 	sup=":sup"
 #stopieñ wy¿szy
 comp=""
-if (potencjalna_negacja=="" && sup=="" && $2"__END"~/.*(t|b|p|j|w|r|¿)szy__END/)
+if (potencjalna_negacja=="" && sup=="" && $2"__END"~/.*[ktbpjwr¿l]szy__END/)
 	comp=":comp"
 	
 if ($4~/b/) {
@@ -89,9 +89,9 @@ plus=""
 znacznik=""
 for (ppp in znaczniki_pos)
 	{
-	if (sup!="") znacznik=znacznik plus znaczniki_pos[ppp] sup potencjalna_negacja
+	if (sup!="" && znaczniki_pos[ppp]~/adj/) znacznik=znacznik plus znaczniki_pos[ppp] sup potencjalna_negacja
 	else {
-	if (comp!="") znacznik=znacznik plus znaczniki_pos[ppp] comp potencjalna_negacja
+	if (comp!="" && znaczniki_pos[ppp]~/adj/) znacznik=znacznik plus znaczniki_pos[ppp] comp potencjalna_negacja
 	else znacznik=znacznik plus znaczniki_pos[ppp] potencjalna_negacja
 	}
 	plus="+"
