@@ -25,6 +25,7 @@ FS=" |/"
 }
 
 /\//{
+wyraz1=tolower($1)"__END_"
 wyraz=$1"__END_"
 split($2, flagi,"")
 for (n in flagi)
@@ -33,7 +34,7 @@ for (n in flagi)
 	if (counter!=0) 
 	for (k=1;k<=counter;k++)
 		{						
-		if (wyraz~koncowki[flagi[n] k "stem"]"__END_") {
+		if (wyraz1~koncowki[flagi[n] k "stem"]"__END_") {
 		cut = koncowki[flagi[n] k "cut"]		
 		if (cut!="0") rdzen = gensub("__END_","","g",gensub(cut"__END_","",1, wyraz))
 				else rdzen = $1

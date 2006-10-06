@@ -29070,3 +29070,25 @@ TUVos	U	o	zie	[^z]do	subst:sg:loc:m1
 TUVos	V	o	ów	[^za]do	subst:pl:gen:m1
 U	U	o	ie	[^cr]zo	subst:sg:loc:m1
 U	U	o	ie	bo	subst:sg:loc:m1
+STUo	U	o	ie	[^zs]no	subst:sg:loc:m1
+P	P	ze³	le	rze³	subst:sg:loc:m
+n	n	a		a	subst:pl:gen:f
+n	n	0	0		subst:sg:nom:f
+P	P	ze³	³a	rze³	subst:sg:gen:m
+P	P	ze³	³em	rze³	subst:sg:inst:m
+P	P	ze³	³u	rze³	subst:sg:dat:m
+LMNn	n	a		a	subst:pl:gen:f
+LMNn	LMNn	0	0		subst:sg:nom:f
+LMNn	N	0	ch	[^w]a	subst:pl:loc:f
+LMNn	N	0	mi	[^w]a	subst:pl:inst:f
+LMNn	M	a	i	[^bcdfh³mnprstvwz¿]a	subst:sg:gen:f
+LMNn	L	a	o	[^i]a	subst:sg:voc:f
+LMNn	N	a	om	[^w]a	subst:pl:dat:f
+LMNn	M	a	±	a	subst:sg:inst:f
+LMNn	M	a	ê	[^w]a	subst:sg:acc:f
+O	O	¼	zia	¼	subst:sg:acc.gen:m
+O	O	¼	ziem	¼	subst:sg:inst:m
+O	O	¼	ziowi	¼	subst:sg:dat:m
+O	O	¼	ziu	¼	subst:sg:loc.voc:m
+MNTo	M	a	u	babula	subst:sg:voc:f
+MNTo	M	a	u	matula	subst:sg:voc:f
