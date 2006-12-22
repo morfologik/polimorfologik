@@ -24521,7 +24521,7 @@ LNTo	o	a	owie	a	subst:pl:nom:m1
 NTo	T	a	ów	a	subst:pl:acc.gen:m1
 NTo	o	a	owie	a	subst:pl:nom:m1
 LNTo	L	a	o	[^hi]ania	subst:sg:voc:m1
-LNTo	L	a	±	[ij]a	subst:sg:instr:m1
+LNTo	L	a	±	[ij]a	subst:sg:inst:m1
 LNTo	L	a	ê	[ij]a	subst:sg:acc:m1
 LNTo	L	ia	i	ia	subst:sg:gen:m1
 LNTo	L	ja	i	ja	subst:sg:gen:m1
@@ -25403,14 +25403,14 @@ OPSTZosz	O	0	em	[^ægkño¶w¼x]	subst:sg:inst:m1
 OPSTZosz	O	0	owi	[^æño¶tw¼x]	subst:sg:dat:m
 OPSTZosz	O	³	le	[^n]io³	subst:sg:loc:m1
 OTZ	O	0	a	[^æño¶w¼x]	subst:sg:acc.gen:m1
-OTZ	O	0	em	[^ægkño¶w¼x]	subst:sg:instr:m1
+OTZ	O	0	em	[^ægkño¶w¼x]	subst:sg:inst:m1
 OTZ	O	0	ie	[^cædghjkl³ñor¶twyz¿¼x]	subst:sg:loc.voc:m1
 OTZ	O	0	owi	[^æño¶tw¼x]	subst:sg:dat:m1
 OTZ	OTZ	0	0		subst:sg:nom:m1
 OTZ	T	0	ów	[^aæoñ¶w¼x]	subst:pl:acc.gen:m1
 OTZ	Z	in		[^t]ianin	subst:pl:acc.gen:m1
 OTZ	Z	in	ach	nin	subst:pl:loc:m1
-OTZ	Z	in	ami	nin	subst:pl:instr:m1
+OTZ	Z	in	ami	nin	subst:pl:inst:m1
 OTZ	Z	in	om	nin	subst:pl:dat:m1
 OTZosz	O	³	le	[^n]io³	subst:sg:loc:m1
 OPSTZosz	OPSTZosz	0	0		subst:sg:nom:m1
