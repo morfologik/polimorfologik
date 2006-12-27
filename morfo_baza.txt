@@ -27880,8 +27880,7 @@ STos	T	0	ów	[^aæoñ¶w¼x]	subst:pl:gen:m
 STos	T	o	ów	o	subst:pl:gen:m
 STos	o	0	owie	[^aæioñ¶y¼x]	subst:pl:nom:m1
 STos	o	0	wie	o	subst:pl:nom:m1
-STos	s	0	y	[^acægjklño¶yz¼¿x]	subst:pl:nom:m
-s	0	y	[^acægjklño¶yz¼¿x]	subst:pl:nom.voc:m
+STos	s	0	y	[^acægjklño¶yz¼¿x]	subst:pl:nom.voc:m
 STos	s	0	y	[^cds]z	subst:pl:nom:m
 STos	s	o	e	o	subst:sg:loc:m
 STqs	S	0	ach	[^aæño¶w¼x]	subst:pl:loc:m
