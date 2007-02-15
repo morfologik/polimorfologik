@@ -43,6 +43,7 @@ ALN	N	0	mi	[^w]a	subst:pl:inst:f
 ALN	N	a	om	[^w]a	subst:pl:dat:f
 ALNT	A	a	e	[cijl¿]a	subst:pl:nom.acc.voc:f
 ALNT	ALNT	0	0		subst:sg:nom:m
+ALNT	L	a	o	[^ai]dzia	subst:sg:voc:f
 ALNT	L	a	o	[^i]a	subst:sg:voc:m
 ALNT	L	a	u	[^ê][^w].sia	subst:sg:voc:f
 ALNT	L	a	u	[bmoi]cia	subst:sg:voc:m
@@ -405,18 +406,25 @@ ANTn	T	a	ów	a	subst:pl:gen:m
 ANTn	n	a		.a	subst:sg:gen.loc:f
 ANTn	n	a		[^z]a	subst:sg:gen.dat.loc:m
 ANTn	n	a		a	subst:pl:gen:f
+ANTo	A	a	e	[cijl¿]a	subst:pl:nom.acc.voc:m:depr
 ANTo	A	æ	cie	[^e]æ	subst:pl:nom.acc.voc:m
 ANTo	ANTo	0	0		subst:sg:nom:m
+ANTo	N	0	ch	[^w]a	subst:pl:loc:m
+ANTo	N	0	mi	[^w]a	subst:pl:inst:m
+ANTo	N	a	om	[^w]a	subst:pl:dat:f
 ANTo	N	æ	ciach	[^e]æ	subst:pl:loc:m
 ANTo	N	æ	ciami	[^e]æ	subst:pl:inst:m
 ANTo	N	æ	ciom	[^e]æ	subst:pl:dat:m
+ANTo	T	a	ów	a	subst:pl:gen:m
 ANTo	T	æ	ciów	æ	subst:pl:gen:m
+ANTo	o	a	owie	a	subst:pl:nom:m
 ANTo	o	æ	ciowie	æ	subst:pl:nom:m
 ANm	A	a	e	[cijl¿]a	subst:pl:nom.acc.voc:f
 ANm	ANm	0	0		subst:sg:nom:f
 ANm	N	0	ch	[^w]a	subst:pl:loc:f
 ANm	N	0	mi	[^w]a	subst:pl:inst:f
 ANm	N	a	om	[^w]a	subst:pl:dat:f
+ANm	m	cia	æ	cia	subst:pl:gen:f
 ANm	m	nia	ñ	[^djh¶t]nia	subst:pl:acc.gen:f
 ANm	m	sia	¶	sia	subst:pl:gen:f
 ANmn	A	a	e	[cijl¿]a	subst:pl:nom.acc.voc:f
@@ -3504,8 +3512,7 @@ BEHIdi	I	iæ	j±	[aeo]iæ	verb:ter:pl:?perf
 BEHIdi	I	iæ	jê	[aeo]iæ	verb:sg:pri:?perf
 BEHIdi	I	iæ	±	[^¼][^aêor]ziæ	verb:ter:pl:?perf
 BEHIdi	I	iæ	±	liæ	verb:ter:pl:?perf
-BEHIdi	I	iæ	ê	[^¼][^aêo]ziæ	verb:sg:pri:?perf
-BEHIdi	I	iæ	ê	[^¼][^aêor]ziæ	verb:sg:pri:?perf	#ugodzê
+BEHIdi	I	iæ	ê	[^¼][^aêor]ziæ	verb:sg:pri:?perf
 BEHIdi	I	iæ	ê	liæ	verb:sg:pri:?perf
 BEHIdi	I	yæ	±	[^bmrtw]yæ	verb:ter:pl:?perf
 BEHIdi	I	yæ	ê	[^bmrtw]yæ	verb:sg:pri:?perf
@@ -3808,7 +3815,6 @@ BEHIdik	H	æ	³y¶cie	[^±e¶¼]æ	verb:praet:pl:sec:f.n:?perf
 BEHIdik	H	æ	³y¶my	[^±e¶¼]æ	verb:praet:pl:pri:f.n:?perf
 BEHIdik	I	iæ	±	[^¼][^aêor]ziæ	verb:ter:pl:?perf
 BEHIdik	I	iæ	±	liæ	verb:ter:pl:?perf
-BEHIdik	I	iæ	ê	[^¼][^aêo]ziæ	verb:sg:pri:?perf
 BEHIdik	I	iæ	ê	[^¼][^aêor]ziæ	verb:sg:pri:?perf
 BEHIdik	I	iæ	ê	liæ	verb:sg:pri:?perf
 BEHIdik	I	yæ	±	[^bmrtw]yæ	verb:ter:pl:?perf
@@ -12400,6 +12406,7 @@ BHIei	I	eæ	ejesz	[^cz]ieæ	verb:sg:sec:?perf
 BHIei	I	eæ	ej±	[^cz]ieæ	verb:ter:pl:?perf
 BHIei	I	eæ	ejê	[^cz]ieæ	verb:sg:pri:?perf
 BHIei	e	eæ	ano	[^csz]ieæ	verb:imps
+BHIei	e	eæ	ano	sieæ	verb:imps
 BHIei	e	æ	no	[^±ei¶uy¼]æ	verb:imps
 BHIei	i	æ	nia	[^cz]i[ae]æ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
 BHIei	i	æ	nia	[^i]aæ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
@@ -14956,6 +14963,7 @@ BHeh	B	æ	jcie¿	ieæ	verb:impt:pl:sec:perf
 BHeh	B	æ	jmy	ieæ	verb:impt:pl:pri:perf
 BHeh	B	æ	jmy¿	ieæ	verb:impt:pl:pri:perf
 BHeh	B	æ	j¿e	ieæ	verb:impt:sg:sec:perf
+BHeh	BHeh	0	0		verb:inf:?perf
 BHeh	H	eæ	a³	[^rz]eæ	verb:praet:sg:ter:m:?perf
 BHeh	H	eæ	a³a	[^rz]eæ	verb:praet:sg:ter:f:?perf
 BHeh	H	eæ	a³aby	[^rz]eæ	verb:aglt:praet:sg:ter:f:?perf
@@ -15894,7 +15902,7 @@ DOs	O	ñ	niu	ñ	subst:sg:loc.voc:m
 DOs	s	æ	cie	æ	subst:pl:nom:m
 DOs	s	ñ	nie	ñ	subst:pl:nom.acc.voc:m
 DPQSTZsz	D	0	i	[jl]	subst:pl:gen:m1
-DPQSTZsz	DPQSTZsz	0	0	subst:sg:nom.acc.m
+DPQSTZsz	DPQSTZsz	0	0		subst:sg:nom.acc.m
 DPQSTZsz	P	iel	la	iel	subst:sg:gen:m1
 DPQSTZsz	P	iel	lem	iel	subst:sg:inst:m1
 DPQSTZsz	P	iel	lowi	iel	subst:sg:dat:m1
@@ -17106,10 +17114,7 @@ EHIdik	I	iæ	±	[^¼][^aêor]ziæ	verb:ter:pl:?perf
 EHIdik	I	iæ	±	liæ	verb:ter:pl:?perf
 EHIdik	I	iæ	ê	[^¶z]ciæ	verb:sg:pri:?perf
 EHIdik	I	iæ	ê	[^¼][^aêo]ziæ	verb:sg:pri:?perf
-EHIdik	I	iæ	ê	[^¼][^aêor]ziæ	verb:sg:pri:?perf	#ubrudzê
-EHIdik	I	iæ	ê	[^¼][^aêor]ziæ	verb:sg:pri:?perf	#uchodzê
-EHIdik	I	iæ	ê	[^¼][^aêor]ziæ	verb:sg:pri:?perf	#ug³adzê
-EHIdik	I	iæ	ê	[^¼][^aêor]ziæ	verb:sg:pri:?perf	#zaczadzê
+EHIdik	I	iæ	ê	[^¼][^aêor]ziæ	verb:sg:pri:?perf
 EHIdik	I	iæ	ê	liæ	verb:sg:pri:?perf
 EHIdik	I	s³aæ	¶le	s³aæ	verb:sg:ter:?perf
 EHIdik	I	s³aæ	¶lecie	s³aæ	verb:pl:sec:?perf
@@ -18382,6 +18387,16 @@ EHIk	k	ziæ	¼cie¿	ziæ	verb:impt:pl:sec:perf
 EHIk	k	ziæ	¼my	ziæ	verb:impt:pl:pri:perf
 EHIk	k	ziæ	¼my¿	ziæ	verb:impt:pl:pri:perf
 EHIk	k	ziæ	¼¿e	ziæ	verb:impt:sg:sec:perf
+EHJdhi	E	eæ	ona	leæ	ppas:sg:nom.voc:f
+EHJdhi	E	eæ	one	leæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:n
+EHJdhi	E	eæ	onego	leæ	ppas:sg:gen:n+ppas:sg:acc.gen:m+ppas:sg:gen:m3
+EHJdhi	E	eæ	onej	leæ	ppas:sg:gen.dat.loc:f
+EHJdhi	E	eæ	onemu	leæ	ppas:sg:dat:m.n
+EHJdhi	E	eæ	ony	leæ	ppas:sg:nom.voc:m
+EHJdhi	E	eæ	onych	leæ	ppas:pl:acc.gen.loc:m1+ppas:pl:gen.loc:n
+EHJdhi	E	eæ	onym	leæ	ppas:pl:dat:m.n+ppas:sg:inst.loc:m.n
+EHJdhi	E	eæ	onymi	leæ	ppas:pl:inst:m.n
+EHJdhi	E	eæ	on±	leæ	ppas:sg:acc.inst:f
 EHJdhi	E	æ	ni	leæ	ppas:pl:nom.voc:m1
 EHJdhi	EHJdhi	0	0		verb:inf:?perf
 EHJdhi	H	eæ	a³	[^rz]eæ	verb:praet:sg:ter:m:?perf
@@ -18410,10 +18425,19 @@ EHJdhi	H	æ	liby¶cie	[^rz]eæ	verb:aglt:praet:pl:sec:m1:?perf
 EHJdhi	H	æ	liby¶my	[^rz]eæ	verb:aglt:praet:pl:pri:m1:?perf
 EHJdhi	H	æ	li¶cie	[^rz]eæ	verb:praet:pl:sec:m1:?perf
 EHJdhi	H	æ	li¶my	[^rz]eæ	verb:praet:pl:pri:m1:?perf
+EHJdhi	J	eæ	i	leæ	verb:sg:ter:?perf
+EHJdhi	J	eæ	icie	leæ	verb:pl:sec:?perf
+EHJdhi	J	eæ	imy	leæ	verb:pl:pri:?perf
+EHJdhi	J	eæ	isz	leæ	verb:sg:sec:?perf
+EHJdhi	J	eæ	±	leæ	verb:ter:pl:?perf
+EHJdhi	J	eæ	ê	leæ	verb:sg:pri:?perf
 EHJdhi	d	eæ	ano	[^irz]eæ	verb:imps
+EHJdhi	h	eæ	±	leæ	verb:ter:pl:?perf
+EHJdhi	h	eæ	ê	leæ	verb:sg:pri:?perf
 EHJdhi	h	æ		leæ	verb:ter:sg:?perf
 EHJdhi	h	æ	cie	leæ	verb:pl:sec:?perf
 EHJdhi	h	æ	my	leæ	verb:pl:pri:?perf
+EHJdhi	h	æ	sz	leæ	verb:sg:sec:?perf
 EHJdhi	i	æ	nia	[^irz]eæ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
 EHJdhi	i	æ	niach	[^irz]eæ	subst:ger:pl:loc:n
 EHJdhi	i	æ	niami	[^irz]eæ	subst:ger:pl:inst:n
@@ -22205,9 +22229,7 @@ HIdik	I	iæ	±	[^¼][^aêor]ziæ	verb:ter:pl:?perf
 HIdik	I	iæ	±	liæ	verb:ter:pl:?perf
 HIdik	I	iæ	ê	[^¶z]ciæ	verb:sg:pri:?perf
 HIdik	I	iæ	ê	[^¼][^aêo]ziæ	verb:sg:pri:?perf
-HIdik	I	iæ	ê	[^¼][^aêor]ziæ	
-HIdik	I	iæ	ê	[^¼][^aêor]ziæ	verb:sg:pri:?perf	#uchodzê
-HIdik	I	iæ	ê	[^¼][^aêor]ziæ	verb:sg:pri:?perf	#zachodzê
+HIdik	I	iæ	ê	[^¼][^aêor]ziæ	verb:sg:pri:?perf
 HIdik	I	iæ	ê	liæ	verb:sg:pri:?perf
 HIdik	I	yæ	±	[^bmrtw]yæ	verb:ter:pl:?perf
 HIdik	I	yæ	ê	[^bmrtw]yæ	verb:sg:pri:?perf
@@ -24701,6 +24723,48 @@ Hej	j	æ	niem	[^±ei¶uy¼]æ	subst:ger:sg:inst:n
 Hej	j	æ	niom	[^±ei¶uy¼]æ	subst:ger:pl:dat:n
 Hej	j	æ	niu	[^±ei¶uy¼]æ	subst:ger:sg:dat.loc:n
 Hej	j	æ	ñ	[^±ei¶uy¼]æ	subst:ger:pl:gen:n
+Hejk	H	eæ	a³	[^rz]eæ	verb:praet:sg:ter:m:?perf
+Hejk	H	eæ	a³a	[^rz]eæ	verb:praet:sg:ter:f:?perf
+Hejk	H	eæ	a³aby	[^rz]eæ	verb:aglt:praet:sg:ter:f:?perf
+Hejk	H	eæ	a³abym	[^rz]eæ	verb:aglt:praet:sg:pri:f:?perf
+Hejk	H	eæ	a³aby¶	[^rz]eæ	verb:aglt:praet:sg:sec:f:?perf
+Hejk	H	eæ	a³am	[^rz]eæ	verb:praet:sg:pri:f:?perf
+Hejk	H	eæ	a³a¶	[^rz]eæ	verb:praet:sg:sec:f:?perf
+Hejk	H	eæ	a³by	[^rz]eæ	verb:aglt:praet:sg:ter:m:?perf
+Hejk	H	eæ	a³bym	[^rz]eæ	verb:aglt:praet:sg:pri:m:?perf
+Hejk	H	eæ	a³by¶	[^rz]eæ	verb:aglt:praet:sg:sec:m:?perf
+Hejk	H	eæ	a³em	[^rz]eæ	verb:praet:sg:pri:m:?perf
+Hejk	H	eæ	a³e¶	[^rz]eæ	verb:praet:sg:sec:m:?perf
+Hejk	H	eæ	a³o	[^rz]eæ	verb:praet:sg:ter:n:?perf
+Hejk	H	eæ	a³oby	[^rz]eæ	verb:aglt:praet:sg:ter:n:?perf
+Hejk	H	eæ	a³y	[^rz]eæ	verb:praet:pl:ter:n:?perf
+Hejk	H	eæ	a³yby	[^rz]eæ	verb:aglt:praet:pl:ter:n:?perf
+Hejk	H	eæ	a³yby¶cie	[^rz]eæ	verb:aglt:praet:pl:sec:n:?perf
+Hejk	H	eæ	a³yby¶my	[^rz]eæ	verb:aglt:praet:pl:pri:n:?perf
+Hejk	H	eæ	a³y¶cie	[^rz]eæ	verb:praet:pl:sec:n:?perf
+Hejk	H	eæ	a³y¶my	[^rz]eæ	verb:praet:pl:pri:n:?perf
+Hejk	H	æ	li	[^rz]eæ	verb:praet:pl:ter:m1:?perf
+Hejk	H	æ	liby	[^rz]eæ	verb:aglt:praet:pl:ter:m1:?perf
+Hejk	H	æ	liby¶cie	[^rz]eæ	verb:aglt:praet:pl:sec:m1:?perf
+Hejk	H	æ	liby¶my	[^rz]eæ	verb:aglt:praet:pl:pri:m1:?perf
+Hejk	H	æ	li¶cie	[^rz]eæ	verb:praet:pl:sec:m1:?perf
+Hejk	H	æ	li¶my	[^rz]eæ	verb:praet:pl:pri:m1:?perf
+Hejk	Hejk	0	0		verb:inf:?perf
+Hejk	e	eæ	ano	[^csz]ieæ	verb:imps
+Hejk	j	æ	nia	[^csz]ieæ	subst:pl:ger:nom.acc.voc:n+subst:sg:ger:gen:n
+Hejk	j	æ	niach	[^csz]ieæ	subst:sg:ger:dat.loc:n
+Hejk	j	æ	niami	[^csz]ieæ	subst:sg:ger:inst:n
+Hejk	j	æ	nie	[^csz]ieæ	subst:sg:ger:nom.acc.voc:n
+Hejk	j	æ	niem	[^csz]ieæ	subst:pl:ger:loc:n
+Hejk	j	æ	niom	[^csz]ieæ	subst:pl:ger:dat:n
+Hejk	j	æ	niu	[^csz]ieæ	subst:pl:ger:inst:n
+Hejk	j	æ	ñ	[^csz]ieæ	subst:pl:ger:gen:n
+Hejk	k	eæ	j	nieæ	verb:impt:sg:sec:perf
+Hejk	k	eæ	jcie	nieæ	verb:impt:pl:sec:perf
+Hejk	k	eæ	jcie¿	nieæ	verb:impt:pl:sec:perf
+Hejk	k	eæ	jmy	nieæ	verb:impt:pl:pri:perf
+Hejk	k	eæ	jmy¿	nieæ	verb:impt:pl:pri:perf
+Hejk	k	eæ	j¿e	nieæ	verb:impt:sg:sec:perf
 Hhj	H	æ	li	[^±e¶¼]æ	verb:praet:pl:ter:m1:?perf
 Hhj	H	æ	liby	[^±e¶¼]æ	verb:aglt:praet:pl:ter:m1:?perf
 Hhj	H	æ	liby¶cie	[^±e¶¼]æ	verb:aglt:praet:pl:sec:m1:?perf
@@ -24789,6 +24853,7 @@ Hk	k	ziæ	¼cie¿	ziæ	verb:impt:pl:sec:perf
 Hk	k	ziæ	¼my	ziæ	verb:impt:pl:pri:perf
 Hk	k	ziæ	¼my¿	ziæ	verb:impt:pl:pri:perf
 Hk	k	ziæ	¼¿e	ziæ	verb:impt:sg:sec:perf
+I	I	0	0		verb:inf:imperf
 I	I	eæ	eje	[^cz]ieæ	verb:sg:ter:?perf
 I	I	eæ	ejecie	[^cz]ieæ	verb:pl:sec:?perf
 I	I	eæ	ejemy	[^cz]ieæ	verb:pl:pri:?perf
@@ -24964,6 +25029,7 @@ L	L	a	o	[^er][oy]nia	subst:sg:voc:f
 L	L	a	o	[^hi]ania	subst:sg:voc:f
 L	L	a	o	[^i]a	subst:sg:voc:f
 L	L	a	o	[^id]zia	subst:sg:voc:f
+L	L	a	o	pia	subst:sg:voc:f
 L	L	a	u	[bimrtw¿]unia	subst:sg:voc:f
 L	L	a	u	enia	subst:sg:voc:f
 L	L	a	±	[ij]a	subst:sg:inst:f
@@ -25047,6 +25113,13 @@ LNn	n	a		.a	subst:pl:gen:f
 LNn	n	a		[^s]za	subst:pl:gen:f
 LNn	n	a		[^z]a	subst:pl:gen:f
 LNn	n	a		a	subst:pl:gen:f
+LSTo	L	a	o	[^i]a	subst:sg:voc:m
+LSTo	LSTo	0	0		subst:sg:nom:m
+LSTo	S	0	ch	a	subst:pl:loc:m1
+LSTo	S	0	mi	a	subst:pl:inst:m1
+LSTo	S	a	om	a	subst:pl:dat:m
+LSTo	T	a	ów	a	subst:pl:gen:m
+LSTo	o	a	owie	a	subst:pl:nom:m
 Lf	L	a	o	[^i]a	subst:sg:voc:f
 Lf	Lf	0	0		subst:sg:nom:f
 Lf	f	a	i	[^k³nt]a	subst:sg:gen.dat.loc:f
@@ -25108,6 +25181,7 @@ M	M	sta	¶cie	[^a]sta	subst:sg:dat.loc:f
 M	M	sta	¶cie	[^i]asta	subst:sg:dat.loc:f
 M	M	s³a	¶le	s³a	subst:sg:dat.loc:f
 M	M	ta	cie	[^s]ta	subst:sg:dat.loc:f
+M	M	zda	¼dzie	[^a]zda	subst:sg:dat.loc:f
 M	M	zna	¼nie	[^crs]zna	subst:sg:dat.loc:f
 M	M	æ	ci	[^e]¶æ	subst:sg:gen:f
 M	M	æ	ci	[^e¶]æ	subst:sg:gen:f
@@ -25151,6 +25225,7 @@ MN	M	a	±	a	subst:sg:inst:f
 MN	M	a	ê	[^cfilt]owa	subst:sg:acc:f
 MN	M	a	ê	[^o]wa	subst:sg:acc:f
 MN	M	a	ê	[^w]a	subst:sg:acc:f
+MN	M	cha	sze	cha	subst:sg:dat.loc:m1
 MN	M	esz	szy	esz	subst:sg:gen:f
 MN	M	esz	sz±	esz	subst:sg:inst:f
 MN	M	ew	wi	rew	subst:sg:gen:f
@@ -25279,7 +25354,6 @@ MNTm	M	a	ê	[^w]a	subst:sg:acc:m1
 MNTm	M	ga	dze	ga	subst:sg:dat:m1
 MNTm	M	ka	ce	ka	subst:sg:dat.loc:m1
 MNTm	MNTm	0	0		subst:sg:nom:m1
-MNTm	MNTm	0	0	schn±æ	subst:sg:nom:m1
 MNTm	N	0	ch	[^cfilt]owa	subst:pl:loc:f
 MNTm	N	0	ch	[^w]a	subst:pl:loc:m1
 MNTm	N	0	mi	[^cfilt]owa	subst:pl:inst:f
@@ -25289,6 +25363,7 @@ MNTm	N	a	om	[^w]a	subst:pl:dat:m1
 MNTm	T	a	ów	a	subst:pl:gen:m1
 MNTm	m	ka	ek	[^æêo¶ñ¼]ka	subst:pl:gen:m1
 MNTm	m	oga	óg	oga	subst:pl:gen:f
+MNTm	m	owa	ów	owa	subst:pl:gen:f
 MNTn	M	a	i	[^bcdfh³mnprstvwz¿]a	subst:sg:gen:f
 MNTn	M	a	ie	[^cdghijkl³nrtvwz¿]a	subst:sg:dat.loc:f
 MNTn	M	a	ie	[^sz]na	subst:sg:dat.loc:f
@@ -25347,6 +25422,7 @@ MNTo	M	cha	sze	cha	subst:sg:dat.loc:f
 MNTo	M	ga	dze	ga	subst:sg:dat.loc:f
 MNTo	M	ha	¿e	[^ac]ha	subst:sg:dat.loc:f
 MNTo	M	ka	ce	ka	subst:sg:dat.loc:f
+MNTo	M	sna	¶nie	sna	subst:sg:dat.loc:f
 MNTo	M	sta	¶cie	[^a]sta	subst:sg:dat.loc:f
 MNTo	M	sta	¶cie	[^i]asta	subst:sg:dat.loc:f
 MNTo	M	sta	¶cie	[^w]iasta	subst:sg:dat.loc:f
@@ -25711,6 +25787,7 @@ MSTo	M	a	y	[^o]wa	subst:sg:gen:m1
 MSTo	M	a	y	[bcdfh³mprstvz¿]a	subst:sg:gen:m1
 MSTo	M	a	y	na	subst:sg:gen:m1
 MSTo	M	a	ze	[^a]ra	subst:sg:dat.loc:m1
+MSTo	M	a	ze	[^i]ara	subst:sg:dat.loc:f
 MSTo	M	a	zie	[^z]da	subst:sg:dat.loc:m1
 MSTo	M	a	±	a	subst:sg:inst:m
 MSTo	M	a	ê	[^o]wa	subst:sg:acc:m1
@@ -25718,6 +25795,7 @@ MSTo	M	a	ê	[^w]a	subst:sg:acc:m1
 MSTo	M	cha	sze	[^u]cha	subst:sg:dat.loc:m1
 MSTo	M	cha	sze	cha	subst:sg:dat.loc:m1
 MSTo	M	ga	dze	ga	subst:sg:dat.loc:m1
+MSTo	M	ha	¿e	[^ac]ha	subst:sg:dat.loc:f
 MSTo	M	ka	ce	ka	subst:sg:dat.loc:m1
 MSTo	M	sta	¶cie	[^a]sta	subst:sg:dat.loc:m1
 MSTo	M	ta	cie	[^s]ta	subst:sg:dat.loc:m1
@@ -25892,6 +25970,15 @@ O	O	¼	zia	¼	subst:sg:acc.gen:m
 O	O	¼	ziem	¼	subst:sg:inst:m
 O	O	¼	ziowi	¼	subst:sg:dat:m
 O	O	¼	ziu	¼	subst:sg:loc.voc:m
+OP	O	0	a	[^æño¶w¼x]	subst:sg:gen:m
+OP	O	0	em	[^ægkño¶w¼x]	subst:sg:inst:m
+OP	O	0	owi	[^æño¶tw¼x]	subst:sg:dat:m
+OP	O	0	u	[cghjkly¿]	subst:sg:loc.voc:m
+OP	OP	0	0		subst:sg:nom:m
+OP	P	niec	ñca	niec	subst:sg:gen:m
+OP	P	niec	ñcem	niec	subst:sg:inst:m
+OP	P	niec	ñcowi	niec	subst:sg:dat:m
+OP	P	niec	ñcu	niec	subst:sg:loc:m
 OPSTZoqstwz	O	0	a	[^æño¶w¼x]	subst:sg:gen:m
 OPSTZoqstwz	O	0	em	[^ægkño¶w¼x]	subst:sg:inst:m
 OPSTZoqstwz	O	0	owi	[^æño¶tw¼x]	subst:sg:dat:m
@@ -26088,6 +26175,39 @@ OPSTos	S	0	om	[^aæño¶w¼x]	subst:pl:dat:m1
 OPSTos	T	0	ów	[^aæoñ¶w¼x]	subst:pl:gen:m
 OPSTos	o	0	owie	[^aæioñ¶y¼x]	subst:pl:nom.voc:m1
 OPSTos	s	0	e	[cjly¿]	subst:pl:nom.voc:m1
+OPSToswz	O	0	a	[^æño¶w¼x]	subst:sg:gen:m
+OPSToswz	O	0	em	[^ægkño¶w¼x]	subst:sg:inst:m
+OPSToswz	O	0	owi	[^æño¶tw¼x]	subst:sg:dat:m
+OPSToswz	O	0	u	[cghjkly¿]	subst:sg:loc.voc:m
+OPSToswz	OPSToswz	0	0		subst:sg:nom:m
+OPSToswz	P	el	la	[^i]el	subst:sg:gen:m
+OPSToswz	P	el	lem	[^i]el	subst:sg:inst:m
+OPSToswz	P	el	lowi	[^i]el	subst:sg:dat:m
+OPSToswz	P	el	lu	[^i]el	subst:sg:loc:m
+OPSToswz	S	0	ach	[^aæño¶w¼x]	subst:pl:loc:m
+OPSToswz	S	0	ami	[^aæño¶w¼x]	subst:pl:inst:m
+OPSToswz	S	0	om	[^aæño¶w¼x]	subst:pl:dat:m
+OPSToswz	T	0	ów	[^aæoñ¶w¼x]	subst:pl:gen:m
+OPSToswz	o	0	owie	[^aæioñ¶y¼x]	subst:pl:nom:m1
+OPSToswz	s	0	e	[cjly¿]	subst:pl:nom.voc:m1
+OPSToswz	w	el	lowie	el	subst:pl:acc.nom.voc.:m1
+OPSToswz	z	el	le	[^i]el	subst:pl:nom.acc.voc:m
+OPSTosz	O	0	a	[^æño¶w¼x]	subst:sg:gen:m
+OPSTosz	O	0	em	[^ægkño¶w¼x]	subst:sg:inst:m
+OPSTosz	O	0	owi	[^æño¶tw¼x]	subst:sg:dat:m
+OPSTosz	O	0	u	[cghjkly¿]	subst:sg:loc.voc:m
+OPSTosz	OPSTosz	0	0		subst:sg:nom:m
+OPSTosz	P	iel	la	iel	subst:sg:gen:m
+OPSTosz	P	iel	lem	iel	subst:sg:inst:m
+OPSTosz	P	iel	lowi	iel	subst:sg:dat:m
+OPSTosz	P	iel	lu	iel	subst:sg:gen.loc.voc:m
+OPSTosz	S	0	ach	[^aæño¶w¼x]	subst:pl:loc:m
+OPSTosz	S	0	ami	[^aæño¶w¼x]	subst:pl:inst:m
+OPSTosz	S	0	om	[^aæño¶w¼x]	subst:pl:dat:m
+OPSTosz	T	0	ów	[^aæoñ¶w¼x]	subst:pl:gen:m
+OPSTosz	o	0	owie	[^aæioñ¶y¼x]	subst:pl:nom:m1
+OPSTosz	s	0	e	[cjly¿]	subst:pl:nom.voc:m1
+OPSTosz	z	iel	le	iel	subst:pl:nom.acc.voc:m
 OS	O	0	a	[^ó]w	subst:sg:gen:m
 OS	O	0	a	[^æño¶w¼x]	subst:sg:gen:m
 OS	O	0	em	[^ó]w	subst:sg:inst:m
@@ -26166,6 +26286,9 @@ OSTo	O	0	u	[^aou]z	subst:sg:loc.voc:m
 OSTo	O	0	u	[cghjkly¿]	subst:sg:loc.voc:m
 OSTo	O	0	ze	r	subst:sg:loc:m
 OSTo	O	0	zie	[^z]d	subst:sg:loc:m
+OSTo	O	o	a	o	subst:sg:acc.gen:m
+OSTo	O	o	em	o	subst:sg:inst:m
+OSTo	O	o	u	o	subst:sg:dat:m
 OSTo	O	st	¶cie	st	subst:sg:loc:m
 OSTo	O	t	cie	[^s]t	subst:sg:loc:m
 OSTo	O	æ	cia	æ	subst:sg:acc.gen:m1
@@ -26182,8 +26305,11 @@ OSTo	S	0	ach	[^aæño¶w¼x]	subst:pl:loc:m
 OSTo	S	0	ach	[^ó]w	subst:pl:loc:m
 OSTo	S	0	ami	[^aæño¶w¼x]	subst:pl:inst:m
 OSTo	S	0	ami	[^ó]w	subst:pl:inst:m
+OSTo	S	0	m	o	subst:pl:dat:m
 OSTo	S	0	om	[^aæño¶w¼x]	subst:pl:dat:m
 OSTo	S	0	om	[^ó]w	subst:pl:dat:m
+OSTo	S	o	ach	o	subst:pl:loc:m
+OSTo	S	o	ami	o	subst:pl:inst:m
 OSTo	S	æ	ciach	æ	subst:pl:loc:m1
 OSTo	S	æ	ciami	æ	subst:pl:inst:m1
 OSTo	S	æ	ciom	æ	subst:pl:dat:m1
@@ -26192,10 +26318,12 @@ OSTo	S	ñ	niami	ñ	subst:pl:inst:m
 OSTo	S	ñ	niom	ñ	subst:pl:dat:m
 OSTo	T	0	ów	[^aæoñ¶w¼x]	subst:pl:gen:m
 OSTo	T	0	ów	[^ó]w	subst:pl:gen:m
+OSTo	T	o	ów	o	subst:pl:gen:m
 OSTo	T	æ	ciów	æ	subst:pl:gen:m1
 OSTo	T	ñ	niów	ñ	subst:pl:gen:m
 OSTo	o	0	owie	[^aæioñ¶y¼x]	subst:pl:nom:m1
 OSTo	o	0	owie	[ae]y	subst:pl:nom:m1
+OSTo	o	0	wie	o	subst:pl:nom:m
 OSTo	o	æ	ciowie	æ	subst:pl:nom.voc:m1
 OSTo	o	ñ	niowie	ñ	subst:pl:nom.voc:m
 OSTop	O	0	a	[^æño¶w¼x]	subst:sg:gen:m
@@ -26470,6 +26598,7 @@ OSTqs	O	0	owi	[^i]at	subst:sg:dat:m
 OSTqs	O	0	owi	[^w]iat	subst:sg:dat:m
 OSTqs	O	0	owi	[^ó]w	subst:sg:dat:m
 OSTqs	O	0	owi	[^æño¶tw¼x]	subst:sg:dat:m
+OSTqs	O	0	owi	[^¶]wiat	subst:sg:dat:m
 OSTqs	O	0	u	[^aou]z	subst:sg:loc.voc:m
 OSTqs	O	0	u	[cghjkly¿]	subst:sg:loc.voc:m
 OSTqs	O	0	ze	r	subst:sg:loc.voc:m
@@ -26786,9 +26915,13 @@ P	P	ciec	æca	[^j]ciec	subst:sg:gen:m
 P	P	ciec	æcem	[^j]ciec	subst:sg:inst:m
 P	P	ciec	æcowi	[^j]ciec	subst:sg:dat:m
 P	P	ciec	æcu	[^j]ciec	subst:sg:loc:m
+P	P	ec	ca	[cs]zec	subst:sg:gen:m
 P	P	ec	ca	[djlp¿]ec	subst:sg:gen:m
+P	P	ec	cem	[cs]zec	subst:sg:inst:m
 P	P	ec	cem	[djlp¿]ec	subst:sg:inst:m
+P	P	ec	cowi	[cs]zec	subst:sg:dat:m
 P	P	ec	cowi	[djlp¿]ec	subst:sg:dat:m
+P	P	ec	cu	[cs]zec	subst:sg:loc:m
 P	P	ec	cu	[djlp¿]ec	subst:sg:loc.voc:m
 P	P	ek	ka	[^i]ek	subst:sg:gen:m
 P	P	ek	kiem	[^i]ek	subst:sg:inst:m
@@ -26822,6 +26955,10 @@ P	P	niec	ñca	niec	subst:sg:gen:m
 P	P	niec	ñcem	niec	subst:sg:inst:m
 P	P	niec	ñcowi	niec	subst:sg:dat:m
 P	P	niec	ñcu	niec	subst:sg:loc:m
+P	P	niek	ñka	niek	subst:sg:gen:m
+P	P	niek	ñkiem	niek	subst:sg:inst:m
+P	P	niek	ñkowi	niek	subst:sg:dat:m
+P	P	niek	ñku	niek	subst:sg:loc:m
 P	P	siec	¶ca	siec	subst:sg:gen:m
 P	P	siec	¶cem	siec	subst:sg:inst:m
 P	P	siec	¶cowi	siec	subst:sg:dat:m
@@ -26846,6 +26983,10 @@ P	P	óg	oga	óg	subst:sg:gen:m
 P	P	óg	ogiem	óg	subst:sg:inst:m
 P	P	óg	ogowi	óg	subst:sg:dat:m
 P	P	óg	ogu	óg	subst:sg:loc.voc:m
+P	P	ór	ora	ór	subst:sg:gen:m
+P	P	ór	orem	ór	subst:sg:inst:m
+P	P	ór	orowi	ór	subst:sg:dat:m
+P	P	ór	orze	ór	subst:sg:loc:m
 P	P	ów	owa	ów	subst:sg:gen:m
 P	P	ów	owem	ów	subst:sg:inst:m
 P	P	ów	owie	ów	subst:pl:nom.voc:m1
@@ -26947,6 +27088,10 @@ PZt	P	iec	ca	[^cnsz]iec	subst:sg:gen:m
 PZt	P	iec	cem	[^cnsz]iec	subst:sg:inst:m
 PZt	P	iec	cowi	[^cnsz]iec	subst:sg:dat:m
 PZt	P	iec	cu	[^cnsz]iec	subst:sg:loc:m
+PZt	P	niec	ñca	niec	subst:sg:gen:m
+PZt	P	niec	ñcem	niec	subst:sg:inst:m
+PZt	P	niec	ñcowi	niec	subst:sg:dat:m
+PZt	P	niec	ñcu	niec	subst:sg:loc:m
 PZt	PZt	0	0		subst:sg:nom:m1
 PZt	Z	ec	cach	[^iz]ec	subst:pl:loc:m1
 PZt	Z	ec	cami	[^iz]ec	subst:pl:inst:m1
@@ -26956,8 +27101,24 @@ PZt	Z	iec	cach	[^cnsz]iec	subst:pl:loc:m
 PZt	Z	iec	cami	[^cnsz]iec	subst:pl:inst:m
 PZt	Z	iec	com	[^cnsz]iec	subst:pl:dat:m
 PZt	Z	iec	ców	[^cnsz]iec	subst:pl:gen:m
+PZt	Z	niec	ñcach	niec	subst:pl:loc:m
+PZt	Z	niec	ñcami	niec	subst:pl:inst:m
+PZt	Z	niec	ñcom	niec	subst:pl:dat:m
+PZt	Z	niec	ñców	niec	subst:pl:gen:m
 PZt	t	ec	cy	lec	subst:sg:gen:m1
 PZt	t	iec	cy	[mpw]iec	subst:pl:nom.voc:m1
+PZt	t	niec	ñcy	niec	subst:pl:nom.voc:m1
+PZtw	P	niec	ñca	niec	subst:sg:gen:m
+PZtw	P	niec	ñcem	niec	subst:sg:inst:m
+PZtw	P	niec	ñcowi	niec	subst:sg:dat:m
+PZtw	P	niec	ñcu	niec	subst:sg:loc:m
+PZtw	PZtw	0	0		subst:sg:nom:m
+PZtw	Z	niec	ñcach	niec	subst:pl:loc:m
+PZtw	Z	niec	ñcami	niec	subst:pl:inst:m
+PZtw	Z	niec	ñcom	niec	subst:pl:dat:m
+PZtw	Z	niec	ñców	niec	subst:pl:gen:m
+PZtw	t	niec	ñcy	niec	subst:pl:nom.voc:m1
+PZtw	w	niec	ñcowie	niec	subst:pl:acc.nom.voc.:m1
 PZtwz	P	er	ra	[^i]er	subst:sg:gen:m
 PZtwz	P	er	rem	[^i]er	subst:sg:inst:m
 PZtwz	P	er	rowi	[^i]er	subst:sg:dat:m
@@ -27752,6 +27913,10 @@ Pz	P	el	la	[^i]el	subst:sg:gen:m
 Pz	P	el	lem	[^i]el	subst:sg:inst:m
 Pz	P	el	lowi	[^i]el	subst:sg:dat:m
 Pz	P	el	lu	[^i]el	subst:sg:loc:m
+Pz	P	iel	la	iel	subst:sg:gen:m
+Pz	P	iel	lem	iel	subst:sg:inst:m
+Pz	P	iel	lowi	iel	subst:sg:dat:m
+Pz	P	iel	lu	iel	subst:sg:gen.loc.voc:m
 Pz	P	ieñ	nia	[pg]ieñ	subst:sg:gen:m
 Pz	P	ieñ	niem	[pg]ieñ	subst:sg:inst:m
 Pz	P	ieñ	niowi	[pg]ieñ	subst:sg:dat:m
@@ -27771,6 +27936,7 @@ Pz	P	±¿	ê¿u	±¿	subst:sg:loc:m
 Pz	Pz	0	0		subst:sg:nom:m
 Pz	z	cieñ	tnie	cieñ	subst:pl:nom.acc.voc:m
 Pz	z	el	le	[^i]el	subst:pl:nom.acc.voc:m
+Pz	z	iel	le	iel	subst:pl:nom.acc.voc:m
 Pz	z	ieñ	nie	[pg]ieñ	subst:pl:nom.acc.voc:m
 Pz	z	zieñ	nie	dzieñ	subst:pl:nom.acc.voc:m
 Pz	z	órg	orgi	órg	subst:pl:nom.acc.voc:m
@@ -27799,6 +27965,15 @@ Q	Q	³	le	[^s]³	subst:sg:loc.voc:m3
 Q	Q	ñ	niem	ñ	subst:sg:inst:m
 Q	Q	ñ	niowi	ñ	subst:sg:dat:m
 Q	Q	ñ	niu	ñ	subst:sg:loc:m
+QR	Q	0	em	[^gkñx]	subst:sg:inst:m3
+QR	Q	0	owi	[^ñx]	subst:sg:dat:m3
+QR	Q	0	u	[^ñx]	subst:sg:gen:m3
+QR	Q	0	ze	r	subst:sg:loc.voc:m3
+QR	QR	0	0		subst:sg:nom:m
+QR	R	er	rem	[^i]er	subst:sg:inst:m3
+QR	R	er	rowi	[^i]er	subst:sg:dat:m3
+QR	R	er	ru	[^i]er	subst:sg:gen:m3
+QR	R	er	rze	[^i]er	subst:sg:loc.voc:m3
 QRSTZsz	Q	0	em	[^gkñx]	subst:sg:inst:m3
 QRSTZsz	Q	0	ie	[^cædghjkl³mñrtyz¿¼x]	subst:sg:loc.voc:m3
 QRSTZsz	Q	0	iem	[gk]	subst:sg:inst:m3
@@ -28051,6 +28226,10 @@ R	R	ek	ku	ek	subst:sg:loc.voc:m1
 R	R	el	lem	[^i]el	subst:sg:inst:m1
 R	R	el	lowi	[^i]el	subst:sg:dat:m
 R	R	el	lu	[^i]el	subst:sg:loc:m
+R	R	en	nem	en	subst:sg:inst:m3
+R	R	en	nie	[^s]en	subst:sg:loc.voc:m3
+R	R	en	nowi	en	subst:sg:dat:m3
+R	R	en	nu	en	subst:sg:gen:m3
 R	R	er	rem	[^i]er	subst:sg:inst:m
 R	R	er	rowi	[^i]er	subst:sg:dat:m
 R	R	er	ru	[^i]er	subst:sg:gen:m
@@ -28648,6 +28827,7 @@ UV	U	a³o	ele	a³o	subst:sg:loc:n
 UV	U	e	a	e	subst:sg:gen:n+subst:pl:nom.acc.voc:n
 UV	U	e	u	e	subst:sg:dat:n
 UV	U	o	a	o	subst:pl:nom.acc:n+subst:sg:gen:n
+UV	U	o	cie	tto	subst:sg:dat:m
 UV	U	o	em	[^gk]o	subst:sg:inst:n
 UV	U	o	ie	[^cr]zo	subst:sg:loc:n
 UV	U	o	ie	[^z]no	subst:sg:loc:n
@@ -28876,6 +29056,7 @@ Vl	V	e	y	¿e	subst:pl:gen:n
 Vl	Vl	0	0		subst:sg:nom.acc:n
 Vl	l	e	ów	e	subst:pl:gen:n
 Vo	V	0	m	o	subst:pl:dat:n
+Vo	V	o		[^j]co	subst:pl:gen:m
 Vo	V	o	ach	o	subst:pl:loc:n
 Vo	V	o	ami	o	subst:pl:inst:n
 Vo	V	o	ów	[^za]do	subst:pl:gen:n
@@ -29018,6 +29199,7 @@ Wm	W	0	ach	[^gk]i	subst:pl:loc:f+subst:pltant:loc:n
 Wm	W	0	ami	[^gk]i	subst:pl:inst:f+subst:pltant:inst:n
 Wm	W	0	ch	a	subst:pl:loc:f+subst:pltant:loc:n
 Wm	W	0	mi	[^c]ia	subst:pl:inst:f+subst:pltant:inst:n
+Wm	W	0	mi	[^i]a	subst:pltant:inst:n
 Wm	W	0	om	[^gk]i	subst:pl:dat:f+subst:pltant:dat:n
 Wm	W	a	om	a	subst:pl:dat:f+subst:pltant:dat:n
 Wm	Wm	0	0		subst:pltant:nom.acc:n+subst:sg:nom:f
@@ -29025,6 +29207,7 @@ Wm	m	ni	ñ	ni	subst:pl:gen:f+subst:pltant:nom:n
 Wm	m	nia	ñ	[^djh¶t]nia	subst:pl:gen:f+subst:pltant:nom:n
 Wm	m	wa	ew	[^ko]wa	subst:pl:gen:n
 Wn	W	0	ch	a	subst:pltant:loc:n
+Wn	W	0	mi	[^c]ia	subst:pltant:inst:n
 Wn	W	0	mi	[^i]a	subst:pltant:inst:n
 Wn	W	a	om	a	subst:pltant:dat:n
 Wn	Wn	0	0		subst:pltant:nom.acc:n
@@ -29085,6 +29268,7 @@ XY	Y	y	i	[^cdh³nrtz¿]y	adj:pl:nom:m
 XY	Y	y	i	[^osz]ny	adj:pl:nom.voc:m1
 XY	Y	y	i	[³rw]ony	adj:pl:nom:m
 XY	Y	y	y	cy	adj:sg:nom:m
+XY	Y	y	zi	dy	adj:pl:nom.voc:m1
 XY	Y	y	zy	ry	adj:pl:nom:m
 XY	Y	zy	i	szy	adj:pl:nom.voc:m1
 XY	Y	³y	li	[^osz]³y	adj:pl:nom:m
@@ -29205,6 +29389,7 @@ XYxy	y	s³y	¶le	s³y	adv
 XYxy	y	ty	cie	[iêr]ty	adv
 XYxy	y	y	ie	[^hos]ny	adv
 XYxy	y	y	ie	iwy	adv
+XYxy	y	y	ie	jmy	adv
 XYxy	y	y	o	[^d]ry	adv
 XYxy	y	y	o	[^i]wy	adv
 XYxy	y	y	o	[^iêrs]ty	adv
@@ -29318,6 +29503,10 @@ Zz	Z	e³	³ach	[^iz]e³	subst:pl:loc:m
 Zz	Z	e³	³ami	[^iz]e³	subst:pl:inst:m
 Zz	Z	e³	³om	[^iz]e³	subst:pl:dat:m
 Zz	Z	e³	³ów	[^iz]e³	subst:pl:gen:m
+Zz	Z	iel	lach	iel	subst:pl:loc:m
+Zz	Z	iel	lami	iel	subst:pl:inst:m
+Zz	Z	iel	li	iel	subst:pl:gen:m
+Zz	Z	iel	lom	iel	subst:pl:dat:m
 Zz	Z	ze³	³ach	rze³	subst:pl:loc:m
 Zz	Z	ze³	³ami	rze³	subst:pl:inst:m
 Zz	Z	ze³	³om	rze³	subst:pl:dat:m
@@ -29331,11 +29520,18 @@ Zz	z	ciec	æce	ciec	subst:pl:nom:m
 Zz	z	eb	by	eb	subst:pl:nom.acc.voc:m
 Zz	z	ech	chy	ech	subst:pl:nom:m
 Zz	z	e³	³y	[^iz]e³	subst:pl:nom.acc.voc:m
+Zz	z	iel	le	iel	subst:pl:nom.acc.voc:m
 Zz	z	ze³	³y	rze³	subst:pl:nom.acc.voc:m
 Zz	z	óz	ozy	óz	subst:pl:nom.acc.voc:m
 a	a	0	0		subst:pltant:nom.acc.voc:n
+a	a	e	ch	ie	adj:pl:acc.gen.loc:f.m.n
+a	a	e	m	ie	adj:pl:dat:f.m.n
+a	a	e	mi	ie	adj:pl:loc:f.m.n
+a	a	e	ych	[^i]e	adj:pl:acc.gen.loc:f.m.n
 a	a	e	ych	e	subst:pltant:gen.loc:n
+a	a	e	ym	[^i]e	adj:pl:dat:f.m.n
 a	a	e	ym	e	subst:pltant:dat:n
+a	a	e	ymi	[^i]e	adj:pl:loc:f.m.n
 a	a	e	ymi	e	subst:pltant:inst:n
 b	b	0	0		adv
 b	b	0	nie	.	adv
@@ -29532,33 +29728,23 @@ pu	u	±b	êbiach	±b	subst:pl:loc:m
 pu	u	±b	êbiami	±b	subst:pl:inst:m
 pu	u	±b	êbie	±b	subst:pl:nom.acc.voc:m
 pu	u	±b	êbiom	±b	subst:pl:dat:m
+q	q	0	0		subst:sg:nom:m
+q	q	0	i	[bmnpsw]	subst:pl:nom:m1
 qs	q	t	ci	t	subst:pl:nom:m1
 qs	qs	0	0		subst:sg:nom:m1
 qs	s	0	y	[^acægjklño¶yz¼¿x]	subst:pl:nom:m
 r	r	0	0		subst:sg:nom:m
+r	r	owie	ach	owie	subst:pl:loc:m
+r	r	owie	ami	owie	subst:pl:inst:m
+r	r	owie	e	[cds]zowie	subst:pl:nom:m:depr
+r	r	owie	e	[cjly¿]owie	subst:pl:nom:m:depr
+r	r	owie	e	iowie	subst:pl:nom:acc.voc:m:depr
+r	r	owie	i	[kg]owie	subst:pl:nom:m:depr
+r	r	owie	om	owie	subst:pl:dat:m
 r	r	owie	y	[^acgijkloyz¿x]owie	subst:pl:nom.voc:m1:depr
-r	r	ób	obiem	ób	subst:sg:inst:m
-r	r	ób	obiowi	ób	subst:sg:dat:m
-r	r	ób	obiu	ób	subst:sg:gen.loc.voc:m
-ru	r	0	iem	[^ó][bpw]	subst:sg:inst:m
-ru	r	0	iowi	[^ó][bpw]	subst:sg:dat:m
-ru	r	0	iu	[^ó][bpw]	subst:sg:gen.loc.voc:m
-ru	r	ów	owiem	ów	subst:sg:inst:m
-ru	r	ów	owiowi	ów	subst:sg:dat:m
-ru	r	ów	owiu	ów	subst:sg:gen.loc.voc:m
-ru	ru	0	0		subst:sg:nom:m
-ru	u	0	i	[^±ó][bpw]	subst:pl:gen:m
-ru	u	0	iach	[^±ó][bpw]	subst:pl:loc:m
-ru	u	0	iami	[^±ó][bpw]	subst:pl:inst:m
-ru	u	0	ie	[^±ó][bpw]	subst:pl:nom.acc.voc:m
-ru	u	0	iom	[^±ó][bpw]	subst:pl:dat:m
-ru	u	ów	owi	ów	subst:pl:gen:m
-ru	u	ów	owiach	ów	subst:pl:loc:m
-ru	u	ów	owiami	ów	subst:pl:inst:m
-ru	u	ów	owie	ów	subst:pl:nom.acc.voc:m
-ru	u	ów	owiom	ów	subst:pl:dat:m
+r	r	owie	y	[^cds]zowie	subst:pl:nom:m:depr
+r	r	owie	ów	owie	subst:pl:gen:m
 u	u	0	0		subst:sg:nom.acc:m
-u	u	0	0		subst:sg:nom:m	#pó³jedwab
 u	u	0	i	[^±ó][bpw]	subst:pl:gen:m
 u	u	0	iach	[^±ó][bpw]	subst:pl:loc:m
 u	u	0	iami	[^±ó][bpw]	subst:pl:inst:m
@@ -29571,222 +29757,3 @@ u	u	ów	owie	ów	subst:pl:nom.acc.voc:m
 u	u	ów	owiom	ów	subst:pl:dat:m
 z	z	0	0		adj:sg:nom:m
 z	z	ój	oje	ój	adj:sg:nom.acc.voc:n+adj:pl:nom.acc.voc:n
-BHeh	BHeh	0	0		verb:inf:?perf
-EHJdhi	h	æ	sz	leæ	verb:sg:sec:?perf
-EHJdhi	J	eæ	i	leæ	verb:sg:ter:?perf
-EHJdhi	J	eæ	icie	leæ	verb:pl:sec:?perf
-EHJdhi	J	eæ	imy	leæ	verb:pl:pri:?perf
-EHJdhi	J	eæ	isz	leæ	verb:sg:sec:?perf
-EHJdhi	E	eæ	ona	leæ	ppas:sg:nom.voc:f
-EHJdhi	E	eæ	one	leæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:n
-EHJdhi	E	eæ	onego	leæ	ppas:sg:gen:n+ppas:sg:acc.gen:m+ppas:sg:gen:m3
-EHJdhi	E	eæ	onej	leæ	ppas:sg:gen.dat.loc:f
-EHJdhi	E	eæ	onemu	leæ	ppas:sg:dat:m.n
-EHJdhi	E	eæ	ony	leæ	ppas:sg:nom.voc:m
-EHJdhi	E	eæ	onych	leæ	ppas:pl:acc.gen.loc:m1+ppas:pl:gen.loc:n
-EHJdhi	E	eæ	onym	leæ	ppas:pl:dat:m.n+ppas:sg:inst.loc:m.n
-EHJdhi	E	eæ	onymi	leæ	ppas:pl:inst:m.n
-EHJdhi	E	eæ	on±	leæ	ppas:sg:acc.inst:f
-EHJdhi	J	eæ	±	leæ	verb:ter:pl:?perf
-EHJdhi	h	eæ	±	leæ	verb:ter:pl:?perf
-EHJdhi	J	eæ	ê	leæ	verb:sg:pri:?perf
-EHJdhi	h	eæ	ê	leæ	verb:sg:pri:?perf
-MN	M	cha	sze	cha	subst:sg:dat.loc:m1
-BHIei	e	eæ	ano	sieæ	verb:imps
-Hejk	e	eæ	ano	[^csz]ieæ	verb:imps
-Hejk	H	eæ	a³	[^rz]eæ	verb:praet:sg:ter:m:?perf
-Hejk	H	eæ	a³a	[^rz]eæ	verb:praet:sg:ter:f:?perf
-Hejk	H	eæ	a³aby	[^rz]eæ	verb:aglt:praet:sg:ter:f:?perf
-Hejk	H	eæ	a³abym	[^rz]eæ	verb:aglt:praet:sg:pri:f:?perf
-Hejk	H	eæ	a³aby¶	[^rz]eæ	verb:aglt:praet:sg:sec:f:?perf
-Hejk	H	eæ	a³am	[^rz]eæ	verb:praet:sg:pri:f:?perf
-Hejk	H	eæ	a³a¶	[^rz]eæ	verb:praet:sg:sec:f:?perf
-Hejk	H	eæ	a³by	[^rz]eæ	verb:aglt:praet:sg:ter:m:?perf
-Hejk	H	eæ	a³bym	[^rz]eæ	verb:aglt:praet:sg:pri:m:?perf
-Hejk	H	eæ	a³by¶	[^rz]eæ	verb:aglt:praet:sg:sec:m:?perf
-Hejk	H	eæ	a³em	[^rz]eæ	verb:praet:sg:pri:m:?perf
-Hejk	H	eæ	a³e¶	[^rz]eæ	verb:praet:sg:sec:m:?perf
-Hejk	H	eæ	a³o	[^rz]eæ	verb:praet:sg:ter:n:?perf
-Hejk	H	eæ	a³oby	[^rz]eæ	verb:aglt:praet:sg:ter:n:?perf
-Hejk	H	eæ	a³y	[^rz]eæ	verb:praet:pl:ter:n:?perf
-Hejk	H	eæ	a³yby	[^rz]eæ	verb:aglt:praet:pl:ter:n:?perf
-Hejk	H	eæ	a³yby¶cie	[^rz]eæ	verb:aglt:praet:pl:sec:n:?perf
-Hejk	H	eæ	a³yby¶my	[^rz]eæ	verb:aglt:praet:pl:pri:n:?perf
-Hejk	H	eæ	a³y¶cie	[^rz]eæ	verb:praet:pl:sec:n:?perf
-Hejk	H	eæ	a³y¶my	[^rz]eæ	verb:praet:pl:pri:n:?perf
-Hejk	H	æ	li	[^rz]eæ	verb:praet:pl:ter:m1:?perf
-Hejk	H	æ	liby	[^rz]eæ	verb:aglt:praet:pl:ter:m1:?perf
-Hejk	H	æ	liby¶cie	[^rz]eæ	verb:aglt:praet:pl:sec:m1:?perf
-Hejk	H	æ	liby¶my	[^rz]eæ	verb:aglt:praet:pl:pri:m1:?perf
-Hejk	H	æ	li¶cie	[^rz]eæ	verb:praet:pl:sec:m1:?perf
-Hejk	H	æ	li¶my	[^rz]eæ	verb:praet:pl:pri:m1:?perf
-Hejk	j	æ	nia	[^csz]ieæ	subst:pl:ger:nom.acc.voc:n+subst:sg:ger:gen:n
-Hejk	j	æ	niach	[^csz]ieæ	subst:sg:ger:dat.loc:n
-Hejk	j	æ	niami	[^csz]ieæ	subst:sg:ger:inst:n
-Hejk	j	æ	nie	[^csz]ieæ	subst:sg:ger:nom.acc.voc:n
-Hejk	j	æ	niem	[^csz]ieæ	subst:pl:ger:loc:n
-Hejk	j	æ	niom	[^csz]ieæ	subst:pl:ger:dat:n
-Hejk	j	æ	niu	[^csz]ieæ	subst:pl:ger:inst:n
-Hejk	Hejk	0	0		verb:inf:?perf
-Hejk	j	æ	ñ	[^csz]ieæ	subst:pl:ger:gen:n
-Hejk	k	eæ	j	nieæ	verb:impt:sg:sec:perf
-Hejk	k	eæ	jcie	nieæ	verb:impt:pl:sec:perf
-Hejk	k	eæ	jcie¿	nieæ	verb:impt:pl:sec:perf
-Hejk	k	eæ	jmy	nieæ	verb:impt:pl:pri:perf
-Hejk	k	eæ	jmy¿	nieæ	verb:impt:pl:pri:perf
-Hejk	k	eæ	j¿e	nieæ	verb:impt:sg:sec:perf
-Wn	W	0	mi	[^c]ia	subst:pltant:inst:n
-MSTo	M	ha	¿e	[^ac]ha	subst:sg:dat.loc:f
-OPSToswz	OPSToswz	0	0	subst:sg:nom:m
-OPSToswz	O	0	a	[^æño¶w¼x]	subst:sg:gen:m
-OPSToswz	S	0	ach	[^aæño¶w¼x]	subst:pl:loc:m
-OPSToswz	S	0	ami	[^aæño¶w¼x]	subst:pl:inst:m
-OPSToswz	s	0	e	[cjly¿]	subst:pl:nom.voc:m1
-OPSToswz	O	0	em	[^ægkño¶w¼x]	subst:sg:inst:m
-OPSToswz	S	0	om	[^aæño¶w¼x]	subst:pl:dat:m
-OPSToswz	O	0	owi	[^æño¶tw¼x]	subst:sg:dat:m
-OPSToswz	o	0	owie	[^aæioñ¶y¼x]	subst:pl:nom:m1
-OPSToswz	O	0	u	[cghjkly¿]	subst:sg:loc.voc:m
-OPSToswz	T	0	ów	[^aæoñ¶w¼x]	subst:pl:gen:m
-OPSToswz	P	el	la	[^i]el	subst:sg:gen:m
-OPSToswz	z	el	le	[^i]el	subst:pl:nom.acc.voc:m
-OPSToswz	P	el	lem	[^i]el	subst:sg:inst:m
-OPSToswz	P	el	lowi	[^i]el	subst:sg:dat:m
-OPSToswz	w	el	lowie	el	subst:pl:acc.nom.voc.:m1
-OPSToswz	P	el	lu	[^i]el	subst:sg:loc:m
-ANm	m	cia	æ	cia	subst:pl:gen:f
-Pz	P	iel	la	iel	subst:sg:gen:m
-Pz	P	iel	lem	iel	subst:sg:inst:m
-Pz	P	iel	lowi	iel	subst:sg:dat:m
-Pz	P	iel	lu	iel	subst:sg:gen.loc.voc:m
-Pz	z	iel	le	iel	subst:pl:nom.acc.voc:m
-ANTo	N	0	ch	[^w]a	subst:pl:loc:m
-ANTo	N	0	mi	[^w]a	subst:pl:inst:m
-ANTo	A	a	e	[cijl¿]a	subst:pl:nom.acc.voc:m:depr
-ANTo	N	a	om	[^w]a	subst:pl:dat:f
-ANTo	o	a	owie	a	subst:pl:nom:m
-ANTo	T	a	ów	a	subst:pl:gen:m
-OSTo	O	o	a	o	subst:sg:acc.gen:m
-OSTo	S	o	ach	o	subst:pl:loc:m
-OSTo	S	o	ami	o	subst:pl:inst:m
-OSTo	O	o	em	o	subst:sg:inst:m
-OSTo	S	0	m	o	subst:pl:dat:m
-OSTo	o	0	wie	o	subst:pl:nom:m
-OSTo	O	o	u	o	subst:sg:dat:m
-OSTo	T	o	ów	o	subst:pl:gen:m
-P	P	ór	ora	ór	subst:sg:gen:m
-P	P	ór	orem	ór	subst:sg:inst:m
-P	P	ór	orowi	ór	subst:sg:dat:m
-P	P	ór	orze	ór	subst:sg:loc:m
-QR	Q	0	em	[^gkñx]	subst:sg:inst:m3
-QR	Q	0	owi	[^ñx]	subst:sg:dat:m3
-QR	Q	0	u	[^ñx]	subst:sg:gen:m3
-QR	Q	0	ze	r	subst:sg:loc.voc:m3
-QR	R	er	rem	[^i]er	subst:sg:inst:m3
-QR	R	er	rowi	[^i]er	subst:sg:dat:m3
-QR	R	er	ru	[^i]er	subst:sg:gen:m3
-QR	R	er	rze	[^i]er	subst:sg:loc.voc:m3
-PZt	P	niec	ñca	niec	subst:sg:gen:m
-PZt	Z	niec	ñcach	niec	subst:pl:loc:m
-PZt	Z	niec	ñcami	niec	subst:pl:inst:m
-PZt	P	niec	ñcem	niec	subst:sg:inst:m
-PZt	Z	niec	ñcom	niec	subst:pl:dat:m
-PZt	P	niec	ñcowi	niec	subst:sg:dat:m
-PZt	P	niec	ñcu	niec	subst:sg:loc:m
-PZt	t	niec	ñcy	niec	subst:pl:nom.voc:m1
-PZt	Z	niec	ñców	niec	subst:pl:gen:m
-OPSTosz	O	0	a	[^æño¶w¼x]	subst:sg:gen:m
-OPSTosz	S	0	ach	[^aæño¶w¼x]	subst:pl:loc:m
-OPSTosz	S	0	ami	[^aæño¶w¼x]	subst:pl:inst:m
-OPSTosz	s	0	e	[cjly¿]	subst:pl:nom.voc:m1
-OPSTosz	O	0	em	[^ægkño¶w¼x]	subst:sg:inst:m
-OPSTosz	S	0	om	[^aæño¶w¼x]	subst:pl:dat:m
-OPSTosz	O	0	owi	[^æño¶tw¼x]	subst:sg:dat:m
-OPSTosz	o	0	owie	[^aæioñ¶y¼x]	subst:pl:nom:m1
-OPSTosz	O	0	u	[cghjkly¿]	subst:sg:loc.voc:m
-OPSTosz	T	0	ów	[^aæoñ¶w¼x]	subst:pl:gen:m
-OPSTosz	P	iel	la	iel	subst:sg:gen:m
-OPSTosz	z	iel	le	iel	subst:pl:nom.acc.voc:m
-OPSTosz	P	iel	lem	iel	subst:sg:inst:m
-OPSTosz	P	iel	lowi	iel	subst:sg:dat:m
-OPSTosz	P	iel	lu	iel	subst:sg:gen.loc.voc:m
-q	q	0	i	[bmnpsw]	subst:pl:nom:m1
-R	R	en	nem	en	subst:sg:inst:m3
-R	R	en	nie	[^s]en	subst:sg:loc.voc:m3
-R	R	en	nowi	en	subst:sg:dat:m3
-R	R	en	nu	en	subst:sg:gen:m3
-OP	OP	0	0		
-OP	O	0	a	[^æño¶w¼x]	subst:sg:gen:m
-OP	O	0	em	[^ægkño¶w¼x]	subst:sg:inst:m
-OP	O	0	owi	[^æño¶tw¼x]	subst:sg:dat:m
-OP	O	0	u	[cghjkly¿]	subst:sg:loc.voc:m
-Vo	V	o		[^j]co	subst:pl:gen:m
-PZtw	PZtw	0	0		subst:sg:nom:m
-PZtw	P	niec	ñca	niec	subst:sg:gen:m
-PZtw	Z	niec	ñcach	niec	subst:pl:loc:m
-PZtw	Z	niec	ñcami	niec	subst:pl:inst:m
-PZtw	P	niec	ñcem	niec	subst:sg:inst:m
-PZtw	Z	niec	ñcom	niec	subst:pl:dat:m
-PZtw	P	niec	ñcowi	niec	subst:sg:dat:m
-PZtw	w	niec	ñcowie	niec	subst:pl:acc.nom.voc.:m1
-PZtw	P	niec	ñcu	niec	subst:sg:loc:m
-PZtw	t	niec	ñcy	niec	subst:pl:nom.voc:m1
-PZtw	Z	niec	ñców	niec	subst:pl:gen:m
-MNTo	M	sna	¶nie	sna	subst:sg:dat.loc:f
-P	P	ec	ca	[cs]zec	subst:sg:gen:m
-P	P	ec	cem	[cs]zec	subst:sg:inst:m
-P	P	ec	cowi	[cs]zec	subst:sg:dat:m
-P	P	ec	cu	[cs]zec	subst:sg:loc:m
-r	r	owie	ach	owie	subst:pl:loc:m
-r	r	owie	ami	owie	subst:pl:inst:m
-r	r	owie	om	owie	subst:pl:dat:m
-r	r	owie	ów	owie	subst:pl:gen:m
-r	r	owie	e	[cjly¿]owie	subst:pl:nom:m:depr
-r	r	owie	i	[kg]owie	subst:pl:nom:m:depr
-r	r	owie	y	[^cds]zowie	subst:pl:nom:m:depr
-M	M	zda	¼dzie	[^a]zda	subst:sg:dat.loc:f
-a	a	e	ch	ie	adj:pl:acc.gen.loc:f.m.n	#blaszkorogich
-a	a	e	m	ie	adj:pl:dat:f.m.n
-a	a	e	mi	ie	adj:pl:loc:f.m.n
-a	a	e	ych	[^i]e	adj:pl:acc.gen.loc:f.m.n
-a	a	e	ym	[^i]e	adj:pl:dat:f.m.n
-a	a	e	ymi	[^i]e	adj:pl:loc:f.m.n
-r	r	owie	e	iowie		subst:pl:nom:m:depr	#Adasie
-r	r	owie	e	[cds]zowie	subst:pl:nom:m:depr
-OPSToswz	OPSToswz	0	0		subst:sg:nom:m
-QR	QR	0	0		subst:sg:nom:m
-P	P	niek	ñka	niek	subst:sg:gen:m
-P	P	niek	ñkiem	niek	subst:sg:inst:m
-P	P	niek	ñkowi	niek	subst:sg:dat:m
-P	P	niek	ñku	niek	subst:sg:loc:m
-OPSTosz	OPSTosz	0	0		subst:sg:nom:m
-q	q	0	0		subst:sg:nom:m
-OP	OP	0	0		subst:sg:nom:m
-OP	P	niec	ñca	niec	subst:sg:gen:m
-OP	P	niec	ñcem	niec	subst:sg:inst:m
-OP	P	niec	ñcowi	niec	subst:sg:dat:m
-OP	P	niec	ñcu	niec	subst:sg:loc:m
-L	L	a	o	pia	subst:sg:voc:f
-MSTo	M	a	ze	[^i]ara	subst:sg:dat.loc:f
-OSTqs	O	0	owi	[^¶]wiat	subst:sg:dat:m
-Wm	W	0	mi	[^i]a	subst:pltant:inst:n
-ALNT	L	a	o	[^ai]dzia	subst:sg:voc:f
-DPQSTZsz	DPQSTZsz	0	0		subst:sg:nom:m
-Zz	Z	iel	lach	iel	subst:pl:loc:m
-Zz	Z	iel	lami	iel	subst:pl:inst:m
-Zz	z	iel	le	iel	subst:pl:nom.acc.voc:m
-Zz	Z	iel	li	iel	subst:pl:gen:m
-Zz	Z	iel	lom	iel	subst:pl:dat:m
-I	I	0	0		verb:inf:imperf
-r	r	owie	e	iowie	subst:pl:nom:acc.voc:m:depr
-XYxy	y	y	ie	jmy	adv
-UV	U	o	cie	tto	subst:sg:dat:m
-LSTo	S	0	ch	a	subst:pl:loc:m1
-LSTo	S	0	mi	a	subst:pl:inst:m1
-LSTo	L	a	o	[^i]a	subst:sg:voc:m
-LSTo	S	a	om	a	subst:pl:dat:m
-LSTo	o	a	owie	a	subst:pl:nom:m
-LSTo	T	a	ów	a	subst:pl:gen:m
-XY	Y	y	zi	dy	adj:pl:nom.voc:m1
-MNTm	m	owa	ów	owa	subst:pl:gen:f
-LSTo	LSTo	0	0		subst:sg:nom:m
