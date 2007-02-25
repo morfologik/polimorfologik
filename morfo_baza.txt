@@ -6593,7 +6593,7 @@ BFI	F	±æ	ê³yby¶my	[^dsz]n±æ	verb:aglt:praet:pl:pri:f.n:perf
 BFI	F	±æ	ê³y¶cie	[^dsz]n±æ	verb:praet:pl:sec:f.n:perf
 BFI	F	±æ	ê³y¶my	[^dsz]n±æ	verb:praet:pl:pri:f.n:perf
 BFI	F	æ	³	[^dsz]n±æ	verb:praet:sg:ter:m:perf
-BFI	F	æ	³by	[^dsz]n±æ	verb:praet:pl:pri:f.n:perf
+BFI	F	æ	³by	[^dsz]n±æ	verb:aglt:praet:sg:ter:m:perf
 BFI	F	æ	³bym	[^dsz]n±æ	verb:aglt:praet:sg:ter:m:perf
 BFI	F	æ	³by¶	[^dsz]n±æ	verb:aglt:praet:sg:pri:m:perf
 BFI	F	æ	³em	[^dsz]n±æ	verb:praet:sg:pri:m:perf
@@ -9071,7 +9071,7 @@ BHIehjk	H	æ	³aby¶	[^±e¶¼]æ	verb:aglt:praet:sg:sec:f:?perf
 BHIehjk	H	æ	³am	[^±e¶¼]æ	verb:praet:sg:pri:f:?perf
 BHIehjk	H	æ	³a¶	[^±e¶¼]æ	verb:praet:sg:sec:f:?perf
 BHIehjk	H	æ	³by	[^±e¶¼]æ	verb:aglt:praet:sg:ter:m:?perf
-BHIehjk	H	æ	³bym	[^±e¶¼]æ	verb:praet:sg:ter:m:?perf
+BHIehjk	H	æ	³bym	[^±e¶¼]æ	verb:aglt:praet:sg:pri:m:?perf
 BHIehjk	H	æ	³by¶	[^±e¶¼]æ	verb:aglt:praet:sg:sec:m:?perf
 BHIehjk	H	æ	³em	[^±e¶¼]æ	verb:praet:sg:pri:m:?perf
 BHIehjk	H	æ	³e¶	[^±e¶¼]æ	verb:praet:sg:sec:m:?perf
@@ -10040,7 +10040,7 @@ BHIi	H	ej¶æ	szed³e¶	[bdw]ej¶æ	verb:praet:sg:sec:m:?perf
 BHIi	H	j¶æ	szed³	[^e]j¶æ	verb:praet:sg:ter:m:?perf
 BHIi	H	j¶æ	szed³by	[^e]j¶æ	verb:aglt:praet:sg:ter:m:?perf
 BHIi	H	j¶æ	szed³bym	[^e]j¶æ	verb:aglt:praet:sg:pri:m:?perf
-BHIi	H	j¶æ	szed³by¶	[^e]j¶æ	verb:praet:sg:sec:m:?perf
+BHIi	H	j¶æ	szed³by¶	[^e]j¶æ	verb:aglt:praet:sg:sec:m:?perf
 BHIi	H	j¶æ	szed³em	[^e]j¶æ	verb:praet:sg:pri:m:?perf
 BHIi	H	j¶æ	szed³e¶	[^e]j¶æ	verb:praet:sg:sec:n:?perf
 BHIi	H	j¶æ	szli	[^e]j¶æ	verb:praet:pl:ter:m1:?perf
@@ -11126,7 +11126,7 @@ BHJej	H	æ	³a¶	[^±e¶¼]æ	verb:praet:sg:sec:f:?perf
 BHJej	H	æ	³by	[^n]±æ	verb:aglt:praet:sg:ter:m:?perf
 BHJej	H	æ	³by	[^±e¶¼]æ	verb:aglt:praet:sg:ter:m:?perf
 BHJej	H	æ	³bym	[^n]±æ	verb:aglt:praet:sg:pri:m:?perf
-BHJej	H	æ	³bym	[^±e¶¼]æ	verb:aglt:praet:sg:pri:m:?perf+verb:praet:sg:ter:f:?perf+verb:aglt:praet:sg:pri:m:?perf
+BHJej	H	æ	³bym	[^±e¶¼]æ	verb:aglt:praet:sg:pri:m:?perf
 BHJej	H	æ	³by¶	[^n]±æ	verb:aglt:praet:sg:sec:m:?perf
 BHJej	H	æ	³by¶	[^±e¶¼]æ	verb:aglt:praet:sg:sec:m:?perf
 BHJej	H	æ	³em	[^n]±æ	verb:praet:sg:pri:m:?perf
@@ -12135,7 +12135,7 @@ BHej	H	æ	³aby¶	[^±e¶¼]æ	verb:aglt:praet:sg:sec:f:perf
 BHej	H	æ	³am	[^±e¶¼]æ	verb:praet:sg:pri:f:?perf
 BHej	H	æ	³a¶	[^±e¶¼]æ	verb:praet:sg:sec:f:?perf
 BHej	H	æ	³by	[^n]±æ	verb:aglt:praet:sg:ter:m:?perf
-BHej	H	æ	³by	[^±e¶¼]æ	verb:praet:pl:pri:f.n:perf
+BHej	H	æ	³by	[^±e¶¼]æ	verb:aglt:praet:sg:ter:m:?perf
 BHej	H	æ	³bym	[^n]±æ	verb:aglt:praet:sg:pri:m:?perf
 BHej	H	æ	³bym	[^±e¶¼]æ	verb:aglt:praet:sg:ter:m:perf
 BHej	H	æ	³by¶	[^n]±æ	verb:aglt:praet:sg:sec:m:?perf
@@ -16701,7 +16701,7 @@ FIdik	F	e¶æ	ot³y¶my	[il]e¶æ	verb:praet:pl:pri:n:?perf
 FIdik	F	e¶æ	ót³	[il]e¶æ	verb:praet:sg:ter:m:?perf
 FIdik	F	e¶æ	ót³by	[il]e¶æ	verb:aglt:praet:sg:ter:m:?perf
 FIdik	F	e¶æ	ót³bym	[il]e¶æ	verb:aglt:praet:sg:pri:m:?perf
-FIdik	F	e¶æ	ót³by¶	[il]e¶æ	verb:praet:sg:sec:n:?perf
+FIdik	F	e¶æ	ót³by¶	[il]e¶æ	verb:aglt:praet:sg:sec:m:?perf
 FIdik	FIdik	0	0		verb:inf:?perf
 FIdik	I	e¶æ	ecie	gnie¶æ	verb:sg:ter:?perf
 FIdik	I	e¶æ	ecie	le¶æ	verb:sg:ter:?perf
@@ -18569,7 +18569,7 @@ HIejk	H	æ	³abym	[^±e¶¼]æ	verb:aglt:praet:sg:pri:f:?perf
 HIejk	H	æ	³aby¶	[^±e¶¼]æ	verb:aglt:praet:sg:sec:f:?perf
 HIejk	H	æ	³am	[^±e¶¼]æ	verb:praet:sg:pri:f:?perf
 HIejk	H	æ	³a¶	[^±e¶¼]æ	verb:praet:sg:sec:f:?perf
-HIejk	H	æ	³by	[^n]±æ	verb:praet:pl:pri:f.n:perf
+HIejk	H	æ	³by	[^n]±æ	verb:aglt:praet:sg:ter:m:?perf
 HIejk	H	æ	³by	[^±e¶¼]æ	verb:aglt:praet:sg:ter:m:?perf
 HIejk	H	æ	³bym	[^n]±æ	verb:aglt:praet:sg:ter:m:perf
 HIejk	H	æ	³bym	[^±e¶¼]æ	verb:aglt:praet:sg:pri:m:?perf
@@ -19308,7 +19308,7 @@ HJei	H	æ	³abym	[^±e¶¼]æ	verb:aglt:praet:sg:pri:f:?perf
 HJei	H	æ	³aby¶	[^±e¶¼]æ	verb:aglt:praet:sg:sec:f:perf
 HJei	H	æ	³am	[^±e¶¼]æ	verb:praet:sg:pri:f:?perf
 HJei	H	æ	³a¶	[^±e¶¼]æ	verb:praet:sg:sec:f:?perf
-HJei	H	æ	³by	[^±e¶¼]æ	verb:praet:pl:pri:f.n:perf
+HJei	H	æ	³by	[^±e¶¼]æ	verb:aglt:praet:sg:ter:m:?perf
 HJei	H	æ	³bym	[^±e¶¼]æ	verb:aglt:praet:sg:ter:m:perf
 HJei	H	æ	³by¶	[^±e¶¼]æ	verb:aglt:praet:sg:pri:m:perf
 HJei	H	æ	³em	[^±e¶¼]æ	verb:praet:sg:pri:m:perf
