@@ -592,7 +592,7 @@ BEFHIej	I	±æ	iecie	n±æ	verb:pl:sec:?perf
 BEFHIej	I	±æ	iemy	n±æ	verb:pl:pri:?perf
 BEFHIej	I	±æ	iesz	n±æ	verb:sg:sec:?perf
 BEFHIej	I	±æ	ê	n±æ	verb:sg:pri:?perf
-BEFHIej	I	æ		n±æ	verb:ter:pl:?perf
+BEFHIej	I	æ		n±æ	verb:pl:ter:?perf
 BEFHIej	e	±æ	iêto	[^sz]n±æ	verb:imps
 BEFHIej	j	±æ	iêcia	[^sz]n±æ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
 BEFHIej	j	±æ	iêciach	[^sz]n±æ	subst:ger:pl:loc:n
@@ -685,7 +685,7 @@ BEFHJej	J	sn±æ	¶niecie	sn±æ	verb:pl:sec:?perf
 BEFHJej	J	sn±æ	¶niemy	sn±æ	verb:pl:pri:?perf
 BEFHJej	J	sn±æ	¶niesz	sn±æ	verb:sg:sec:?perf
 BEFHJej	J	±æ	ê	sn±æ	verb:sg:pri:?perf
-BEFHJej	J	æ		sn±æ	verb:ter:pl:?perf
+BEFHJej	J	æ		sn±æ	verb:pl:ter:?perf
 BEFHJej	e	sn±æ	¶niêto	sn±æ	verb:imps
 BEFHJej	j	sn±æ	¶niêcia	sn±æ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
 BEFHJej	j	sn±æ	¶niêciach	sn±æ	subst:ger:pl:loc:n
@@ -748,7 +748,7 @@ BEFIdi	I	±æ	iecie	n±æ	verb:pl:sec:?perf
 BEFIdi	I	±æ	iemy	n±æ	verb:pl:pri:?perf
 BEFIdi	I	±æ	iesz	n±æ	verb:sg:sec:?perf
 BEFIdi	I	±æ	ê	n±æ	verb:sg:pri:?perf
-BEFIdi	I	æ		n±æ	verb:ter:pl:?perf
+BEFIdi	I	æ		n±æ	verb:pl:ter:?perf
 BEFIdi	d	±æ	iêto	[sz]n±æ	verb:imps
 BEFIdi	i	±æ	iêcia	[sz]n±æ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
 BEFIdi	i	±æ	iêciach	[sz]n±æ	subst:ger:pl:loc:n
@@ -894,7 +894,7 @@ BEFIej	I	±æ	iecie	n±æ	verb:pl:sec:?perf
 BEFIej	I	±æ	iemy	n±æ	verb:pl:pri:?perf
 BEFIej	I	±æ	iesz	n±æ	verb:sg:sec:?perf
 BEFIej	I	±æ	ê	n±æ	verb:sg:pri:?perf
-BEFIej	I	æ		n±æ	verb:ter:pl:?perf
+BEFIej	I	æ		n±æ	verb:pl:ter:?perf
 BEFIej	e	sn±æ	¶niêto	sn±æ	verb:imps
 BEFIej	e	±æ	iêto	[^sz]n±æ	verb:imps
 BEFIej	j	sn±æ	¶niêcia	sn±æ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
@@ -1018,8 +1018,8 @@ BEFJej	J	zn±æ	¼niemy	zn±æ	verb:pl:sec:?perf
 BEFJej	J	zn±æ	¼niesz	zn±æ	verb:sg:ter:?perf
 BEFJej	J	±æ	ê	sn±æ	verb:sg:pri:?perf
 BEFJej	J	±æ	ê	zn±æ	verb:sg:pri:?perf
-BEFJej	J	æ		sn±æ	verb:ter:pl:?perf
-BEFJej	J	æ		zn±æ	verb:ter:pl:?perf
+BEFJej	J	æ		sn±æ	verb:pl:ter:?perf
+BEFJej	J	æ		zn±æ	verb:pl:ter:?perf
 BEFJej	e	sn±æ	¶niêto	sn±æ	verb:imps
 BEFJej	e	zn±æ	¼niêto	zn±æ	verb:imps
 BEFJej	j	sn±æ	¶niêcia	sn±æ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
@@ -1571,14 +1571,14 @@ BEGHIej	I	eæ	eje	[^cz]ieæ	verb:sg:ter:?perf
 BEGHIej	I	eæ	ejecie	[^cz]ieæ	verb:pl:sec:?perf
 BEGHIej	I	eæ	ejemy	[^cz]ieæ	verb:pl:pri:?perf
 BEGHIej	I	eæ	ejesz	[^cz]ieæ	verb:sg:sec:?perf
-BEGHIej	I	eæ	ej±	[^cz]ieæ	verb:ter:pl:?perf
+BEGHIej	I	eæ	ej±	[^cz]ieæ	verb:pl:ter:?perf
 BEGHIej	I	eæ	ejê	[^cz]ieæ	verb:sg:pri:?perf
 BEGHIej	I	±æ	ie	n±æ	verb:sg:ter:?perf
 BEGHIej	I	±æ	iecie	n±æ	verb:pl:sec:?perf
 BEGHIej	I	±æ	iemy	n±æ	verb:pl:pri:?perf
 BEGHIej	I	±æ	iesz	n±æ	verb:sg:sec:?perf
 BEGHIej	I	±æ	ê	n±æ	verb:sg:pri:?perf
-BEGHIej	I	æ		n±æ	verb:ter:pl:?perf
+BEGHIej	I	æ		n±æ	verb:pl:ter:?perf
 BEGHIej	e	eæ	ano	[^csz]ieæ	verb:imps
 BEGHIej	e	sn±æ	¶niêto	sn±æ	verb:imps
 BEGHIej	e	±æ	iêto	[^sz]n±æ	verb:imps
@@ -1769,12 +1769,12 @@ BEGHJej	J	sn±æ	¶niecie	sn±æ	verb:pl:sec:?perf
 BEGHJej	J	sn±æ	¶niemy	sn±æ	verb:pl:pri:?perf
 BEGHJej	J	sn±æ	¶niesz	sn±æ	verb:sg:sec:?perf
 BEGHJej	J	±æ	ê	sn±æ	verb:sg:pri:?perf
-BEGHJej	J	æ		sn±æ	verb:ter:pl:?perf
+BEGHJej	J	æ		sn±æ	verb:pl:ter:?perf
 BEGHJej	J	¼æ	zie	le¼æ	verb:sg:ter:?perf
 BEGHJej	J	¼æ	ziecie	le¼æ	verb:pl:sec:?perf
 BEGHJej	J	¼æ	ziemy	le¼æ	verb:pl:pri:?perf
 BEGHJej	J	¼æ	ziesz	le¼æ	verb:sg:sec:?perf
-BEGHJej	J	¼æ	z±	le¼æ	verb:ter:pl:?perf
+BEGHJej	J	¼æ	z±	le¼æ	verb:pl:ter:?perf
 BEGHJej	J	¼æ	zê	le¼æ	verb:sg:pri:?perf
 BEGHJej	e	sn±æ	¶niêto	sn±æ	verb:imps
 BEGHJej	e	¼æ	ziono	¼æ	verb:imps
@@ -1902,12 +1902,12 @@ BEHIJdik	H	æ	³yby¶cie	[^±e¶¼]æ	verb:aglt:praet:pl:sec:f.n:?perf
 BEHIJdik	H	æ	³yby¶my	[^±e¶¼]æ	verb:aglt:praet:pl:pri:f.n:?perf
 BEHIJdik	H	æ	³y¶cie	[^±e¶¼]æ	verb:praet:pl:sec:f.n:?perf
 BEHIJdik	H	æ	³y¶my	[^±e¶¼]æ	verb:praet:pl:pri:f.n:?perf
-BEHIJdik	I	æ		[^bp]raæ	verb:ter:sg:?perf
-BEHIJdik	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:ter:sg:?perf
+BEHIJdik	I	æ		[^bp]raæ	verb:sg:ter:?perf
+BEHIJdik	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:sg:ter:?perf
 BEHIJdik	I	æ	cie	[^bp]raæ	verb:pl:sec:?perf
 BEHIJdik	I	æ	cie	[bcdfghijlkmnstwz¿]aæ	verb:pl:sec:?perf
-BEHIJdik	I	æ	j±	[^bp]raæ	verb:ter:pl:?perf
-BEHIJdik	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:ter:pl:?perf
+BEHIJdik	I	æ	j±	[^bp]raæ	verb:pl:ter:?perf
+BEHIJdik	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:pl:ter:?perf
 BEHIJdik	I	æ	m	[^bp]raæ	verb:sg:pri:?perf
 BEHIJdik	I	æ	m	[bcdfghijlkmnstwz¿]aæ	verb:sg:pri:?perf
 BEHIJdik	I	æ	my	[^bp]raæ	verb:pl:pri:?perf
@@ -1920,7 +1920,7 @@ BEHIJdik	J	aæ	eje	[il]aæ	verb:sg:ter:?perf
 BEHIJdik	J	aæ	ejecie	[il]aæ	verb:pl:sec:?perf
 BEHIJdik	J	aæ	ejemy	[il]aæ	verb:pl:pri:?perf
 BEHIJdik	J	aæ	ejesz	[il]aæ	verb:sg:sec:?perf
-BEHIJdik	J	aæ	ej±	[il]aæ	verb:ter:pl:?perf
+BEHIJdik	J	aæ	ej±	[il]aæ	verb:pl:ter:?perf
 BEHIJdik	J	aæ	ejê	[il]aæ	verb:sg:pri:?perf
 BEHIJdik	J	aæ	emy	jaæ	verb:pl:pri:?perf
 BEHIJdik	J	aæ	esz	jaæ	verb:sg:sec:?perf
@@ -1932,8 +1932,8 @@ BEHIJdik	J	aæ	iemy	[^s]baæ	verb:pl:pri:?perf
 BEHIJdik	J	aæ	iemy	maæ	verb:pl:pri:?perf
 BEHIJdik	J	aæ	iesz	[^s]baæ	verb:sg:sec:?perf
 BEHIJdik	J	aæ	iesz	maæ	verb:sg:sec:?perf
-BEHIJdik	J	aæ	i±	[^s]baæ	verb:ter:pl:?perf
-BEHIJdik	J	aæ	i±	maæ	verb:ter:pl:?perf
+BEHIJdik	J	aæ	i±	[^s]baæ	verb:pl:ter:?perf
+BEHIJdik	J	aæ	i±	maæ	verb:pl:ter:?perf
 BEHIJdik	J	aæ	iê	[^s]baæ	verb:sg:pri:?perf
 BEHIJdik	J	aæ	iê	maæ	verb:sg:pri:?perf
 BEHIJdik	J	aæ	ze	[^bp]raæ	verb:sg:ter:?perf
@@ -1944,41 +1944,41 @@ BEHIJdik	J	aæ	zemy	[^bp]raæ	verb:pl:pri:?perf
 BEHIJdik	J	aæ	zemy	[^s]saæ	verb:pl:pri:?perf
 BEHIJdik	J	aæ	zesz	[^bp]raæ	verb:sg:sec:?perf
 BEHIJdik	J	aæ	zesz	[^s]saæ	verb:sg:sec:?perf
-BEHIJdik	J	aæ	z±	[^bp]raæ	verb:ter:pl:?perf
-BEHIJdik	J	aæ	z±	[^s]saæ	verb:ter:pl:?perf
+BEHIJdik	J	aæ	z±	[^bp]raæ	verb:pl:ter:?perf
+BEHIJdik	J	aæ	z±	[^s]saæ	verb:pl:ter:?perf
 BEHIJdik	J	aæ	zê	[^bp]raæ	verb:sg:pri:?perf
 BEHIJdik	J	aæ	zê	[^s]saæ	verb:sg:pri:?perf
-BEHIJdik	J	aæ	±	jaæ	verb:ter:pl:?perf
+BEHIJdik	J	aæ	±	jaæ	verb:pl:ter:?perf
 BEHIJdik	J	aæ	ê	jaæ	verb:sg:pri:?perf
 BEHIJdik	J	gaæ	¿e	³gaæ	verb:sg:ter:?perf
 BEHIJdik	J	gaæ	¿ecie	³gaæ	verb:pl:sec:?perf
 BEHIJdik	J	gaæ	¿emy	³gaæ	verb:pl:pri:?perf
 BEHIJdik	J	gaæ	¿esz	³gaæ	verb:sg:sec:?perf
-BEHIJdik	J	gaæ	¿±	³gaæ	verb:ter:pl:?perf
+BEHIJdik	J	gaæ	¿±	³gaæ	verb:pl:ter:?perf
 BEHIJdik	J	gaæ	¿ê	³gaæ	verb:sg:pri:?perf
 BEHIJdik	J	kaæ	cze	kaæ	verb:sg:ter:?perf
 BEHIJdik	J	kaæ	czecie	kaæ	verb:pl:sec:?perf
 BEHIJdik	J	kaæ	czemy	kaæ	verb:pl:pri:?perf
 BEHIJdik	J	kaæ	czesz	kaæ	verb:sg:sec:?perf
-BEHIJdik	J	kaæ	cz±	kaæ	verb:ter:pl:?perf
+BEHIJdik	J	kaæ	cz±	kaæ	verb:pl:ter:?perf
 BEHIJdik	J	kaæ	czê	kaæ	verb:sg:pri:?perf
 BEHIJdik	J	taæ	cze	[±op]taæ	verb:sg:ter:?perf
 BEHIJdik	J	taæ	czecie	[±op]taæ	verb:pl:sec:?perf
 BEHIJdik	J	taæ	czemy	[±op]taæ	verb:pl:pri:?perf
 BEHIJdik	J	taæ	czesz	[±op]taæ	verb:sg:sec:?perf
-BEHIJdik	J	taæ	cz±	[±op]taæ	verb:ter:pl:?perf
+BEHIJdik	J	taæ	cz±	[±op]taæ	verb:pl:ter:?perf
 BEHIJdik	J	taæ	czê	[±op]taæ	verb:sg:pri:?perf
 BEHIJdik	J	ywaæ	uje	ywaæ	verb:sg:ter:?perf
 BEHIJdik	J	ywaæ	ujecie	ywaæ	verb:pl:sec:?perf
 BEHIJdik	J	ywaæ	ujemy	ywaæ	verb:pl:pri:?perf
 BEHIJdik	J	ywaæ	ujesz	ywaæ	verb:sg:sec:?perf
-BEHIJdik	J	ywaæ	uj±	ywaæ	verb:ter:pl:?perf
+BEHIJdik	J	ywaæ	uj±	ywaæ	verb:pl:ter:?perf
 BEHIJdik	J	ywaæ	ujê	ywaæ	verb:sg:pri:?perf
 BEHIJdik	J	zaæ	¿e	[^cdr]zaæ	verb:sg:ter:?perf
 BEHIJdik	J	zaæ	¿ecie	[^cdr]zaæ	verb:pl:sec:?perf
 BEHIJdik	J	zaæ	¿emy	[^cdr]zaæ	verb:pl:pri:?perf
 BEHIJdik	J	zaæ	¿esz	[^cdr]zaæ	verb:sg:sec:?perf
-BEHIJdik	J	zaæ	¿±	[^cdr]zaæ	verb:ter:pl:?perf
+BEHIJdik	J	zaæ	¿±	[^cdr]zaæ	verb:pl:ter:?perf
 BEHIJdik	J	zaæ	¿ê	[^cdr]zaæ	verb:sg:pri:?perf
 BEHIJdik	d	æ	no	[^i]aæ	verb:imps
 BEHIJdik	i	æ	nia	[^i]aæ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
@@ -2061,29 +2061,29 @@ BEHIJeik	H	æ	³yby¶cie	[^±e¶¼]æ	verb:aglt:praet:pl:sec:f.n:?perf
 BEHIJeik	H	æ	³yby¶my	[^±e¶¼]æ	verb:aglt:praet:pl:pri:f.n:?perf
 BEHIJeik	H	æ	³y¶cie	[^±e¶¼]æ	verb:praet:pl:sec:f.n:?perf
 BEHIJeik	H	æ	³y¶my	[^±e¶¼]æ	verb:praet:pl:pri:f.n:?perf
-BEHIJeik	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:ter:sg:?perf
+BEHIJeik	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:sg:ter:?perf
 BEHIJeik	I	æ	cie	[bcdfghijlkmnstwz¿]aæ	verb:pl:sec:?perf
-BEHIJeik	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:ter:pl:?perf
+BEHIJeik	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:pl:ter:?perf
 BEHIJeik	I	æ	m	[bcdfghijlkmnstwz¿]aæ	verb:sg:pri:?perf
 BEHIJeik	I	æ	my	[bcdfghijlkmnstwz¿]aæ	verb:pl:pri:?perf
 BEHIJeik	I	æ	sz	[bcdfghijlkmnstwz¿]aæ	verb:sg:sec:?perf
-BEHIJeik	J	taæ	cze	[±op]taæ	verb:ter:sg:?perf
+BEHIJeik	J	taæ	cze	[±op]taæ	verb:sg:ter:?perf
 BEHIJeik	J	taæ	czecie	[±op]taæ	verb:pl:sec:f.m.n
 BEHIJeik	J	taæ	czemy	[±op]taæ	verb:pl:pri:f.m.n
 BEHIJeik	J	taæ	czesz	[±op]taæ	verb:sg:sec:f.m.n
-BEHIJeik	J	taæ	cz±	[±op]taæ	verb:ter:pl:?perf
+BEHIJeik	J	taæ	cz±	[±op]taæ	verb:pl:ter:?perf
 BEHIJeik	J	taæ	czê	[±op]taæ	verb:sg:pri:f.m.n
 BEHIJeik	J	ywaæ	uje	ywaæ	verb:sg:ter:?perf
 BEHIJeik	J	ywaæ	ujecie	ywaæ	verb:pl:sec:?perf
 BEHIJeik	J	ywaæ	ujemy	ywaæ	verb:pl:pri:?perf
 BEHIJeik	J	ywaæ	ujesz	ywaæ	verb:sg:sec:?perf
-BEHIJeik	J	ywaæ	uj±	ywaæ	verb:ter:pl:?perf
+BEHIJeik	J	ywaæ	uj±	ywaæ	verb:pl:ter:?perf
 BEHIJeik	J	ywaæ	ujê	ywaæ	verb:sg:pri:?perf
 BEHIJeik	J	zaæ	¿e	[^cdr]zaæ	verb:sg:ter:?perf
 BEHIJeik	J	zaæ	¿ecie	[^cdr]zaæ	verb:pl:sec:?perf
 BEHIJeik	J	zaæ	¿emy	[^cdr]zaæ	verb:pl:pri:?perf
 BEHIJeik	J	zaæ	¿esz	[^cdr]zaæ	verb:sg:sec:?perf
-BEHIJeik	J	zaæ	¿±	[^cdr]zaæ	verb:ter:pl:?perf
+BEHIJeik	J	zaæ	¿±	[^cdr]zaæ	verb:pl:ter:?perf
 BEHIJeik	J	zaæ	¿ê	[^cdr]zaæ	verb:sg:pri:?perf
 BEHIJeik	e	æ	no	[^±ei¶uy¼]æ	verb:imps
 BEHIJeik	i	æ	nia	[^i]aæ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
@@ -2176,13 +2176,13 @@ BEHIJej	I	0	ze	lec	verb:sg:ter:?perf
 BEHIJej	I	0	zecie	lec	verb:pl:sec:?perf
 BEHIJej	I	0	zemy	lec	verb:pl:pri:?perf
 BEHIJej	I	0	zesz	lec	verb:sg:sec:?perf
-BEHIJej	I	c	k±	lec	verb:ter:pl:?perf
+BEHIJej	I	c	k±	lec	verb:pl:ter:?perf
 BEHIJej	I	c	kê	lec	verb:sg:pri:?perf
 BEHIJej	J	0	ze	lec	verb:sg:ter:?perf
 BEHIJej	J	0	zecie	lec	verb:pl:sec:?perf
 BEHIJej	J	0	zemy	lec	verb:pl:pri:?perf
 BEHIJej	J	0	zesz	lec	verb:sg:sec:?perf
-BEHIJej	J	ec	ok±	lec	verb:ter:pl:?perf
+BEHIJej	J	ec	ok±	lec	verb:pl:ter:?perf
 BEHIJej	J	ec	okê	lec	verb:sg:pri:?perf
 BEHIJej	e	0	zono	[il]ec	verb:imps
 BEHIJej	j	0	zenia	[il]ec	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
@@ -2259,12 +2259,12 @@ BEHIJejk	H	æ	³yby¶cie	[^±e¶¼]æ	verb:aglt:praet:pl:sec:f.n:?perf
 BEHIJejk	H	æ	³yby¶my	[^±e¶¼]æ	verb:aglt:praet:pl:pri:f.n:?perf
 BEHIJejk	H	æ	³y¶cie	[^±e¶¼]æ	verb:praet:pl:sec:f.n:?perf
 BEHIJejk	H	æ	³y¶my	[^±e¶¼]æ	verb:praet:pl:pri:f.n:?perf
-BEHIJejk	I	æ		[^bp]raæ	verb:ter:sg:?perf
-BEHIJejk	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:ter:sg:?perf
+BEHIJejk	I	æ		[^bp]raæ	verb:sg:ter:?perf
+BEHIJejk	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:sg:ter:?perf
 BEHIJejk	I	æ	cie	[^bp]raæ	verb:pl:sec:?perf
 BEHIJejk	I	æ	cie	[bcdfghijlkmnstwz¿]aæ	verb:pl:sec:?perf
-BEHIJejk	I	æ	j±	[^bp]raæ	verb:ter:pl:?perf
-BEHIJejk	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:ter:pl:?perf
+BEHIJejk	I	æ	j±	[^bp]raæ	verb:pl:ter:?perf
+BEHIJejk	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:pl:ter:?perf
 BEHIJejk	I	æ	m	[^bp]raæ	verb:sg:pri:?perf
 BEHIJejk	I	æ	m	[bcdfghijlkmnstwz¿]aæ	verb:sg:pri:?perf
 BEHIJejk	I	æ	my	[^bp]raæ	verb:pl:pri:?perf
@@ -2275,25 +2275,25 @@ BEHIJejk	J	aæ	ze	[^bp]raæ	verb:sg:ter:?perf
 BEHIJejk	J	aæ	zecie	[^bp]raæ	verb:pl:sec:?perf
 BEHIJejk	J	aæ	zemy	[^bp]raæ	verb:pl:pri:?perf
 BEHIJejk	J	aæ	zesz	[^bp]raæ	verb:sg:sec:?perf
-BEHIJejk	J	aæ	z±	[^bp]raæ	verb:ter:pl:?perf
+BEHIJejk	J	aæ	z±	[^bp]raæ	verb:pl:ter:?perf
 BEHIJejk	J	aæ	zê	[^bp]raæ	verb:sg:pri:?perf
 BEHIJejk	J	kaæ	cze	kaæ	verb:sg:ter:?perf
 BEHIJejk	J	kaæ	czecie	kaæ	verb:pl:sec:?perf
 BEHIJejk	J	kaæ	czemy	kaæ	verb:pl:pri:?perf
 BEHIJejk	J	kaæ	czesz	kaæ	verb:sg:sec:?perf
-BEHIJejk	J	kaæ	cz±	kaæ	verb:ter:pl:?perf
+BEHIJejk	J	kaæ	cz±	kaæ	verb:pl:ter:?perf
 BEHIJejk	J	kaæ	czê	kaæ	verb:sg:pri:?perf
 BEHIJejk	J	taæ	cze	[±op]taæ	verb:sg:ter:?perf
 BEHIJejk	J	taæ	czecie	[±op]taæ	verb:pl:sec:?perf
 BEHIJejk	J	taæ	czemy	[±op]taæ	verb:pl:pri:?perf
 BEHIJejk	J	taæ	czesz	[±op]taæ	verb:sg:sec:?perf
-BEHIJejk	J	taæ	cz±	[±op]taæ	verb:ter:pl:?perf
+BEHIJejk	J	taæ	cz±	[±op]taæ	verb:pl:ter:?perf
 BEHIJejk	J	taæ	czê	[±op]taæ	verb:sg:pri:?perf
 BEHIJejk	J	ywaæ	uje	ywaæ	verb:sg:ter:?perf
 BEHIJejk	J	ywaæ	ujecie	ywaæ	verb:pl:sec:?perf
 BEHIJejk	J	ywaæ	ujemy	ywaæ	verb:pl:pri:?perf
 BEHIJejk	J	ywaæ	ujesz	ywaæ	verb:sg:sec:?perf
-BEHIJejk	J	ywaæ	uj±	ywaæ	verb:ter:pl:?perf
+BEHIJejk	J	ywaæ	uj±	ywaæ	verb:pl:ter:?perf
 BEHIJejk	J	ywaæ	ujê	ywaæ	verb:sg:pri:?perf
 BEHIJejk	e	æ	no	[^±ei¶uy¼]æ	verb:imps
 BEHIJejk	j	æ	nia	[^±ei¶uy¼]æ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
@@ -2362,7 +2362,7 @@ BEHIdeij	I	c	knie	ciec	verb:sg:ter:?perf
 BEHIdeij	I	c	kniecie	ciec	verb:pl:sec:?perf
 BEHIdeij	I	c	kniemy	ciec	verb:pl:pri:?perf
 BEHIdeij	I	c	kniesz	ciec	verb:sg:sec:?perf
-BEHIdeij	I	c	kn±	ciec	verb:ter:pl:?perf
+BEHIdeij	I	c	kn±	ciec	verb:pl:ter:?perf
 BEHIdeij	I	c	knê	ciec	verb:sg:pri:?perf
 BEHIdeij	d	c	kniêto	ciec	verb:imps
 BEHIdeij	e	0	zono	[il]ec	verb:imps
@@ -2442,9 +2442,9 @@ BEHIdhik	H	æ	³yby¶cie	[^±e¶¼]æ	verb:aglt:praet:pl:sec:f.n:?perf
 BEHIdhik	H	æ	³yby¶my	[^±e¶¼]æ	verb:aglt:praet:pl:pri:f.n:?perf
 BEHIdhik	H	æ	³y¶cie	[^±e¶¼]æ	verb:praet:pl:sec:f.n:?perf
 BEHIdhik	H	æ	³y¶my	[^±e¶¼]æ	verb:praet:pl:pri:f.n:?perf
-BEHIdhik	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:ter:sg:?perf
+BEHIdhik	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:sg:ter:?perf
 BEHIdhik	I	æ	cie	[bcdfghijlkmnstwz¿]aæ	verb:pl:sec:?perf
-BEHIdhik	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:ter:pl:?perf
+BEHIdhik	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:pl:ter:?perf
 BEHIdhik	I	æ	m	[bcdfghijlkmnstwz¿]aæ	verb:sg:pri:?perf
 BEHIdhik	I	æ	my	[bcdfghijlkmnstwz¿]aæ	verb:pl:pri:?perf
 BEHIdhik	I	æ	sz	[bcdfghijlkmnstwz¿]aæ	verb:sg:sec:?perf
@@ -2453,19 +2453,19 @@ BEHIdhik	h	aæ	uje	iwaæ	verb:sg:ter:?perf
 BEHIdhik	h	aæ	ujecie	iwaæ	verb:pl:sec:?perf
 BEHIdhik	h	aæ	ujemy	iwaæ	verb:pl:pri:?perf
 BEHIdhik	h	aæ	ujesz	iwaæ	verb:sg:sec:?perf
-BEHIdhik	h	aæ	uj±	iwaæ	verb:ter:pl:?perf
+BEHIdhik	h	aæ	uj±	iwaæ	verb:pl:ter:?perf
 BEHIdhik	h	aæ	ujê	iwaæ	verb:sg:pri:?perf
 BEHIdhik	h	aæ	y	zaæ	verb:sg:ter:?perf
 BEHIdhik	h	aæ	ycie	zaæ	verb:pl:sec:?perf
 BEHIdhik	h	aæ	ymy	zaæ	verb:pl:pri:?perf
 BEHIdhik	h	aæ	ysz	zaæ	verb:sg:sec:?perf
-BEHIdhik	h	aæ	±	zaæ	verb:ter:pl:?perf
+BEHIdhik	h	aæ	±	zaæ	verb:pl:ter:?perf
 BEHIdhik	h	aæ	ê	zaæ	verb:sg:pri:?perf
 BEHIdhik	h	kaæ	zcze	kaæ	verb:sg:ter:?perf
 BEHIdhik	h	kaæ	zczecie	kaæ	verb:pl:sec:?perf
 BEHIdhik	h	kaæ	zczemy	kaæ	verb:pl:pri:?perf
 BEHIdhik	h	kaæ	zczesz	kaæ	verb:sg:sec:?perf
-BEHIdhik	h	kaæ	zcz±	kaæ	verb:ter:pl:?perf
+BEHIdhik	h	kaæ	zcz±	kaæ	verb:pl:ter:?perf
 BEHIdhik	h	kaæ	zczê	kaæ	verb:sg:pri:?perf
 BEHIdhik	i	æ	nia	[^i]aæ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
 BEHIdhik	i	æ	niach	[^i]aæ	subst:ger:pl:loc:n
@@ -2829,17 +2829,17 @@ BEHIdi	I	aæ	ie	[^±æ]paæ	verb:sg:ter:?perf
 BEHIdi	I	aæ	iecie	[^±æ]paæ	verb:pl:sec:?perf
 BEHIdi	I	aæ	iemy	[^±æ]paæ	verb:pl:pri:?perf
 BEHIdi	I	aæ	iesz	[^±æ]paæ	verb:sg:sec:?perf
-BEHIdi	I	aæ	i±	[^±æ]paæ	verb:ter:pl:?perf
+BEHIdi	I	aæ	i±	[^±æ]paæ	verb:pl:ter:?perf
 BEHIdi	I	aæ	iê	[^±æ]paæ	verb:sg:pri:?perf
-BEHIdi	I	iæ	j±	[aeo]iæ	verb:ter:pl:?perf
+BEHIdi	I	iæ	j±	[aeo]iæ	verb:pl:ter:?perf
 BEHIdi	I	iæ	jê	[aeo]iæ	verb:sg:pri:?perf
-BEHIdi	I	iæ	±	[^¼][^aêor]ziæ	verb:ter:pl:?perf
-BEHIdi	I	iæ	±	liæ	verb:ter:pl:?perf
+BEHIdi	I	iæ	±	[^¼][^aêor]ziæ	verb:pl:ter:?perf
+BEHIdi	I	iæ	±	liæ	verb:pl:ter:?perf
 BEHIdi	I	iæ	ê	[^¼][^aêor]ziæ	verb:sg:pri:?perf
 BEHIdi	I	iæ	ê	liæ	verb:sg:pri:?perf
-BEHIdi	I	yæ	±	[^bmrtw]yæ	verb:ter:pl:?perf
+BEHIdi	I	yæ	±	[^bmrtw]yæ	verb:pl:ter:?perf
 BEHIdi	I	yæ	ê	[^bmrtw]yæ	verb:sg:pri:?perf
-BEHIdi	I	±c	êg±	rz±c	verb:ter:pl:?perf
+BEHIdi	I	±c	êg±	rz±c	verb:pl:ter:?perf
 BEHIdi	I	±c	êgê	rz±c	verb:sg:pri:?perf
 BEHIdi	I	±c	ê¿e	rz±c	verb:sg:ter:?perf
 BEHIdi	I	±c	ê¿ecie	rz±c	verb:pl:sec:?perf
@@ -2853,17 +2853,17 @@ BEHIdi	I	±æ	nie	z±æ	verb:sg:ter:?perf
 BEHIdi	I	±æ	niecie	z±æ	verb:pl:sec:?perf
 BEHIdi	I	±æ	niemy	z±æ	verb:pl:pri:?perf
 BEHIdi	I	±æ	niesz	z±æ	verb:sg:sec:?perf
-BEHIdi	I	±æ	n±	z±æ	verb:ter:pl:?perf
+BEHIdi	I	±æ	n±	z±æ	verb:pl:ter:?perf
 BEHIdi	I	±æ	nê	z±æ	verb:sg:pri:?perf
 BEHIdi	I	±æ	ê	n±æ	verb:sg:pri:?perf
-BEHIdi	I	æ		[^bmrtw]yæ	verb:ter:sg:?perf
-BEHIdi	I	æ		[^¼][^aêor]ziæ	verb:ter:sg:?perf
-BEHIdi	I	æ		[aeo]iæ	verb:ter:sg:?perf
-BEHIdi	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:ter:sg:?perf
-BEHIdi	I	æ		[bfmnpw]iæ	verb:ter:sg:?perf
-BEHIdi	I	æ		liæ	verb:ter:sg:?perf
-BEHIdi	I	æ		n±æ	verb:ter:pl:?perf
-BEHIdi	I	æ		¶ciæ	verb:ter:sg:?perf
+BEHIdi	I	æ		[^bmrtw]yæ	verb:sg:ter:?perf
+BEHIdi	I	æ		[^¼][^aêor]ziæ	verb:sg:ter:?perf
+BEHIdi	I	æ		[aeo]iæ	verb:sg:ter:?perf
+BEHIdi	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:sg:ter:?perf
+BEHIdi	I	æ		[bfmnpw]iæ	verb:sg:ter:?perf
+BEHIdi	I	æ		liæ	verb:sg:ter:?perf
+BEHIdi	I	æ		n±æ	verb:pl:ter:?perf
+BEHIdi	I	æ		¶ciæ	verb:sg:ter:?perf
 BEHIdi	I	æ	cie	[^bmrtw]yæ	verb:pl:sec:?perf
 BEHIdi	I	æ	cie	[^¼][^aêor]ziæ	verb:pl:sec:?perf
 BEHIdi	I	æ	cie	[aeo]iæ	verb:pl:sec:?perf
@@ -2871,7 +2871,7 @@ BEHIdi	I	æ	cie	[bcdfghijlkmnstwz¿]aæ	verb:pl:sec:?perf
 BEHIdi	I	æ	cie	[bfmnpw]iæ	verb:pl:sec:?perf
 BEHIdi	I	æ	cie	liæ	verb:pl:sec:?perf
 BEHIdi	I	æ	cie	¶ciæ	verb:pl:pri:?perf
-BEHIdi	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:ter:pl:?perf
+BEHIdi	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:pl:ter:?perf
 BEHIdi	I	æ	m	[bcdfghijlkmnstwz¿]aæ	verb:sg:pri:?perf
 BEHIdi	I	æ	my	[^bmrtw]yæ	verb:pl:pri:?perf
 BEHIdi	I	æ	my	[^¼][^aêor]ziæ	verb:pl:pri:?perf
@@ -2887,9 +2887,9 @@ BEHIdi	I	æ	sz	[bcdfghijlkmnstwz¿]aæ	verb:sg:sec:?perf
 BEHIdi	I	æ	sz	[bfmnpw]iæ	verb:sg:sec:?perf
 BEHIdi	I	æ	sz	liæ	verb:sg:sec:?perf
 BEHIdi	I	æ	sz	¶ciæ	verb:sg:sec:?perf
-BEHIdi	I	æ	±	[bfmnpw]iæ	verb:ter:pl:?perf
+BEHIdi	I	æ	±	[bfmnpw]iæ	verb:pl:ter:?perf
 BEHIdi	I	æ	ê	[bfmnpw]iæ	verb:sg:pri:?perf
-BEHIdi	I	¶ciæ	szcz±	¶ciæ	verb:ter:pl:?perf
+BEHIdi	I	¶ciæ	szcz±	¶ciæ	verb:pl:ter:?perf
 BEHIdi	I	¶ciæ	szczê	¶ciæ	verb:sg:pri:?perf
 BEHIdi	d	iæ	jono	[aeo]iæ	verb:imps
 BEHIdi	d	iæ	ono	[^¶z¼][cl]iæ	verb:imps
@@ -3136,26 +3136,26 @@ BEHIdik	H	æ	³yby¶cie	[^±e¶¼]æ	verb:aglt:praet:pl:sec:f.n:?perf
 BEHIdik	H	æ	³yby¶my	[^±e¶¼]æ	verb:aglt:praet:pl:pri:f.n:?perf
 BEHIdik	H	æ	³y¶cie	[^±e¶¼]æ	verb:praet:pl:sec:f.n:?perf
 BEHIdik	H	æ	³y¶my	[^±e¶¼]æ	verb:praet:pl:pri:f.n:?perf
-BEHIdik	I	iæ	±	[^¼][^aêor]ziæ	verb:ter:pl:?perf
-BEHIdik	I	iæ	±	liæ	verb:ter:pl:?perf
+BEHIdik	I	iæ	±	[^¼][^aêor]ziæ	verb:pl:ter:?perf
+BEHIdik	I	iæ	±	liæ	verb:pl:ter:?perf
 BEHIdik	I	iæ	ê	[^¼][^aêor]ziæ	verb:sg:pri:?perf
 BEHIdik	I	iæ	ê	liæ	verb:sg:pri:?perf
-BEHIdik	I	yæ	±	[^bmrtw]yæ	verb:ter:pl:?perf
+BEHIdik	I	yæ	±	[^bmrtw]yæ	verb:pl:ter:?perf
 BEHIdik	I	yæ	ê	[^bmrtw]yæ	verb:sg:pri:?perf
-BEHIdik	I	æ		[^bmrtw]yæ	verb:ter:sg:?perf
-BEHIdik	I	æ		[^bp]raæ	verb:ter:sg:?perf
-BEHIdik	I	æ		[^¼][^aêor]ziæ	verb:ter:sg:?perf
-BEHIdik	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:ter:sg:?perf
-BEHIdik	I	æ		[bfmnpw]iæ	verb:ter:sg:?perf
-BEHIdik	I	æ		liæ	verb:ter:sg:?perf
+BEHIdik	I	æ		[^bmrtw]yæ	verb:sg:ter:?perf
+BEHIdik	I	æ		[^bp]raæ	verb:sg:ter:?perf
+BEHIdik	I	æ		[^¼][^aêor]ziæ	verb:sg:ter:?perf
+BEHIdik	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:sg:ter:?perf
+BEHIdik	I	æ		[bfmnpw]iæ	verb:sg:ter:?perf
+BEHIdik	I	æ		liæ	verb:sg:ter:?perf
 BEHIdik	I	æ	cie	[^bmrtw]yæ	verb:pl:sec:?perf
 BEHIdik	I	æ	cie	[^bp]raæ	verb:pl:sec:?perf
 BEHIdik	I	æ	cie	[^¼][^aêor]ziæ	verb:pl:sec:?perf
 BEHIdik	I	æ	cie	[bcdfghijlkmnstwz¿]aæ	verb:pl:sec:?perf
 BEHIdik	I	æ	cie	[bfmnpw]iæ	verb:pl:sec:?perf
 BEHIdik	I	æ	cie	liæ	verb:pl:sec:?perf
-BEHIdik	I	æ	j±	[^bp]raæ	verb:ter:pl:?perf
-BEHIdik	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:ter:pl:?perf
+BEHIdik	I	æ	j±	[^bp]raæ	verb:pl:ter:?perf
+BEHIdik	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:pl:ter:?perf
 BEHIdik	I	æ	m	[^bp]raæ	verb:sg:pri:?perf
 BEHIdik	I	æ	m	[bcdfghijlkmnstwz¿]aæ	verb:sg:pri:?perf
 BEHIdik	I	æ	my	[^bmrtw]yæ	verb:pl:pri:?perf
@@ -3170,7 +3170,7 @@ BEHIdik	I	æ	sz	[^¼][^aêor]ziæ	verb:sg:sec:?perf
 BEHIdik	I	æ	sz	[bcdfghijlkmnstwz¿]aæ	verb:sg:sec:?perf
 BEHIdik	I	æ	sz	[bfmnpw]iæ	verb:sg:sec:?perf
 BEHIdik	I	æ	sz	liæ	verb:sg:sec:?perf
-BEHIdik	I	æ	±	[bfmnpw]iæ	verb:ter:pl:?perf
+BEHIdik	I	æ	±	[bfmnpw]iæ	verb:pl:ter:?perf
 BEHIdik	I	æ	ê	[bfmnpw]iæ	verb:sg:pri:?perf
 BEHIdik	d	iæ	ono	[^¶z¼][cl]iæ	verb:imps
 BEHIdik	d	iæ	ono	[^¼][^aêo]ziæ	verb:imps
@@ -3350,7 +3350,7 @@ BEHIdj	I	aæ	ie	[^±æ]paæ	verb:sg:ter:?perf
 BEHIdj	I	aæ	iecie	[^±æ]paæ	verb:pl:sec:?perf
 BEHIdj	I	aæ	iemy	[^±æ]paæ	verb:pl:pri:?perf
 BEHIdj	I	aæ	iesz	[^±æ]paæ	verb:sg:sec:?perf
-BEHIdj	I	aæ	i±	[^±æ]paæ	verb:ter:pl:?perf
+BEHIdj	I	aæ	i±	[^±æ]paæ	verb:pl:ter:?perf
 BEHIdj	I	aæ	iê	[^±æ]paæ	verb:sg:pri:?perf
 BEHIdj	d	æ	no	[^i]aæ	verb:imps
 BEHIdj	j	æ	nia	[^±ei¶uy¼]æ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
@@ -3409,9 +3409,9 @@ BEHIehik	H	æ	³yby¶cie	[^±e¶¼]æ	verb:aglt:praet:pl:sec:f.n:?perf
 BEHIehik	H	æ	³yby¶my	[^±e¶¼]æ	verb:aglt:praet:pl:pri:f.n:?perf
 BEHIehik	H	æ	³y¶cie	[^±e¶¼]æ	verb:praet:pl:sec:f.n:?perf
 BEHIehik	H	æ	³y¶my	[^±e¶¼]æ	verb:praet:pl:pri:f.n:?perf
-BEHIehik	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:ter:sg:?perf
+BEHIehik	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:sg:ter:?perf
 BEHIehik	I	æ	cie	[bcdfghijlkmnstwz¿]aæ	verb:pl:sec:?perf
-BEHIehik	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:ter:pl:?perf
+BEHIehik	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:pl:ter:?perf
 BEHIehik	I	æ	m	[bcdfghijlkmnstwz¿]aæ	verb:sg:pri:?perf
 BEHIehik	I	æ	my	[bcdfghijlkmnstwz¿]aæ	verb:pl:pri:?perf
 BEHIehik	I	æ	sz	[bcdfghijlkmnstwz¿]aæ	verb:sg:sec:?perf
@@ -3420,7 +3420,7 @@ BEHIehik	h	aæ	y	zaæ	verb:sg:ter:?perf
 BEHIehik	h	aæ	ycie	zaæ	verb:pl:sec:?perf
 BEHIehik	h	aæ	ymy	zaæ	verb:pl:pri:?perf
 BEHIehik	h	aæ	ysz	zaæ	verb:sg:sec:?perf
-BEHIehik	h	aæ	±	zaæ	verb:ter:pl:?perf
+BEHIehik	h	aæ	±	zaæ	verb:pl:ter:?perf
 BEHIehik	h	aæ	ê	zaæ	verb:sg:pri:?perf
 BEHIehik	i	æ	nia	[^i]aæ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
 BEHIehik	i	æ	niach	[^i]aæ	subst:ger:pl:loc:n
@@ -3484,9 +3484,9 @@ BEHIehj	H	æ	³yby¶cie	[^±e¶¼]æ	verb:aglt:praet:pl:sec:f.n:?perf
 BEHIehj	H	æ	³yby¶my	[^±e¶¼]æ	verb:aglt:praet:pl:pri:f.n:?perf
 BEHIehj	H	æ	³y¶cie	[^±e¶¼]æ	verb:praet:pl:sec:f.n:?perf
 BEHIehj	H	æ	³y¶my	[^±e¶¼]æ	verb:praet:pl:pri:f.n:?perf
-BEHIehj	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:ter:sg:?perf
+BEHIehj	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:sg:ter:?perf
 BEHIehj	I	æ	cie	[bcdfghijlkmnstwz¿]aæ	verb:pl:sec:?perf
-BEHIehj	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:ter:pl:?perf
+BEHIehj	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:pl:ter:?perf
 BEHIehj	I	æ	m	[bcdfghijlkmnstwz¿]aæ	verb:sg:pri:?perf
 BEHIehj	I	æ	my	[bcdfghijlkmnstwz¿]aæ	verb:pl:pri:?perf
 BEHIehj	I	æ	sz	[bcdfghijlkmnstwz¿]aæ	verb:sg:sec:?perf
@@ -3495,7 +3495,7 @@ BEHIehj	h	aæ	y	zaæ	verb:sg:ter:?perf
 BEHIehj	h	aæ	ycie	zaæ	verb:pl:sec:?perf
 BEHIehj	h	aæ	ymy	zaæ	verb:pl:pri:?perf
 BEHIehj	h	aæ	ysz	zaæ	verb:sg:sec:?perf
-BEHIehj	h	aæ	±	zaæ	verb:ter:pl:?perf
+BEHIehj	h	aæ	±	zaæ	verb:pl:ter:?perf
 BEHIehj	h	aæ	ê	zaæ	verb:sg:pri:?perf
 BEHIehj	j	æ	nia	[^±ei¶uy¼]æ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
 BEHIehj	j	æ	niach	[^±ei¶uy¼]æ	subst:ger:pl:loc:n
@@ -3559,9 +3559,9 @@ BEHIehjk	H	æ	³yby¶cie	[^±e¶¼]æ	verb:aglt:praet:pl:sec:f.n:?perf
 BEHIehjk	H	æ	³yby¶my	[^±e¶¼]æ	verb:aglt:praet:pl:pri:f.n:?perf
 BEHIehjk	H	æ	³y¶cie	[^±e¶¼]æ	verb:praet:pl:sec:f.n:?perf
 BEHIehjk	H	æ	³y¶my	[^±e¶¼]æ	verb:praet:pl:pri:f.n:?perf
-BEHIehjk	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:ter:sg:?perf
+BEHIehjk	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:sg:ter:?perf
 BEHIehjk	I	æ	cie	[bcdfghijlkmnstwz¿]aæ	verb:pl:sec:?perf
-BEHIehjk	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:ter:pl:?perf
+BEHIehjk	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:pl:ter:?perf
 BEHIehjk	I	æ	m	[bcdfghijlkmnstwz¿]aæ	verb:sg:pri:?perf
 BEHIehjk	I	æ	my	[bcdfghijlkmnstwz¿]aæ	verb:pl:pri:?perf
 BEHIehjk	I	æ	sz	[bcdfghijlkmnstwz¿]aæ	verb:sg:sec:?perf
@@ -3570,13 +3570,13 @@ BEHIehjk	h	aæ	y	zaæ	verb:sg:ter:?perf
 BEHIehjk	h	aæ	ycie	zaæ	verb:pl:sec:?perf
 BEHIehjk	h	aæ	ymy	zaæ	verb:pl:pri:?perf
 BEHIehjk	h	aæ	ysz	zaæ	verb:sg:sec:?perf
-BEHIehjk	h	aæ	±	zaæ	verb:ter:pl:?perf
+BEHIehjk	h	aæ	±	zaæ	verb:pl:ter:?perf
 BEHIehjk	h	aæ	ê	zaæ	verb:sg:pri:?perf
 BEHIehjk	h	kaæ	zcze	kaæ	verb:sg:ter:?perf
 BEHIehjk	h	kaæ	zczecie	kaæ	verb:pl:sec:?perf
 BEHIehjk	h	kaæ	zczemy	kaæ	verb:pl:pri:?perf
 BEHIehjk	h	kaæ	zczesz	kaæ	verb:sg:sec:?perf
-BEHIehjk	h	kaæ	zcz±	kaæ	verb:ter:pl:?perf
+BEHIehjk	h	kaæ	zcz±	kaæ	verb:pl:ter:?perf
 BEHIehjk	h	kaæ	zczê	kaæ	verb:sg:pri:?perf
 BEHIehjk	j	æ	nia	[^±ei¶uy¼]æ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
 BEHIehjk	j	æ	niach	[^±ei¶uy¼]æ	subst:ger:pl:loc:n
@@ -3667,19 +3667,19 @@ BEHIei	I	aæ	ie	[^±æ]paæ	verb:sg:ter:?perf
 BEHIei	I	aæ	iecie	[^±æ]paæ	verb:pl:sec:?perf
 BEHIei	I	aæ	iemy	[^±æ]paæ	verb:pl:pri:?perf
 BEHIei	I	aæ	iesz	[^±æ]paæ	verb:sg:sec:?perf
-BEHIei	I	aæ	i±	[^±æ]paæ	verb:ter:pl:?perf
+BEHIei	I	aæ	i±	[^±æ]paæ	verb:pl:ter:?perf
 BEHIei	I	aæ	iê	[^±æ]paæ	verb:sg:pri:?perf
-BEHIei	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:ter:sg:?perf
-BEHIei	I	æ		[bfmnpw]iæ	verb:ter:sg:?perf
+BEHIei	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:sg:ter:?perf
+BEHIei	I	æ		[bfmnpw]iæ	verb:sg:ter:?perf
 BEHIei	I	æ	cie	[bcdfghijlkmnstwz¿]aæ	verb:pl:sec:?perf
 BEHIei	I	æ	cie	[bfmnpw]iæ	verb:pl:sec:?perf
-BEHIei	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:ter:pl:?perf
+BEHIei	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:pl:ter:?perf
 BEHIei	I	æ	m	[bcdfghijlkmnstwz¿]aæ	verb:sg:pri:?perf
 BEHIei	I	æ	my	[bcdfghijlkmnstwz¿]aæ	verb:pl:pri:?perf
 BEHIei	I	æ	my	[bfmnpw]iæ	verb:pl:pri:?perf
 BEHIei	I	æ	sz	[bcdfghijlkmnstwz¿]aæ	verb:sg:sec:?perf
 BEHIei	I	æ	sz	[bfmnpw]iæ	verb:sg:sec:?perf
-BEHIei	I	æ	±	[bfmnpw]iæ	verb:ter:pl:?perf
+BEHIei	I	æ	±	[bfmnpw]iæ	verb:pl:ter:?perf
 BEHIei	I	æ	ê	[bfmnpw]iæ	verb:sg:pri:?perf
 BEHIei	e	æ	no	[^±ei¶uy¼]æ	verb:imps
 BEHIei	e	æ	to	[^ac]iæ	verb:imps
@@ -3753,9 +3753,9 @@ BEHIeik	H	æ	³yby¶cie	[^±e¶¼]æ	verb:aglt:praet:pl:sec:f.n:?perf
 BEHIeik	H	æ	³yby¶my	[^±e¶¼]æ	verb:aglt:praet:pl:pri:f.n:?perf
 BEHIeik	H	æ	³y¶cie	[^±e¶¼]æ	verb:praet:pl:sec:f.n:?perf
 BEHIeik	H	æ	³y¶my	[^±e¶¼]æ	verb:praet:pl:pri:f.n:?perf
-BEHIeik	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:ter:sg:?perf
+BEHIeik	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:sg:ter:?perf
 BEHIeik	I	æ	cie	[bcdfghijlkmnstwz¿]aæ	verb:pl:sec:?perf
-BEHIeik	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:ter:pl:?perf
+BEHIeik	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:pl:ter:?perf
 BEHIeik	I	æ	m	[bcdfghijlkmnstwz¿]aæ	verb:sg:pri:?perf
 BEHIeik	I	æ	my	[bcdfghijlkmnstwz¿]aæ	verb:pl:pri:?perf
 BEHIeik	I	æ	sz	[bcdfghijlkmnstwz¿]aæ	verb:sg:sec:?perf
@@ -4232,17 +4232,17 @@ BEHIej	I	aæ	ie	[^±æ]paæ	verb:sg:ter:?perf
 BEHIej	I	aæ	iecie	[^±æ]paæ	verb:pl:sec:?perf
 BEHIej	I	aæ	iemy	[^±æ]paæ	verb:pl:pri:?perf
 BEHIej	I	aæ	iesz	[^±æ]paæ	verb:sg:sec:?perf
-BEHIej	I	aæ	i±	[^±æ]paæ	verb:ter:pl:?perf
+BEHIej	I	aæ	i±	[^±æ]paæ	verb:pl:ter:?perf
 BEHIej	I	aæ	iê	[^±æ]paæ	verb:sg:pri:?perf
 BEHIej	I	byæ	bêdzie	byæ	verb:sg:ter:?perf
 BEHIej	I	byæ	bêdziecie	byæ	verb:pl:sec:?perf
 BEHIej	I	byæ	bêdziemy	byæ	verb:pl:pri:?perf
 BEHIej	I	byæ	bêdziesz	byæ	verb:sg:sec:?perf
-BEHIej	I	byæ	bêd±	byæ	verb:ter:pl:?perf
+BEHIej	I	byæ	bêd±	byæ	verb:pl:ter:?perf
 BEHIej	I	byæ	bêdê	byæ	verb:sg:pri:?perf
-BEHIej	I	c	g±	trz[ey]c	verb:ter:pl:?perf
+BEHIej	I	c	g±	trz[ey]c	verb:pl:ter:?perf
 BEHIej	I	c	gê	trz[ey]c	verb:sg:pri:?perf
-BEHIej	I	c	k±	[ps]iec	verb:ter:pl:?perf
+BEHIej	I	c	k±	[ps]iec	verb:pl:ter:?perf
 BEHIej	I	c	kê	[ps]iec	verb:sg:pri:?perf
 BEHIej	I	c	¿e	trz[ey]c	verb:sg:ter:?perf
 BEHIej	I	c	¿ecie	trz[ey]c	verb:pl:sec:?perf
@@ -4252,7 +4252,7 @@ BEHIej	I	ci±æ	tnie	ci±æ	verb:sg:ter:?perf
 BEHIej	I	ci±æ	tniecie	ci±æ	verb:pl:sec:?perf
 BEHIej	I	ci±æ	tniemy	ci±æ	verb:pl:pri:?perf
 BEHIej	I	ci±æ	tniesz	ci±æ	verb:sg:sec:?perf
-BEHIej	I	ci±æ	tn±	ci±æ	verb:ter:pl:?perf
+BEHIej	I	ci±æ	tn±	ci±æ	verb:pl:ter:?perf
 BEHIej	I	ci±æ	tnê	ci±æ	verb:sg:pri:?perf
 BEHIej	I	i±æ	nie	[^z]mi±æ	verb:sg:ter:?perf
 BEHIej	I	i±æ	nie	[aeoouy]pi±æ	verb:sg:ter:?perf
@@ -4263,18 +4263,18 @@ BEHIej	I	i±æ	niemy	[aeoouy]pi±æ	verb:pl:pri:?perf
 BEHIej	I	i±æ	niesz	[^z]mi±æ	verb:sg:sec:?perf
 BEHIej	I	i±æ	niesz	[aeoouy]pi±æ	verb:sg:sec:?perf
 BEHIej	I	i±æ	n±	[^z]mi±æ	ppas:sg:acc.inst:f
-BEHIej	I	i±æ	n±	[aeoouy]pi±æ	verb:ter:pl:?perf
+BEHIej	I	i±æ	n±	[aeoouy]pi±æ	verb:pl:ter:?perf
 BEHIej	I	i±æ	nê	[^z]mi±æ	verb:sg:pri:?perf
 BEHIej	I	i±æ	nê	[aeoouy]pi±æ	verb:sg:pri:?perf
-BEHIej	I	iæ	j±	[aeo]iæ	verb:ter:pl:?perf
+BEHIej	I	iæ	j±	[aeo]iæ	verb:pl:ter:?perf
 BEHIej	I	iæ	jê	[aeo]iæ	verb:sg:pri:?perf
 BEHIej	I	j±æ	ejmie	[^aeoy]j±æ	verb:sg:ter:?perf
 BEHIej	I	j±æ	ejmiecie	[^aeoy]j±æ	verb:pl:sec:?perf
 BEHIej	I	j±æ	ejmiemy	[^aeoy]j±æ	verb:pl:pri:?perf
 BEHIej	I	j±æ	ejmiesz	[^aeoy]j±æ	verb:sg:sec:?perf
-BEHIej	I	j±æ	ejm±	[^aeoy]j±æ	verb:ter:pl:?perf
+BEHIej	I	j±æ	ejm±	[^aeoy]j±æ	verb:pl:ter:?perf
 BEHIej	I	j±æ	ejmê	[^aeoy]j±æ	verb:sg:pri:?perf
-BEHIej	I	zi±æ	ezm±	zi±æ	verb:ter:pl:?perf
+BEHIej	I	zi±æ	ezm±	zi±æ	verb:pl:ter:?perf
 BEHIej	I	zi±æ	ezmê	zi±æ	verb:sg:pri:?perf
 BEHIej	I	zi±æ	e¼mie	zi±æ	verb:sg:ter:?perf
 BEHIej	I	zi±æ	e¼miecie	zi±æ	verb:pl:sec:?perf
@@ -4288,17 +4288,17 @@ BEHIej	I	±æ	mie	[aeoy]j±æ	verb:sg:ter:?perf
 BEHIej	I	±æ	miecie	[aeoy]j±æ	verb:pl:sec:?perf
 BEHIej	I	±æ	miemy	[aeoy]j±æ	verb:pl:pri:?perf
 BEHIej	I	±æ	miesz	[aeoy]j±æ	verb:sg:sec:?perf
-BEHIej	I	±æ	m±	[aeoy]j±æ	verb:ter:pl:?perf
+BEHIej	I	±æ	m±	[aeoy]j±æ	verb:pl:ter:?perf
 BEHIej	I	±æ	mê	[aeoy]j±æ	verb:sg:pri:?perf
 BEHIej	I	±æ	ê	n±æ	verb:sg:pri:?perf
-BEHIej	I	æ		[aeo]iæ	verb:ter:sg:?perf
-BEHIej	I	æ		n±æ	verb:ter:pl:?perf
+BEHIej	I	æ		[aeo]iæ	verb:sg:ter:?perf
+BEHIej	I	æ		n±æ	verb:pl:ter:?perf
 BEHIej	I	æ	cie	[aeo]iæ	verb:pl:sec:?perf
 BEHIej	I	æ	je	[mrtw]yæ	verb:sg:ter:?perf
 BEHIej	I	æ	jecie	[mrtw]yæ	verb:pl:sec:?perf
 BEHIej	I	æ	jemy	[mrtw]yæ	verb:pl:pri:?perf
 BEHIej	I	æ	jesz	[mrtw]yæ	verb:sg:sec:?perf
-BEHIej	I	æ	j±	[mrtw]yæ	verb:ter:pl:?perf
+BEHIej	I	æ	j±	[mrtw]yæ	verb:pl:ter:?perf
 BEHIej	I	æ	jê	[mrtw]yæ	verb:sg:pri:?perf
 BEHIej	I	æ	my	[aeo]iæ	verb:pl:pri:?perf
 BEHIej	I	æ	sz	[aeo]iæ	verb:sg:sec:?perf
@@ -4519,8 +4519,8 @@ BEHJdi	J	aæ	ejemy	[il]aæ	verb:pl:pri:?perf
 BEHJdi	J	aæ	ejemy	rzaæ	verb:pl:pri:?perf
 BEHJdi	J	aæ	ejesz	[il]aæ	verb:sg:sec:?perf
 BEHJdi	J	aæ	ejesz	rzaæ	verb:sg:sec:?perf
-BEHJdi	J	aæ	ej±	[il]aæ	verb:ter:pl:?perf
-BEHJdi	J	aæ	ej±	rzaæ	verb:ter:pl:?perf
+BEHJdi	J	aæ	ej±	[il]aæ	verb:pl:ter:?perf
+BEHJdi	J	aæ	ej±	rzaæ	verb:pl:ter:?perf
 BEHJdi	J	aæ	ejê	[il]aæ	verb:sg:pri:?perf
 BEHJdi	J	aæ	ejê	rzaæ	verb:sg:pri:?perf
 BEHJdi	J	aæ	emy	jaæ	verb:pl:pri:?perf
@@ -4537,79 +4537,79 @@ BEHJdi	J	aæ	iemy	ssaæ	verb:pl:pri:?perf
 BEHJdi	J	aæ	iesz	[^s]baæ	verb:sg:sec:?perf
 BEHJdi	J	aæ	iesz	maæ	verb:sg:sec:?perf
 BEHJdi	J	aæ	iesz	ssaæ	verb:sg:sec:?perf
-BEHJdi	J	aæ	i±	[^s]baæ	verb:ter:pl:?perf
-BEHJdi	J	aæ	i±	maæ	verb:ter:pl:?perf
+BEHJdi	J	aæ	i±	[^s]baæ	verb:pl:ter:?perf
+BEHJdi	J	aæ	i±	maæ	verb:pl:ter:?perf
 BEHJdi	J	aæ	iê	[^s]baæ	verb:sg:pri:?perf
 BEHJdi	J	aæ	iê	maæ	verb:sg:pri:?perf
 BEHJdi	J	aæ	ze	[^s]saæ	verb:sg:ter:?perf
 BEHJdi	J	aæ	zecie	[^s]saæ	verb:pl:sec:?perf
 BEHJdi	J	aæ	zemy	[^s]saæ	verb:pl:pri:?perf
 BEHJdi	J	aæ	zesz	[^s]saæ	verb:sg:sec:?perf
-BEHJdi	J	aæ	z±	[^s]saæ	verb:ter:pl:?perf
+BEHJdi	J	aæ	z±	[^s]saæ	verb:pl:ter:?perf
 BEHJdi	J	aæ	zê	[^s]saæ	verb:sg:pri:?perf
-BEHJdi	J	aæ	±	jaæ	verb:ter:pl:?perf
-BEHJdi	J	aæ	±	ssaæ	verb:ter:pl:?perf
+BEHJdi	J	aæ	±	jaæ	verb:pl:ter:?perf
+BEHJdi	J	aæ	±	ssaæ	verb:pl:ter:?perf
 BEHJdi	J	aæ	ê	jaæ	verb:sg:pri:?perf
 BEHJdi	J	aæ	ê	ssaæ	verb:sg:pri:?perf
 BEHJdi	J	chaæ	dzie	echaæ	verb:sg:ter:?perf
 BEHJdi	J	chaæ	dziecie	echaæ	verb:pl:sec:?perf
 BEHJdi	J	chaæ	dziemy	echaæ	verb:pl:pri:?perf
 BEHJdi	J	chaæ	dziesz	echaæ	verb:sg:sec:?perf
-BEHJdi	J	echaæ	ad±	echaæ	verb:ter:pl:?perf
+BEHJdi	J	echaæ	ad±	echaæ	verb:pl:ter:?perf
 BEHJdi	J	echaæ	adê	echaæ	verb:sg:pri:?perf
 BEHJdi	J	gaæ	¿e	³gaæ	verb:sg:ter:?perf
 BEHJdi	J	gaæ	¿ecie	³gaæ	verb:pl:sec:?perf
 BEHJdi	J	gaæ	¿emy	³gaæ	verb:pl:pri:?perf
 BEHJdi	J	gaæ	¿esz	³gaæ	verb:sg:sec:?perf
-BEHJdi	J	gaæ	¿±	³gaæ	verb:ter:pl:?perf
+BEHJdi	J	gaæ	¿±	³gaæ	verb:pl:ter:?perf
 BEHJdi	J	gaæ	¿ê	³gaæ	verb:sg:pri:?perf
 BEHJdi	J	iwaæ	uje	iwaæ	verb:sg:ter:?perf
 BEHJdi	J	iwaæ	ujecie	iwaæ	verb:pl:sec:?perf
 BEHJdi	J	iwaæ	ujemy	iwaæ	verb:pl:pri:?perf
 BEHJdi	J	iwaæ	ujesz	iwaæ	verb:sg:sec:?perf
-BEHJdi	J	iwaæ	uj±	iwaæ	verb:ter:pl:?perf
+BEHJdi	J	iwaæ	uj±	iwaæ	verb:pl:ter:?perf
 BEHJdi	J	iwaæ	ujê	iwaæ	verb:sg:pri:?perf
 BEHJdi	J	kaæ	cze	kaæ	verb:sg:ter:?perf
 BEHJdi	J	kaæ	czecie	kaæ	verb:pl:sec:?perf
 BEHJdi	J	kaæ	czemy	kaæ	verb:pl:pri:?perf
 BEHJdi	J	kaæ	czesz	kaæ	verb:sg:sec:?perf
-BEHJdi	J	kaæ	cz±	kaæ	verb:ter:pl:?perf
+BEHJdi	J	kaæ	cz±	kaæ	verb:pl:ter:?perf
 BEHJdi	J	kaæ	czê	kaæ	verb:sg:pri:?perf
 BEHJdi	J	owaæ	uje	owaæ	verb:sg:ter:?perf
 BEHJdi	J	owaæ	ujecie	owaæ	verb:pl:sec:?perf
 BEHJdi	J	owaæ	ujemy	owaæ	verb:pl:pri:?perf
 BEHJdi	J	owaæ	ujesz	owaæ	verb:sg:sec:?perf
-BEHJdi	J	owaæ	uj±	owaæ	verb:ter:pl:?perf
+BEHJdi	J	owaæ	uj±	owaæ	verb:pl:ter:?perf
 BEHJdi	J	owaæ	ujê	owaæ	verb:sg:pri:?perf
 BEHJdi	J	s³aæ	¶ciele	s³aæ	verb:sg:ter:?perf
 BEHJdi	J	s³aæ	¶cielecie	s³aæ	verb:pl:sec:?perf
 BEHJdi	J	s³aæ	¶cielemy	s³aæ	verb:pl:pri:?perf
 BEHJdi	J	s³aæ	¶cielesz	s³aæ	verb:sg:sec:?perf
-BEHJdi	J	s³aæ	¶ciel±	s³aæ	verb:ter:pl:?perf
+BEHJdi	J	s³aæ	¶ciel±	s³aæ	verb:pl:ter:?perf
 BEHJdi	J	s³aæ	¶cielê	s³aæ	verb:sg:pri:?perf
 BEHJdi	J	taæ	cze	[±op]taæ	verb:sg:ter:?perf
 BEHJdi	J	taæ	czecie	[±op]taæ	verb:pl:sec:?perf
 BEHJdi	J	taæ	czemy	[±op]taæ	verb:pl:pri:?perf
 BEHJdi	J	taæ	czesz	[±op]taæ	verb:sg:sec:?perf
-BEHJdi	J	taæ	cz±	[±op]taæ	verb:ter:pl:?perf
+BEHJdi	J	taæ	cz±	[±op]taæ	verb:pl:ter:?perf
 BEHJdi	J	taæ	czê	[±op]taæ	verb:sg:pri:?perf
 BEHJdi	J	waæ	je	awaæ	verb:sg:ter:?perf
 BEHJdi	J	waæ	jecie	awaæ	verb:pl:sec:?perf
 BEHJdi	J	waæ	jemy	awaæ	verb:pl:pri:?perf
 BEHJdi	J	waæ	jesz	awaæ	verb:sg:sec:?perf
-BEHJdi	J	waæ	j±	awaæ	verb:ter:pl:?perf
+BEHJdi	J	waæ	j±	awaæ	verb:pl:ter:?perf
 BEHJdi	J	waæ	jê	awaæ	verb:sg:pri:?perf
 BEHJdi	J	ywaæ	uje	ywaæ	verb:sg:ter:?perf
 BEHJdi	J	ywaæ	ujecie	ywaæ	verb:pl:sec:?perf
 BEHJdi	J	ywaæ	ujemy	ywaæ	verb:pl:pri:?perf
 BEHJdi	J	ywaæ	ujesz	ywaæ	verb:sg:sec:?perf
-BEHJdi	J	ywaæ	uj±	ywaæ	verb:ter:pl:?perf
+BEHJdi	J	ywaæ	uj±	ywaæ	verb:pl:ter:?perf
 BEHJdi	J	ywaæ	ujê	ywaæ	verb:sg:pri:?perf
 BEHJdi	J	zdaæ	¿d¿e	zdaæ	verb:sg:ter:?perf
 BEHJdi	J	zdaæ	¿d¿ecie	zdaæ	verb:pl:sec:?perf
 BEHJdi	J	zdaæ	¿d¿emy	zdaæ	verb:pl:pri:?perf
 BEHJdi	J	zdaæ	¿d¿esz	zdaæ	verb:sg:sec:?perf
-BEHJdi	J	zdaæ	¿d¿±	zdaæ	verb:ter:pl:?perf
+BEHJdi	J	zdaæ	¿d¿±	zdaæ	verb:pl:ter:?perf
 BEHJdi	J	zdaæ	¿d¿ê	zdaæ	verb:sg:pri:?perf
 BEHJdi	d	aæ	ano	[^cz]iaæ	verb:imps
 BEHJdi	d	æ	no	[^i]aæ	verb:imps
@@ -4677,7 +4677,7 @@ BEHJdik	J	taæ	cze	[±op]taæ	verb:sg:ter:imperf
 BEHJdik	J	taæ	czecie	[±op]taæ	verb:pl:sec:imperf
 BEHJdik	J	taæ	czemy	[±op]taæ	verb:pl:pri:imperf
 BEHJdik	J	taæ	czesz	[±op]taæ	verb:sg:sec:imperf
-BEHJdik	J	taæ	cz±	[±op]taæ	verb:ter:pl:imperf
+BEHJdik	J	taæ	cz±	[±op]taæ	verb:pl:ter:imperf
 BEHJdik	J	taæ	czê	[±op]taæ	verb:sg:pri:imperf
 BEHJdik	d	æ	no	[^i]aæ	verb:imps
 BEHJdik	i	æ	nia	[^i]aæ	subst:pl:ger:nom.acc.voc:n+subst:sg:ger:gen:n
@@ -4758,19 +4758,19 @@ BEHJdj	J	aæ	ie	±paæ	verb:sg:ter:?perf+verb:sg:pri:?perf
 BEHJdj	J	aæ	iecie	±paæ	verb:pl:sec:?perf
 BEHJdj	J	aæ	iemy	±paæ	verb:pl:pri:?perf
 BEHJdj	J	aæ	iesz	±paæ	verb:sg:sec:?perf
-BEHJdj	J	aæ	i±	±paæ	verb:ter:pl:?perf
+BEHJdj	J	aæ	i±	±paæ	verb:pl:ter:?perf
 BEHJdj	J	aæ	iê	±paæ	verb:sg:pri:?perf
 BEHJdj	J	owaæ	uje	owaæ	verb:sg:ter:?perf
 BEHJdj	J	owaæ	ujecie	owaæ	verb:pl:sec:?perf
 BEHJdj	J	owaæ	ujemy	owaæ	verb:pl:pri:?perf
 BEHJdj	J	owaæ	ujesz	owaæ	verb:sg:sec:?perf
-BEHJdj	J	owaæ	uj±	owaæ	verb:ter:pl:?perf
+BEHJdj	J	owaæ	uj±	owaæ	verb:pl:ter:?perf
 BEHJdj	J	owaæ	ujê	owaæ	verb:sg:pri:?perf
 BEHJdj	J	ywaæ	uje	ywaæ	verb:sg:ter:?perf
 BEHJdj	J	ywaæ	ujecie	ywaæ	verb:pl:sec:?perf
 BEHJdj	J	ywaæ	ujemy	ywaæ	verb:pl:pri:?perf
 BEHJdj	J	ywaæ	ujesz	ywaæ	verb:sg:sec:?perf
-BEHJdj	J	ywaæ	uj±	ywaæ	verb:ter:pl:?perf
+BEHJdj	J	ywaæ	uj±	ywaæ	verb:pl:ter:?perf
 BEHJdj	J	ywaæ	ujê	ywaæ	verb:sg:pri:?perf
 BEHJdj	d	æ	no	[^i]aæ	verb:imps
 BEHJdj	j	æ	nia	[^±ei¶uy¼]æ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
@@ -4875,49 +4875,49 @@ BEHJei	J	aæ	eje	[il]aæ	verb:sg:ter:?perf
 BEHJei	J	aæ	ejecie	[il]aæ	verb:pl:sec:?perf
 BEHJei	J	aæ	ejemy	[il]aæ	verb:pl:pri:?perf
 BEHJei	J	aæ	ejesz	[il]aæ	verb:sg:sec:?perf
-BEHJei	J	aæ	ej±	[il]aæ	verb:ter:pl:?perf
+BEHJei	J	aæ	ej±	[il]aæ	verb:pl:ter:?perf
 BEHJei	J	aæ	ejê	[il]aæ	verb:sg:pri:?perf
 BEHJei	J	aæ	ie	[^s]baæ	verb:sg:ter:?perf
 BEHJei	J	aæ	iecie	[^s]baæ	verb:pl:sec:?perf
 BEHJei	J	aæ	iemy	[^s]baæ	verb:pl:pri:?perf
 BEHJei	J	aæ	iesz	[^s]baæ	verb:sg:sec:?perf
-BEHJei	J	aæ	i±	[^s]baæ	verb:ter:pl:?perf
+BEHJei	J	aæ	i±	[^s]baæ	verb:pl:ter:?perf
 BEHJei	J	aæ	iê	[^s]baæ	verb:sg:pri:?perf
 BEHJei	J	aæ	ze	[^s]saæ	verb:sg:ter:?perf
 BEHJei	J	aæ	zecie	[^s]saæ	verb:pl:sec:?perf
 BEHJei	J	aæ	zemy	[^s]saæ	verb:pl:pri:?perf
 BEHJei	J	aæ	zesz	[^s]saæ	verb:sg:sec:?perf
-BEHJei	J	aæ	z±	[^s]saæ	verb:ter:pl:?perf
+BEHJei	J	aæ	z±	[^s]saæ	verb:pl:ter:?perf
 BEHJei	J	aæ	zê	[^s]saæ	verb:sg:pri:?perf
 BEHJei	J	iwaæ	uje	iwaæ	verb:sg:ter:?perf
 BEHJei	J	iwaæ	ujecie	iwaæ	verb:pl:sec:?perf
 BEHJei	J	iwaæ	ujemy	iwaæ	verb:pl:pri:?perf
 BEHJei	J	iwaæ	ujesz	iwaæ	verb:sg:sec:?perf
-BEHJei	J	iwaæ	uj±	iwaæ	verb:ter:pl:?perf
+BEHJei	J	iwaæ	uj±	iwaæ	verb:pl:ter:?perf
 BEHJei	J	iwaæ	ujê	iwaæ	verb:sg:pri:?perf
 BEHJei	J	owaæ	uje	owaæ	verb:sg:ter:?perf
 BEHJei	J	owaæ	ujecie	owaæ	verb:pl:sec:?perf
 BEHJei	J	owaæ	ujemy	owaæ	verb:pl:pri:?perf
 BEHJei	J	owaæ	ujesz	owaæ	verb:sg:sec:?perf
-BEHJei	J	owaæ	uj±	owaæ	verb:ter:pl:?perf
+BEHJei	J	owaæ	uj±	owaæ	verb:pl:ter:?perf
 BEHJei	J	owaæ	ujê	owaæ	verb:sg:pri:?perf
 BEHJei	J	s³aæ	¶ciele	s³aæ	verb:sg:ter:?perf
 BEHJei	J	s³aæ	¶cielecie	s³aæ	verb:pl:sec:?perf
 BEHJei	J	s³aæ	¶cielemy	s³aæ	verb:pl:pri:?perf
 BEHJei	J	s³aæ	¶cielesz	s³aæ	verb:sg:sec:?perf
-BEHJei	J	s³aæ	¶ciel±	s³aæ	verb:ter:pl:?perf
+BEHJei	J	s³aæ	¶ciel±	s³aæ	verb:pl:ter:?perf
 BEHJei	J	s³aæ	¶cielê	s³aæ	verb:sg:pri:?perf
 BEHJei	J	taæ	cze	[±op]taæ	verb:sg:ter:?perf
 BEHJei	J	taæ	czecie	[±op]taæ	verb:pl:sec:?perf
 BEHJei	J	taæ	czemy	[±op]taæ	verb:pl:pri:?perf
 BEHJei	J	taæ	czesz	[±op]taæ	verb:sg:sec:?perf
-BEHJei	J	taæ	cz±	[±op]taæ	verb:ter:pl:?perf
+BEHJei	J	taæ	cz±	[±op]taæ	verb:pl:ter:?perf
 BEHJei	J	taæ	czê	[±op]taæ	verb:sg:pri:?perf
 BEHJei	J	ywaæ	uje	ywaæ	verb:sg:ter:?perf
 BEHJei	J	ywaæ	ujecie	ywaæ	verb:pl:sec:?perf
 BEHJei	J	ywaæ	ujemy	ywaæ	verb:pl:pri:?perf
 BEHJei	J	ywaæ	ujesz	ywaæ	verb:sg:sec:?perf
-BEHJei	J	ywaæ	uj±	ywaæ	verb:ter:pl:?perf
+BEHJei	J	ywaæ	uj±	ywaæ	verb:pl:ter:?perf
 BEHJei	J	ywaæ	ujê	ywaæ	verb:sg:pri:?perf
 BEHJei	e	æ	no	[^±ei¶uy¼]æ	verb:imps
 BEHJei	i	æ	nia	[^cz]i[ae]æ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
@@ -5420,8 +5420,8 @@ BEHJej	J	aæ	ejemy	[il]aæ	verb:pl:pri:?perf
 BEHJej	J	aæ	ejemy	rzaæ	verb:pl:pri:?perf
 BEHJej	J	aæ	ejesz	[il]aæ	verb:sg:sec:?perf
 BEHJej	J	aæ	ejesz	rzaæ	verb:sg:sec:?perf
-BEHJej	J	aæ	ej±	[il]aæ	verb:ter:pl:?perf
-BEHJej	J	aæ	ej±	rzaæ	verb:ter:pl:?perf
+BEHJej	J	aæ	ej±	[il]aæ	verb:pl:ter:?perf
+BEHJej	J	aæ	ej±	rzaæ	verb:pl:ter:?perf
 BEHJej	J	aæ	ejê	[il]aæ	verb:sg:pri:?perf
 BEHJej	J	aæ	ejê	rzaæ	verb:sg:pri:?perf
 BEHJej	J	aæ	emy	jaæ	verb:pl:pri:?perf
@@ -5442,9 +5442,9 @@ BEHJej	J	aæ	iesz	[^s]baæ	verb:sg:sec:?perf
 BEHJej	J	aæ	iesz	maæ	verb:sg:sec:?perf
 BEHJej	J	aæ	iesz	ssaæ	verb:sg:sec:?perf
 BEHJej	J	aæ	iesz	±paæ	verb:sg:sec:?perf
-BEHJej	J	aæ	i±	[^s]baæ	verb:ter:pl:?perf
-BEHJej	J	aæ	i±	maæ	verb:ter:pl:?perf
-BEHJej	J	aæ	i±	±paæ	verb:ter:pl:?perf
+BEHJej	J	aæ	i±	[^s]baæ	verb:pl:ter:?perf
+BEHJej	J	aæ	i±	maæ	verb:pl:ter:?perf
+BEHJej	J	aæ	i±	±paæ	verb:pl:ter:?perf
 BEHJej	J	aæ	iê	[^s]baæ	verb:sg:pri:?perf
 BEHJej	J	aæ	iê	maæ	verb:sg:pri:?perf
 BEHJej	J	aæ	iê	±paæ	verb:sg:pri:?perf
@@ -5456,59 +5456,59 @@ BEHJej	J	aæ	zemy	[^bp]raæ	verb:pl:pri:?perf
 BEHJej	J	aæ	zemy	[^s]saæ	verb:pl:pri:?perf
 BEHJej	J	aæ	zesz	[^bp]raæ	verb:sg:sec:?perf
 BEHJej	J	aæ	zesz	[^s]saæ	verb:sg:sec:?perf
-BEHJej	J	aæ	z±	[^bp]raæ	verb:ter:pl:?perf
-BEHJej	J	aæ	z±	[^s]saæ	verb:ter:pl:?perf
+BEHJej	J	aæ	z±	[^bp]raæ	verb:pl:ter:?perf
+BEHJej	J	aæ	z±	[^s]saæ	verb:pl:ter:?perf
 BEHJej	J	aæ	zê	[^bp]raæ	verb:sg:pri:?perf
 BEHJej	J	aæ	zê	[^s]saæ	verb:sg:pri:?perf
-BEHJej	J	aæ	±	jaæ	verb:ter:pl:?perf
-BEHJej	J	aæ	±	ssaæ	verb:ter:pl:?perf
+BEHJej	J	aæ	±	jaæ	verb:pl:ter:?perf
+BEHJej	J	aæ	±	ssaæ	verb:pl:ter:?perf
 BEHJej	J	aæ	ê	jaæ	verb:sg:pri:?perf
 BEHJej	J	aæ	ê	ssaæ	verb:sg:pri:?perf
-BEHJej	J	c	k±	uc	verb:ter:pl:?perf
+BEHJej	J	c	k±	uc	verb:pl:ter:?perf
 BEHJej	J	c	kê	uc	verb:sg:pri:?perf
 BEHJej	J	chaæ	dzie	echaæ	verb:sg:ter:?perf
 BEHJej	J	chaæ	dziecie	echaæ	verb:pl:sec:?perf
 BEHJej	J	chaæ	dziemy	echaæ	verb:pl:pri:?perf
 BEHJej	J	chaæ	dziesz	echaæ	verb:sg:sec:?perf
-BEHJej	J	echaæ	ad±	echaæ	verb:ter:pl:?perf
+BEHJej	J	echaæ	ad±	echaæ	verb:pl:ter:?perf
 BEHJej	J	echaæ	adê	echaæ	verb:sg:pri:?perf
-BEHJej	J	e¼æ	oz±	ie¼æ	verb:ter:pl:?perf
+BEHJej	J	e¼æ	oz±	ie¼æ	verb:pl:ter:?perf
 BEHJej	J	e¼æ	ozê	ie¼æ	verb:sg:pri:?perf
 BEHJej	J	gaæ	¿e	³gaæ	verb:sg:ter:?perf
 BEHJej	J	gaæ	¿ecie	³gaæ	verb:pl:sec:?perf
 BEHJej	J	gaæ	¿emy	³gaæ	verb:pl:pri:?perf
 BEHJej	J	gaæ	¿esz	³gaæ	verb:sg:sec:?perf
-BEHJej	J	gaæ	¿±	³gaæ	verb:ter:pl:?perf
+BEHJej	J	gaæ	¿±	³gaæ	verb:pl:ter:?perf
 BEHJej	J	gaæ	¿ê	³gaæ	verb:sg:pri:?perf
 BEHJej	J	iwaæ	uje	iwaæ	verb:sg:ter:?perf
 BEHJej	J	iwaæ	ujecie	iwaæ	verb:pl:sec:?perf
 BEHJej	J	iwaæ	ujemy	iwaæ	verb:pl:pri:?perf
 BEHJej	J	iwaæ	ujesz	iwaæ	verb:sg:sec:?perf
-BEHJej	J	iwaæ	uj±	iwaæ	verb:ter:pl:?perf
+BEHJej	J	iwaæ	uj±	iwaæ	verb:pl:ter:?perf
 BEHJej	J	iwaæ	ujê	iwaæ	verb:sg:pri:?perf
 BEHJej	J	i±æ	nie	gi±æ	verb:sg:ter:?perf
 BEHJej	J	i±æ	niecie	gi±æ	verb:pl:sec:?perf
 BEHJej	J	i±æ	niemy	gi±æ	verb:pl:pri:?perf
 BEHJej	J	i±æ	niesz	gi±æ	verb:sg:sec:?perf
-BEHJej	J	i±æ	n±	gi±æ	verb:ter:pl:?perf
+BEHJej	J	i±æ	n±	gi±æ	verb:pl:ter:?perf
 BEHJej	J	i±æ	nê	gi±æ	verb:sg:pri:?perf
 BEHJej	J	kaæ	cze	kaæ	verb:sg:ter:?perf
 BEHJej	J	kaæ	czecie	kaæ	verb:pl:sec:?perf
 BEHJej	J	kaæ	czemy	kaæ	verb:pl:pri:?perf
 BEHJej	J	kaæ	czesz	kaæ	verb:sg:sec:?perf
-BEHJej	J	kaæ	cz±	kaæ	verb:ter:pl:?perf
+BEHJej	J	kaæ	cz±	kaæ	verb:pl:ter:?perf
 BEHJej	J	kaæ	czê	kaæ	verb:sg:pri:?perf
 BEHJej	J	owaæ	uje	owaæ	verb:sg:ter:?perf
 BEHJej	J	owaæ	ujecie	owaæ	verb:pl:sec:?perf
 BEHJej	J	owaæ	ujemy	owaæ	verb:pl:pri:?perf
 BEHJej	J	owaæ	ujesz	owaæ	verb:sg:sec:?perf
-BEHJej	J	owaæ	uj±	owaæ	verb:ter:pl:?perf
+BEHJej	J	owaæ	uj±	owaæ	verb:pl:ter:?perf
 BEHJej	J	owaæ	ujê	owaæ	verb:sg:pri:?perf
 BEHJej	J	raæ	ierze	[bp]raæ	verb:sg:ter:?perf
 BEHJej	J	raæ	ierzecie	[bp]raæ	verb:pl:sec:?perf
 BEHJej	J	raæ	ierzemy	[bp]raæ	verb:pl:pri:?perf
 BEHJej	J	raæ	ierzesz	[bp]raæ	verb:sg:sec:?perf
-BEHJej	J	raæ	ior±	[bp]raæ	verb:ter:pl:?perf
+BEHJej	J	raæ	ior±	[bp]raæ	verb:pl:ter:?perf
 BEHJej	J	raæ	iorê	[bp]raæ	verb:sg:pri:?perf
 BEHJej	J	sn±æ	¶nie	sn±æ	verb:sg:ter:?perf
 BEHJej	J	sn±æ	¶niecie	sn±æ	verb:pl:sec:?perf
@@ -5518,31 +5518,31 @@ BEHJej	J	taæ	cze	[±op]taæ	verb:sg:ter:?perf
 BEHJej	J	taæ	czecie	[±op]taæ	verb:pl:sec:?perf
 BEHJej	J	taæ	czemy	[±op]taæ	verb:pl:pri:?perf
 BEHJej	J	taæ	czesz	[±op]taæ	verb:sg:sec:?perf
-BEHJej	J	taæ	cz±	[±op]taæ	verb:ter:pl:?perf
+BEHJej	J	taæ	cz±	[±op]taæ	verb:pl:ter:?perf
 BEHJej	J	taæ	czê	[±op]taæ	verb:sg:pri:?perf
 BEHJej	J	waæ	je	awaæ	verb:sg:ter:?perf
 BEHJej	J	waæ	jecie	awaæ	verb:pl:sec:?perf
 BEHJej	J	waæ	jemy	awaæ	verb:pl:pri:?perf
 BEHJej	J	waæ	jesz	awaæ	verb:sg:sec:?perf
-BEHJej	J	waæ	j±	awaæ	verb:ter:pl:?perf
+BEHJej	J	waæ	j±	awaæ	verb:pl:ter:?perf
 BEHJej	J	waæ	jê	awaæ	verb:sg:pri:?perf
 BEHJej	J	ywaæ	uje	ywaæ	verb:sg:ter:?perf
 BEHJej	J	ywaæ	ujecie	ywaæ	verb:pl:sec:?perf
 BEHJej	J	ywaæ	ujemy	ywaæ	verb:pl:pri:?perf
 BEHJej	J	ywaæ	ujesz	ywaæ	verb:sg:sec:?perf
-BEHJej	J	ywaæ	uj±	ywaæ	verb:ter:pl:?perf
+BEHJej	J	ywaæ	uj±	ywaæ	verb:pl:ter:?perf
 BEHJej	J	ywaæ	ujê	ywaæ	verb:sg:pri:?perf
 BEHJej	J	zaæ	¿e	[^cdr]zaæ	verb:sg:ter:?perf
 BEHJej	J	zaæ	¿ecie	[^cdr]zaæ	verb:pl:sec:?perf
 BEHJej	J	zaæ	¿emy	[^cdr]zaæ	verb:pl:pri:?perf
 BEHJej	J	zaæ	¿esz	[^cdr]zaæ	verb:sg:sec:?perf
-BEHJej	J	zaæ	¿±	[^cdr]zaæ	verb:ter:pl:?perf
+BEHJej	J	zaæ	¿±	[^cdr]zaæ	verb:pl:ter:?perf
 BEHJej	J	zaæ	¿ê	[^cdr]zaæ	verb:sg:pri:?perf
 BEHJej	J	±æ	mie	[aey]d±æ	verb:sg:ter:?perf
 BEHJej	J	±æ	miecie	[aey]d±æ	verb:pl:sec:?perf
 BEHJej	J	±æ	miemy	[aey]d±æ	verb:pl:pri:?perf
 BEHJej	J	±æ	miesz	[aey]d±æ	verb:sg:sec:?perf
-BEHJej	J	±æ	m±	[aey]d±æ	verb:ter:pl:?perf
+BEHJej	J	±æ	m±	[aey]d±æ	verb:pl:ter:?perf
 BEHJej	J	±æ	mê	[aey]d±æ	verb:sg:pri:?perf
 BEHJej	J	±æ	nie	l±æ	verb:sg:ter:?perf
 BEHJej	J	±æ	niecie	l±æ	verb:pl:sec:?perf
@@ -5551,12 +5551,12 @@ BEHJej	J	±æ	niesz	l±æ	verb:sg:sec:?perf
 BEHJej	J	±æ	n±	l±æ	verb:pl:ter:?perf
 BEHJej	J	±æ	nê	l±æ	verb:sg:pri:?perf
 BEHJej	J	±æ	ê	sn±æ	verb:sg:pri:?perf
-BEHJej	J	æ		sn±æ	verb:ter:pl:?perf
+BEHJej	J	æ		sn±æ	verb:pl:ter:?perf
 BEHJej	J	æ	je	[uy]æ	verb:sg:ter:?perf
 BEHJej	J	æ	jecie	[uy]æ	verb:pl:sec:?perf
 BEHJej	J	æ	jemy	[uy]æ	verb:pl:pri:?perf
 BEHJej	J	æ	jesz	[uy]æ	verb:sg:sec:?perf
-BEHJej	J	æ	j±	[uy]æ	verb:ter:pl:?perf
+BEHJej	J	æ	j±	[uy]æ	verb:pl:ter:?perf
 BEHJej	J	æ	jê	[uy]æ	verb:sg:pri:?perf
 BEHJej	J	¼æ	zie	[^e]¼æ	verb:sg:ter:?perf
 BEHJej	J	¼æ	zie	ie¼æ	verb:sg:ter:?perf
@@ -5570,8 +5570,8 @@ BEHJej	J	¼æ	ziemy	le¼æ	verb:pl:pri:?perf
 BEHJej	J	¼æ	ziesz	[^e]¼æ	verb:sg:sec:?perf
 BEHJej	J	¼æ	ziesz	ie¼æ	verb:sg:sec:?perf
 BEHJej	J	¼æ	ziesz	le¼æ	verb:sg:sec:?perf
-BEHJej	J	¼æ	z±	[^e]¼æ	verb:ter:pl:?perf
-BEHJej	J	¼æ	z±	le¼æ	verb:ter:pl:?perf
+BEHJej	J	¼æ	z±	[^e]¼æ	verb:pl:ter:?perf
+BEHJej	J	¼æ	z±	le¼æ	verb:pl:ter:?perf
 BEHJej	J	¼æ	zê	[^e]¼æ	verb:sg:pri:?perf
 BEHJej	J	¼æ	zê	le¼æ	verb:sg:pri:?perf
 BEHJej	e	0	zono	³uc	verb:imps
@@ -5686,13 +5686,13 @@ BEHJejk	J	aæ	ie	[^s]baæ	verb:sg:ter:?perf
 BEHJejk	J	aæ	iecie	[^s]baæ	verb:pl:sec:?perf
 BEHJejk	J	aæ	iemy	[^s]baæ	verb:pl:pri:?perf
 BEHJejk	J	aæ	iesz	[^s]baæ	verb:sg:sec:?perf
-BEHJejk	J	aæ	i±	[^s]baæ	verb:ter:pl:?perf
+BEHJejk	J	aæ	i±	[^s]baæ	verb:pl:ter:?perf
 BEHJejk	J	aæ	iê	[^s]baæ	verb:sg:pri:?perf
 BEHJejk	J	aæ	ze	[^bp]raæ	verb:sg:ter:?perf
 BEHJejk	J	aæ	zecie	[^bp]raæ	verb:pl:sec:?perf
 BEHJejk	J	aæ	zemy	[^bp]raæ	verb:pl:pri:?perf
 BEHJejk	J	aæ	zesz	[^bp]raæ	verb:sg:sec:?perf
-BEHJejk	J	aæ	z±	[^bp]raæ	verb:ter:pl:?perf
+BEHJejk	J	aæ	z±	[^bp]raæ	verb:pl:ter:?perf
 BEHJejk	J	aæ	zê	[^bp]raæ	verb:sg:pri:?perf
 BEHJejk	e	æ	no	[^±ei¶uy¼]æ	verb:imps
 BEHJejk	j	æ	nia	[^±ei¶uy¼]æ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
@@ -5832,16 +5832,16 @@ BEHdhi	h	aæ	uje	iwaæ	verb:sg:ter:?perf
 BEHdhi	h	aæ	ujecie	iwaæ	verb:pl:sec:?perf
 BEHdhi	h	aæ	ujemy	iwaæ	verb:pl:pri:?perf
 BEHdhi	h	aæ	ujesz	iwaæ	verb:sg:sec:?perf
-BEHdhi	h	aæ	uj±	iwaæ	verb:ter:pl:?perf
+BEHdhi	h	aæ	uj±	iwaæ	verb:pl:ter:?perf
 BEHdhi	h	aæ	ujê	iwaæ	verb:sg:pri:?perf
-BEHdhi	h	aæ	±	[^i]waæ	verb:ter:pl:?perf
+BEHdhi	h	aæ	±	[^i]waæ	verb:pl:ter:?perf
 BEHdhi	h	aæ	ê	[^i]waæ	verb:sg:pri:?perf
-BEHdhi	h	æ		daæ	verb:ter:sg:?perf
-BEHdhi	h	æ		mieæ	verb:ter:sg:?perf
+BEHdhi	h	æ		daæ	verb:sg:ter:?perf
+BEHdhi	h	æ		mieæ	verb:sg:ter:?perf
 BEHdhi	h	æ	cie	daæ	verb:pl:sec:?perf
 BEHdhi	h	æ	cie	mieæ	verb:pl:sec:?perf
-BEHdhi	h	æ	dz±	daæ	verb:ter:pl:?perf
-BEHdhi	h	æ	j±	mieæ	verb:ter:pl:?perf
+BEHdhi	h	æ	dz±	daæ	verb:pl:ter:?perf
+BEHdhi	h	æ	j±	mieæ	verb:pl:ter:?perf
 BEHdhi	h	æ	m	daæ	verb:sg:pri:?perf
 BEHdhi	h	æ	m	mieæ	verb:sg:pri:?perf
 BEHdhi	h	æ	my	daæ	verb:pl:pri:?perf
@@ -5974,7 +5974,7 @@ BEHehi	h	aæ	uje	iwaæ	verb:sg:ter:?perf
 BEHehi	h	aæ	ujecie	iwaæ	verb:pl:sec:?perf
 BEHehi	h	aæ	ujemy	iwaæ	verb:pl:pri:?perf
 BEHehi	h	aæ	ujesz	iwaæ	verb:sg:sec:?perf
-BEHehi	h	aæ	uj±	iwaæ	verb:ter:pl:?perf
+BEHehi	h	aæ	uj±	iwaæ	verb:pl:ter:?perf
 BEHehi	h	aæ	ujê	iwaæ	verb:sg:pri:?perf
 BEHehi	i	æ	nia	[^i]aæ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
 BEHehi	i	æ	niach	[^i]aæ	subst:ger:pl:loc:n
@@ -6053,14 +6053,14 @@ BEHehj	h	aæ	uje	iwaæ	verb:sg:ter:?perf
 BEHehj	h	aæ	ujecie	iwaæ	verb:pl:sec:?perf
 BEHehj	h	aæ	ujemy	iwaæ	verb:pl:pri:?perf
 BEHehj	h	aæ	ujesz	iwaæ	verb:sg:sec:?perf
-BEHehj	h	aæ	uj±	iwaæ	verb:ter:pl:?perf
+BEHehj	h	aæ	uj±	iwaæ	verb:pl:ter:?perf
 BEHehj	h	aæ	ujê	iwaæ	verb:sg:pri:?perf
 BEHehj	h	aæ	y	zaæ	verb:sg:ter:?perf
 BEHehj	h	aæ	ycie	zaæ	verb:pl:sec:?perf
 BEHehj	h	aæ	ymy	zaæ	verb:pl:pri:?perf
 BEHehj	h	aæ	ysz	zaæ	verb:sg:sec:?perf
-BEHehj	h	aæ	±	[^i]waæ	verb:ter:pl:?perf
-BEHehj	h	aæ	±	zaæ	verb:ter:pl:?perf
+BEHehj	h	aæ	±	[^i]waæ	verb:pl:ter:?perf
+BEHehj	h	aæ	±	zaæ	verb:pl:ter:?perf
 BEHehj	h	aæ	ê	[^i]waæ	verb:sg:pri:?perf
 BEHehj	h	aæ	ê	zaæ	verb:sg:pri:?perf
 BEHehj	j	æ	nia	[^±ei¶uy¼]æ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
@@ -6219,7 +6219,7 @@ BEIej	I	±æ	iecie	n±æ	verb:pl:sec:?perf
 BEIej	I	±æ	iemy	n±æ	verb:pl:pri:?perf
 BEIej	I	±æ	iesz	n±æ	verb:sg:sec:?perf
 BEIej	I	±æ	ê	n±æ	verb:sg:pri:?perf
-BEIej	I	æ		n±æ	verb:ter:pl:?perf
+BEIej	I	æ		n±æ	verb:pl:ter:?perf
 BEIej	e	±æ	iêto	[^sz]n±æ	verb:imps
 BEIej	j	±æ	iêcia	[^sz]n±æ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
 BEIej	j	±æ	iêciach	[^sz]n±æ	subst:ger:pl:loc:n
@@ -6413,7 +6413,7 @@ BFHIej	I	±æ	iecie	n±æ	verb:pl:sec:?perf
 BFHIej	I	±æ	iemy	n±æ	verb:pl:pri:?perf
 BFHIej	I	±æ	iesz	n±æ	verb:sg:sec:?perf
 BFHIej	I	±æ	ê	n±æ	verb:sg:pri:?perf
-BFHIej	I	æ		n±æ	verb:ter:pl:?perf
+BFHIej	I	æ		n±æ	verb:pl:ter:?perf
 BFHIej	e	±æ	iêto	[^sz]n±æ	verb:imps
 BFHIej	j	±æ	iêcia	[^sz]n±æ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
 BFHIej	j	±æ	iêciach	[^sz]n±æ	subst:ger:pl:loc:n
@@ -6555,7 +6555,7 @@ BFHJej	J	sn±æ	¶niecie	sn±æ	verb:pl:sec:?perf
 BFHJej	J	sn±æ	¶niemy	sn±æ	verb:pl:pri:?perf
 BFHJej	J	sn±æ	¶niesz	sn±æ	verb:sg:sec:?perf
 BFHJej	J	±æ	ê	sn±æ	verb:sg:pri:?perf
-BFHJej	J	æ		sn±æ	verb:ter:pl:?perf
+BFHJej	J	æ		sn±æ	verb:pl:ter:?perf
 BFHJej	e	sn±æ	¶niêto	sn±æ	verb:imps
 BFHJej	j	sn±æ	¶niêcia	sn±æ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
 BFHJej	j	sn±æ	¶niêciach	sn±æ	subst:ger:pl:loc:n
@@ -6603,7 +6603,7 @@ BFI	I	±æ	iecie	n±æ	verb:pl:sec:?perf
 BFI	I	±æ	iemy	n±æ	verb:pl:pri:?perf
 BFI	I	±æ	iesz	n±æ	verb:sg:sec:?perf
 BFI	I	±æ	ê	n±æ	verb:sg:pri:?perf
-BFI	I	æ		n±æ	verb:ter:pl:?perf
+BFI	I	æ		n±æ	verb:pl:ter:?perf
 BFIdi	B	zn±æ	¼nij	[^r]zn±æ	verb:impt:sg:sec:perf
 BFIdi	B	zn±æ	¼nijcie	[^r]zn±æ	verb:impt:pl:sec:perf
 BFIdi	B	zn±æ	¼nijcie¿	[^r]zn±æ	verb:impt:pl:sec:perf
@@ -6646,7 +6646,7 @@ BFIdi	I	±æ	iecie	n±æ	verb:pl:sec:?perf
 BFIdi	I	±æ	iemy	n±æ	verb:pl:pri:?perf
 BFIdi	I	±æ	iesz	n±æ	verb:sg:sec:?perf
 BFIdi	I	±æ	ê	n±æ	verb:sg:pri:?perf
-BFIdi	I	æ		n±æ	verb:ter:pl:?perf
+BFIdi	I	æ		n±æ	verb:pl:ter:?perf
 BFIdi	d	±æ	iêto	[sz]n±æ	verb:imps
 BFIdi	i	±æ	iêcia	[sz]n±æ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
 BFIdi	i	±æ	iêciach	[sz]n±æ	subst:ger:pl:loc:n
@@ -6694,7 +6694,7 @@ BFIe	I	±æ	iecie	n±æ	verb:pl:sec:?perf
 BFIe	I	±æ	iemy	n±æ	verb:pl:pri:?perf
 BFIe	I	±æ	iesz	n±æ	verb:sg:sec:?perf
 BFIe	I	±æ	ê	n±æ	verb:sg:pri:?perf
-BFIe	I	æ		n±æ	verb:ter:pl:?perf
+BFIe	I	æ		n±æ	verb:pl:ter:?perf
 BFIe	e	±æ	iêto	[^sz]n±æ	verb:imps
 BFIei	B	zn±æ	¼nij	[^r]zn±æ	verb:impt:sg:sec:perf
 BFIei	B	zn±æ	¼nijcie	[^r]zn±æ	verb:impt:pl:sec:perf
@@ -6738,7 +6738,7 @@ BFIei	I	±æ	iecie	n±æ	verb:pl:sec:?perf
 BFIei	I	±æ	iemy	n±æ	verb:pl:pri:?perf
 BFIei	I	±æ	iesz	n±æ	verb:sg:sec:?perf
 BFIei	I	±æ	ê	n±æ	verb:sg:pri:?perf
-BFIei	I	æ		n±æ	verb:ter:pl:?perf
+BFIei	I	æ		n±æ	verb:pl:ter:?perf
 BFIei	e	zn±æ	¼niêto	zn±æ	verb:imps
 BFIei	i	±æ	iêcia	[sz]n±æ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
 BFIei	i	±æ	iêciach	[sz]n±æ	subst:ger:pl:loc:n
@@ -6892,7 +6892,7 @@ BFIej	I	±æ	iecie	n±æ	verb:pl:sec:?perf
 BFIej	I	±æ	iemy	n±æ	verb:pl:pri:?perf
 BFIej	I	±æ	iesz	n±æ	verb:sg:sec:?perf
 BFIej	I	±æ	ê	n±æ	verb:sg:pri:?perf
-BFIej	I	æ		n±æ	verb:ter:pl:?perf
+BFIej	I	æ		n±æ	verb:pl:ter:?perf
 BFIej	e	sn±æ	¶niêto	sn±æ	verb:imps
 BFIej	e	±æ	iêto	[^sz]n±æ	verb:imps
 BFIej	j	sn±æ	¶niêcia	sn±æ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
@@ -6948,9 +6948,9 @@ BFJ	F	edrzeæ	dar³yby¶cie	edrzeæ	verb:aglt:praet:pl:sec:f.n:?perf
 BFJ	F	edrzeæ	dar³yby¶my	edrzeæ	verb:aglt:praet:pl:pri:f.n:?perf
 BFJ	F	edrzeæ	dar³y¶cie	edrzeæ	verb:praet:pl:sec:f.n:?perf
 BFJ	F	edrzeæ	dar³y¶my	edrzeæ	verb:praet:pl:pri:f.n:?perf
-BFJ	J	zeæ	±	[^ao]rzeæ	verb:ter:pl:?perf
+BFJ	J	zeæ	±	[^ao]rzeæ	verb:pl:ter:?perf
 BFJ	J	zeæ	ê	[^ao]rzeæ	verb:sg:pri:?perf
-BFJ	J	æ		[^ao]rzeæ	verb:ter:sg:?perf
+BFJ	J	æ		[^ao]rzeæ	verb:sg:ter:?perf
 BFJ	J	æ	cie	[^ao]rzeæ	verb:pl:sec:?perf
 BFJ	J	æ	my	[^ao]rzeæ	verb:pl:pri:?perf
 BFJ	J	æ	sz	[^ao]rzeæ	verb:sg:sec:?perf
@@ -6996,7 +6996,7 @@ BFJeij	J	zn±æ	¼niecie	zn±æ	verb:pl:ter:?perf
 BFJeij	J	zn±æ	¼niemy	zn±æ	verb:pl:sec:?perf
 BFJeij	J	zn±æ	¼niesz	zn±æ	verb:sg:ter:?perf
 BFJeij	J	±æ	ê	zn±æ	verb:sg:pri:?perf
-BFJeij	J	æ		zn±æ	verb:ter:pl:?perf
+BFJeij	J	æ		zn±æ	verb:pl:ter:?perf
 BFJeij	e	zn±æ	¼niêto	zn±æ	verb:imps
 BFJeij	i	±æ	iêcia	[sz]n±æ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
 BFJeij	i	±æ	iêciach	[sz]n±æ	subst:ger:pl:loc:n
@@ -7097,8 +7097,8 @@ BFJej	J	zn±æ	¼niemy	zn±æ	verb:pl:sec:?perf
 BFJej	J	zn±æ	¼niesz	zn±æ	verb:sg:ter:?perf
 BFJej	J	±æ	ê	sn±æ	verb:sg:pri:?perf
 BFJej	J	±æ	ê	zn±æ	verb:sg:pri:?perf
-BFJej	J	æ		sn±æ	verb:ter:pl:?perf
-BFJej	J	æ		zn±æ	verb:ter:pl:?perf
+BFJej	J	æ		sn±æ	verb:pl:ter:?perf
+BFJej	J	æ		zn±æ	verb:pl:ter:?perf
 BFJej	e	sn±æ	¶niêto	sn±æ	verb:imps
 BFJej	e	zn±æ	¼niêto	zn±æ	verb:imps
 BFJej	j	sn±æ	¶niêcia	sn±æ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
@@ -7159,7 +7159,7 @@ BFdhi	h	c	gnie	lec	verb:sg:ter:?perf
 BFdhi	h	c	gniecie	lec	verb:pl:sec:?perf
 BFdhi	h	c	gniemy	lec	verb:pl:pri:?perf
 BFdhi	h	c	gniesz	lec	verb:sg:sec:?perf
-BFdhi	h	c	gn±	lec	verb:ter:pl:?perf
+BFdhi	h	c	gn±	lec	verb:pl:ter:?perf
 BFdhi	h	c	gnê	lec	verb:sg:pri:?perf
 BFdhi	i	c	gniêcia	lec	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
 BFdhi	i	c	gniêciach	lec	subst:ger:pl:loc:n
@@ -7208,9 +7208,9 @@ BGIdi	I	c	gnie	biec	verb:sg:ter:?perf
 BGIdi	I	c	gniecie	biec	verb:pl:sec:?perf
 BGIdi	I	c	gniemy	biec	verb:pl:pri:?perf
 BGIdi	I	c	gniesz	biec	verb:sg:sec:?perf
-BGIdi	I	c	gn±	biec	verb:ter:pl:?perf
+BGIdi	I	c	gn±	biec	verb:pl:ter:?perf
 BGIdi	I	c	gnê	biec	verb:sg:pri:?perf
-BGIdi	I	ó¶æ	osn±	ró¶æ	verb:ter:pl:?perf
+BGIdi	I	ó¶æ	osn±	ró¶æ	verb:pl:ter:?perf
 BGIdi	I	ó¶æ	osnê	ró¶æ	verb:sg:pri:?perf
 BGIdi	I	ó¶æ	o¶nie	ró¶æ	verb:sg:ter:?perf
 BGIdi	I	ó¶æ	o¶niecie	ró¶æ	verb:pl:sec:?perf
@@ -7312,12 +7312,12 @@ BHI	I	±æ	iecie	n±æ	verb:pl:sec:?perf
 BHI	I	±æ	iemy	n±æ	verb:pl:pri:?perf
 BHI	I	±æ	iesz	n±æ	verb:sg:sec:?perf
 BHI	I	±æ	ê	n±æ	verb:sg:pri:?perf
-BHI	I	æ		n±æ	verb:ter:pl:?perf
+BHI	I	æ		n±æ	verb:pl:ter:?perf
 BHI	I	¶æ	dzie	i±¶æ	verb:sg:ter:?perf
 BHI	I	¶æ	dziecie	i±¶æ	verb:pl:sec:?perf
 BHI	I	¶æ	dziemy	i±¶æ	verb:pl:pri:?perf
 BHI	I	¶æ	dziesz	i±¶æ	verb:sg:sec:?perf
-BHI	I	¶æ	d±	i±¶æ	verb:ter:pl:?perf
+BHI	I	¶æ	d±	i±¶æ	verb:pl:ter:?perf
 BHI	I	¶æ	dê	i±¶æ	verb:sg:pri:?perf
 BHIJdeij	B	zn±æ	¼nij	[^r]zn±æ	verb:impt:sg:sec:perf
 BHIJdeij	B	zn±æ	¼nijcie	[^r]zn±æ	verb:impt:pl:sec:perf
@@ -7367,13 +7367,13 @@ BHIJdeij	I	±æ	iecie	n±æ	verb:pl:sec:?perf
 BHIJdeij	I	±æ	iemy	n±æ	verb:pl:pri:?perf
 BHIJdeij	I	±æ	iesz	n±æ	verb:sg:sec:?perf
 BHIJdeij	I	±æ	ê	n±æ	verb:sg:pri:?perf
-BHIJdeij	I	æ		n±æ	verb:ter:pl:?perf
+BHIJdeij	I	æ		n±æ	verb:pl:ter:?perf
 BHIJdeij	J	zn±æ	¼nie	zn±æ	verb:pl:pri:?perf
 BHIJdeij	J	zn±æ	¼niecie	zn±æ	verb:pl:ter:?perf
 BHIJdeij	J	zn±æ	¼niemy	zn±æ	verb:pl:sec:?perf
 BHIJdeij	J	zn±æ	¼niesz	zn±æ	verb:sg:ter:?perf
 BHIJdeij	J	±æ	ê	zn±æ	verb:sg:pri:?perf
-BHIJdeij	J	æ		zn±æ	verb:ter:pl:?perf
+BHIJdeij	J	æ		zn±æ	verb:pl:ter:?perf
 BHIJdeij	d	±æ	iêto	[sz]n±æ	verb:imps
 BHIJdeij	e	zn±æ	¼niêto	zn±æ	verb:imps
 BHIJdeij	i	±æ	iêcia	[sz]n±æ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
@@ -7465,12 +7465,12 @@ BHIJdik	H	æ	³yby¶cie	[^±e¶¼]æ	verb:aglt:praet:pl:sec:f.n:?perf
 BHIJdik	H	æ	³yby¶my	[^±e¶¼]æ	verb:aglt:praet:pl:pri:f.n:?perf
 BHIJdik	H	æ	³y¶cie	[^±e¶¼]æ	verb:praet:pl:sec:f.n:?perf
 BHIJdik	H	æ	³y¶my	[^±e¶¼]æ	verb:praet:pl:pri:f.n:?perf
-BHIJdik	I	æ		[^bp]raæ	verb:ter:sg:?perf
-BHIJdik	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:ter:sg:?perf
+BHIJdik	I	æ		[^bp]raæ	verb:sg:ter:?perf
+BHIJdik	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:sg:ter:?perf
 BHIJdik	I	æ	cie	[^bp]raæ	verb:pl:sec:?perf
 BHIJdik	I	æ	cie	[bcdfghijlkmnstwz¿]aæ	verb:pl:sec:?perf
-BHIJdik	I	æ	j±	[^bp]raæ	verb:ter:pl:?perf
-BHIJdik	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:ter:pl:?perf
+BHIJdik	I	æ	j±	[^bp]raæ	verb:pl:ter:?perf
+BHIJdik	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:pl:ter:?perf
 BHIJdik	I	æ	m	[^bp]raæ	verb:sg:pri:?perf
 BHIJdik	I	æ	m	[bcdfghijlkmnstwz¿]aæ	verb:sg:pri:?perf
 BHIJdik	I	æ	my	[^bp]raæ	verb:pl:pri:?perf
@@ -7483,7 +7483,7 @@ BHIJdik	J	aæ	eje	[il]aæ	verb:sg:ter:?perf
 BHIJdik	J	aæ	ejecie	[il]aæ	verb:pl:sec:?perf
 BHIJdik	J	aæ	ejemy	[il]aæ	verb:pl:pri:?perf
 BHIJdik	J	aæ	ejesz	[il]aæ	verb:sg:sec:?perf
-BHIJdik	J	aæ	ej±	[il]aæ	verb:ter:pl:?perf
+BHIJdik	J	aæ	ej±	[il]aæ	verb:pl:ter:?perf
 BHIJdik	J	aæ	ejê	[il]aæ	verb:sg:pri:?perf
 BHIJdik	J	aæ	emy	jaæ	verb:pl:pri:?perf
 BHIJdik	J	aæ	esz	jaæ	verb:sg:sec:?perf
@@ -7491,33 +7491,33 @@ BHIJdik	J	aæ	ze	[^bp]raæ	verb:sg:ter:?perf
 BHIJdik	J	aæ	zecie	[^bp]raæ	verb:pl:sec:?perf
 BHIJdik	J	aæ	zemy	[^bp]raæ	verb:pl:pri:?perf
 BHIJdik	J	aæ	zesz	[^bp]raæ	verb:sg:sec:?perf
-BHIJdik	J	aæ	z±	[^bp]raæ	verb:ter:pl:?perf
+BHIJdik	J	aæ	z±	[^bp]raæ	verb:pl:ter:?perf
 BHIJdik	J	aæ	zê	[^bp]raæ	verb:sg:pri:?perf
-BHIJdik	J	aæ	±	jaæ	verb:ter:pl:?perf
+BHIJdik	J	aæ	±	jaæ	verb:pl:ter:?perf
 BHIJdik	J	aæ	ê	jaæ	verb:sg:pri:?perf
 BHIJdik	J	gaæ	¿e	³gaæ	verb:sg:ter:?perf
 BHIJdik	J	gaæ	¿ecie	³gaæ	verb:pl:sec:?perf
 BHIJdik	J	gaæ	¿emy	³gaæ	verb:pl:pri:?perf
 BHIJdik	J	gaæ	¿esz	³gaæ	verb:sg:sec:?perf
-BHIJdik	J	gaæ	¿±	³gaæ	verb:ter:pl:?perf
+BHIJdik	J	gaæ	¿±	³gaæ	verb:pl:ter:?perf
 BHIJdik	J	gaæ	¿ê	³gaæ	verb:sg:pri:?perf
 BHIJdik	J	kaæ	cze	kaæ	verb:sg:ter:?perf
 BHIJdik	J	kaæ	czecie	kaæ	verb:pl:sec:?perf
 BHIJdik	J	kaæ	czemy	kaæ	verb:pl:pri:?perf
 BHIJdik	J	kaæ	czesz	kaæ	verb:sg:sec:?perf
-BHIJdik	J	kaæ	cz±	kaæ	verb:ter:pl:?perf
+BHIJdik	J	kaæ	cz±	kaæ	verb:pl:ter:?perf
 BHIJdik	J	kaæ	czê	kaæ	verb:sg:pri:?perf
 BHIJdik	J	taæ	cze	[±op]taæ	verb:sg:ter:?perf
 BHIJdik	J	taæ	czecie	[±op]taæ	verb:pl:sec:?perf
 BHIJdik	J	taæ	czemy	[±op]taæ	verb:pl:pri:?perf
 BHIJdik	J	taæ	czesz	[±op]taæ	verb:sg:sec:?perf
-BHIJdik	J	taæ	cz±	[±op]taæ	verb:ter:pl:?perf
+BHIJdik	J	taæ	cz±	[±op]taæ	verb:pl:ter:?perf
 BHIJdik	J	taæ	czê	[±op]taæ	verb:sg:pri:?perf
 BHIJdik	J	ywaæ	uje	ywaæ	verb:sg:ter:?perf
 BHIJdik	J	ywaæ	ujecie	ywaæ	verb:pl:sec:?perf
 BHIJdik	J	ywaæ	ujemy	ywaæ	verb:pl:pri:?perf
 BHIJdik	J	ywaæ	ujesz	ywaæ	verb:sg:sec:?perf
-BHIJdik	J	ywaæ	uj±	ywaæ	verb:ter:pl:?perf
+BHIJdik	J	ywaæ	uj±	ywaæ	verb:pl:ter:?perf
 BHIJdik	J	ywaæ	ujê	ywaæ	verb:sg:pri:?perf
 BHIJdik	d	æ	no	[^i]aæ	verb:imps
 BHIJdik	i	æ	nia	[^i]aæ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
@@ -7571,9 +7571,9 @@ BHIJdjk	H	æ	³yby¶cie	[^±e¶¼]æ	verb:aglt:praet:pl:sec:f.n:?perf
 BHIJdjk	H	æ	³yby¶my	[^±e¶¼]æ	verb:aglt:praet:pl:pri:f.n:?perf
 BHIJdjk	H	æ	³y¶cie	[^±e¶¼]æ	verb:praet:pl:sec:f.n:?perf
 BHIJdjk	H	æ	³y¶my	[^±e¶¼]æ	verb:praet:pl:pri:f.n:?perf
-BHIJdjk	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:ter:sg:?perf
+BHIJdjk	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:sg:ter:?perf
 BHIJdjk	I	æ	cie	[bcdfghijlkmnstwz¿]aæ	verb:pl:sec:?perf
-BHIJdjk	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:ter:pl:?perf
+BHIJdjk	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:pl:ter:?perf
 BHIJdjk	I	æ	m	[bcdfghijlkmnstwz¿]aæ	verb:sg:pri:?perf
 BHIJdjk	I	æ	my	[bcdfghijlkmnstwz¿]aæ	verb:pl:pri:?perf
 BHIJdjk	I	æ	sz	[bcdfghijlkmnstwz¿]aæ	verb:sg:sec:?perf
@@ -7581,7 +7581,7 @@ BHIJdjk	J	taæ	cze	[±op]taæ	verb:sg:ter:?perf
 BHIJdjk	J	taæ	czecie	[±op]taæ	verb:pl:sec:?perf
 BHIJdjk	J	taæ	czemy	[±op]taæ	verb:pl:pri:?perf
 BHIJdjk	J	taæ	czesz	[±op]taæ	verb:sg:sec:?perf
-BHIJdjk	J	taæ	cz±	[±op]taæ	verb:ter:pl:?perf
+BHIJdjk	J	taæ	cz±	[±op]taæ	verb:pl:ter:?perf
 BHIJdjk	J	taæ	czê	[±op]taæ	verb:sg:pri:?perf
 BHIJdjk	d	æ	no	[^i]aæ	verb:imps
 BHIJdjk	j	æ	nia	[^±ei¶uy¼]æ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
@@ -7641,9 +7641,9 @@ BHIJeik	H	æ	³yby¶cie	[^±e¶¼]æ	verb:aglt:praet:pl:sec:f.n:?perf
 BHIJeik	H	æ	³yby¶my	[^±e¶¼]æ	verb:aglt:praet:pl:pri:f.n:?perf
 BHIJeik	H	æ	³y¶cie	[^±e¶¼]æ	verb:praet:pl:sec:f.n:?perf
 BHIJeik	H	æ	³y¶my	[^±e¶¼]æ	verb:praet:pl:pri:f.n:?perf
-BHIJeik	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:ter:sg:?perf
+BHIJeik	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:sg:ter:?perf
 BHIJeik	I	æ	cie	[bcdfghijlkmnstwz¿]aæ	verb:pl:sec:?perf
-BHIJeik	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:ter:pl:?perf
+BHIJeik	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:pl:ter:?perf
 BHIJeik	I	æ	m	[bcdfghijlkmnstwz¿]aæ	verb:sg:pri:?perf
 BHIJeik	I	æ	my	[bcdfghijlkmnstwz¿]aæ	verb:pl:pri:?perf
 BHIJeik	I	æ	sz	[bcdfghijlkmnstwz¿]aæ	verb:sg:sec:?perf
@@ -7651,13 +7651,13 @@ BHIJeik	J	kaæ	cze	kaæ	verb:sg:ter:?perf
 BHIJeik	J	kaæ	czecie	kaæ	verb:pl:sec:?perf
 BHIJeik	J	kaæ	czemy	kaæ	verb:pl:pri:?perf
 BHIJeik	J	kaæ	czesz	kaæ	verb:sg:sec:?perf
-BHIJeik	J	kaæ	cz±	kaæ	verb:ter:pl:?perf
+BHIJeik	J	kaæ	cz±	kaæ	verb:pl:ter:?perf
 BHIJeik	J	kaæ	czê	kaæ	verb:sg:pri:?perf
 BHIJeik	J	taæ	cze	[±op]taæ	verb:sg:ter:?perf
 BHIJeik	J	taæ	czecie	[±op]taæ	verb:pl:sec:?perf
 BHIJeik	J	taæ	czemy	[±op]taæ	verb:pl:pri:?perf
 BHIJeik	J	taæ	czesz	[±op]taæ	verb:sg:sec:?perf
-BHIJeik	J	taæ	cz±	[±op]taæ	verb:ter:pl:?perf
+BHIJeik	J	taæ	cz±	[±op]taæ	verb:pl:ter:?perf
 BHIJeik	J	taæ	czê	[±op]taæ	verb:sg:pri:?perf
 BHIJeik	e	æ	no	[^±ei¶uy¼]æ	verb:imps
 BHIJeik	i	æ	nia	[^i]aæ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
@@ -7711,9 +7711,9 @@ BHIJejk	H	æ	³yby¶cie	[^±e¶¼]æ	verb:aglt:praet:pl:sec:f.n:?perf
 BHIJejk	H	æ	³yby¶my	[^±e¶¼]æ	verb:aglt:praet:pl:pri:f.n:?perf
 BHIJejk	H	æ	³y¶cie	[^±e¶¼]æ	verb:praet:pl:sec:f.n:?perf
 BHIJejk	H	æ	³y¶my	[^±e¶¼]æ	verb:praet:pl:pri:f.n:?perf
-BHIJejk	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:ter:sg:?perf
+BHIJejk	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:sg:ter:?perf
 BHIJejk	I	æ	cie	[bcdfghijlkmnstwz¿]aæ	verb:pl:sec:?perf
-BHIJejk	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:ter:pl:?perf
+BHIJejk	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:pl:ter:?perf
 BHIJejk	I	æ	m	[bcdfghijlkmnstwz¿]aæ	verb:sg:pri:?perf
 BHIJejk	I	æ	my	[bcdfghijlkmnstwz¿]aæ	verb:pl:pri:?perf
 BHIJejk	I	æ	sz	[bcdfghijlkmnstwz¿]aæ	verb:sg:sec:?perf
@@ -7721,7 +7721,7 @@ BHIJejk	J	taæ	cze	[±op]taæ	verb:sg:ter:?perf
 BHIJejk	J	taæ	czecie	[±op]taæ	verb:pl:sec:?perf
 BHIJejk	J	taæ	czemy	[±op]taæ	verb:pl:pri:?perf
 BHIJejk	J	taæ	czesz	[±op]taæ	verb:sg:sec:?perf
-BHIJejk	J	taæ	cz±	[±op]taæ	verb:ter:pl:?perf
+BHIJejk	J	taæ	cz±	[±op]taæ	verb:pl:ter:?perf
 BHIJejk	J	taæ	czê	[±op]taæ	verb:sg:pri:?perf
 BHIJejk	e	æ	no	[^±ei¶uy¼]æ	verb:imps
 BHIJejk	j	æ	nia	[^±ei¶uy¼]æ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
@@ -7779,7 +7779,7 @@ BHIdei	I	c	knie	ciec	verb:sg:ter:?perf
 BHIdei	I	c	kniecie	ciec	verb:pl:sec:?perf
 BHIdei	I	c	kniemy	ciec	verb:pl:pri:?perf
 BHIdei	I	c	kniesz	ciec	verb:sg:sec:?perf
-BHIdei	I	c	kn±	ciec	verb:ter:pl:?perf
+BHIdei	I	c	kn±	ciec	verb:pl:ter:?perf
 BHIdei	I	c	knê	ciec	verb:sg:pri:?perf
 BHIdei	d	c	kniêto	ciec	verb:imps
 BHIdei	e	0	zono	[il]ec	verb:imps
@@ -7832,7 +7832,7 @@ BHIdeij	I	c	knie	ciec	verb:sg:ter:?perf
 BHIdeij	I	c	kniecie	ciec	verb:pl:sec:?perf
 BHIdeij	I	c	kniemy	ciec	verb:pl:pri:?perf
 BHIdeij	I	c	kniesz	ciec	verb:sg:sec:?perf
-BHIdeij	I	c	kn±	ciec	verb:ter:pl:?perf
+BHIdeij	I	c	kn±	ciec	verb:pl:ter:?perf
 BHIdeij	I	c	knê	ciec	verb:sg:pri:?perf
 BHIdeij	d	c	kniêto	ciec	verb:imps
 BHIdeij	e	0	zono	[il]ec	verb:imps
@@ -7889,9 +7889,9 @@ BHIdhik	H	æ	³yby¶cie	[^±e¶¼]æ	verb:aglt:praet:pl:sec:f.n:?perf
 BHIdhik	H	æ	³yby¶my	[^±e¶¼]æ	verb:aglt:praet:pl:pri:f.n:?perf
 BHIdhik	H	æ	³y¶cie	[^±e¶¼]æ	verb:praet:pl:sec:f.n:?perf
 BHIdhik	H	æ	³y¶my	[^±e¶¼]æ	verb:praet:pl:pri:f.n:?perf
-BHIdhik	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:ter:sg:?perf
+BHIdhik	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:sg:ter:?perf
 BHIdhik	I	æ	cie	[bcdfghijlkmnstwz¿]aæ	verb:pl:sec:?perf
-BHIdhik	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:ter:pl:?perf
+BHIdhik	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:pl:ter:?perf
 BHIdhik	I	æ	m	[bcdfghijlkmnstwz¿]aæ	verb:sg:pri:?perf
 BHIdhik	I	æ	my	[bcdfghijlkmnstwz¿]aæ	verb:pl:pri:?perf
 BHIdhik	I	æ	sz	[bcdfghijlkmnstwz¿]aæ	verb:sg:sec:?perf
@@ -7900,7 +7900,7 @@ BHIdhik	h	kaæ	zcze	kaæ	verb:sg:ter:?perf
 BHIdhik	h	kaæ	zczecie	kaæ	verb:pl:sec:?perf
 BHIdhik	h	kaæ	zczemy	kaæ	verb:pl:pri:?perf
 BHIdhik	h	kaæ	zczesz	kaæ	verb:sg:sec:?perf
-BHIdhik	h	kaæ	zcz±	kaæ	verb:ter:pl:?perf
+BHIdhik	h	kaæ	zcz±	kaæ	verb:pl:ter:?perf
 BHIdhik	h	kaæ	zczê	kaæ	verb:sg:pri:?perf
 BHIdhik	i	æ	nia	[^i]aæ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
 BHIdhik	i	æ	niach	[^i]aæ	subst:ger:pl:loc:n
@@ -8407,13 +8407,13 @@ BHIdi	I	aæ	ie	[^±æ]paæ	verb:sg:ter:?perf
 BHIdi	I	aæ	iecie	[^±æ]paæ	verb:pl:sec:?perf
 BHIdi	I	aæ	iemy	[^±æ]paæ	verb:pl:pri:?perf
 BHIdi	I	aæ	iesz	[^±æ]paæ	verb:sg:sec:?perf
-BHIdi	I	aæ	i±	[^±æ]paæ	verb:ter:pl:?perf
+BHIdi	I	aæ	i±	[^±æ]paæ	verb:pl:ter:?perf
 BHIdi	I	aæ	iê	[^±æ]paæ	verb:sg:pri:?perf
 BHIdi	I	c	knie	ciec	verb:sg:ter:?perf
 BHIdi	I	c	kniecie	ciec	verb:pl:sec:?perf
 BHIdi	I	c	kniemy	ciec	verb:pl:pri:?perf
 BHIdi	I	c	kniesz	ciec	verb:sg:sec:?perf
-BHIdi	I	c	kn±	ciec	verb:ter:pl:?perf
+BHIdi	I	c	kn±	ciec	verb:pl:ter:?perf
 BHIdi	I	c	knê	ciec	verb:sg:pri:?perf
 BHIdi	I	eæ	eje	[^cz]ieæ	verb:sg:ter:?perf
 BHIdi	I	eæ	eje	[^d]zieæ	verb:sg:ter:?perf
@@ -8427,9 +8427,9 @@ BHIdi	I	eæ	ejemy	[^er]¿eæ	verb:pl:pri:?perf
 BHIdi	I	eæ	ejesz	[^cz]ieæ	verb:sg:sec:?perf
 BHIdi	I	eæ	ejesz	[^d]zieæ	verb:sg:sec:?perf
 BHIdi	I	eæ	ejesz	[^er]¿eæ	verb:sg:sec:?perf
-BHIdi	I	eæ	ej±	[^cz]ieæ	verb:ter:pl:?perf
-BHIdi	I	eæ	ej±	[^d]zieæ	verb:ter:pl:?perf
-BHIdi	I	eæ	ej±	[^er]¿eæ	verb:ter:pl:?perf
+BHIdi	I	eæ	ej±	[^cz]ieæ	verb:pl:ter:?perf
+BHIdi	I	eæ	ej±	[^d]zieæ	verb:pl:ter:?perf
+BHIdi	I	eæ	ej±	[^er]¿eæ	verb:pl:ter:?perf
 BHIdi	I	eæ	ejê	[^cz]ieæ	verb:sg:pri:?perf
 BHIdi	I	eæ	ejê	[^d]zieæ	verb:sg:pri:?perf
 BHIdi	I	eæ	ejê	[^er]¿eæ	verb:sg:pri:?perf
@@ -8437,23 +8437,23 @@ BHIdi	I	eæ	y	zeæ	verb:sg:ter:?perf
 BHIdi	I	eæ	ycie	zeæ	verb:pl:sec:?perf
 BHIdi	I	eæ	ymy	zeæ	verb:pl:pri:?perf
 BHIdi	I	eæ	ysz	zeæ	verb:sg:sec:?perf
-BHIdi	I	eæ	±	zeæ	verb:ter:pl:?perf
+BHIdi	I	eæ	±	zeæ	verb:pl:ter:?perf
 BHIdi	I	eæ	ê	zeæ	verb:sg:pri:?perf
-BHIdi	I	iæ	j±	[aeo]iæ	verb:ter:pl:?perf
+BHIdi	I	iæ	j±	[aeo]iæ	verb:pl:ter:?perf
 BHIdi	I	iæ	jê	[aeo]iæ	verb:sg:pri:?perf
-BHIdi	I	iæ	±	[^¼][^aêor]ziæ	verb:ter:pl:?perf
-BHIdi	I	iæ	±	liæ	verb:ter:pl:?perf
+BHIdi	I	iæ	±	[^¼][^aêor]ziæ	verb:pl:ter:?perf
+BHIdi	I	iæ	±	liæ	verb:pl:ter:?perf
 BHIdi	I	iæ	ê	[^¼][^aêor]ziæ	verb:sg:pri:?perf
 BHIdi	I	iæ	ê	liæ	verb:sg:pri:?perf
-BHIdi	I	yæ	±	[^bmrtw]yæ	verb:ter:pl:?perf
+BHIdi	I	yæ	±	[^bmrtw]yæ	verb:pl:ter:?perf
 BHIdi	I	yæ	ê	[^bmrtw]yæ	verb:sg:pri:?perf
-BHIdi	I	óc	og±	móc	verb:ter:pl:?perf
+BHIdi	I	óc	og±	móc	verb:pl:ter:?perf
 BHIdi	I	óc	ogê	móc	verb:sg:pri:?perf
 BHIdi	I	óc	o¿e	móc	verb:sg:ter:?perf
 BHIdi	I	óc	o¿ecie	móc	verb:pl:sec:?perf
 BHIdi	I	óc	o¿emy	móc	verb:pl:pri:?perf
 BHIdi	I	óc	o¿esz	móc	verb:sg:sec:?perf
-BHIdi	I	±c	êg±	rz±c	verb:ter:pl:?perf
+BHIdi	I	±c	êg±	rz±c	verb:pl:ter:?perf
 BHIdi	I	±c	êgê	rz±c	verb:sg:pri:?perf
 BHIdi	I	±c	ê¿e	rz±c	verb:sg:ter:?perf
 BHIdi	I	±c	ê¿ecie	rz±c	verb:pl:sec:?perf
@@ -8474,16 +8474,16 @@ BHIdi	I	±¶æ	êdzie	z±¶æ	verb:sg:ter:?perf
 BHIdi	I	±¶æ	êdziecie	z±¶æ	verb:pl:sec:?perf
 BHIdi	I	±¶æ	êdziemy	z±¶æ	verb:pl:pri:?perf
 BHIdi	I	±¶æ	êdziesz	z±¶æ	verb:sg:sec:?perf
-BHIdi	I	±¶æ	êd±	z±¶æ	verb:ter:pl:?perf
+BHIdi	I	±¶æ	êd±	z±¶æ	verb:pl:ter:?perf
 BHIdi	I	±¶æ	êdê	z±¶æ	verb:sg:pri:?perf
-BHIdi	I	æ		[^bmrtw]yæ	verb:ter:sg:?perf
-BHIdi	I	æ		[^¼][^aêor]ziæ	verb:ter:sg:?perf
-BHIdi	I	æ		[aeo]iæ	verb:ter:sg:?perf
-BHIdi	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:ter:sg:?perf
-BHIdi	I	æ		[bfmnpw]iæ	verb:ter:sg:?perf
-BHIdi	I	æ		liæ	verb:ter:sg:?perf
-BHIdi	I	æ		n±æ	verb:ter:pl:?perf
-BHIdi	I	æ		¶ciæ	verb:ter:sg:?perf
+BHIdi	I	æ		[^bmrtw]yæ	verb:sg:ter:?perf
+BHIdi	I	æ		[^¼][^aêor]ziæ	verb:sg:ter:?perf
+BHIdi	I	æ		[aeo]iæ	verb:sg:ter:?perf
+BHIdi	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:sg:ter:?perf
+BHIdi	I	æ		[bfmnpw]iæ	verb:sg:ter:?perf
+BHIdi	I	æ		liæ	verb:sg:ter:?perf
+BHIdi	I	æ		n±æ	verb:pl:ter:?perf
+BHIdi	I	æ		¶ciæ	verb:sg:ter:?perf
 BHIdi	I	æ	cie	[^bmrtw]yæ	verb:pl:sec:?perf
 BHIdi	I	æ	cie	[^¼][^aêor]ziæ	verb:pl:sec:?perf
 BHIdi	I	æ	cie	[aeo]iæ	verb:pl:sec:?perf
@@ -8495,8 +8495,8 @@ BHIdi	I	æ	je	leæ	verb:sg:ter:?perf
 BHIdi	I	æ	jecie	leæ	verb:pl:sec:?perf
 BHIdi	I	æ	jemy	leæ	verb:pl:pri:?perf
 BHIdi	I	æ	jesz	leæ	verb:sg:sec:?perf
-BHIdi	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:ter:pl:?perf
-BHIdi	I	æ	j±	leæ	verb:ter:pl:?perf
+BHIdi	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:pl:ter:?perf
+BHIdi	I	æ	j±	leæ	verb:pl:ter:?perf
 BHIdi	I	æ	jê	leæ	verb:sg:pri:?perf
 BHIdi	I	æ	m	[bcdfghijlkmnstwz¿]aæ	verb:sg:pri:?perf
 BHIdi	I	æ	my	[^bmrtw]yæ	verb:pl:pri:?perf
@@ -8513,19 +8513,19 @@ BHIdi	I	æ	sz	[bcdfghijlkmnstwz¿]aæ	verb:sg:sec:?perf
 BHIdi	I	æ	sz	[bfmnpw]iæ	verb:sg:sec:?perf
 BHIdi	I	æ	sz	liæ	verb:sg:sec:?perf
 BHIdi	I	æ	sz	¶ciæ	verb:sg:sec:?perf
-BHIdi	I	æ	±	[bfmnpw]iæ	verb:ter:pl:?perf
+BHIdi	I	æ	±	[bfmnpw]iæ	verb:pl:ter:?perf
 BHIdi	I	æ	ê	[bfmnpw]iæ	verb:sg:pri:?perf
-BHIdi	I	¶ciæ	szcz±	¶ciæ	verb:ter:pl:?perf
+BHIdi	I	¶ciæ	szcz±	¶ciæ	verb:pl:ter:?perf
 BHIdi	I	¶ciæ	szczê	¶ciæ	verb:sg:pri:?perf
-BHIdi	I	¶æ		je¶æ	verb:ter:sg:?perf
+BHIdi	I	¶æ		je¶æ	verb:sg:ter:?perf
 BHIdi	I	¶æ	cie	je¶æ	verb:pl:sec:?perf
 BHIdi	I	¶æ	dnie	[pr]a¶æ	verb:sg:ter:?perf
 BHIdi	I	¶æ	dniecie	[pr]a¶æ	verb:pl:sec:?perf
 BHIdi	I	¶æ	dniemy	[pr]a¶æ	verb:pl:pri:?perf
 BHIdi	I	¶æ	dniesz	[pr]a¶æ	verb:sg:sec:?perf
-BHIdi	I	¶æ	dn±	[pr]a¶æ	verb:ter:pl:?perf
+BHIdi	I	¶æ	dn±	[pr]a¶æ	verb:pl:ter:?perf
 BHIdi	I	¶æ	dnê	[pr]a¶æ	verb:sg:pri:?perf
-BHIdi	I	¶æ	dz±	je¶æ	verb:ter:pl:?perf
+BHIdi	I	¶æ	dz±	je¶æ	verb:pl:ter:?perf
 BHIdi	I	¶æ	m	je¶æ	verb:sg:pri:?perf
 BHIdi	I	¶æ	my	je¶æ	verb:pl:pri:?perf
 BHIdi	I	¶æ	sz	je¶æ	verb:sg:sec:?perf
@@ -8767,16 +8767,16 @@ BHIdik	H	æ	³yby¶cie	[^±e¶¼]æ	verb:aglt:praet:pl:sec:f.n:?perf
 BHIdik	H	æ	³yby¶my	[^±e¶¼]æ	verb:aglt:praet:pl:pri:f.n:?perf
 BHIdik	H	æ	³y¶cie	[^±e¶¼]æ	verb:praet:pl:sec:f.n:?perf
 BHIdik	H	æ	³y¶my	[^±e¶¼]æ	verb:praet:pl:pri:f.n:?perf
-BHIdik	I	iæ	±	[^¼][^aêor]ziæ	verb:ter:pl:?perf
-BHIdik	I	iæ	±	liæ	verb:ter:pl:?perf
+BHIdik	I	iæ	±	[^¼][^aêor]ziæ	verb:pl:ter:?perf
+BHIdik	I	iæ	±	liæ	verb:pl:ter:?perf
 BHIdik	I	iæ	ê	[^¼][^aêor]ziæ	verb:sg:pri:?perf
 BHIdik	I	iæ	ê	liæ	verb:sg:pri:?perf
-BHIdik	I	yæ	±	[^bmrtw]yæ	verb:ter:pl:?perf
+BHIdik	I	yæ	±	[^bmrtw]yæ	verb:pl:ter:?perf
 BHIdik	I	yæ	ê	[^bmrtw]yæ	verb:sg:pri:?perf
-BHIdik	I	æ		[^bmrtw]yæ	verb:ter:sg:?perf
-BHIdik	I	æ		[^¼][^aêor]ziæ	verb:ter:sg:?perf
-BHIdik	I	æ		[bfmnpw]iæ	verb:ter:sg:?perf
-BHIdik	I	æ		liæ	verb:ter:sg:?perf
+BHIdik	I	æ		[^bmrtw]yæ	verb:sg:ter:?perf
+BHIdik	I	æ		[^¼][^aêor]ziæ	verb:sg:ter:?perf
+BHIdik	I	æ		[bfmnpw]iæ	verb:sg:ter:?perf
+BHIdik	I	æ		liæ	verb:sg:ter:?perf
 BHIdik	I	æ	cie	[^bmrtw]yæ	verb:pl:sec:?perf
 BHIdik	I	æ	cie	[^¼][^aêor]ziæ	verb:pl:sec:?perf
 BHIdik	I	æ	cie	[bfmnpw]iæ	verb:pl:sec:?perf
@@ -8789,7 +8789,7 @@ BHIdik	I	æ	sz	[^bmrtw]yæ	verb:sg:sec:?perf
 BHIdik	I	æ	sz	[^¼][^aêor]ziæ	verb:sg:sec:?perf
 BHIdik	I	æ	sz	[bfmnpw]iæ	verb:sg:sec:?perf
 BHIdik	I	æ	sz	liæ	verb:sg:sec:?perf
-BHIdik	I	æ	±	[bfmnpw]iæ	verb:ter:pl:?perf
+BHIdik	I	æ	±	[bfmnpw]iæ	verb:pl:ter:?perf
 BHIdik	I	æ	ê	[bfmnpw]iæ	verb:sg:pri:?perf
 BHIdik	d	iæ	ono	[^¶z¼][cl]iæ	verb:imps
 BHIdik	d	iæ	ono	[^¼][^aêo]ziæ	verb:imps
@@ -8917,7 +8917,7 @@ BHIdj	I	eæ	eje	[^cz]ieæ	verb:sg:ter:?perf
 BHIdj	I	eæ	ejecie	[^cz]ieæ	verb:pl:sec:?perf
 BHIdj	I	eæ	ejemy	[^cz]ieæ	verb:pl:pri:?perf
 BHIdj	I	eæ	ejesz	[^cz]ieæ	verb:sg:sec:?perf
-BHIdj	I	eæ	ej±	[^cz]ieæ	verb:ter:pl:?perf
+BHIdj	I	eæ	ej±	[^cz]ieæ	verb:pl:ter:?perf
 BHIdj	I	eæ	ejê	[^cz]ieæ	verb:sg:pri:?perf
 BHIdj	d	eæ	ano	[^cz]ieæ	verb:imps
 BHIdj	j	æ	nia	[^csz]ieæ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
@@ -8965,9 +8965,9 @@ BHIdjk	H	æ	³yby¶cie	[^±e¶¼]æ	verb:aglt:praet:pl:sec:f.n:?perf
 BHIdjk	H	æ	³yby¶my	[^±e¶¼]æ	verb:aglt:praet:pl:pri:f.n:?perf
 BHIdjk	H	æ	³y¶cie	[^±e¶¼]æ	verb:praet:pl:sec:f.n:?perf
 BHIdjk	H	æ	³y¶my	[^±e¶¼]æ	verb:praet:pl:pri:f.n:?perf
-BHIdjk	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:ter:sg:?perf
+BHIdjk	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:sg:ter:?perf
 BHIdjk	I	æ	cie	[bcdfghijlkmnstwz¿]aæ	verb:pl:sec:?perf
-BHIdjk	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:ter:pl:?perf
+BHIdjk	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:pl:ter:?perf
 BHIdjk	I	æ	m	[bcdfghijlkmnstwz¿]aæ	verb:sg:pri:?perf
 BHIdjk	I	æ	my	[bcdfghijlkmnstwz¿]aæ	verb:pl:pri:?perf
 BHIdjk	I	æ	sz	[bcdfghijlkmnstwz¿]aæ	verb:sg:sec:?perf
@@ -9023,9 +9023,9 @@ BHIehik	H	æ	³yby¶cie	[^±e¶¼]æ	verb:aglt:praet:pl:sec:f.n:?perf
 BHIehik	H	æ	³yby¶my	[^±e¶¼]æ	verb:aglt:praet:pl:pri:f.n:?perf
 BHIehik	H	æ	³y¶cie	[^±e¶¼]æ	verb:praet:pl:sec:f.n:?perf
 BHIehik	H	æ	³y¶my	[^±e¶¼]æ	verb:praet:pl:pri:f.n:?perf
-BHIehik	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:ter:sg:?perf
+BHIehik	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:sg:ter:?perf
 BHIehik	I	æ	cie	[bcdfghijlkmnstwz¿]aæ	verb:pl:sec:?perf
-BHIehik	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:ter:pl:?perf
+BHIehik	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:pl:ter:?perf
 BHIehik	I	æ	m	[bcdfghijlkmnstwz¿]aæ	verb:sg:pri:?perf
 BHIehik	I	æ	my	[bcdfghijlkmnstwz¿]aæ	verb:pl:pri:?perf
 BHIehik	I	æ	sz	[bcdfghijlkmnstwz¿]aæ	verb:sg:sec:?perf
@@ -9034,7 +9034,7 @@ BHIehik	h	kaæ	zcze	kaæ	verb:sg:ter:?perf
 BHIehik	h	kaæ	zczecie	kaæ	verb:pl:sec:?perf
 BHIehik	h	kaæ	zczemy	kaæ	verb:pl:pri:?perf
 BHIehik	h	kaæ	zczesz	kaæ	verb:sg:sec:?perf
-BHIehik	h	kaæ	zcz±	kaæ	verb:ter:pl:?perf
+BHIehik	h	kaæ	zcz±	kaæ	verb:pl:ter:?perf
 BHIehik	h	kaæ	zczê	kaæ	verb:sg:pri:?perf
 BHIehik	i	æ	nia	[^i]aæ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
 BHIehik	i	æ	niach	[^i]aæ	subst:ger:pl:loc:n
@@ -9087,9 +9087,9 @@ BHIehjk	H	æ	³yby¶cie	[^±e¶¼]æ	verb:aglt:praet:pl:sec:f.n:?perf
 BHIehjk	H	æ	³yby¶my	[^±e¶¼]æ	verb:aglt:praet:pl:pri:f.n:?perf
 BHIehjk	H	æ	³y¶cie	[^±e¶¼]æ	verb:praet:pl:sec:f.n:?perf
 BHIehjk	H	æ	³y¶my	[^±e¶¼]æ	verb:praet:pl:pri:f.n:?perf
-BHIehjk	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:ter:sg:?perf
+BHIehjk	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:sg:ter:?perf
 BHIehjk	I	æ	cie	[bcdfghijlkmnstwz¿]aæ	verb:pl:sec:?perf
-BHIehjk	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:ter:pl:?perf
+BHIehjk	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:pl:ter:?perf
 BHIehjk	I	æ	m	[bcdfghijlkmnstwz¿]aæ	verb:sg:pri:?perf
 BHIehjk	I	æ	my	[bcdfghijlkmnstwz¿]aæ	verb:pl:pri:?perf
 BHIehjk	I	æ	sz	[bcdfghijlkmnstwz¿]aæ	verb:sg:sec:?perf
@@ -9098,7 +9098,7 @@ BHIehjk	h	aæ	y	zaæ	verb:sg:ter:?perf
 BHIehjk	h	aæ	ycie	zaæ	verb:pl:sec:?perf
 BHIehjk	h	aæ	ymy	zaæ	verb:pl:pri:?perf
 BHIehjk	h	aæ	ysz	zaæ	verb:sg:sec:?perf
-BHIehjk	h	aæ	±	zaæ	verb:ter:pl:?perf
+BHIehjk	h	aæ	±	zaæ	verb:pl:ter:?perf
 BHIehjk	h	aæ	ê	zaæ	verb:sg:pri:?perf
 BHIehjk	j	æ	nia	[^±ei¶uy¼]æ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
 BHIehjk	j	æ	niach	[^±ei¶uy¼]æ	subst:ger:pl:loc:n
@@ -9191,13 +9191,13 @@ BHIei	I	aæ	ie	[^±æ]paæ	verb:sg:ter:?perf
 BHIei	I	aæ	iecie	[^±æ]paæ	verb:pl:sec:?perf
 BHIei	I	aæ	iemy	[^±æ]paæ	verb:pl:pri:?perf
 BHIei	I	aæ	iesz	[^±æ]paæ	verb:sg:sec:?perf
-BHIei	I	aæ	i±	[^±æ]paæ	verb:ter:pl:?perf
+BHIei	I	aæ	i±	[^±æ]paæ	verb:pl:ter:?perf
 BHIei	I	aæ	iê	[^±æ]paæ	verb:sg:pri:?perf
 BHIei	I	eæ	eje	[^cz]ieæ	verb:sg:ter:?perf
 BHIei	I	eæ	ejecie	[^cz]ieæ	verb:pl:sec:?perf
 BHIei	I	eæ	ejemy	[^cz]ieæ	verb:pl:pri:?perf
 BHIei	I	eæ	ejesz	[^cz]ieæ	verb:sg:sec:?perf
-BHIei	I	eæ	ej±	[^cz]ieæ	verb:ter:pl:?perf
+BHIei	I	eæ	ej±	[^cz]ieæ	verb:pl:ter:?perf
 BHIei	I	eæ	ejê	[^cz]ieæ	verb:sg:pri:?perf
 BHIei	e	eæ	ano	[^csz]ieæ	verb:imps
 BHIei	e	eæ	ano	sieæ	verb:imps
@@ -9841,27 +9841,27 @@ BHIej	I	aæ	ie	[^±æ]paæ	verb:sg:ter:?perf
 BHIej	I	aæ	iecie	[^±æ]paæ	verb:pl:sec:?perf
 BHIej	I	aæ	iemy	[^±æ]paæ	verb:pl:pri:?perf
 BHIej	I	aæ	iesz	[^±æ]paæ	verb:sg:sec:?perf
-BHIej	I	aæ	i±	[^±æ]paæ	verb:ter:pl:?perf
+BHIej	I	aæ	i±	[^±æ]paæ	verb:pl:ter:?perf
 BHIej	I	aæ	iê	[^±æ]paæ	verb:sg:pri:?perf
 BHIej	I	byæ	bêdzie	byæ	verb:sg:ter:?perf
 BHIej	I	byæ	bêdziecie	byæ	verb:pl:sec:?perf
 BHIej	I	byæ	bêdziemy	byæ	verb:pl:pri:?perf
 BHIej	I	byæ	bêdziesz	byæ	verb:sg:sec:?perf
-BHIej	I	byæ	bêd±	byæ	verb:ter:pl:?perf
+BHIej	I	byæ	bêd±	byæ	verb:pl:ter:?perf
 BHIej	I	byæ	bêdê	byæ	verb:sg:pri:?perf
-BHIej	I	c	g±	trz[ey]c	verb:ter:pl:?perf
+BHIej	I	c	g±	trz[ey]c	verb:pl:ter:?perf
 BHIej	I	c	gê	trz[ey]c	verb:sg:pri:?perf
 BHIej	I	c	¿e	trz[ey]c	verb:sg:ter:?perf
 BHIej	I	c	¿ecie	trz[ey]c	verb:pl:sec:?perf
 BHIej	I	c	¿emy	trz[ey]c	verb:pl:pri:?perf
 BHIej	I	c	¿esz	trz[ey]c	verb:sg:sec:?perf
-BHIej	I	eæ		dzieæ	verb:ter:sg:?perf
+BHIej	I	eæ		dzieæ	verb:sg:ter:?perf
 BHIej	I	eæ	cie	dzieæ	verb:fin:pl:sec:?perf
 BHIej	I	eæ	eje	[^cz]ieæ	verb:sg:ter:?perf+verb:fin:sg:ter:imperf
 BHIej	I	eæ	ejecie	[^cz]ieæ	verb:fin:pl:sec:imperf+verb:pl:sec:?perf
 BHIej	I	eæ	ejemy	[^cz]ieæ	verb:pl:pri:?perf+verb:fin:pl:pri:imperf
 BHIej	I	eæ	ejesz	[^cz]ieæ	verb:sg:sec:?perf
-BHIej	I	eæ	ej±	[^cz]ieæ	verb:ter:pl:?perf
+BHIej	I	eæ	ej±	[^cz]ieæ	verb:pl:ter:?perf
 BHIej	I	eæ	ejê	[^cz]ieæ	verb:sg:pri:?perf+verb:fin:sg:pri:imperf
 BHIej	I	eæ	my	dzieæ	verb:fin:pl:pri:?perf
 BHIej	I	eæ	sz	dzieæ	verb:fin:sg:sec:?perf
@@ -9869,16 +9869,16 @@ BHIej	I	eæ	y	zeæ	verb:sg:ter:?perf
 BHIej	I	eæ	ycie	zeæ	verb:pl:sec:?perf
 BHIej	I	eæ	ymy	zeæ	verb:pl:pri:?perf
 BHIej	I	eæ	ysz	zeæ	verb:sg:sec:?perf
-BHIej	I	eæ	±	zeæ	verb:ter:pl:?perf
+BHIej	I	eæ	±	zeæ	verb:pl:ter:?perf
 BHIej	I	eæ	ê	zeæ	verb:sg:pri:?perf
-BHIej	I	ieæ	±	dzieæ	verb:ter:pl:?perf
+BHIej	I	ieæ	±	dzieæ	verb:pl:ter:?perf
 BHIej	I	ieæ	ê	dzieæ	verb:sg:pri:?perf
 BHIej	I	iæ	jê	[aeo]iæ	verb:sg:pri:?perf
 BHIej	I	±c	êknie	l±c	verb:sg:ter:?perf
 BHIej	I	±c	êkniecie	l±c	verb:pl:sec:?perf
 BHIej	I	±c	êkniemy	l±c	verb:pl:pri:?perf
 BHIej	I	±c	êkniesz	l±c	verb:sg:sec:?perf
-BHIej	I	±c	êkn±	l±c	verb:ter:pl:?perf
+BHIej	I	±c	êkn±	l±c	verb:pl:ter:?perf
 BHIej	I	±c	êknê	l±c	verb:sg:pri:?perf
 BHIej	I	±æ	ie	n±æ	verb:sg:ter:?perf
 BHIej	I	±æ	iecie	n±æ	verb:pl:sec:?perf
@@ -9888,19 +9888,19 @@ BHIej	I	±æ	mie	[aeoy]j±æ	verb:sg:ter:?perf
 BHIej	I	±æ	miecie	[aeoy]j±æ	verb:pl:sec:?perf
 BHIej	I	±æ	miemy	[aeoy]j±æ	verb:pl:pri:?perf
 BHIej	I	±æ	miesz	[aeoy]j±æ	verb:sg:sec:?perf
-BHIej	I	±æ	m±	[aeoy]j±æ	verb:ter:pl:?perf
+BHIej	I	±æ	m±	[aeoy]j±æ	verb:pl:ter:?perf
 BHIej	I	±æ	mê	[aeoy]j±æ	verb:sg:pri:?perf
 BHIej	I	±æ	ê	n±æ	verb:sg:pri:?perf
-BHIej	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:ter:sg:?perf
-BHIej	I	æ		n±æ	verb:ter:pl:?perf
+BHIej	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:sg:ter:?perf
+BHIej	I	æ		n±æ	verb:pl:ter:?perf
 BHIej	I	æ	cie	[aeo]iæ	verb:pl:sec:?perf
 BHIej	I	æ	cie	[bcdfghijlkmnstwz¿]aæ	verb:pl:sec:?perf
 BHIej	I	æ	je	[mrtw]yæ	verb:sg:ter:?perf
 BHIej	I	æ	jecie	[mrtw]yæ	verb:pl:sec:?perf
 BHIej	I	æ	jemy	[mrtw]yæ	verb:pl:pri:?perf
 BHIej	I	æ	jesz	[mrtw]yæ	verb:sg:sec:?perf
-BHIej	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:ter:pl:?perf
-BHIej	I	æ	j±	[mrtw]yæ	verb:ter:pl:?perf
+BHIej	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:pl:ter:?perf
+BHIej	I	æ	j±	[mrtw]yæ	verb:pl:ter:?perf
 BHIej	I	æ	jê	[mrtw]yæ	verb:sg:pri:?perf
 BHIej	I	æ	m	[bcdfghijlkmnstwz¿]aæ	verb:sg:pri:?perf
 BHIej	I	æ	my	[aeo]iæ	verb:pl:pri:?perf
@@ -10155,19 +10155,19 @@ BHIi	I	±¶æ	êdzie	z±¶æ	verb:sg:ter:?perf
 BHIi	I	±¶æ	êdziecie	z±¶æ	verb:pl:sec:?perf
 BHIi	I	±¶æ	êdziemy	z±¶æ	verb:pl:pri:?perf
 BHIi	I	±¶æ	êdziesz	z±¶æ	verb:sg:sec:?perf
-BHIi	I	±¶æ	êd±	z±¶æ	verb:ter:pl:?perf
+BHIi	I	±¶æ	êd±	z±¶æ	verb:pl:ter:?perf
 BHIi	I	±¶æ	êdê	z±¶æ	verb:sg:pri:?perf
 BHIi	I	¶æ	dnie	[pr]a¶æ	verb:sg:ter:?perf
 BHIi	I	¶æ	dniecie	[pr]a¶æ	verb:pl:sec:?perf
 BHIi	I	¶æ	dniemy	[pr]a¶æ	verb:pl:pri:?perf
 BHIi	I	¶æ	dniesz	[pr]a¶æ	verb:sg:sec:?perf
-BHIi	I	¶æ	dn±	[pr]a¶æ	verb:ter:pl:?perf
+BHIi	I	¶æ	dn±	[pr]a¶æ	verb:pl:ter:?perf
 BHIi	I	¶æ	dnê	[pr]a¶æ	verb:sg:pri:?perf
 BHIi	I	¶æ	dzie	j¶æ	verb:sg:ter:?perf
 BHIi	I	¶æ	dziecie	j¶æ	verb:pl:sec:?perf
 BHIi	I	¶æ	dziemy	j¶æ	verb:pl:pri:?perf
 BHIi	I	¶æ	dziesz	j¶æ	verb:sg:sec:?perf
-BHIi	I	¶æ	d±	j¶æ	verb:ter:pl:?perf
+BHIi	I	¶æ	d±	j¶æ	verb:pl:ter:?perf
 BHIi	I	¶æ	dê	j¶æ	verb:sg:pri:?perf
 BHIi	i	±¶æ	êdzenia	z±¶æ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
 BHIi	i	±¶æ	êdzeniach	z±¶æ	subst:ger:pl:loc:n
@@ -10193,7 +10193,7 @@ BHIi	i	¶æ	¶ciem	j¶æ	subst:ger:sg:inst:n
 BHIi	i	¶æ	¶ciom	j¶æ	subst:ger:pl:dat:n
 BHIi	i	¶æ	¶ciu	j¶æ	subst:ger:sg:dat.loc:n
 BHIi	i	¶æ	¶æ	j¶æ	subst:ger:pl:gen:n
-BHJdi	B	aæ		[bp]aæ	verb:ter:sg:?perf
+BHJdi	B	aæ		[bp]aæ	verb:sg:ter:?perf
 BHJdi	B	aæ		jaæ	verb:impt:sg:sec:?perf
 BHJdi	B	aæ		maæ	verb:impt:sg:sec:?perf
 BHJdi	B	aæ	cie	[bp]aæ	verb:impt:pl:sec:perf
@@ -10332,57 +10332,57 @@ BHJdi	J	aæ	iemy	[^s]baæ	verb:pl:pri:?perf
 BHJdi	J	aæ	iemy	maæ	verb:pl:pri:?perf
 BHJdi	J	aæ	iesz	[^s]baæ	verb:sg:sec:?perf
 BHJdi	J	aæ	iesz	maæ	verb:sg:sec:?perf
-BHJdi	J	aæ	i±	[^s]baæ	verb:ter:pl:?perf
-BHJdi	J	aæ	i±	maæ	verb:ter:pl:?perf
+BHJdi	J	aæ	i±	[^s]baæ	verb:pl:ter:?perf
+BHJdi	J	aæ	i±	maæ	verb:pl:ter:?perf
 BHJdi	J	aæ	iê	[^s]baæ	verb:sg:pri:?perf
 BHJdi	J	aæ	iê	maæ	verb:sg:pri:?perf
-BHJdi	J	aæ	±	jaæ	verb:ter:pl:?perf
+BHJdi	J	aæ	±	jaæ	verb:pl:ter:?perf
 BHJdi	J	aæ	ê	jaæ	verb:sg:pri:?perf
 BHJdi	J	chaæ	dzie	echaæ	verb:sg:ter:?perf
 BHJdi	J	chaæ	dziecie	echaæ	verb:pl:sec:?perf
 BHJdi	J	chaæ	dziemy	echaæ	verb:pl:pri:?perf
 BHJdi	J	chaæ	dziesz	echaæ	verb:sg:sec:?perf
-BHJdi	J	echaæ	ad±	echaæ	verb:ter:pl:?perf
+BHJdi	J	echaæ	ad±	echaæ	verb:pl:ter:?perf
 BHJdi	J	echaæ	adê	echaæ	verb:sg:pri:?perf
 BHJdi	J	gaæ	¿e	³gaæ	verb:sg:ter:?perf
 BHJdi	J	gaæ	¿ecie	³gaæ	verb:pl:sec:?perf
 BHJdi	J	gaæ	¿emy	³gaæ	verb:pl:pri:?perf
 BHJdi	J	gaæ	¿esz	³gaæ	verb:sg:sec:?perf
-BHJdi	J	gaæ	¿±	³gaæ	verb:ter:pl:?perf
+BHJdi	J	gaæ	¿±	³gaæ	verb:pl:ter:?perf
 BHJdi	J	gaæ	¿ê	³gaæ	verb:sg:pri:?perf
 BHJdi	J	iwaæ	uje	iwaæ	verb:sg:ter:?perf
 BHJdi	J	iwaæ	ujecie	iwaæ	verb:pl:sec:?perf
 BHJdi	J	iwaæ	ujemy	iwaæ	verb:pl:pri:?perf
 BHJdi	J	iwaæ	ujesz	iwaæ	verb:sg:sec:?perf
-BHJdi	J	iwaæ	uj±	iwaæ	verb:ter:pl:?perf
+BHJdi	J	iwaæ	uj±	iwaæ	verb:pl:ter:?perf
 BHJdi	J	iwaæ	ujê	iwaæ	verb:sg:pri:?perf
 BHJdi	J	owaæ	uje	owaæ	verb:sg:ter:?perf
 BHJdi	J	owaæ	ujecie	owaæ	verb:pl:sec:?perf
 BHJdi	J	owaæ	ujemy	owaæ	verb:pl:pri:?perf
 BHJdi	J	owaæ	ujesz	owaæ	verb:sg:sec:?perf
-BHJdi	J	owaæ	uj±	owaæ	verb:ter:pl:?perf
+BHJdi	J	owaæ	uj±	owaæ	verb:pl:ter:?perf
 BHJdi	J	owaæ	ujê	owaæ	verb:sg:pri:?perf
 BHJdi	J	taæ	cze	[±op]taæ	verb:sg:ter:?perf
 BHJdi	J	taæ	czecie	[±op]taæ	verb:pl:sec:?perf
 BHJdi	J	taæ	czemy	[±op]taæ	verb:pl:pri:?perf
 BHJdi	J	taæ	czesz	[±op]taæ	verb:sg:sec:?perf
-BHJdi	J	taæ	cz±	[±op]taæ	verb:ter:pl:?perf
+BHJdi	J	taæ	cz±	[±op]taæ	verb:pl:ter:?perf
 BHJdi	J	taæ	czê	[±op]taæ	verb:sg:pri:?perf
 BHJdi	J	ywaæ	uje	ywaæ	verb:sg:ter:?perf
 BHJdi	J	ywaæ	ujecie	ywaæ	verb:pl:sec:?perf
 BHJdi	J	ywaæ	ujemy	ywaæ	verb:pl:pri:?perf
 BHJdi	J	ywaæ	ujesz	ywaæ	verb:sg:sec:?perf
-BHJdi	J	ywaæ	uj±	ywaæ	verb:ter:pl:?perf
+BHJdi	J	ywaæ	uj±	ywaæ	verb:pl:ter:?perf
 BHJdi	J	ywaæ	ujê	ywaæ	verb:sg:pri:?perf
 BHJdi	J	zdaæ	¿d¿e	zdaæ	verb:sg:ter:?perf
 BHJdi	J	zdaæ	¿d¿ecie	zdaæ	verb:pl:sec:?perf
 BHJdi	J	zdaæ	¿d¿emy	zdaæ	verb:pl:pri:?perf
 BHJdi	J	zdaæ	¿d¿esz	zdaæ	verb:sg:sec:?perf
-BHJdi	J	zdaæ	¿d¿±	zdaæ	verb:ter:pl:?perf
+BHJdi	J	zdaæ	¿d¿±	zdaæ	verb:pl:ter:?perf
 BHJdi	J	zdaæ	¿d¿ê	zdaæ	verb:sg:pri:?perf
-BHJdi	J	zeæ	±	[^ao]rzeæ	verb:ter:pl:?perf
+BHJdi	J	zeæ	±	[^ao]rzeæ	verb:pl:ter:?perf
 BHJdi	J	zeæ	ê	[^ao]rzeæ	verb:sg:pri:?perf
-BHJdi	J	æ		[^ao]rzeæ	verb:ter:sg:?perf
+BHJdi	J	æ		[^ao]rzeæ	verb:sg:ter:?perf
 BHJdi	J	æ	cie	[^ao]rzeæ	verb:pl:sec:?perf
 BHJdi	J	æ	my	[^ao]rzeæ	verb:pl:pri:?perf
 BHJdi	J	æ	sz	[^ao]rzeæ	verb:sg:sec:?perf
@@ -10451,13 +10451,13 @@ BHJdik	J	aæ	e	jaæ	verb:sg:ter:?perf
 BHJdik	J	aæ	ecie	jaæ	verb:pl:sec:?perf
 BHJdik	J	aæ	emy	jaæ	verb:pl:pri:?perf
 BHJdik	J	aæ	esz	jaæ	verb:sg:sec:?perf
-BHJdik	J	aæ	±	jaæ	verb:ter:pl:?perf
+BHJdik	J	aæ	±	jaæ	verb:pl:ter:?perf
 BHJdik	J	aæ	ê	jaæ	verb:sg:pri:?perf
 BHJdik	J	taæ	cze	[±op]taæ	verb:sg:ter:?perf
 BHJdik	J	taæ	czecie	[±op]taæ	verb:pl:sec:?perf
 BHJdik	J	taæ	czemy	[±op]taæ	verb:pl:pri:?perf
 BHJdik	J	taæ	czesz	[±op]taæ	verb:sg:sec:?perf
-BHJdik	J	taæ	cz±	[±op]taæ	verb:ter:pl:?perf
+BHJdik	J	taæ	cz±	[±op]taæ	verb:pl:ter:?perf
 BHJdik	J	taæ	czê	[±op]taæ	verb:sg:pri:?perf
 BHJdik	d	æ	no	[^i]aæ	verb:imps
 BHJdik	i	æ	nia	[^i]aæ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
@@ -10527,19 +10527,19 @@ BHJdj	J	aæ	ie	maæ	verb:sg:ter:?perf
 BHJdj	J	aæ	iecie	maæ	verb:pl:sec:?perf
 BHJdj	J	aæ	iemy	maæ	verb:pl:pri:?perf
 BHJdj	J	aæ	iesz	maæ	verb:sg:sec:?perf
-BHJdj	J	aæ	i±	maæ	verb:ter:pl:?perf
+BHJdj	J	aæ	i±	maæ	verb:pl:ter:?perf
 BHJdj	J	aæ	iê	maæ	verb:sg:pri:?perf
 BHJdj	J	owaæ	uje	owaæ	verb:sg:ter:?perf
 BHJdj	J	owaæ	ujecie	owaæ	verb:pl:sec:?perf
 BHJdj	J	owaæ	ujemy	owaæ	verb:pl:pri:?perf
 BHJdj	J	owaæ	ujesz	owaæ	verb:sg:sec:?perf
-BHJdj	J	owaæ	uj±	owaæ	verb:ter:pl:?perf
+BHJdj	J	owaæ	uj±	owaæ	verb:pl:ter:?perf
 BHJdj	J	owaæ	ujê	owaæ	verb:sg:pri:?perf
 BHJdj	J	ywaæ	uje	ywaæ	verb:sg:ter:?perf
 BHJdj	J	ywaæ	ujecie	ywaæ	verb:pl:sec:?perf
 BHJdj	J	ywaæ	ujemy	ywaæ	verb:pl:pri:?perf
 BHJdj	J	ywaæ	ujesz	ywaæ	verb:sg:sec:?perf
-BHJdj	J	ywaæ	uj±	ywaæ	verb:ter:pl:?perf
+BHJdj	J	ywaæ	uj±	ywaæ	verb:pl:ter:?perf
 BHJdj	J	ywaæ	ujê	ywaæ	verb:sg:pri:?perf
 BHJdj	d	æ	no	[^i]aæ	verb:imps
 BHJdj	j	æ	nia	[^±ei¶uy¼]æ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
@@ -10592,7 +10592,7 @@ BHJe	J	owaæ	uje	owaæ	verb:sg:ter:?perf
 BHJe	J	owaæ	ujecie	owaæ	verb:pl:sec:?perf
 BHJe	J	owaæ	ujemy	owaæ	verb:pl:pri:?perf
 BHJe	J	owaæ	ujesz	owaæ	verb:sg:sec:?perf
-BHJe	J	owaæ	uj±	owaæ	verb:fin:ter:pl:f.m.n
+BHJe	J	owaæ	uj±	owaæ	verb:fin:pl:ter:f.m.n
 BHJe	J	owaæ	ujê	owaæ	verb:sg:pri:?perf
 BHJe	e	æ	no	[^±ei¶uy¼]æ	verb:imps
 BHJei	B	aæ		[bp]aæ	verb:impt:sg:sec:?perf
@@ -10660,31 +10660,31 @@ BHJei	J	aæ	ie	[^s]baæ	verb:sg:ter:?perf+verb:sg:pri:?perf
 BHJei	J	aæ	iecie	[^s]baæ	verb:pl:sec:?perf
 BHJei	J	aæ	iemy	[^s]baæ	verb:pl:pri:?perf
 BHJei	J	aæ	iesz	[^s]baæ	verb:sg:sec:?perf
-BHJei	J	aæ	i±	[^s]baæ	verb:ter:pl:?perf
+BHJei	J	aæ	i±	[^s]baæ	verb:pl:ter:?perf
 BHJei	J	aæ	iê	[^s]baæ	verb:sg:pri:?perf
 BHJei	J	iwaæ	uje	iwaæ	verb:sg:ter:?perf
 BHJei	J	iwaæ	ujecie	iwaæ	verb:pl:sec:?perf
 BHJei	J	iwaæ	ujemy	iwaæ	verb:pl:pri:?perf
 BHJei	J	iwaæ	ujesz	iwaæ	verb:sg:sec:?perf
-BHJei	J	iwaæ	uj±	iwaæ	verb:ter:pl:?perf
+BHJei	J	iwaæ	uj±	iwaæ	verb:pl:ter:?perf
 BHJei	J	iwaæ	ujê	iwaæ	verb:sg:pri:?perf
 BHJei	J	owaæ	uje	owaæ	verb:sg:ter:?perf
 BHJei	J	owaæ	ujecie	owaæ	verb:pl:sec:?perf
 BHJei	J	owaæ	ujemy	owaæ	verb:pl:pri:?perf
 BHJei	J	owaæ	ujesz	owaæ	verb:sg:sec:?perf
-BHJei	J	owaæ	uj±	owaæ	verb:ter:pl:?perf
+BHJei	J	owaæ	uj±	owaæ	verb:pl:ter:?perf
 BHJei	J	owaæ	ujê	owaæ	verb:sg:pri:?perf
 BHJei	J	taæ	cze	[±op]taæ	verb:sg:ter:?perf
 BHJei	J	taæ	czecie	[±op]taæ	verb:pl:sec:?perf
 BHJei	J	taæ	czemy	[±op]taæ	verb:pl:pri:?perf
 BHJei	J	taæ	czesz	[±op]taæ	verb:sg:sec:?perf
-BHJei	J	taæ	cz±	[±op]taæ	verb:ter:pl:?perf
+BHJei	J	taæ	cz±	[±op]taæ	verb:pl:ter:?perf
 BHJei	J	taæ	czê	[±op]taæ	verb:sg:pri:?perf
 BHJei	J	ywaæ	uje	ywaæ	verb:sg:ter:?perf
 BHJei	J	ywaæ	ujecie	ywaæ	verb:pl:sec:?perf
 BHJei	J	ywaæ	ujemy	ywaæ	verb:pl:pri:?perf
 BHJei	J	ywaæ	ujesz	ywaæ	verb:sg:sec:?perf
-BHJei	J	ywaæ	uj±	ywaæ	verb:ter:pl:?perf
+BHJei	J	ywaæ	uj±	ywaæ	verb:pl:ter:?perf
 BHJei	J	ywaæ	ujê	ywaæ	verb:sg:pri:?perf
 BHJei	e	æ	no	[^±ei¶uy¼]æ	verb:imps
 BHJei	i	æ	nia	[^i]aæ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
@@ -10695,6 +10695,12 @@ BHJei	i	æ	niem	[^i]aæ	subst:ger:sg:inst:n
 BHJei	i	æ	niom	[^i]aæ	subst:ger:pl:dat:n
 BHJei	i	æ	niu	[^i]aæ	subst:ger:sg:dat.loc:n
 BHJei	i	æ	ñ	[^i]aæ	subst:ger:pl:gen:n
+BHJej	B	0	z	uc	verb:impt:sg:sec:perf
+BHJej	B	0	zcie	uc	verb:impt:pl:sec:perf
+BHJej	B	0	zcie¿	uc	verb:impt:pl:sec:perf
+BHJej	B	0	zmy	uc	verb:impt:pl:pri:perf
+BHJej	B	0	zmy¿	uc	verb:impt:pl:pri:perf
+BHJej	B	0	z¿e	uc	verb:impt:sg:sec:perf
 BHJej	B	aæ		[bp]aæ	verb:impt:sg:sec:?perf
 BHJej	B	aæ		jaæ	verb:impt:sg:sec:?perf
 BHJej	B	aæ		maæ	verb:impt:sg:sec:perf
@@ -10870,6 +10876,32 @@ BHJej	B	æ	my¿	¼æ	verb:impt:pl:pri:perf
 BHJej	B	æ	¿e	[^j]e¶æ	verb:impt:sg:sec:perf
 BHJej	B	æ	¿e	¼æ	verb:impt:sg:sec:perf
 BHJej	BHJej	0	0		verb:inf:imperf
+BHJej	H	c	kli	uc	verb:praet:pl:ter:m1:?perf
+BHJej	H	c	kliby	uc	verb:aglt:praet:pl:ter:m1:?perf
+BHJej	H	c	kliby¶cie	uc	verb:aglt:praet:pl:sec:m1:?perf
+BHJej	H	c	kliby¶my	uc	verb:aglt:praet:pl:pri:m1:?perf
+BHJej	H	c	kli¶cie	uc	verb:praet:pl:sec:m1:?perf
+BHJej	H	c	kli¶my	uc	verb:praet:pl:pri:m1:?perf
+BHJej	H	c	k³	uc	verb:praet:sg:ter:m:?perf
+BHJej	H	c	k³a	uc	verb:praet:sg:ter:f:?perf
+BHJej	H	c	k³aby	uc	verb:aglt:praet:sg:ter:f:?perf
+BHJej	H	c	k³abym	uc	verb:aglt:praet:sg:pri:f:?perf
+BHJej	H	c	k³aby¶	uc	verb:aglt:praet:sg:sec:f:?perf
+BHJej	H	c	k³am	uc	verb:praet:sg:pri:f:?perf
+BHJej	H	c	k³a¶	uc	verb:praet:sg:sec:f:?perf
+BHJej	H	c	k³by	uc	verb:aglt:praet:sg:ter:m:?perf
+BHJej	H	c	k³bym	uc	verb:aglt:praet:sg:pri:m:?perf
+BHJej	H	c	k³by¶	uc	verb:aglt:praet:sg:sec:m:?perf
+BHJej	H	c	k³em	uc	verb:praet:sg:pri:m:?perf
+BHJej	H	c	k³e¶	uc	verb:praet:sg:sec:m:?perf
+BHJej	H	c	k³o	uc	verb:praet:sg:ter:n:?perf
+BHJej	H	c	k³oby	uc	verb:aglt:praet:sg:ter:n:?perf
+BHJej	H	c	k³y	uc	verb:praet:pl:ter:f.n:?perf
+BHJej	H	c	k³yby	uc	verb:aglt:praet:pl:ter:f.n:?perf
+BHJej	H	c	k³yby¶cie	uc	verb:aglt:praet:pl:sec:f.n:?perf
+BHJej	H	c	k³yby¶my	uc	verb:aglt:praet:pl:pri:f.n:?perf
+BHJej	H	c	k³y¶cie	uc	verb:praet:pl:sec:f.n:?perf
+BHJej	H	c	k³y¶my	uc	verb:praet:pl:pri:f.n:?perf
 BHJej	H	eæ	a³	[^rz]eæ	verb:praet:sg:ter:m:?perf
 BHJej	H	eæ	a³	[abjot]rzeæ	verb:praet:sg:ter:m:?perf
 BHJej	H	eæ	a³a	[^rz]eæ	verb:praet:sg:ter:f:?perf
@@ -11162,13 +11194,17 @@ BHJej	H	¶æ	¶liby¶cie	[mn]ie¶æ	verb:aglt:praet:pl:sec:m1:?perf
 BHJej	H	¶æ	¶liby¶my	[mn]ie¶æ	verb:aglt:praet:pl:pri:m1:?perf
 BHJej	H	¶æ	¶li¶cie	[mn]ie¶æ	verb:praet:pl:sec:m1:?perf
 BHJej	H	¶æ	¶li¶my	[mn]ie¶æ	verb:praet:pl:pri:m1:?perf
+BHJej	J	0	ze	uc	verb:sg:ter:?perf
+BHJej	J	0	zecie	uc	verb:pl:sec:?perf
+BHJej	J	0	zemy	uc	verb:pl:pri:?perf
+BHJej	J	0	zesz	uc	verb:sg:sec:?perf
 BHJej	J	aæ	e	jaæ	verb:sg:ter:?perf
 BHJej	J	aæ	ecie	jaæ	verb:pl:sec:?perf
 BHJej	J	aæ	eje	[il]aæ	verb:sg:ter:?perf
 BHJej	J	aæ	ejecie	[il]aæ	verb:pl:sec:?perf
 BHJej	J	aæ	ejemy	[il]aæ	verb:pl:pri:?perf
 BHJej	J	aæ	ejesz	[il]aæ	verb:sg:sec:?perf
-BHJej	J	aæ	ej±	[il]aæ	verb:ter:pl:?perf
+BHJej	J	aæ	ej±	[il]aæ	verb:pl:ter:?perf
 BHJej	J	aæ	ejê	[il]aæ	verb:sg:pri:?perf
 BHJej	J	aæ	emy	jaæ	verb:pl:pri:?perf
 BHJej	J	aæ	esz	jaæ	verb:sg:sec:?perf
@@ -11184,9 +11220,9 @@ BHJej	J	aæ	iemy	±paæ	verb:pl:pri:?perf
 BHJej	J	aæ	iesz	[^s]baæ	verb:sg:sec:?perf
 BHJej	J	aæ	iesz	maæ	verb:sg:sec:?perf
 BHJej	J	aæ	iesz	±paæ	verb:sg:sec:?perf
-BHJej	J	aæ	i±	[^s]baæ	verb:ter:pl:?perf
-BHJej	J	aæ	i±	maæ	verb:ter:pl:?perf
-BHJej	J	aæ	i±	±paæ	verb:ter:pl:?perf
+BHJej	J	aæ	i±	[^s]baæ	verb:pl:ter:?perf
+BHJej	J	aæ	i±	maæ	verb:pl:ter:?perf
+BHJej	J	aæ	i±	±paæ	verb:pl:ter:?perf
 BHJej	J	aæ	iê	[^s]baæ	verb:sg:pri:?perf
 BHJej	J	aæ	iê	maæ	verb:sg:pri:?perf
 BHJej	J	aæ	iê	±paæ	verb:fin:sg:pri:imperf
@@ -11194,41 +11230,43 @@ BHJej	J	aæ	ze	[^bp]raæ	verb:sg:ter:?perf
 BHJej	J	aæ	zecie	[^bp]raæ	verb:pl:sec:?perf
 BHJej	J	aæ	zemy	[^bp]raæ	verb:pl:pri:?perf
 BHJej	J	aæ	zesz	[^bp]raæ	verb:sg:sec:?perf
-BHJej	J	aæ	z±	[^bp]raæ	verb:ter:pl:?perf
+BHJej	J	aæ	z±	[^bp]raæ	verb:pl:ter:?perf
 BHJej	J	aæ	zê	[^bp]raæ	verb:sg:pri:?perf
-BHJej	J	aæ	±	jaæ	verb:ter:pl:?perf
+BHJej	J	aæ	±	jaæ	verb:pl:ter:?perf
 BHJej	J	aæ	ê	jaæ	verb:sg:pri:?perf
+BHJej	J	c	k±	uc	verb:pl:ter:?perf
+BHJej	J	c	kê	uc	verb:sg:pri:?perf
 BHJej	J	chaæ	dzie	echaæ	verb:sg:ter:?perf
 BHJej	J	chaæ	dziecie	echaæ	verb:pl:sec:?perf
 BHJej	J	chaæ	dziemy	echaæ	verb:pl:pri:?perf
 BHJej	J	chaæ	dziesz	echaæ	verb:sg:sec:?perf
-BHJej	J	echaæ	ad±	echaæ	verb:ter:pl:?perf
+BHJej	J	echaæ	ad±	echaæ	verb:pl:ter:?perf
 BHJej	J	echaæ	adê	echaæ	verb:sg:pri:?perf
-BHJej	J	eæ		[mp]ieæ	verb:ter:sg:?perf
+BHJej	J	eæ		[mp]ieæ	verb:sg:ter:?perf
 BHJej	J	eæ	cie	[mp]ieæ	verb:pl:sec:?perf
 BHJej	J	eæ	my	[mp]ieæ	verb:pl:pri:?perf
 BHJej	J	eæ	sz	[mp]ieæ	verb:sg:sec:?perf
-BHJej	J	eæ	±	[mp]ieæ	verb:ter:pl:?perf
+BHJej	J	eæ	±	[mp]ieæ	verb:pl:ter:?perf
 BHJej	J	eæ	ê	[mp]ieæ	verb:sg:pri:?perf
-BHJej	J	e¶æ	os±	[^j]e¶æ	verb:ter:pl:?perf
+BHJej	J	e¶æ	os±	[^j]e¶æ	verb:pl:ter:?perf
 BHJej	J	e¶æ	osê	[^j]e¶æ	verb:sg:pri:?perf
 BHJej	J	iwaæ	uje	iwaæ	verb:sg:ter:?perf
 BHJej	J	iwaæ	ujecie	iwaæ	verb:pl:sec:?perf
 BHJej	J	iwaæ	ujemy	iwaæ	verb:pl:pri:?perf
 BHJej	J	iwaæ	ujesz	iwaæ	verb:sg:sec:?perf
-BHJej	J	iwaæ	uj±	iwaæ	verb:ter:pl:?perf
+BHJej	J	iwaæ	uj±	iwaæ	verb:pl:ter:?perf
 BHJej	J	iwaæ	ujê	iwaæ	verb:sg:pri:?perf
 BHJej	J	kaæ	cze	kaæ	verb:sg:ter:?perf+verb:sg:pri:?perf
 BHJej	J	kaæ	czecie	kaæ	verb:pl:sec:?perf
 BHJej	J	kaæ	czemy	kaæ	verb:pl:pri:?perf
 BHJej	J	kaæ	czesz	kaæ	verb:sg:sec:?perf
-BHJej	J	kaæ	cz±	kaæ	verb:ter:pl:?perf
+BHJej	J	kaæ	cz±	kaæ	verb:pl:ter:?perf
 BHJej	J	kaæ	czê	kaæ	verb:sg:pri:?perf
 BHJej	J	owaæ	uje	owaæ	verb:sg:ter:?perf
 BHJej	J	owaæ	ujecie	owaæ	verb:pl:sec:?perf
 BHJej	J	owaæ	ujemy	owaæ	verb:pl:pri:?perf
 BHJej	J	owaæ	ujesz	owaæ	verb:sg:sec:?perf
-BHJej	J	owaæ	uj±	owaæ	verb:fin:ter:pl:f.m.n
+BHJej	J	owaæ	uj±	owaæ	verb:fin:pl:ter:f.m.n
 BHJej	J	owaæ	ujê	owaæ	verb:sg:pri:?perf
 BHJej	J	sn±æ	¶nie	sn±æ	verb:sg:ter:?perf
 BHJej	J	sn±æ	¶niecie	sn±æ	verb:pl:sec:?perf
@@ -11238,25 +11276,25 @@ BHJej	J	taæ	cze	[±op]taæ	verb:sg:ter:?perf
 BHJej	J	taæ	czecie	[±op]taæ	verb:pl:sec:?perf
 BHJej	J	taæ	czemy	[±op]taæ	verb:pl:pri:?perf
 BHJej	J	taæ	czesz	[±op]taæ	verb:sg:sec:?perf
-BHJej	J	taæ	cz±	[±op]taæ	verb:ter:pl:?perf
+BHJej	J	taæ	cz±	[±op]taæ	verb:pl:ter:?perf
 BHJej	J	taæ	czê	[±op]taæ	verb:sg:pri:?perf
 BHJej	J	waæ	je	awaæ	verb:sg:ter:?perf
 BHJej	J	waæ	jecie	awaæ	verb:pl:sec:?perf
 BHJej	J	waæ	jemy	awaæ	verb:pl:pri:?perf
 BHJej	J	waæ	jesz	awaæ	verb:sg:sec:?perf
-BHJej	J	waæ	j±	awaæ	verb:ter:pl:?perf
+BHJej	J	waæ	j±	awaæ	verb:pl:ter:?perf
 BHJej	J	waæ	jê	awaæ	verb:sg:pri:?perf
 BHJej	J	ywaæ	uje	ywaæ	verb:sg:ter:?perf
 BHJej	J	ywaæ	ujecie	ywaæ	verb:pl:sec:?perf
 BHJej	J	ywaæ	ujemy	ywaæ	verb:pl:pri:?perf
 BHJej	J	ywaæ	ujesz	ywaæ	verb:sg:sec:?perf
-BHJej	J	ywaæ	uj±	ywaæ	verb:ter:pl:?perf
+BHJej	J	ywaæ	uj±	ywaæ	verb:pl:ter:?perf
 BHJej	J	ywaæ	ujê	ywaæ	verb:sg:pri:?perf
 BHJej	J	zaæ	¿e	[^cdr]zaæ	verb:sg:ter:?perf
 BHJej	J	zaæ	¿ecie	[^cdr]zaæ	verb:pl:sec:?perf
 BHJej	J	zaæ	¿emy	[^cdr]zaæ	verb:pl:pri:?perf
 BHJej	J	zaæ	¿esz	[^cdr]zaæ	verb:sg:sec:?perf
-BHJej	J	zaæ	¿±	[^cdr]zaæ	verb:ter:pl:?perf
+BHJej	J	zaæ	¿±	[^cdr]zaæ	verb:pl:ter:?perf
 BHJej	J	zaæ	¿ê	[^cdr]zaæ	verb:sg:pri:?perf
 BHJej	J	zn±æ	¼nie	zn±æ	verb:pl:pri:?perf
 BHJej	J	zn±æ	¼niecie	zn±æ	verb:pl:ter:?perf
@@ -11266,12 +11304,12 @@ BHJej	J	±æ	nie	l±æ	verb:sg:ter:?perf
 BHJej	J	±æ	niecie	l±æ	verb:pl:sec:?perf
 BHJej	J	±æ	niemy	l±æ	verb:pl:pri:?perf
 BHJej	J	±æ	niesz	l±æ	verb:sg:sec:?perf
-BHJej	J	±æ	n±	l±æ	verb:ter:pl:?perf
+BHJej	J	±æ	n±	l±æ	verb:pl:ter:?perf
 BHJej	J	±æ	nê	l±æ	verb:sg:pri:?perf
 BHJej	J	±æ	ê	sn±æ	verb:sg:pri:?perf
 BHJej	J	±æ	ê	zn±æ	verb:sg:pri:?perf
-BHJej	J	æ		sn±æ	verb:ter:pl:?perf
-BHJej	J	æ		zn±æ	verb:ter:pl:?perf
+BHJej	J	æ		sn±æ	verb:pl:ter:?perf
+BHJej	J	æ		zn±æ	verb:pl:ter:?perf
 BHJej	J	æ	je	[ao]rzeæ	verb:sg:ter:?perf
 BHJej	J	æ	je	[bfmnpw]iæ	verb:sg:ter:?perf
 BHJej	J	æ	je	[uy]æ	verb:sg:ter:?perf
@@ -11284,9 +11322,9 @@ BHJej	J	æ	jemy	[uy]æ	verb:pl:pri:?perf
 BHJej	J	æ	jesz	[ao]rzeæ	verb:sg:sec:?perf
 BHJej	J	æ	jesz	[bfmnpw]iæ	verb:sg:sec:?perf
 BHJej	J	æ	jesz	[uy]æ	verb:sg:sec:?perf
-BHJej	J	æ	j±	[ao]rzeæ	verb:ter:pl:?perf
-BHJej	J	æ	j±	[bfmnpw]iæ	verb:ter:pl:?perf
-BHJej	J	æ	j±	[uy]æ	verb:ter:pl:?perf
+BHJej	J	æ	j±	[ao]rzeæ	verb:pl:ter:?perf
+BHJej	J	æ	j±	[bfmnpw]iæ	verb:pl:ter:?perf
+BHJej	J	æ	j±	[uy]æ	verb:pl:ter:?perf
 BHJej	J	æ	jê	[ao]rzeæ	verb:sg:pri:?perf
 BHJej	J	æ	jê	[bfmnpw]iæ	verb:sg:pri:?perf
 BHJej	J	æ	jê	[uy]æ	verb:sg:pri:?perf
@@ -11298,8 +11336,9 @@ BHJej	J	¼æ	zie	le¼æ	verb:sg:ter:?perf
 BHJej	J	¼æ	ziecie	le¼æ	verb:pl:sec:?perf
 BHJej	J	¼æ	ziemy	le¼æ	verb:pl:pri:?perf
 BHJej	J	¼æ	ziesz	le¼æ	verb:sg:sec:?perf
-BHJej	J	¼æ	z±	le¼æ	verb:ter:pl:?perf
+BHJej	J	¼æ	z±	le¼æ	verb:pl:ter:?perf
 BHJej	J	¼æ	zê	le¼æ	verb:sg:pri:?perf
+BHJej	e	0	zono	³uc	verb:imps
 BHJej	e	eæ	ano	[^csz]ieæ	verb:imps
 BHJej	e	eæ	ano	rzeæ	verb:imps
 BHJej	e	sn±æ	¶niêto	sn±æ	verb:imps
@@ -11310,6 +11349,14 @@ BHJej	e	æ	to	[^ac]iæ	verb:imps
 BHJej	e	æ	to	[uy]æ	verb:imps
 BHJej	e	¶æ	siono	nie¶æ	verb:imps
 BHJej	e	¼æ	ziono	¼æ	verb:imps
+BHJej	j	0	zenia	³uc	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
+BHJej	j	0	zeniach	³uc	subst:ger:pl:loc:n
+BHJej	j	0	zeniami	³uc	subst:ger:pl:inst:n
+BHJej	j	0	zenie	³uc	subst:ger:sg:nom.acc.voc:n
+BHJej	j	0	zeniem	³uc	subst:ger:sg:inst:n
+BHJej	j	0	zeniom	³uc	subst:ger:pl:dat:n
+BHJej	j	0	zeniu	³uc	subst:ger:sg:dat.loc:n
+BHJej	j	0	zeñ	³uc	subst:ger:pl:gen:n
 BHJej	j	eæ	enia	rzeæ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
 BHJej	j	eæ	eniach	rzeæ	subst:ger:pl:loc:n
 BHJej	j	eæ	eniami	rzeæ	subst:ger:pl:inst:n
@@ -11431,7 +11478,7 @@ BHJejk	J	taæ	cze	[±op]taæ	verb:sg:ter:?perf
 BHJejk	J	taæ	czecie	[±op]taæ	verb:pl:sec:?perf
 BHJejk	J	taæ	czemy	[±op]taæ	verb:pl:pri:?perf
 BHJejk	J	taæ	czesz	[±op]taæ	verb:sg:sec:?perf
-BHJejk	J	taæ	cz±	[±op]taæ	verb:ter:pl:?perf
+BHJejk	J	taæ	cz±	[±op]taæ	verb:pl:ter:?perf
 BHJejk	J	taæ	czê	[±op]taæ	verb:sg:pri:?perf
 BHJejk	e	æ	no	[^±ei¶uy¼]æ	verb:imps
 BHJejk	j	æ	nia	[^±ei¶uy¼]æ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
@@ -11490,7 +11537,7 @@ BHdh	h	æ	je	[cz]ieæ	verb:sg:ter:?perf
 BHdh	h	æ	jecie	[cz]ieæ	verb:pl:sec:?perf
 BHdh	h	æ	jemy	[cz]ieæ	verb:pl:pri:?perf
 BHdh	h	æ	jesz	[cz]ieæ	verb:sg:sec:?perf
-BHdh	h	æ	j±	[cz]ieæ	verb:ter:pl:?perf
+BHdh	h	æ	j±	[cz]ieæ	verb:pl:ter:?perf
 BHdh	h	æ	jê	[cz]ieæ	verb:sg:pri:?perf
 BHdhi	B	eæ		[mz]leæ	verb:impt:sg:sec:perf
 BHdhi	B	eæ	aj	mleæ	verb:impt:sg:sec:perf
@@ -11584,10 +11631,10 @@ BHdhi	d	eæ	ano	[cs]zeæ	verb:imps
 BHdhi	d	eæ	ano	dzieæ	verb:imps
 BHdhi	d	eæ	ano	zieæ	verb:imps
 BHdhi	d	eæ	ano	¶cieæ	verb:imps
-BHdhi	h	eæ	±	leæ	verb:ter:pl:?perf
+BHdhi	h	eæ	±	leæ	verb:pl:ter:?perf
 BHdhi	h	eæ	ê	leæ	verb:sg:pri:?perf
-BHdhi	h	æ		leæ	verb:ter:sg:?perf
-BHdhi	h	æ		mieæ	verb:ter:sg:?perf
+BHdhi	h	æ		leæ	verb:sg:ter:?perf
+BHdhi	h	æ		mieæ	verb:sg:ter:?perf
 BHdhi	h	æ	cie	leæ	verb:pl:sec:?perf
 BHdhi	h	æ	cie	mieæ	verb:pl:sec:?perf
 BHdhi	h	æ	je	[cz]ieæ	verb:sg:ter:?perf
@@ -11598,9 +11645,9 @@ BHdhi	h	æ	jemy	[cz]ieæ	verb:pl:pri:?perf
 BHdhi	h	æ	jemy	zeæ	verb:fin:pl:pri:imperf+verb:pl:pri:?perf
 BHdhi	h	æ	jesz	[cz]ieæ	verb:sg:sec:?perf
 BHdhi	h	æ	jesz	zeæ	verb:fin:sg:sec:imperf+verb:sg:sec:?perf
-BHdhi	h	æ	j±	[cz]ieæ	verb:ter:pl:?perf
-BHdhi	h	æ	j±	mieæ	verb:ter:pl:?perf
-BHdhi	h	æ	j±	zeæ	verb:ter:pl:?perf
+BHdhi	h	æ	j±	[cz]ieæ	verb:pl:ter:?perf
+BHdhi	h	æ	j±	mieæ	verb:pl:ter:?perf
+BHdhi	h	æ	j±	zeæ	verb:pl:ter:?perf
 BHdhi	h	æ	jê	[cz]ieæ	verb:sg:pri:?perf
 BHdhi	h	æ	jê	zeæ	verb:fin:sg:pri:imperf+verb:sg:pri:?perf
 BHdhi	h	æ	m	mieæ	verb:sg:pri:?perf
@@ -11789,7 +11836,7 @@ BHeh	h	æ	je	[cz]ieæ	verb:sg:ter:?perf
 BHeh	h	æ	jecie	[cz]ieæ	verb:pl:sec:?perf
 BHeh	h	æ	jemy	[cz]ieæ	verb:pl:pri:?perf
 BHeh	h	æ	jesz	[cz]ieæ	verb:sg:sec:?perf
-BHeh	h	æ	j±	[cz]ieæ	verb:ter:pl:?perf
+BHeh	h	æ	j±	[cz]ieæ	verb:pl:ter:?perf
 BHeh	h	æ	jê	[cz]ieæ	verb:sg:pri:?perf
 BHehi	B	æ	j	ieæ	verb:impt:sg:sec:perf
 BHehi	B	æ	jcie	ieæ	verb:impt:pl:sec:perf
@@ -11834,7 +11881,7 @@ BHehi	h	æ	je	[cz]ieæ	verb:sg:ter:?perf
 BHehi	h	æ	jecie	[cz]ieæ	verb:pl:sec:?perf
 BHehi	h	æ	jemy	[cz]ieæ	verb:pl:pri:?perf
 BHehi	h	æ	jesz	[cz]ieæ	verb:sg:sec:?perf
-BHehi	h	æ	j±	[cz]ieæ	verb:ter:pl:?perf
+BHehi	h	æ	j±	[cz]ieæ	verb:pl:ter:?perf
 BHehi	h	æ	jê	[cz]ieæ	verb:sg:pri:?perf
 BHehi	i	ieæ	enia	[^¶]cieæ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
 BHehi	i	ieæ	enia	dzieæ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
@@ -11985,7 +12032,7 @@ BHehj	h	aæ	ie	[^i]waæ	verb:sg:ter:?perf
 BHehj	h	aæ	iecie	[^i]waæ	verb:pl:sec:?perf
 BHehj	h	aæ	iemy	[^i]waæ	verb:pl:pri:?perf
 BHehj	h	aæ	iesz	[^i]waæ	verb:sg:sec:?perf
-BHehj	h	aæ	±	[^i]waæ	verb:ter:pl:?perf
+BHehj	h	aæ	±	[^i]waæ	verb:pl:ter:?perf
 BHehj	h	aæ	ê	[^i]waæ	verb:sg:pri:?perf
 BHehj	h	æ	je	[cz]ieæ	verb:sg:ter:?perf
 BHehj	h	æ	je	zeæ	verb:sg:ter:?perf
@@ -11995,8 +12042,8 @@ BHehj	h	æ	jemy	[cz]ieæ	verb:pl:pri:?perf
 BHehj	h	æ	jemy	zeæ	verb:pl:pri:?perf
 BHehj	h	æ	jesz	[cz]ieæ	verb:sg:sec:?perf
 BHehj	h	æ	jesz	zeæ	verb:sg:sec:?perf
-BHehj	h	æ	j±	[cz]ieæ	verb:ter:pl:?perf
-BHehj	h	æ	j±	zeæ	verb:ter:pl:?perf
+BHehj	h	æ	j±	[cz]ieæ	verb:pl:ter:?perf
+BHehj	h	æ	j±	zeæ	verb:pl:ter:?perf
 BHehj	h	æ	jê	[cz]ieæ	verb:sg:pri:?perf
 BHehj	h	æ	jê	zeæ	verb:sg:pri:?perf
 BHehj	j	eæ	enia	rzeæ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
@@ -12181,7 +12228,7 @@ BId	I	c	gnie	biec	verb:sg:ter:?perf
 BId	I	c	gniecie	biec	verb:pl:sec:?perf
 BId	I	c	gniemy	biec	verb:pl:pri:?perf
 BId	I	c	gniesz	biec	verb:sg:sec:?perf
-BId	I	c	gn±	biec	verb:ter:pl:?perf
+BId	I	c	gn±	biec	verb:pl:ter:?perf
 BId	I	c	gnê	biec	verb:sg:pri:?perf
 BId	d	c	gniêto	[^c]iec	verb:imps
 BIdi	B	c	gnij	biec	verb:impt:sg:sec:perf
@@ -12207,15 +12254,15 @@ BIdi	I	c	gnie	biec	verb:sg:ter:?perf
 BIdi	I	c	gniecie	biec	verb:pl:sec:?perf
 BIdi	I	c	gniemy	biec	verb:pl:pri:?perf
 BIdi	I	c	gniesz	biec	verb:sg:sec:?perf
-BIdi	I	c	gn±	biec	verb:ter:pl:?perf
+BIdi	I	c	gn±	biec	verb:pl:ter:?perf
 BIdi	I	c	gnê	biec	verb:sg:pri:?perf
-BIdi	I	ó¶æ	osn±	ró¶æ	verb:ter:pl:?perf
+BIdi	I	ó¶æ	osn±	ró¶æ	verb:pl:ter:?perf
 BIdi	I	ó¶æ	osnê	ró¶æ	verb:sg:pri:?perf
 BIdi	I	ó¶æ	o¶nie	ró¶æ	verb:sg:ter:?perf
 BIdi	I	ó¶æ	o¶niecie	ró¶æ	verb:pl:sec:?perf
 BIdi	I	ó¶æ	o¶niemy	ró¶æ	verb:pl:pri:?perf
 BIdi	I	ó¶æ	o¶niesz	ró¶æ	verb:sg:sec:?perf
-BIdi	I	±c	êg±	rz±c	verb:ter:pl:?perf
+BIdi	I	±c	êg±	rz±c	verb:pl:ter:?perf
 BIdi	I	±c	êgê	rz±c	verb:sg:pri:?perf
 BIdi	I	±c	ê¿e	rz±c	verb:sg:ter:?perf
 BIdi	I	±c	ê¿ecie	rz±c	verb:pl:sec:?perf
@@ -12260,7 +12307,7 @@ BIej	I	±æ	iecie	n±æ	verb:pl:sec:?perf
 BIej	I	±æ	iemy	n±æ	verb:pl:pri:?perf
 BIej	I	±æ	iesz	n±æ	verb:sg:sec:?perf
 BIej	I	±æ	ê	n±æ	verb:sg:pri:?perf
-BIej	I	æ		n±æ	verb:ter:pl:?perf
+BIej	I	æ		n±æ	verb:pl:ter:?perf
 BIej	e	±æ	iêto	[^sz]n±æ	verb:imps
 BIej	j	±æ	iêcia	[^sz]n±æ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
 BIej	j	±æ	iêciach	[^sz]n±æ	subst:ger:pl:loc:n
@@ -12281,7 +12328,7 @@ BIi	I	¶æ	dzie	j¶æ	verb:sg:ter:?perf
 BIi	I	¶æ	dziecie	j¶æ	verb:pl:sec:?perf
 BIi	I	¶æ	dziemy	j¶æ	verb:pl:pri:?perf
 BIi	I	¶æ	dziesz	j¶æ	verb:sg:sec:?perf
-BIi	I	¶æ	d±	j¶æ	verb:ter:pl:?perf
+BIi	I	¶æ	d±	j¶æ	verb:pl:ter:?perf
 BIi	I	¶æ	dê	j¶æ	verb:sg:pri:?perf
 BIi	i	¶æ	¶cia	j¶æ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
 BIi	i	¶æ	¶ciach	j¶æ	subst:ger:pl:loc:n
@@ -12298,9 +12345,9 @@ BJdi	B	eæ	yjmy	[dj]rzeæ	verb:impt:pl:pri:perf
 BJdi	B	eæ	yjmy¿	[dj]rzeæ	verb:impt:pl:pri:perf
 BJdi	B	eæ	yj¿e	[dj]rzeæ	verb:impt:sg:sec:perf
 BJdi	BJdi	0	0		verb:inf:imperf
-BJdi	J	zeæ	±	[^ao]rzeæ	verb:ter:pl:?perf
+BJdi	J	zeæ	±	[^ao]rzeæ	verb:pl:ter:?perf
 BJdi	J	zeæ	ê	[^ao]rzeæ	verb:sg:pri:?perf
-BJdi	J	æ		[^ao]rzeæ	verb:ter:sg:?perf
+BJdi	J	æ		[^ao]rzeæ	verb:sg:ter:?perf
 BJdi	J	æ	cie	[^ao]rzeæ	verb:pl:sec:?perf
 BJdi	J	æ	my	[^ao]rzeæ	verb:pl:pri:?perf
 BJdi	J	æ	sz	[^ao]rzeæ	verb:sg:sec:?perf
@@ -12336,8 +12383,8 @@ BJej	J	zn±æ	¼niemy	zn±æ	verb:pl:sec:?perf
 BJej	J	zn±æ	¼niesz	zn±æ	verb:sg:ter:?perf
 BJej	J	±æ	ê	sn±æ	verb:sg:pri:?perf
 BJej	J	±æ	ê	zn±æ	verb:sg:pri:?perf
-BJej	J	æ		sn±æ	verb:ter:pl:?perf
-BJej	J	æ		zn±æ	verb:ter:pl:?perf
+BJej	J	æ		sn±æ	verb:pl:ter:?perf
+BJej	J	æ		zn±æ	verb:pl:ter:?perf
 BJej	e	sn±æ	¶niêto	sn±æ	verb:imps
 BJej	e	zn±æ	¼niêto	zn±æ	verb:imps
 BJej	j	sn±æ	¶niêcia	sn±æ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
@@ -12368,7 +12415,7 @@ Behj	h	æ	je	zeæ	verb:sg:ter:?perf
 Behj	h	æ	jecie	zeæ	verb:pl:sec:?perf
 Behj	h	æ	jemy	zeæ	verb:pl:pri:?perf
 Behj	h	æ	jesz	zeæ	verb:sg:sec:?perf
-Behj	h	æ	j±	zeæ	verb:ter:pl:?perf
+Behj	h	æ	j±	zeæ	verb:pl:ter:?perf
 Behj	h	æ	jê	zeæ	verb:sg:pri:?perf
 Behj	j	eæ	enia	rzeæ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
 Behj	j	eæ	eniach	rzeæ	subst:ger:pl:loc:n
@@ -12792,9 +12839,9 @@ EFJ	F	eprzeæ	par³yby¶cie	eprzeæ	verb:aglt:praet:pl:sec:n:?perf
 EFJ	F	eprzeæ	par³yby¶my	eprzeæ	verb:aglt:praet:pl:pri:n:?perf
 EFJ	F	eprzeæ	par³y¶cie	eprzeæ	verb:praet:pl:sec:n:?perf
 EFJ	F	eprzeæ	par³y¶my	eprzeæ	verb:praet:pl:pri:n:?perf
-EFJ	J	zeæ	±	[^ao]rzeæ	verb:ter:pl:?perf
+EFJ	J	zeæ	±	[^ao]rzeæ	verb:pl:ter:?perf
 EFJ	J	zeæ	ê	[^ao]rzeæ	verb:sg:pri:?perf
-EFJ	J	æ		[^ao]rzeæ	verb:ter:sg:?perf
+EFJ	J	æ		[^ao]rzeæ	verb:sg:ter:?perf
 EFJ	J	æ	cie	[^ao]rzeæ	verb:pl:sec:?perf
 EFJ	J	æ	my	[^ao]rzeæ	verb:pl:pri:?perf
 EFJ	J	æ	sz	[^ao]rzeæ	verb:sg:sec:?perf
@@ -12840,9 +12887,9 @@ EFJdi	F	rzeæ	ar³yby¶cie	[^e].rzeæ	verb:aglt:praet:pl:sec:n:?perf
 EFJdi	F	rzeæ	ar³yby¶my	[^e].rzeæ	verb:aglt:praet:pl:pri:n:?perf
 EFJdi	F	rzeæ	ar³y¶cie	[^e].rzeæ	verb:praet:pl:sec:n:?perf
 EFJdi	F	rzeæ	ar³y¶my	[^e].rzeæ	verb:praet:pl:pri:n:?perf
-EFJdi	J	zeæ	±	[^ao]rzeæ	verb:ter:pl:?perf
+EFJdi	J	zeæ	±	[^ao]rzeæ	verb:pl:ter:?perf
 EFJdi	J	zeæ	ê	[^ao]rzeæ	verb:sg:pri:?perf
-EFJdi	J	æ		[^ao]rzeæ	verb:ter:sg:?perf
+EFJdi	J	æ		[^ao]rzeæ	verb:sg:ter:?perf
 EFJdi	J	æ	cie	[^ao]rzeæ	verb:pl:sec:?perf
 EFJdi	J	æ	my	[^ao]rzeæ	verb:pl:pri:?perf
 EFJdi	J	æ	sz	[^ao]rzeæ	verb:sg:sec:?perf
@@ -12897,9 +12944,9 @@ EHIJdik	H	æ	³yby¶cie	[^±e¶¼]æ	verb:aglt:praet:pl:sec:n:?perf
 EHIJdik	H	æ	³yby¶my	[^±e¶¼]æ	verb:aglt:praet:pl:pri:n:?perf
 EHIJdik	H	æ	³y¶cie	[^±e¶¼]æ	verb:praet:pl:sec:n:?perf
 EHIJdik	H	æ	³y¶my	[^±e¶¼]æ	verb:praet:pl:pri:n:?perf
-EHIJdik	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:ter:sg:?perf
+EHIJdik	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:sg:ter:?perf
 EHIJdik	I	æ	cie	[bcdfghijlkmnstwz¿]aæ	verb:pl:sec:?perf
-EHIJdik	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:ter:pl:?perf
+EHIJdik	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:pl:ter:?perf
 EHIJdik	I	æ	m	[bcdfghijlkmnstwz¿]aæ	verb:sg:pri:?perf
 EHIJdik	I	æ	my	[bcdfghijlkmnstwz¿]aæ	verb:pl:pri:?perf
 EHIJdik	I	æ	sz	[bcdfghijlkmnstwz¿]aæ	verb:sg:sec:?perf
@@ -12907,7 +12954,7 @@ EHIJdik	J	taæ	cze	[±op]taæ	verb:sg:ter:?perf
 EHIJdik	J	taæ	czecie	[±op]taæ	verb:pl:sec:?perf
 EHIJdik	J	taæ	czemy	[±op]taæ	verb:pl:pri:?perf
 EHIJdik	J	taæ	czesz	[±op]taæ	verb:sg:sec:?perf
-EHIJdik	J	taæ	cz±	[±op]taæ	verb:ter:pl:?perf
+EHIJdik	J	taæ	cz±	[±op]taæ	verb:pl:ter:?perf
 EHIJdik	J	taæ	czê	[±op]taæ	verb:sg:pri:?perf
 EHIJdik	d	æ	no	[^i]aæ	verb:imps
 EHIJdik	i	æ	nia	[^i]aæ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
@@ -12966,9 +13013,9 @@ EHIJejk	H	æ	³yby¶cie	[^±e¶¼]æ	verb:aglt:praet:pl:sec:n:?perf
 EHIJejk	H	æ	³yby¶my	[^±e¶¼]æ	verb:aglt:praet:pl:pri:n:?perf
 EHIJejk	H	æ	³y¶cie	[^±e¶¼]æ	verb:praet:pl:sec:n:?perf
 EHIJejk	H	æ	³y¶my	[^±e¶¼]æ	verb:praet:pl:pri:n:?perf
-EHIJejk	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:ter:sg:?perf
+EHIJejk	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:sg:ter:?perf
 EHIJejk	I	æ	cie	[bcdfghijlkmnstwz¿]aæ	verb:pl:sec:?perf
-EHIJejk	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:ter:pl:?perf
+EHIJejk	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:pl:ter:?perf
 EHIJejk	I	æ	m	[bcdfghijlkmnstwz¿]aæ	verb:sg:pri:?perf
 EHIJejk	I	æ	my	[bcdfghijlkmnstwz¿]aæ	verb:pl:pri:?perf
 EHIJejk	I	æ	sz	[bcdfghijlkmnstwz¿]aæ	verb:sg:sec:?perf
@@ -12976,7 +13023,7 @@ EHIJejk	J	iwaæ	uje	iwaæ	verb:sg:ter:?perf
 EHIJejk	J	iwaæ	ujecie	iwaæ	verb:pl:sec:?perf
 EHIJejk	J	iwaæ	ujemy	iwaæ	verb:pl:pri:?perf
 EHIJejk	J	iwaæ	ujesz	iwaæ	verb:sg:sec:?perf
-EHIJejk	J	iwaæ	uj±	iwaæ	verb:ter:pl:?perf
+EHIJejk	J	iwaæ	uj±	iwaæ	verb:pl:ter:?perf
 EHIJejk	J	iwaæ	ujê	iwaæ	verb:sg:pri:?perf
 EHIJejk	e	æ	no	[^±ei¶uy¼]æ	verb:imps
 EHIJejk	j	æ	nia	[^±ei¶uy¼]æ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
@@ -13035,9 +13082,9 @@ EHIdhik	H	æ	³yby¶cie	[^±e¶¼]æ	verb:aglt:praet:pl:sec:n:?perf
 EHIdhik	H	æ	³yby¶my	[^±e¶¼]æ	verb:aglt:praet:pl:pri:n:?perf
 EHIdhik	H	æ	³y¶cie	[^±e¶¼]æ	verb:praet:pl:sec:n:?perf
 EHIdhik	H	æ	³y¶my	[^±e¶¼]æ	verb:praet:pl:pri:n:?perf
-EHIdhik	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:ter:sg:?perf
+EHIdhik	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:sg:ter:?perf
 EHIdhik	I	æ	cie	[bcdfghijlkmnstwz¿]aæ	verb:pl:sec:?perf
-EHIdhik	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:ter:pl:?perf
+EHIdhik	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:pl:ter:?perf
 EHIdhik	I	æ	m	[bcdfghijlkmnstwz¿]aæ	verb:sg:pri:?perf
 EHIdhik	I	æ	my	[bcdfghijlkmnstwz¿]aæ	verb:pl:pri:?perf
 EHIdhik	I	æ	sz	[bcdfghijlkmnstwz¿]aæ	verb:sg:sec:?perf
@@ -13046,7 +13093,7 @@ EHIdhik	h	aæ	e	laæ	verb:sg:ter:?perf
 EHIdhik	h	aæ	ecie	laæ	verb:pl:sec:?perf
 EHIdhik	h	aæ	emy	laæ	verb:pl:pri:?perf
 EHIdhik	h	aæ	esz	laæ	verb:sg:sec:?perf
-EHIdhik	h	aæ	±	laæ	verb:ter:pl:?perf
+EHIdhik	h	aæ	±	laæ	verb:pl:ter:?perf
 EHIdhik	h	aæ	ê	laæ	verb:sg:pri:?perf
 EHIdhik	i	æ	nia	[^i]aæ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
 EHIdhik	i	æ	niach	[^i]aæ	subst:ger:pl:loc:n
@@ -13152,17 +13199,17 @@ EHIdi	I	aæ	ze	[bp]raæ	verb:sg:ter:?perf
 EHIdi	I	aæ	zecie	[bp]raæ	verb:pl:sec:?perf
 EHIdi	I	aæ	zemy	[bp]raæ	verb:pl:pri:?perf
 EHIdi	I	aæ	zesz	[bp]raæ	verb:sg:sec:?perf
-EHIdi	I	aæ	z±	[bp]raæ	verb:ter:pl:?perf
+EHIdi	I	aæ	z±	[bp]raæ	verb:pl:ter:?perf
 EHIdi	I	aæ	zê	[bp]raæ	verb:sg:pri:?perf
-EHIdi	I	iæ	±	[^¼][^aêor]ziæ	verb:ter:pl:?perf
-EHIdi	I	iæ	±	liæ	verb:ter:pl:?perf
+EHIdi	I	iæ	±	[^¼][^aêor]ziæ	verb:pl:ter:?perf
+EHIdi	I	iæ	±	liæ	verb:pl:ter:?perf
 EHIdi	I	iæ	ê	liæ	verb:sg:pri:?perf
-EHIdi	I	yæ	±	[^bmrtw]yæ	verb:ter:pl:?perf
+EHIdi	I	yæ	±	[^bmrtw]yæ	verb:pl:ter:?perf
 EHIdi	I	yæ	ê	[^bmrtw]yæ	verb:sg:pri:?perf
-EHIdi	I	æ		[^bmrtw]yæ	verb:ter:sg:?perf
-EHIdi	I	æ		[^¼][^aêor]ziæ	verb:ter:sg:?perf
-EHIdi	I	æ		[bfmnpw]iæ	verb:ter:sg:?perf
-EHIdi	I	æ		liæ	verb:ter:sg:?perf
+EHIdi	I	æ		[^bmrtw]yæ	verb:sg:ter:?perf
+EHIdi	I	æ		[^¼][^aêor]ziæ	verb:sg:ter:?perf
+EHIdi	I	æ		[bfmnpw]iæ	verb:sg:ter:?perf
+EHIdi	I	æ		liæ	verb:sg:ter:?perf
 EHIdi	I	æ	cie	[^bmrtw]yæ	verb:pl:sec:?perf
 EHIdi	I	æ	cie	[^¼][^aêor]ziæ	verb:pl:sec:?perf
 EHIdi	I	æ	cie	[bfmnpw]iæ	verb:pl:sec:?perf
@@ -13175,7 +13222,7 @@ EHIdi	I	æ	sz	[^bmrtw]yæ	verb:sg:sec:?perf
 EHIdi	I	æ	sz	[^¼][^aêor]ziæ	verb:sg:sec:?perf
 EHIdi	I	æ	sz	[bfmnpw]iæ	verb:sg:sec:?perf
 EHIdi	I	æ	sz	liæ	verb:sg:sec:?perf
-EHIdi	I	æ	±	[bfmnpw]iæ	verb:ter:pl:?perf
+EHIdi	I	æ	±	[bfmnpw]iæ	verb:pl:ter:?perf
 EHIdi	I	æ	ê	[bfmnpw]iæ	verb:sg:pri:?perf
 EHIdi	d	iæ	ono	[^¶z¼][cl]iæ	verb:imps
 EHIdi	d	iæ	ono	[^¼][^aêo]ziæ	verb:imps
@@ -13508,15 +13555,15 @@ EHIdik	I	aæ	ie	[^±æ]paæ	verb:sg:ter:?perf
 EHIdik	I	aæ	iecie	[^±æ]paæ	verb:pl:sec:?perf
 EHIdik	I	aæ	iemy	[^±æ]paæ	verb:pl:pri:?perf
 EHIdik	I	aæ	iesz	[^±æ]paæ	verb:sg:sec:?perf
-EHIdik	I	aæ	i±	[^±æ]paæ	verb:ter:pl:?perf
+EHIdik	I	aæ	i±	[^±æ]paæ	verb:pl:ter:?perf
 EHIdik	I	aæ	iê	[^±æ]paæ	verb:sg:pri:?perf
 EHIdik	I	aæ	ze	[bp]raæ	verb:sg:ter:?perf
 EHIdik	I	aæ	zecie	[bp]raæ	verb:pl:sec:?perf
 EHIdik	I	aæ	zemy	[bp]raæ	verb:pl:pri:?perf
 EHIdik	I	aæ	zesz	[bp]raæ	verb:sg:sec:?perf
-EHIdik	I	aæ	z±	[bp]raæ	verb:ter:pl:?perf
+EHIdik	I	aæ	z±	[bp]raæ	verb:pl:ter:?perf
 EHIdik	I	aæ	zê	[bp]raæ	verb:sg:pri:?perf
-EHIdik	I	eæ		ecieæ	verb:ter:sg:?perf
+EHIdik	I	eæ		ecieæ	verb:sg:ter:?perf
 EHIdik	I	eæ	cie	ecieæ	verb:pl:sec:?perf
 EHIdik	I	eæ	my	ecieæ	verb:pl:pri:?perf
 EHIdik	I	eæ	sz	ecieæ	verb:sg:sec:?perf
@@ -13524,22 +13571,22 @@ EHIdik	I	eæ	y	zeæ	verb:sg:ter:?perf
 EHIdik	I	eæ	ycie	zeæ	verb:pl:sec:?perf
 EHIdik	I	eæ	ymy	zeæ	verb:pl:pri:?perf
 EHIdik	I	eæ	ysz	zeæ	verb:sg:sec:?perf
-EHIdik	I	eæ	±	reæ	verb:ter:pl:?perf
-EHIdik	I	eæ	±	zeæ	verb:ter:pl:?perf
+EHIdik	I	eæ	±	reæ	verb:pl:ter:?perf
+EHIdik	I	eæ	±	zeæ	verb:pl:ter:?perf
 EHIdik	I	eæ	ê	reæ	verb:sg:pri:?perf
 EHIdik	I	eæ	ê	zeæ	verb:sg:pri:?perf
-EHIdik	I	ieæ	±	ecieæ	verb:ter:pl:?perf
+EHIdik	I	ieæ	±	ecieæ	verb:pl:ter:?perf
 EHIdik	I	ieæ	ê	ecieæ	verb:sg:pri:?perf
 EHIdik	I	iæ	i	[^¶z]ciæ	verb:sg:ter:?perf
-EHIdik	I	iæ	j±	[aeo]iæ	verb:ter:pl:?perf
+EHIdik	I	iæ	j±	[aeo]iæ	verb:pl:ter:?perf
 EHIdik	I	iæ	jê	[aeo]iæ	verb:sg:pri:?perf
-EHIdik	I	iæ	z±	siæ	verb:ter:pl:?perf
-EHIdik	I	iæ	z±	zciæ	verb:ter:pl:?perf
+EHIdik	I	iæ	z±	siæ	verb:pl:ter:?perf
+EHIdik	I	iæ	z±	zciæ	verb:pl:ter:?perf
 EHIdik	I	iæ	zê	siæ	verb:sg:pri:?perf
 EHIdik	I	iæ	zê	zciæ	verb:sg:pri:?perf
-EHIdik	I	iæ	±	[^¶z]ciæ	verb:ter:pl:?perf
-EHIdik	I	iæ	±	[^¼][^aêor]ziæ	verb:ter:pl:?perf
-EHIdik	I	iæ	±	liæ	verb:ter:pl:?perf
+EHIdik	I	iæ	±	[^¶z]ciæ	verb:pl:ter:?perf
+EHIdik	I	iæ	±	[^¼][^aêor]ziæ	verb:pl:ter:?perf
+EHIdik	I	iæ	±	liæ	verb:pl:ter:?perf
 EHIdik	I	iæ	ê	[^¶z]ciæ	verb:sg:pri:?perf
 EHIdik	I	iæ	ê	[^¼][^aêor]ziæ	verb:sg:pri:?perf
 EHIdik	I	iæ	ê	liæ	verb:sg:pri:?perf
@@ -13547,27 +13594,27 @@ EHIdik	I	s³aæ	¶le	s³aæ	verb:sg:ter:?perf
 EHIdik	I	s³aæ	¶lecie	s³aæ	verb:pl:sec:?perf
 EHIdik	I	s³aæ	¶lemy	s³aæ	verb:pl:pri:?perf
 EHIdik	I	s³aæ	¶lesz	s³aæ	verb:sg:sec:?perf
-EHIdik	I	s³aæ	¶l±	s³aæ	verb:ter:pl:?perf
+EHIdik	I	s³aæ	¶l±	s³aæ	verb:pl:ter:?perf
 EHIdik	I	s³aæ	¶lê	s³aæ	verb:sg:pri:?perf
-EHIdik	I	yæ	±	[^bmrtw]yæ	verb:ter:pl:?perf
+EHIdik	I	yæ	±	[^bmrtw]yæ	verb:pl:ter:?perf
 EHIdik	I	yæ	ê	[^bmrtw]yæ	verb:sg:pri:?perf
-EHIdik	I	ziæ	¿±	[aêor]ziæ	verb:ter:pl:?perf
+EHIdik	I	ziæ	¿±	[aêor]ziæ	verb:pl:ter:?perf
 EHIdik	I	ziæ	¿ê	[aêor]ziæ	verb:sg:pri:?perf
-EHIdik	I	æ		[^bmrtw]yæ	verb:ter:sg:?perf
-EHIdik	I	æ		[^bp]raæ	verb:ter:sg:?perf
-EHIdik	I	æ		[^s]³aæ	verb:ter:sg:?perf
-EHIdik	I	æ		[^¼][^aêor]ziæ	verb:ter:sg:?perf
-EHIdik	I	æ		[aeo]iæ	verb:ter:sg:?perf
-EHIdik	I	æ		[aêor]ziæ	verb:ter:sg:?perf
-EHIdik	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:ter:sg:?perf
-EHIdik	I	æ		[bfmnpw]iæ	verb:ter:sg:?perf
-EHIdik	I	æ		[±æ]paæ	verb:ter:sg:?perf
-EHIdik	I	æ		liæ	verb:ter:sg:?perf
-EHIdik	I	æ		reæ	verb:ter:sg:?perf
-EHIdik	I	æ		siæ	verb:ter:sg:?perf
-EHIdik	I	æ		zciæ	verb:ter:sg:?perf
-EHIdik	I	æ		¶ciæ	verb:ter:sg:?perf
-EHIdik	I	æ		¼dziæ	verb:ter:sg:?perf
+EHIdik	I	æ		[^bmrtw]yæ	verb:sg:ter:?perf
+EHIdik	I	æ		[^bp]raæ	verb:sg:ter:?perf
+EHIdik	I	æ		[^s]³aæ	verb:sg:ter:?perf
+EHIdik	I	æ		[^¼][^aêor]ziæ	verb:sg:ter:?perf
+EHIdik	I	æ		[aeo]iæ	verb:sg:ter:?perf
+EHIdik	I	æ		[aêor]ziæ	verb:sg:ter:?perf
+EHIdik	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:sg:ter:?perf
+EHIdik	I	æ		[bfmnpw]iæ	verb:sg:ter:?perf
+EHIdik	I	æ		[±æ]paæ	verb:sg:ter:?perf
+EHIdik	I	æ		liæ	verb:sg:ter:?perf
+EHIdik	I	æ		reæ	verb:sg:ter:?perf
+EHIdik	I	æ		siæ	verb:sg:ter:?perf
+EHIdik	I	æ		zciæ	verb:sg:ter:?perf
+EHIdik	I	æ		¶ciæ	verb:sg:ter:?perf
+EHIdik	I	æ		¼dziæ	verb:sg:ter:?perf
 EHIdik	I	æ	cie	[^bmrtw]yæ	verb:pl:sec:?perf
 EHIdik	I	æ	cie	[^bp]raæ	verb:pl:sec:?perf
 EHIdik	I	æ	cie	[^s]³aæ	verb:pl:sec:?perf
@@ -13584,10 +13631,10 @@ EHIdik	I	æ	cie	siæ	verb:pl:sec:?perf
 EHIdik	I	æ	cie	zciæ	verb:pl:sec:?perf
 EHIdik	I	æ	cie	¶ciæ	verb:pl:pri:?perf
 EHIdik	I	æ	cie	¼dziæ	verb:pl:sec:?perf
-EHIdik	I	æ	j±	[^bp]raæ	verb:ter:pl:?perf
-EHIdik	I	æ	j±	[^s]³aæ	verb:ter:pl:?perf
-EHIdik	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:ter:pl:?perf
-EHIdik	I	æ	j±	[±æ]paæ	verb:ter:pl:?perf
+EHIdik	I	æ	j±	[^bp]raæ	verb:pl:ter:?perf
+EHIdik	I	æ	j±	[^s]³aæ	verb:pl:ter:?perf
+EHIdik	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:pl:ter:?perf
+EHIdik	I	æ	j±	[±æ]paæ	verb:pl:ter:?perf
 EHIdik	I	æ	m	[^bp]raæ	verb:sg:pri:?perf
 EHIdik	I	æ	m	[^s]³aæ	verb:sg:pri:?perf
 EHIdik	I	æ	m	[bcdfghijlkmnstwz¿]aæ	verb:sg:pri:?perf
@@ -13624,11 +13671,11 @@ EHIdik	I	æ	sz	siæ	verb:sg:sec:?perf
 EHIdik	I	æ	sz	zciæ	verb:sg:sec:?perf
 EHIdik	I	æ	sz	¶ciæ	verb:sg:sec:?perf
 EHIdik	I	æ	sz	¼dziæ	verb:sg:sec:?perf
-EHIdik	I	æ	±	[bfmnpw]iæ	verb:ter:pl:?perf
+EHIdik	I	æ	±	[bfmnpw]iæ	verb:pl:ter:?perf
 EHIdik	I	æ	ê	[bfmnpw]iæ	verb:sg:pri:?perf
-EHIdik	I	¶ciæ	szcz±	¶ciæ	verb:ter:pl:?perf
+EHIdik	I	¶ciæ	szcz±	¶ciæ	verb:pl:ter:?perf
 EHIdik	I	¶ciæ	szczê	¶ciæ	verb:sg:pri:?perf
-EHIdik	I	¼dziæ	¿d¿±	¼dziæ	verb:ter:pl:?perf
+EHIdik	I	¼dziæ	¿d¿±	¼dziæ	verb:pl:ter:?perf
 EHIdik	I	¼dziæ	¿d¿ê	¼dziæ	verb:sg:pri:?perf
 EHIdik	d	aæ	ano	[^cz]iaæ	verb:imps
 EHIdik	d	eæ	ano	[^¶]cieæ	verb:imps
@@ -14005,15 +14052,15 @@ EHIdjk	H	æ	³yby¶my	[^±e¶¼]æ	verb:aglt:praet:pl:pri:n:?perf
 EHIdjk	H	æ	³y¶cie	[^±e¶¼]æ	verb:praet:pl:sec:n:?perf
 EHIdjk	H	æ	³y¶my	[^±e¶¼]æ	verb:praet:pl:pri:n:?perf
 EHIdjk	I	iæ	i	[^¶z]ciæ	verb:sg:ter:?perf
-EHIdjk	I	iæ	±	[^¶z]ciæ	verb:ter:pl:?perf
+EHIdjk	I	iæ	±	[^¶z]ciæ	verb:pl:ter:?perf
 EHIdjk	I	iæ	ê	[^¶z]ciæ	verb:sg:pri:?perf
-EHIdjk	I	æ		[^bp]raæ	verb:ter:sg:?perf
-EHIdjk	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:ter:sg:?perf
+EHIdjk	I	æ		[^bp]raæ	verb:sg:ter:?perf
+EHIdjk	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:sg:ter:?perf
 EHIdjk	I	æ	cie	[^bp]raæ	verb:pl:sec:?perf
 EHIdjk	I	æ	cie	[^¶z]ciæ	verb:pl:sec:?perf
 EHIdjk	I	æ	cie	[bcdfghijlkmnstwz¿]aæ	verb:pl:sec:?perf
-EHIdjk	I	æ	j±	[^bp]raæ	verb:ter:pl:?perf
-EHIdjk	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:ter:pl:?perf
+EHIdjk	I	æ	j±	[^bp]raæ	verb:pl:ter:?perf
+EHIdjk	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:pl:ter:?perf
 EHIdjk	I	æ	m	[^bp]raæ	verb:sg:pri:?perf
 EHIdjk	I	æ	m	[bcdfghijlkmnstwz¿]aæ	verb:sg:pri:?perf
 EHIdjk	I	æ	my	[^bp]raæ	verb:pl:pri:?perf
@@ -14064,39 +14111,39 @@ EHIdk	E	æ	nym	[^¿]aæ	ppas:pl:dat:f.m.n
 EHIdk	E	æ	nymi	[^¿]aæ	ppas:pl:inst:f.m.n
 EHIdk	E	æ	n±	[^¿]aæ	ppas:sg:acc.inst:f
 EHIdk	EHIdk	0	0		verb:inf:perf
-EHIdk	H	æ	li	[^±e¶¼]æ	verb:praet:ter:pl:m:imperf
-EHIdk	H	æ	liby	[^±e¶¼]æ	verb:aglt:praet:ter:pl:m:imperf
+EHIdk	H	æ	li	[^±e¶¼]æ	verb:praet:pl:ter:m:imperf
+EHIdk	H	æ	liby	[^±e¶¼]æ	verb:aglt:praet:pl:ter:m:imperf
 EHIdk	H	æ	liby¶cie	[^±e¶¼]æ	verb:aglt:praet:pl:sec:m:imperf
 EHIdk	H	æ	liby¶my	[^±e¶¼]æ	verb:aglt:praet:pl:pri:m:imperf
 EHIdk	H	æ	li¶cie	[^±e¶¼]æ	verb:praet:pl:sec:m:imperf
 EHIdk	H	æ	li¶my	[^±e¶¼]æ	verb:praet:pl:pri:m:imperf
-EHIdk	H	æ	³	[^±e¶¼]æ	verb:praet:ter:sg:m:imperf
-EHIdk	H	æ	³a	[^±e¶¼]æ	verb:praet:ter:sg:f:imperf
-EHIdk	H	æ	³aby	[^±e¶¼]æ	verb:aglt:praet:ter:sg:f:imperf
+EHIdk	H	æ	³	[^±e¶¼]æ	verb:praet:sg:ter:m:imperf
+EHIdk	H	æ	³a	[^±e¶¼]æ	verb:praet:sg:ter:f:imperf
+EHIdk	H	æ	³aby	[^±e¶¼]æ	verb:aglt:praet:sg:ter:f:imperf
 EHIdk	H	æ	³abym	[^±e¶¼]æ	verb:aglt:praet:sg:pri:f:imperf
 EHIdk	H	æ	³aby¶	[^±e¶¼]æ	verb:aglt:praet:sg:sec:f:?perf
 EHIdk	H	æ	³am	[^±e¶¼]æ	verb:praet:sg:pri:f:imperf
 EHIdk	H	æ	³a¶	[^±e¶¼]æ	verb:praet:sg:sec:f:?perf
-EHIdk	H	æ	³by	[^±e¶¼]æ	verb:aglt:praet:ter:sg:m:?perf
+EHIdk	H	æ	³by	[^±e¶¼]æ	verb:aglt:praet:sg:ter:m:?perf
 EHIdk	H	æ	³bym	[^±e¶¼]æ	verb:aglt:praet:sg:pri:m:?perf
 EHIdk	H	æ	³by¶	[^±e¶¼]æ	verb:aglt:praet:sg:sec:m:?perf
 EHIdk	H	æ	³em	[^±e¶¼]æ	verb:praet:sg:pri:m:imperf
 EHIdk	H	æ	³e¶	[^±e¶¼]æ	verb:praet:sg:sec:m:?perf
-EHIdk	H	æ	³o	[^±e¶¼]æ	verb:praet:ter:sg:n:?perf
+EHIdk	H	æ	³o	[^±e¶¼]æ	verb:praet:sg:ter:n:?perf
 EHIdk	H	æ	³oby	[^±e¶¼]æ	verb:aglt:praet:sg:sec:n:?perf
 EHIdk	H	æ	³obym	[^±e¶¼]æ	verb:aglt:praet:sg:pri:n:?perf
 EHIdk	H	æ	³oby¶	[^±e¶¼]æ	verb:aglt:praet:sg:sec:n:?perf
 EHIdk	H	æ	³om	[^±e¶¼]æ	verb:praet:sg:pri:n:imperf
 EHIdk	H	æ	³o¶	[^±e¶¼]æ	verb:praet:sg:sec:n:?perf
-EHIdk	H	æ	³y	[^±e¶¼]æ	verb:praet:ter:pl:f.n:imperf
-EHIdk	H	æ	³yby	[^±e¶¼]æ	verb:aglt:praet:ter:pl:f.n:imperf
+EHIdk	H	æ	³y	[^±e¶¼]æ	verb:praet:pl:ter:f.n:imperf
+EHIdk	H	æ	³yby	[^±e¶¼]æ	verb:aglt:praet:pl:ter:f.n:imperf
 EHIdk	H	æ	³yby¶cie	[^±e¶¼]æ	verb:aglt:praet:pl:sec:f.n:imperf
 EHIdk	H	æ	³yby¶my	[^±e¶¼]æ	verb:aglt:praet:pl:pri:f.n:imperf
-EHIdk	H	æ	³y¶cie	[^±e¶¼]æ	verb:aglt:praet:ter:pl:f.n:imperf
+EHIdk	H	æ	³y¶cie	[^±e¶¼]æ	verb:aglt:praet:pl:ter:f.n:imperf
 EHIdk	H	æ	³y¶my	[^±e¶¼]æ	verb:aglt:praet:pl:pri:f.n:imperf
-EHIdk	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:ter:sg:?perf
+EHIdk	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:sg:ter:?perf
 EHIdk	I	æ	cie	[bcdfghijlkmnstwz¿]aæ	verb:pl:sec:f.m.n
-EHIdk	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:ter:pl:?perf
+EHIdk	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:pl:ter:?perf
 EHIdk	I	æ	m	[bcdfghijlkmnstwz¿]aæ	verb:sg:pri:f.m.n
 EHIdk	I	æ	my	[bcdfghijlkmnstwz¿]aæ	verb:pl:pri:f.m.n
 EHIdk	I	æ	sz	[bcdfghijlkmnstwz¿]aæ	verb:sg:sec:f.m.n
@@ -14161,15 +14208,15 @@ EHIeik	H	æ	³yby¶my	[^±e¶¼]æ	verb:aglt:praet:pl:pri:n:?perf
 EHIeik	H	æ	³y¶cie	[^±e¶¼]æ	verb:praet:pl:sec:n:?perf
 EHIeik	H	æ	³y¶my	[^±e¶¼]æ	verb:praet:pl:pri:n:?perf
 EHIeik	I	iæ	i	[^¶z]ciæ	verb:sg:ter:?perf
-EHIeik	I	iæ	±	[^¶z]ciæ	verb:ter:pl:?perf
+EHIeik	I	iæ	±	[^¶z]ciæ	verb:pl:ter:?perf
 EHIeik	I	iæ	ê	[^¶z]ciæ	verb:sg:pri:?perf
-EHIeik	I	æ		[^bp]raæ	verb:ter:sg:?perf
-EHIeik	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:ter:sg:?perf
+EHIeik	I	æ		[^bp]raæ	verb:sg:ter:?perf
+EHIeik	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:sg:ter:?perf
 EHIeik	I	æ	cie	[^bp]raæ	verb:pl:sec:?perf
 EHIeik	I	æ	cie	[^¶z]ciæ	verb:pl:sec:?perf
 EHIeik	I	æ	cie	[bcdfghijlkmnstwz¿]aæ	verb:pl:sec:?perf
-EHIeik	I	æ	j±	[^bp]raæ	verb:ter:pl:?perf
-EHIeik	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:ter:pl:?perf
+EHIeik	I	æ	j±	[^bp]raæ	verb:pl:ter:?perf
+EHIeik	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:pl:ter:?perf
 EHIeik	I	æ	m	[^bp]raæ	verb:sg:pri:?perf
 EHIeik	I	æ	m	[bcdfghijlkmnstwz¿]aæ	verb:sg:pri:?perf
 EHIeik	I	æ	my	[^bp]raæ	verb:pl:pri:?perf
@@ -14303,7 +14350,7 @@ EHIej	I	aæ	ze	[bp]raæ	verb:sg:ter:?perf
 EHIej	I	aæ	zecie	[bp]raæ	verb:pl:sec:?perf
 EHIej	I	aæ	zemy	[bp]raæ	verb:pl:pri:?perf
 EHIej	I	aæ	zesz	[bp]raæ	verb:sg:sec:?perf
-EHIej	I	aæ	z±	[bp]raæ	verb:ter:pl:?perf
+EHIej	I	aæ	z±	[bp]raæ	verb:pl:ter:?perf
 EHIej	I	aæ	zê	[bp]raæ	verb:sg:pri:?perf
 EHIej	I	±æ	nie	[^aouwz]¿±æ	verb:sg:ter:?perf
 EHIej	I	±æ	niecie	[^aouwz]¿±æ	verb:pl:sec:?perf
@@ -14505,7 +14552,7 @@ EHIejk	H	æ	³yby¶cie	[^±e¶¼]æ	verb:aglt:praet:pl:sec:n:?perf
 EHIejk	H	æ	³yby¶my	[^±e¶¼]æ	verb:aglt:praet:pl:pri:n:?perf
 EHIejk	H	æ	³y¶cie	[^±e¶¼]æ	verb:praet:pl:sec:n:?perf
 EHIejk	H	æ	³y¶my	[^±e¶¼]æ	verb:praet:pl:pri:n:?perf
-EHIejk	I	eæ		dzieæ	verb:ter:sg:?perf
+EHIejk	I	eæ		dzieæ	verb:sg:ter:?perf
 EHIejk	I	eæ	cie	dzieæ	verb:pl:sec:?perf
 EHIejk	I	eæ	my	dzieæ	verb:pl:pri:?perf
 EHIejk	I	eæ	sz	dzieæ	verb:sg:sec:?perf
@@ -14513,56 +14560,56 @@ EHIejk	I	gi±æ	egnie	[^aeooy]gi±æ	verb:sg:ter:?perf
 EHIejk	I	gi±æ	egniecie	[^aeooy]gi±æ	verb:pl:sec:?perf
 EHIejk	I	gi±æ	egniemy	[^aeooy]gi±æ	verb:pl:pri:?perf
 EHIejk	I	gi±æ	egniesz	[^aeooy]gi±æ	verb:sg:sec:?perf
-EHIejk	I	gi±æ	egn±	[^aeooy]gi±æ	verb:ter:pl:?perf
+EHIejk	I	gi±æ	egn±	[^aeooy]gi±æ	verb:pl:ter:?perf
 EHIejk	I	gi±æ	egnê	[^aeooy]gi±æ	verb:sg:pri:?perf
-EHIejk	I	ieæ	e	hcieæ	verb:ter:sg:?perf
+EHIejk	I	ieæ	e	hcieæ	verb:sg:ter:?perf
 EHIejk	I	ieæ	ecie	hcieæ	verb:pl:sec:f.m.n
 EHIejk	I	ieæ	emy	hcieæ	verb:pl:pri:f.m.n
 EHIejk	I	ieæ	esz	hcieæ	verb:sg:sec:f.m.n
-EHIejk	I	ieæ	±	dzieæ	verb:ter:pl:?perf
-EHIejk	I	ieæ	±	hcieæ	verb:ter:pl:?perf
+EHIejk	I	ieæ	±	dzieæ	verb:pl:ter:?perf
+EHIejk	I	ieæ	±	hcieæ	verb:pl:ter:?perf
 EHIejk	I	ieæ	ê	dzieæ	verb:sg:pri:?perf
 EHIejk	I	ieæ	ê	hcieæ	verb:sg:pri:f.m.n
 EHIejk	I	iæ	i	[^¶z]ciæ	verb:sg:ter:?perf
-EHIejk	I	iæ	±	[^¶z]ciæ	verb:ter:pl:?perf
+EHIejk	I	iæ	±	[^¶z]ciæ	verb:pl:ter:?perf
 EHIejk	I	iæ	ê	[^¶z]ciæ	verb:sg:pri:?perf
 EHIejk	I	le¼æ	jdzie	le¼æ	verb:sg:ter:?perf
 EHIejk	I	le¼æ	jdziecie	le¼æ	verb:pl:sec:?perf
 EHIejk	I	le¼æ	jdziemy	le¼æ	verb:pl:pri:?perf
 EHIejk	I	le¼æ	jdziesz	le¼æ	verb:sg:sec:?perf
-EHIejk	I	le¼æ	jd±	le¼æ	verb:ter:pl:?perf
+EHIejk	I	le¼æ	jd±	le¼æ	verb:pl:ter:?perf
 EHIejk	I	le¼æ	jdê	le¼æ	verb:sg:pri:?perf
 EHIejk	I	mi±æ	emnie	zmi±æ	verb:sg:ter:?perf
 EHIejk	I	mi±æ	emniecie	zmi±æ	verb:pl:sec:?perf
 EHIejk	I	mi±æ	emniemy	zmi±æ	verb:pl:pri:?perf
 EHIejk	I	mi±æ	emniesz	zmi±æ	verb:sg:sec:?perf
-EHIejk	I	mi±æ	emn±	zmi±æ	verb:ter:pl:?perf
+EHIejk	I	mi±æ	emn±	zmi±æ	verb:pl:ter:?perf
 EHIejk	I	mi±æ	emnê	zmi±æ	verb:sg:pri:?perf
 EHIejk	I	pi±æ	epnie	[^aeoouy]pi±æ	verb:sg:ter:?perf
 EHIejk	I	pi±æ	epniecie	[^aeoouy]pi±æ	verb:pl:sec:?perf
 EHIejk	I	pi±æ	epniemy	[^aeoouy]pi±æ	verb:pl:pri:?perf
 EHIejk	I	pi±æ	epniesz	[^aeoouy]pi±æ	verb:sg:sec:?perf
-EHIejk	I	pi±æ	epn±	[^aeoouy]pi±æ	verb:ter:pl:?perf
+EHIejk	I	pi±æ	epn±	[^aeoouy]pi±æ	verb:pl:ter:?perf
 EHIejk	I	pi±æ	epnê	[^aeoouy]pi±æ	verb:sg:pri:?perf
 EHIejk	I	s³aæ	¶le	s³aæ	verb:sg:ter:?perf
 EHIejk	I	s³aæ	¶lecie	s³aæ	verb:pl:sec:?perf
 EHIejk	I	s³aæ	¶lemy	s³aæ	verb:pl:pri:?perf
 EHIejk	I	s³aæ	¶lesz	s³aæ	verb:sg:sec:?perf
-EHIejk	I	s³aæ	¶l±	s³aæ	verb:ter:pl:?perf
+EHIejk	I	s³aæ	¶l±	s³aæ	verb:pl:ter:?perf
 EHIejk	I	s³aæ	¶lê	s³aæ	verb:sg:pri:?perf
-EHIejk	I	zi±æ	ezm±	zi±æ	verb:ter:pl:?perf
+EHIejk	I	zi±æ	ezm±	zi±æ	verb:pl:ter:?perf
 EHIejk	I	zi±æ	ezmê	zi±æ	verb:sg:pri:?perf
 EHIejk	I	zi±æ	e¼mie	zi±æ	verb:sg:ter:?perf
 EHIejk	I	zi±æ	e¼miecie	zi±æ	verb:pl:sec:?perf
 EHIejk	I	zi±æ	e¼miemy	zi±æ	verb:pl:pri:?perf
 EHIejk	I	zi±æ	e¼miesz	zi±æ	verb:sg:sec:?perf
-EHIejk	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:ter:sg:?perf
-EHIejk	I	æ		[±æ]paæ	verb:ter:sg:?perf
+EHIejk	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:sg:ter:?perf
+EHIejk	I	æ		[±æ]paæ	verb:sg:ter:?perf
 EHIejk	I	æ	cie	[^¶z]ciæ	verb:pl:sec:?perf
 EHIejk	I	æ	cie	[bcdfghijlkmnstwz¿]aæ	verb:pl:sec:?perf
 EHIejk	I	æ	cie	[±æ]paæ	verb:pl:sec:?perf
-EHIejk	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:ter:pl:?perf
-EHIejk	I	æ	j±	[±æ]paæ	verb:ter:pl:?perf
+EHIejk	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:pl:ter:?perf
+EHIejk	I	æ	j±	[±æ]paæ	verb:pl:ter:?perf
 EHIejk	I	æ	m	[bcdfghijlkmnstwz¿]aæ	verb:sg:pri:?perf
 EHIejk	I	æ	m	[±æ]paæ	verb:sg:pri:?perf
 EHIejk	I	æ	my	[^¶z]ciæ	verb:pl:pri:?perf
@@ -14739,11 +14786,11 @@ EHIik	H	æ	³yby¶cie	[^±e¶¼]æ	verb:aglt:praet:pl:sec:n:?perf
 EHIik	H	æ	³yby¶my	[^±e¶¼]æ	verb:aglt:praet:pl:pri:n:?perf
 EHIik	H	æ	³y¶cie	[^±e¶¼]æ	verb:praet:pl:sec:n:?perf
 EHIik	H	æ	³y¶my	[^±e¶¼]æ	verb:praet:pl:pri:n:?perf
-EHIik	I	æ		[bfmnpw]iæ	verb:ter:sg:?perf
+EHIik	I	æ		[bfmnpw]iæ	verb:sg:ter:?perf
 EHIik	I	æ	cie	[bfmnpw]iæ	verb:pl:sec:?perf
 EHIik	I	æ	my	[bfmnpw]iæ	verb:pl:pri:?perf
 EHIik	I	æ	sz	[bfmnpw]iæ	verb:sg:sec:?perf
-EHIik	I	æ	±	[bfmnpw]iæ	verb:ter:pl:?perf
+EHIik	I	æ	±	[bfmnpw]iæ	verb:pl:ter:?perf
 EHIik	I	æ	ê	[bfmnpw]iæ	verb:sg:pri:?perf
 EHIik	i	æ	enia	[^acelosz]iæ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
 EHIik	i	æ	eniach	[^acelosz]iæ	subst:ger:pl:loc:n
@@ -14801,9 +14848,9 @@ EHIk	H	æ	³yby¶cie	[^±e¶¼]æ	verb:aglt:praet:pl:sec:n:?perf
 EHIk	H	æ	³yby¶my	[^±e¶¼]æ	verb:aglt:praet:pl:pri:n:?perf
 EHIk	H	æ	³y¶cie	[^±e¶¼]æ	verb:praet:pl:sec:n:?perf
 EHIk	H	æ	³y¶my	[^±e¶¼]æ	verb:praet:pl:pri:n:?perf
-EHIk	I	ziæ	¿±	[aêor]ziæ	verb:ter:pl:?perf
+EHIk	I	ziæ	¿±	[aêor]ziæ	verb:pl:ter:?perf
 EHIk	I	ziæ	¿ê	[aêor]ziæ	verb:sg:pri:?perf
-EHIk	I	æ		[aêor]ziæ	verb:ter:sg:?perf
+EHIk	I	æ		[aêor]ziæ	verb:sg:ter:?perf
 EHIk	I	æ	cie	[aêor]ziæ	verb:pl:sec:?perf
 EHIk	I	æ	my	[aêor]ziæ	verb:pl:pri:?perf
 EHIk	I	æ	sz	[aêor]ziæ	verb:sg:sec:?perf
@@ -14855,12 +14902,12 @@ EHJdhi	J	eæ	i	leæ	verb:sg:ter:?perf
 EHJdhi	J	eæ	icie	leæ	verb:pl:sec:?perf
 EHJdhi	J	eæ	imy	leæ	verb:pl:pri:?perf
 EHJdhi	J	eæ	isz	leæ	verb:sg:sec:?perf
-EHJdhi	J	eæ	±	leæ	verb:ter:pl:?perf
+EHJdhi	J	eæ	±	leæ	verb:pl:ter:?perf
 EHJdhi	J	eæ	ê	leæ	verb:sg:pri:?perf
 EHJdhi	d	eæ	ano	[^irz]eæ	verb:imps
-EHJdhi	h	eæ	±	leæ	verb:ter:pl:?perf
+EHJdhi	h	eæ	±	leæ	verb:pl:ter:?perf
 EHJdhi	h	eæ	ê	leæ	verb:sg:pri:?perf
-EHJdhi	h	æ		leæ	verb:ter:sg:?perf
+EHJdhi	h	æ		leæ	verb:sg:ter:?perf
 EHJdhi	h	æ	cie	leæ	verb:pl:sec:?perf
 EHJdhi	h	æ	my	leæ	verb:pl:pri:?perf
 EHJdhi	h	æ	sz	leæ	verb:sg:sec:?perf
@@ -15000,29 +15047,29 @@ EHJdi	J	aæ	oi	staæ	verb:sg:ter:?perf
 EHJdi	J	aæ	oicie	staæ	verb:pl:sec:?perf
 EHJdi	J	aæ	oimy	staæ	verb:pl:pri:?perf
 EHJdi	J	aæ	oisz	staæ	verb:sg:sec:?perf
-EHJdi	J	aæ	oj±	staæ	verb:ter:pl:?perf
+EHJdi	J	aæ	oj±	staæ	verb:pl:ter:?perf
 EHJdi	J	aæ	ojê	staæ	verb:sg:pri:?perf
-EHJdi	J	eæ		[mp]ieæ	verb:ter:sg:?perf
+EHJdi	J	eæ		[mp]ieæ	verb:sg:ter:?perf
 EHJdi	J	eæ	cie	[mp]ieæ	verb:pl:sec:?perf
 EHJdi	J	eæ	my	[mp]ieæ	verb:pl:pri:?perf
 EHJdi	J	eæ	sz	[mp]ieæ	verb:sg:sec:?perf
-EHJdi	J	eæ	±	[mp]ieæ	verb:ter:pl:?perf
+EHJdi	J	eæ	±	[mp]ieæ	verb:pl:ter:?perf
 EHJdi	J	eæ	ê	[mp]ieæ	verb:sg:pri:?perf
 EHJdi	J	iwaæ	uje	iwaæ	verb:sg:ter:?perf
 EHJdi	J	iwaæ	ujecie	iwaæ	verb:pl:sec:?perf
 EHJdi	J	iwaæ	ujemy	iwaæ	verb:pl:pri:?perf
 EHJdi	J	iwaæ	ujesz	iwaæ	verb:sg:sec:?perf
-EHJdi	J	iwaæ	uj±	iwaæ	verb:ter:pl:?perf
+EHJdi	J	iwaæ	uj±	iwaæ	verb:pl:ter:?perf
 EHJdi	J	iwaæ	ujê	iwaæ	verb:sg:pri:?perf
 EHJdi	J	taæ	cze	[±op]taæ	verb:sg:ter:?perf
 EHJdi	J	taæ	czecie	[±op]taæ	verb:pl:sec:?perf
 EHJdi	J	taæ	czemy	[±op]taæ	verb:pl:pri:?perf
 EHJdi	J	taæ	czesz	[±op]taæ	verb:sg:sec:?perf
-EHJdi	J	taæ	cz±	[±op]taæ	verb:ter:pl:?perf
+EHJdi	J	taæ	cz±	[±op]taæ	verb:pl:ter:?perf
 EHJdi	J	taæ	czê	[±op]taæ	verb:sg:pri:?perf
-EHJdi	J	zeæ	±	[^ao]rzeæ	verb:ter:pl:?perf
+EHJdi	J	zeæ	±	[^ao]rzeæ	verb:pl:ter:?perf
 EHJdi	J	zeæ	ê	[^ao]rzeæ	verb:sg:pri:?perf
-EHJdi	J	æ		[^ao]rzeæ	verb:ter:sg:?perf
+EHJdi	J	æ		[^ao]rzeæ	verb:sg:ter:?perf
 EHJdi	J	æ	cie	[^ao]rzeæ	verb:pl:sec:?perf
 EHJdi	J	æ	my	[^ao]rzeæ	verb:pl:pri:?perf
 EHJdi	J	æ	sz	[^ao]rzeæ	verb:sg:sec:?perf
@@ -15146,7 +15193,7 @@ EHJdik	H	æ	³yby¶cie	[^±e¶¼]æ	verb:aglt:praet:pl:sec:n:?perf
 EHJdik	H	æ	³yby¶my	[^±e¶¼]æ	verb:aglt:praet:pl:pri:n:?perf
 EHJdik	H	æ	³y¶cie	[^±e¶¼]æ	verb:praet:pl:sec:n:?perf
 EHJdik	H	æ	³y¶my	[^±e¶¼]æ	verb:praet:pl:pri:n:?perf
-EHJdik	J	eæ		[mp]ieæ	verb:ter:sg:?perf
+EHJdik	J	eæ		[mp]ieæ	verb:sg:ter:?perf
 EHJdik	J	eæ	cie	[mp]ieæ	verb:pl:sec:?perf
 EHJdik	J	eæ	i	leæ	verb:sg:ter:?perf
 EHJdik	J	eæ	icie	leæ	verb:pl:sec:?perf
@@ -15154,26 +15201,26 @@ EHJdik	J	eæ	imy	leæ	verb:pl:pri:?perf
 EHJdik	J	eæ	isz	leæ	verb:sg:sec:?perf
 EHJdik	J	eæ	my	[mp]ieæ	verb:pl:pri:?perf
 EHJdik	J	eæ	sz	[mp]ieæ	verb:sg:sec:?perf
-EHJdik	J	eæ	±	[mp]ieæ	verb:ter:pl:?perf
+EHJdik	J	eæ	±	[mp]ieæ	verb:pl:ter:?perf
 EHJdik	J	eæ	ê	[mp]ieæ	verb:sg:pri:?perf
 EHJdik	J	eæ	ê	leæ	verb:sg:pri:?perf
 EHJdik	J	spaæ	¶pi	spaæ	verb:sg:ter:?perf
 EHJdik	J	spaæ	¶picie	spaæ	verb:pl:sec:?perf
 EHJdik	J	spaæ	¶pimy	spaæ	verb:pl:pri:?perf
 EHJdik	J	spaæ	¶pisz	spaæ	verb:sg:sec:?perf
-EHJdik	J	spaæ	¶pi±	spaæ	verb:ter:pl:?perf
+EHJdik	J	spaæ	¶pi±	spaæ	verb:pl:ter:?perf
 EHJdik	J	spaæ	¶piê	spaæ	verb:sg:pri:?perf
 EHJdik	J	taæ	cze	[±op]taæ	verb:sg:ter:?perf
 EHJdik	J	taæ	czecie	[±op]taæ	verb:pl:sec:?perf
 EHJdik	J	taæ	czemy	[±op]taæ	verb:pl:pri:?perf
 EHJdik	J	taæ	czesz	[±op]taæ	verb:sg:sec:?perf
-EHJdik	J	taæ	cz±	[±op]taæ	verb:ter:pl:?perf
+EHJdik	J	taæ	cz±	[±op]taæ	verb:pl:ter:?perf
 EHJdik	J	taæ	czê	[±op]taæ	verb:sg:pri:?perf
 EHJdik	J	waæ	je	awaæ	verb:sg:ter:?perf
 EHJdik	J	waæ	jecie	awaæ	verb:pl:sec:?perf
 EHJdik	J	waæ	jemy	awaæ	verb:pl:pri:?perf
 EHJdik	J	waæ	jesz	awaæ	verb:sg:sec:?perf
-EHJdik	J	waæ	j±	awaæ	verb:ter:pl:?perf
+EHJdik	J	waæ	j±	awaæ	verb:pl:ter:?perf
 EHJdik	J	waæ	jê	awaæ	verb:sg:pri:?perf
 EHJdik	d	eæ	ano	[^cz]ieæ	verb:imps
 EHJdik	d	eæ	ano	[^irz]eæ	verb:imps
@@ -15271,7 +15318,7 @@ EHJehj	J	aæ	oi	staæ	verb:sg:ter:?perf
 EHJehj	J	aæ	oicie	staæ	verb:pl:sec:?perf
 EHJehj	J	aæ	oimy	staæ	verb:pl:pri:?perf
 EHJehj	J	aæ	oisz	staæ	verb:sg:sec:?perf
-EHJehj	J	aæ	oj±	staæ	verb:ter:pl:?perf
+EHJehj	J	aæ	oj±	staæ	verb:pl:ter:?perf
 EHJehj	J	aæ	ojê	staæ	verb:sg:pri:?perf
 EHJehj	e	æ	no	[^±ei¶uy¼]æ	verb:imps
 EHJehj	h	æ	nie	taæ	verb:sg:ter:?perf
@@ -15330,11 +15377,11 @@ EHJei	H	æ	³yby¶cie	[^±e¶¼]æ	verb:aglt:praet:pl:sec:n:?perf
 EHJei	H	æ	³yby¶my	[^±e¶¼]æ	verb:aglt:praet:pl:pri:n:?perf
 EHJei	H	æ	³y¶cie	[^±e¶¼]æ	verb:praet:pl:sec:n:?perf
 EHJei	H	æ	³y¶my	[^±e¶¼]æ	verb:praet:pl:pri:n:?perf
-EHJei	J	aæ	oi	staæ	verb:ter:sg:?perf
+EHJei	J	aæ	oi	staæ	verb:sg:ter:?perf
 EHJei	J	aæ	oicie	staæ	verb:pl:sec:f.m.n
 EHJei	J	aæ	oimy	staæ	verb:pl:pri:f.m.n
 EHJei	J	aæ	oisz	staæ	verb:sg:sec:f.m.n
-EHJei	J	aæ	oj±	staæ	verb:ter:pl:?perf
+EHJei	J	aæ	oj±	staæ	verb:pl:ter:?perf
 EHJei	J	aæ	ojê	staæ	verb:sg:pri:f.m.n
 EHJei	e	æ	no	[^±ei¶uy¼]æ	verb:imps
 EHJei	i	æ	nia	[^i]aæ	subst:ger:sg:gen:n
@@ -15432,9 +15479,9 @@ EHJej	J	aæ	oi	staæ	verb:sg:ter:?perf
 EHJej	J	aæ	oicie	staæ	verb:pl:sec:?perf
 EHJej	J	aæ	oimy	staæ	verb:pl:pri:?perf
 EHJej	J	aæ	oisz	staæ	verb:sg:sec:?perf
-EHJej	J	aæ	oj±	staæ	verb:ter:pl:?perf
+EHJej	J	aæ	oj±	staæ	verb:pl:ter:?perf
 EHJej	J	aæ	ojê	staæ	verb:sg:pri:?perf
-EHJej	J	±æ	nie	l±æ	verb:ter:sg:?perf
+EHJej	J	±æ	nie	l±æ	verb:sg:ter:?perf
 EHJej	J	±æ	niecie	l±æ	verb:pl:sec:f.m.n
 EHJej	J	±æ	niemy	l±æ	verb:pl:pri:f.m.n
 EHJej	J	±æ	niesz	l±æ	verb:sg:sec:f.m.n
@@ -15444,7 +15491,7 @@ EHJej	J	¿±æ	e¿nie	¿±æ	verb:sg:ter:?perf
 EHJej	J	¿±æ	e¿niecie	¿±æ	verb:pl:sec:?perf
 EHJej	J	¿±æ	e¿niemy	¿±æ	verb:pl:pri:?perf
 EHJej	J	¿±æ	e¿niesz	¿±æ	verb:sg:sec:?perf
-EHJej	J	¿±æ	e¿n±	¿±æ	verb:ter:pl:?perf
+EHJej	J	¿±æ	e¿n±	¿±æ	verb:pl:ter:?perf
 EHJej	J	¿±æ	e¿nê	¿±æ	verb:sg:pri:?perf
 EHJej	e	±æ	êto	[dijl¿]±æ	verb:imps
 EHJej	e	æ	no	[^±ei¶uy¼]æ	verb:imps
@@ -15592,9 +15639,9 @@ EHJejk	J	ci±æ	etnie	ci±æ	verb:sg:ter:?perf
 EHJejk	J	ci±æ	etniecie	ci±æ	verb:pl:sec:?perf
 EHJejk	J	ci±æ	etniemy	ci±æ	verb:pl:pri:?perf
 EHJejk	J	ci±æ	etniesz	ci±æ	verb:sg:sec:?perf
-EHJejk	J	ci±æ	etn±	ci±æ	verb:ter:pl:?perf
+EHJejk	J	ci±æ	etn±	ci±æ	verb:pl:ter:?perf
 EHJejk	J	ci±æ	etnê	ci±æ	verb:sg:pri:?perf
-EHJejk	J	dzieæ		dzieæ	verb:ter:sg:?perf
+EHJejk	J	dzieæ		dzieæ	verb:sg:ter:?perf
 EHJejk	J	dzieæ	cie	dzieæ	verb:pl:sec:?perf
 EHJejk	J	dzieæ	m	dzieæ	verb:sg:pri:?perf
 EHJejk	J	dzieæ	my	dzieæ	verb:pl:pri:?perf
@@ -15603,14 +15650,14 @@ EHJejk	J	d±æ	edmie	[^aey]d±æ	verb:sg:ter:?perf
 EHJejk	J	d±æ	edmiecie	[^aey]d±æ	verb:pl:sec:?perf
 EHJejk	J	d±æ	edmiemy	[^aey]d±æ	verb:pl:pri:?perf
 EHJejk	J	d±æ	edmiesz	[^aey]d±æ	verb:sg:sec:?perf
-EHJejk	J	d±æ	edm±	[^aey]d±æ	verb:ter:pl:?perf
+EHJejk	J	d±æ	edm±	[^aey]d±æ	verb:pl:ter:?perf
 EHJejk	J	d±æ	edmê	[^aey]d±æ	verb:sg:pri:?perf
-EHJejk	J	ieæ	±	dzieæ	verb:ter:pl:?perf
+EHJejk	J	ieæ	±	dzieæ	verb:pl:ter:?perf
 EHJejk	J	waæ	je	awaæ	verb:sg:ter:?perf
 EHJejk	J	waæ	jecie	awaæ	verb:pl:sec:?perf
 EHJejk	J	waæ	jemy	awaæ	verb:pl:pri:?perf
 EHJejk	J	waæ	jesz	awaæ	verb:sg:sec:?perf
-EHJejk	J	waæ	j±	awaæ	verb:ter:pl:?perf
+EHJejk	J	waæ	j±	awaæ	verb:pl:ter:?perf
 EHJejk	J	waæ	jê	awaæ	verb:sg:pri:?perf
 EHJejk	e	eæ	ano	zieæ	verb:imps
 EHJejk	e	±æ	êto	[dijl¿]±æ	verb:imps
@@ -15752,27 +15799,27 @@ EHdhi	h	aæ	ze	apraæ	verb:sg:ter:?perf
 EHdhi	h	aæ	zecie	apraæ	verb:pl:sec:?perf
 EHdhi	h	aæ	zemy	apraæ	verb:pl:pri:?perf
 EHdhi	h	aæ	zesz	apraæ	verb:sg:sec:?perf
-EHdhi	h	aæ	z±	apraæ	verb:ter:pl:?perf
+EHdhi	h	aæ	z±	apraæ	verb:pl:ter:?perf
 EHdhi	h	aæ	zê	apraæ	verb:sg:pri:?perf
 EHdhi	h	ebraæ	bierze	ebraæ	verb:sg:ter:?perf
 EHdhi	h	ebraæ	bierzecie	ebraæ	verb:pl:sec:?perf
 EHdhi	h	ebraæ	bierzemy	ebraæ	verb:pl:pri:?perf
 EHdhi	h	ebraæ	bierzesz	ebraæ	verb:sg:sec:?perf
-EHdhi	h	ebraæ	bior±	ebraæ	verb:ter:pl:?perf
+EHdhi	h	ebraæ	bior±	ebraæ	verb:pl:ter:?perf
 EHdhi	h	ebraæ	biorê	ebraæ	verb:sg:pri:?perf
 EHdhi	h	es³aæ	¶ciele	es³aæ	verb:sg:ter:?perf
 EHdhi	h	es³aæ	¶cielecie	es³aæ	verb:pl:sec:?perf
 EHdhi	h	es³aæ	¶cielemy	es³aæ	verb:pl:pri:?perf
 EHdhi	h	es³aæ	¶cielesz	es³aæ	verb:sg:sec:?perf
-EHdhi	h	es³aæ	¶ciel±	es³aæ	verb:ter:pl:?perf
+EHdhi	h	es³aæ	¶ciel±	es³aæ	verb:pl:ter:?perf
 EHdhi	h	es³aæ	¶cielê	es³aæ	verb:sg:pri:?perf
-EHdhi	h	eæ	±	leæ	verb:ter:pl:?perf
+EHdhi	h	eæ	±	leæ	verb:pl:ter:?perf
 EHdhi	h	eæ	ê	leæ	verb:sg:pri:?perf
-EHdhi	h	æ		kas³aæ	verb:ter:sg:?perf
-EHdhi	h	æ		leæ	verb:ter:sg:?perf
+EHdhi	h	æ		kas³aæ	verb:sg:ter:?perf
+EHdhi	h	æ		leæ	verb:sg:ter:?perf
 EHdhi	h	æ	cie	kas³aæ	verb:pl:sec:?perf
 EHdhi	h	æ	cie	leæ	verb:pl:sec:?perf
-EHdhi	h	æ	j±	kas³aæ	verb:ter:pl:?perf
+EHdhi	h	æ	j±	kas³aæ	verb:pl:ter:?perf
 EHdhi	h	æ	m	kas³aæ	verb:sg:pri:?perf
 EHdhi	h	æ	my	kas³aæ	verb:pl:pri:?perf
 EHdhi	h	æ	my	leæ	verb:pl:pri:?perf
@@ -15841,11 +15888,11 @@ EHdhik	h	aæ	e	laæ	verb:sg:ter:?perf
 EHdhik	h	aæ	ecie	laæ	verb:pl:sec:?perf
 EHdhik	h	aæ	emy	laæ	verb:pl:pri:?perf
 EHdhik	h	aæ	esz	laæ	verb:sg:sec:?perf
-EHdhik	h	aæ	±	laæ	verb:ter:pl:?perf
+EHdhik	h	aæ	±	laæ	verb:pl:ter:?perf
 EHdhik	h	aæ	ê	laæ	verb:sg:pri:?perf
-EHdhik	h	æ		daæ	verb:ter:sg:?perf
+EHdhik	h	æ		daæ	verb:sg:ter:?perf
 EHdhik	h	æ	cie	daæ	verb:pl:sec:?perf
-EHdhik	h	æ	dz±	daæ	verb:ter:pl:?perf
+EHdhik	h	æ	dz±	daæ	verb:pl:ter:?perf
 EHdhik	h	æ	m	daæ	verb:sg:pri:?perf
 EHdhik	h	æ	my	daæ	verb:pl:pri:?perf
 EHdhik	h	æ	sz	daæ	verb:sg:sec:?perf
@@ -15910,7 +15957,7 @@ EHdhj	h	es³aæ	¶ciele	es³aæ	verb:sg:ter:?perf
 EHdhj	h	es³aæ	¶cielecie	es³aæ	verb:pl:sec:?perf
 EHdhj	h	es³aæ	¶cielemy	es³aæ	verb:pl:pri:?perf
 EHdhj	h	es³aæ	¶cielesz	es³aæ	verb:sg:sec:?perf
-EHdhj	h	es³aæ	¶ciel±	es³aæ	verb:ter:pl:?perf
+EHdhj	h	es³aæ	¶ciel±	es³aæ	verb:pl:ter:?perf
 EHdhj	h	es³aæ	¶cielê	es³aæ	verb:sg:pri:?perf
 EHdhj	j	æ	nia	[^±ei¶uy¼]æ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
 EHdhj	j	æ	niach	[^±ei¶uy¼]æ	subst:ger:pl:loc:n
@@ -16107,13 +16154,13 @@ EHehi	h	es³aæ	¶ciele	es³aæ	verb:sg:ter:?perf
 EHehi	h	es³aæ	¶cielecie	es³aæ	verb:pl:sec:?perf
 EHehi	h	es³aæ	¶cielemy	es³aæ	verb:pl:pri:?perf
 EHehi	h	es³aæ	¶cielesz	es³aæ	verb:sg:sec:?perf
-EHehi	h	es³aæ	¶ciel±	es³aæ	verb:ter:pl:?perf
+EHehi	h	es³aæ	¶ciel±	es³aæ	verb:pl:ter:?perf
 EHehi	h	es³aæ	¶cielê	es³aæ	verb:sg:pri:?perf
 EHehi	h	æ	nie	taæ	verb:sg:ter:?perf
 EHehi	h	æ	niecie	taæ	verb:pl:sec:?perf
 EHehi	h	æ	niemy	taæ	verb:pl:pri:?perf
 EHehi	h	æ	niesz	taæ	verb:sg:sec:?perf
-EHehi	h	æ	n±	taæ	verb:ter:pl:?perf
+EHehi	h	æ	n±	taæ	verb:pl:ter:?perf
 EHehi	h	æ	nê	taæ	verb:sg:pri:?perf
 EHehi	i	æ	nia	[^i]aæ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
 EHehi	i	æ	niach	[^i]aæ	subst:ger:pl:loc:n
@@ -16170,7 +16217,7 @@ EHehj	h	epraæ	pierze	epraæ	verb:sg:ter:?perf
 EHehj	h	epraæ	pierzecie	epraæ	verb:pl:sec:?perf
 EHehj	h	epraæ	pierzemy	epraæ	verb:pl:pri:?perf
 EHehj	h	epraæ	pierzesz	epraæ	verb:sg:sec:?perf
-EHehj	h	epraæ	pior±	epraæ	verb:ter:pl:?perf
+EHehj	h	epraæ	pior±	epraæ	verb:pl:ter:?perf
 EHehj	h	epraæ	piorê	epraæ	verb:sg:pri:?perf
 EHehj	h	æ	nie	taæ	verb:sg:ter:?perf
 EHehj	h	æ	niecie	taæ	verb:pl:sec:?perf
@@ -16275,13 +16322,13 @@ EHehjk	h	aæ	e	laæ	verb:sg:ter:?perf
 EHehjk	h	aæ	ecie	laæ	verb:pl:sec:?perf
 EHehjk	h	aæ	emy	laæ	verb:pl:pri:?perf
 EHehjk	h	aæ	esz	laæ	verb:sg:sec:?perf
-EHehjk	h	aæ	±	laæ	verb:ter:pl:?perf
+EHehjk	h	aæ	±	laæ	verb:pl:ter:?perf
 EHehjk	h	aæ	ê	laæ	verb:sg:pri:?perf
 EHehjk	h	ieæ	i	nieæ	verb:sg:ter:?perf
 EHehjk	h	ieæ	icie	nieæ	verb:pl:sec:?perf
 EHehjk	h	ieæ	imy	nieæ	verb:pl:pri:?perf
 EHehjk	h	ieæ	isz	nieæ	verb:sg:sec:?perf
-EHehjk	h	ieæ	±	nieæ	verb:ter:pl:?perf
+EHehjk	h	ieæ	±	nieæ	verb:pl:ter:?perf
 EHehjk	h	ieæ	ê	nieæ	verb:sg:pri:?perf
 EHehjk	j	æ	nia	[^csz]ieæ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
 EHehjk	j	æ	nia	[^±ei¶uy¼]æ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
@@ -16580,9 +16627,9 @@ EJdi	E	rzeæ	artym	trzeæ	ppas:pl:dat:f.m.n+ppas:sg:inst.loc:m.n
 EJdi	E	rzeæ	artymi	trzeæ	ppas:pl:inst:f.m.n
 EJdi	E	rzeæ	art±	trzeæ	ppas:sg:acc.inst:f
 EJdi	EJdi	0	0		verb:inf:imperf
-EJdi	J	zeæ	±	[^ao]rzeæ	verb:ter:pl:?perf
+EJdi	J	zeæ	±	[^ao]rzeæ	verb:pl:ter:?perf
 EJdi	J	zeæ	ê	[^ao]rzeæ	verb:sg:pri:?perf
-EJdi	J	æ		[^ao]rzeæ	verb:ter:sg:?perf
+EJdi	J	æ		[^ao]rzeæ	verb:sg:ter:?perf
 EJdi	J	æ	cie	[^ao]rzeæ	verb:pl:sec:?perf
 EJdi	J	æ	my	[^ao]rzeæ	verb:pl:pri:?perf
 EJdi	J	æ	sz	[^ao]rzeæ	verb:sg:sec:?perf
@@ -16662,7 +16709,7 @@ FIdi	I	±æ	iecie	n±æ	verb:pl:sec:?perf
 FIdi	I	±æ	iemy	n±æ	verb:pl:pri:?perf
 FIdi	I	±æ	iesz	n±æ	verb:sg:sec:?perf
 FIdi	I	±æ	ê	n±æ	verb:sg:pri:?perf
-FIdi	I	æ		n±æ	verb:ter:pl:?perf
+FIdi	I	æ		n±æ	verb:pl:ter:?perf
 FIdi	d	±æ	iêto	[sz]n±æ	verb:imps
 FIdi	i	±æ	iêcia	[sz]n±æ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
 FIdi	i	±æ	iêciach	[sz]n±æ	subst:ger:pl:loc:n
@@ -16715,9 +16762,9 @@ FIdik	I	e¶æ	eciemy	mie¶æ	verb:pl:pri:?perf
 FIdik	I	e¶æ	eciesz	gnie¶æ	verb:sg:sec:?perf
 FIdik	I	e¶æ	eciesz	le¶æ	verb:sg:sec:?perf
 FIdik	I	e¶æ	eciesz	mie¶æ	verb:sg:sec:?perf
-FIdik	I	e¶æ	ot±	gnie¶æ	verb:ter:pl:?perf
-FIdik	I	e¶æ	ot±	le¶æ	verb:ter:pl:?perf
-FIdik	I	e¶æ	ot±	mie¶æ	verb:ter:pl:?perf
+FIdik	I	e¶æ	ot±	gnie¶æ	verb:pl:ter:?perf
+FIdik	I	e¶æ	ot±	le¶æ	verb:pl:ter:?perf
+FIdik	I	e¶æ	ot±	mie¶æ	verb:pl:ter:?perf
 FIdik	I	e¶æ	otê	gnie¶æ	verb:sg:pri:?perf
 FIdik	I	e¶æ	otê	le¶æ	verb:sg:pri:?perf
 FIdik	I	e¶æ	otê	mie¶æ	verb:sg:pri:?perf
@@ -16787,7 +16834,7 @@ FIejk	I	±æ	iecie	n±æ	verb:pl:sec:?perf
 FIejk	I	±æ	iemy	n±æ	verb:pl:pri:?perf
 FIejk	I	±æ	iesz	n±æ	verb:sg:sec:?perf
 FIejk	I	±æ	ê	n±æ	verb:sg:pri:?perf
-FIejk	I	æ		n±æ	verb:ter:pl:?perf
+FIejk	I	æ		n±æ	verb:pl:ter:?perf
 FIejk	e	±æ	iêto	[^sz]n±æ	verb:imps
 FIejk	j	±æ	iêcia	[^sz]n±æ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
 FIejk	j	±æ	iêciach	[^sz]n±æ	subst:ger:pl:loc:n
@@ -16920,9 +16967,9 @@ FJ	F	ewrzeæ	war³yby¶my	ewrzeæ	verb:aglt:praet:pl:pri:n:?perf
 FJ	F	ewrzeæ	war³y¶cie	ewrzeæ	verb:praet:pl:sec:n:?perf
 FJ	F	ewrzeæ	war³y¶my	ewrzeæ	verb:praet:pl:pri:n:?perf
 FJ	FJ	0	0		verb:inf:perf
-FJ	J	zeæ	±	[^ao]rzeæ	verb:ter:pl:?perf
+FJ	J	zeæ	±	[^ao]rzeæ	verb:pl:ter:?perf
 FJ	J	zeæ	ê	[^ao]rzeæ	verb:sg:pri:?perf
-FJ	J	æ		[^ao]rzeæ	verb:ter:sg:?perf
+FJ	J	æ		[^ao]rzeæ	verb:sg:ter:?perf
 FJ	J	æ	cie	[^ao]rzeæ	verb:pl:sec:?perf
 FJ	J	æ	my	[^ao]rzeæ	verb:pl:pri:?perf
 FJ	J	æ	sz	[^ao]rzeæ	verb:sg:sec:?perf
@@ -16957,9 +17004,9 @@ FJdi	F	rzeæ	ar³yby¶my	[^e].rzeæ	verb:aglt:praet:pl:pri:n:?perf
 FJdi	F	rzeæ	ar³y¶cie	[^e].rzeæ	verb:praet:pl:sec:n:?perf
 FJdi	F	rzeæ	ar³y¶my	[^e].rzeæ	verb:praet:pl:pri:n:?perf
 FJdi	FJdi	0	0		verb:inf:perf
-FJdi	J	zeæ	±	[^ao]rzeæ	verb:ter:pl:?perf
+FJdi	J	zeæ	±	[^ao]rzeæ	verb:pl:ter:?perf
 FJdi	J	zeæ	ê	[^ao]rzeæ	verb:sg:pri:?perf
-FJdi	J	æ		[^ao]rzeæ	verb:ter:sg:?perf
+FJdi	J	æ		[^ao]rzeæ	verb:sg:ter:?perf
 FJdi	J	æ	cie	[^ao]rzeæ	verb:pl:sec:?perf
 FJdi	J	æ	my	[^ao]rzeæ	verb:pl:pri:?perf
 FJdi	J	æ	sz	[^ao]rzeæ	verb:sg:sec:?perf
@@ -17007,7 +17054,7 @@ FJejk	J	±¶æ	êsie	±¶æ	verb:sg:ter:?perf
 FJejk	J	±¶æ	êsiecie	±¶æ	verb:pl:sec:?perf
 FJejk	J	±¶æ	êsiemy	±¶æ	verb:pl:pri:?perf
 FJejk	J	±¶æ	êsiesz	±¶æ	verb:sg:sec:?perf
-FJejk	J	±¶æ	ês±	±¶æ	verb:ter:pl:?perf
+FJejk	J	±¶æ	ês±	±¶æ	verb:pl:ter:?perf
 FJejk	J	±¶æ	êsê	±¶æ	verb:sg:pri:?perf
 FJejk	e	±¶æ	êsiono	z±¶æ	verb:imps
 FJejk	j	±¶æ	êsienia	z±¶æ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
@@ -17066,7 +17113,7 @@ Fdhi	h	c	gnie	lec	verb:sg:ter:?perf
 Fdhi	h	c	gniecie	lec	verb:pl:sec:?perf
 Fdhi	h	c	gniemy	lec	verb:pl:pri:?perf
 Fdhi	h	c	gniesz	lec	verb:sg:sec:?perf
-Fdhi	h	c	gn±	lec	verb:ter:pl:?perf
+Fdhi	h	c	gn±	lec	verb:pl:ter:?perf
 Fdhi	h	c	gnê	lec	verb:sg:pri:?perf
 Fdhi	i	c	gniêcia	lec	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
 Fdhi	i	c	gniêciach	lec	subst:ger:pl:loc:n
@@ -17157,7 +17204,7 @@ Fh	h	c	gnie	lec	verb:sg:ter:?perf
 Fh	h	c	gniecie	lec	verb:pl:sec:?perf
 Fh	h	c	gniemy	lec	verb:pl:pri:?perf
 Fh	h	c	gniesz	lec	verb:sg:sec:?perf
-Fh	h	c	gn±	lec	verb:ter:pl:?perf
+Fh	h	c	gn±	lec	verb:pl:ter:?perf
 Fh	h	c	gnê	lec	verb:sg:pri:?perf
 H	H	0	0		verb:inf:?perf
 H	H	n±æ	li	[^aêo][^hsz]n±æ	verb:praet:pl:ter:m1:?perf
@@ -17251,13 +17298,13 @@ HIJdik	H	æ	³yby¶my	[^±e¶¼]æ	verb:aglt:praet:pl:pri:n:?perf
 HIJdik	H	æ	³y¶cie	[^±e¶¼]æ	verb:praet:pl:sec:n:?perf
 HIJdik	H	æ	³y¶my	[^±e¶¼]æ	verb:praet:pl:pri:n:?perf
 HIJdik	HIJdik	0	0		verb:inf:?perf
-HIJdik	I	ziæ	¿±	[aêor]ziæ	verb:ter:pl:?perf
+HIJdik	I	ziæ	¿±	[aêor]ziæ	verb:pl:ter:?perf
 HIJdik	I	ziæ	¿ê	[aêor]ziæ	verb:sg:pri:?perf
-HIJdik	I	æ		[aêor]ziæ	verb:ter:sg:?perf
-HIJdik	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:ter:sg:?perf
+HIJdik	I	æ		[aêor]ziæ	verb:sg:ter:?perf
+HIJdik	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:sg:ter:?perf
 HIJdik	I	æ	cie	[aêor]ziæ	verb:pl:sec:?perf
 HIJdik	I	æ	cie	[bcdfghijlkmnstwz¿]aæ	verb:pl:sec:?perf
-HIJdik	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:ter:pl:?perf
+HIJdik	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:pl:ter:?perf
 HIJdik	I	æ	m	[bcdfghijlkmnstwz¿]aæ	verb:sg:pri:?perf
 HIJdik	I	æ	my	[aêor]ziæ	verb:pl:pri:?perf
 HIJdik	I	æ	my	[bcdfghijlkmnstwz¿]aæ	verb:pl:pri:?perf
@@ -17267,13 +17314,13 @@ HIJdik	J	iwaæ	uje	iwaæ	verb:sg:ter:?perf
 HIJdik	J	iwaæ	ujecie	iwaæ	verb:pl:sec:?perf
 HIJdik	J	iwaæ	ujemy	iwaæ	verb:pl:pri:?perf
 HIJdik	J	iwaæ	ujesz	iwaæ	verb:sg:sec:?perf
-HIJdik	J	iwaæ	uj±	iwaæ	verb:ter:pl:?perf
+HIJdik	J	iwaæ	uj±	iwaæ	verb:pl:ter:?perf
 HIJdik	J	iwaæ	ujê	iwaæ	verb:sg:pri:?perf
-HIJdik	J	æ		êziæ	verb:ter:sg:?perf
+HIJdik	J	æ		êziæ	verb:sg:ter:?perf
 HIJdik	J	æ	cie	êziæ	verb:pl:sec:?perf
 HIJdik	J	æ	my	êziæ	verb:pl:pri:?perf
 HIJdik	J	æ	sz	êziæ	verb:sg:sec:?perf
-HIJdik	J	æ	±	êziæ	verb:ter:pl:?perf
+HIJdik	J	æ	±	êziæ	verb:pl:ter:?perf
 HIJdik	J	æ	ê	êziæ	verb:sg:pri:?perf
 HIJdik	d	æ	no	[^i]aæ	verb:imps
 HIJdik	d	æ	ono	³êziæ	verb:imps
@@ -17336,9 +17383,9 @@ HIdhik	H	æ	³yby¶my	[^±e¶¼]æ	verb:aglt:praet:pl:pri:n:?perf
 HIdhik	H	æ	³y¶cie	[^±e¶¼]æ	verb:praet:pl:sec:n:?perf
 HIdhik	H	æ	³y¶my	[^±e¶¼]æ	verb:praet:pl:pri:n:?perf
 HIdhik	HIdhik	0	0		verb:inf:?perf
-HIdhik	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:ter:sg:?perf
+HIdhik	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:sg:ter:?perf
 HIdhik	I	æ	cie	[bcdfghijlkmnstwz¿]aæ	verb:pl:sec:?perf
-HIdhik	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:ter:pl:?perf
+HIdhik	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:pl:ter:?perf
 HIdhik	I	æ	m	[bcdfghijlkmnstwz¿]aæ	verb:sg:pri:?perf
 HIdhik	I	æ	my	[bcdfghijlkmnstwz¿]aæ	verb:pl:pri:?perf
 HIdhik	I	æ	sz	[bcdfghijlkmnstwz¿]aæ	verb:sg:sec:?perf
@@ -17347,7 +17394,7 @@ HIdhik	h	aæ	e	laæ	verb:sg:ter:?perf
 HIdhik	h	aæ	ecie	laæ	verb:pl:sec:?perf
 HIdhik	h	aæ	emy	laæ	verb:pl:pri:?perf
 HIdhik	h	aæ	esz	laæ	verb:sg:sec:?perf
-HIdhik	h	aæ	±	laæ	verb:ter:pl:?perf
+HIdhik	h	aæ	±	laæ	verb:pl:ter:?perf
 HIdhik	h	aæ	ê	laæ	verb:sg:pri:?perf
 HIdhik	i	æ	nia	[^i]aæ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
 HIdhik	i	æ	niach	[^i]aæ	subst:ger:pl:loc:n
@@ -17428,21 +17475,21 @@ HIdi	I	aæ	ze	[bp]raæ	verb:sg:ter:?perf
 HIdi	I	aæ	zecie	[bp]raæ	verb:pl:sec:?perf
 HIdi	I	aæ	zemy	[bp]raæ	verb:pl:pri:?perf
 HIdi	I	aæ	zesz	[bp]raæ	verb:sg:sec:?perf
-HIdi	I	aæ	z±	[bp]raæ	verb:ter:pl:?perf
+HIdi	I	aæ	z±	[bp]raæ	verb:pl:ter:?perf
 HIdi	I	aæ	zê	[bp]raæ	verb:sg:pri:?perf
 HIdi	I	eæ	y	[er]¿eæ	verb:sg:ter:?perf
 HIdi	I	eæ	ycie	[er]¿eæ	verb:pl:sec:?perf
 HIdi	I	eæ	ymy	[er]¿eæ	verb:pl:pri:?perf
 HIdi	I	eæ	ysz	[er]¿eæ	verb:sg:sec:?perf
-HIdi	I	eæ	±	[er]¿eæ	verb:ter:pl:?perf
+HIdi	I	eæ	±	[er]¿eæ	verb:pl:ter:?perf
 HIdi	I	eæ	ê	[er]¿eæ	verb:sg:pri:?perf
-HIdi	I	iæ	±	liæ	verb:ter:pl:?perf
+HIdi	I	iæ	±	liæ	verb:pl:ter:?perf
 HIdi	I	iæ	ê	liæ	verb:sg:pri:?perf
-HIdi	I	yæ	±	[^bmrtw]yæ	verb:ter:pl:?perf
+HIdi	I	yæ	±	[^bmrtw]yæ	verb:pl:ter:?perf
 HIdi	I	yæ	ê	[^bmrtw]yæ	verb:sg:pri:?perf
-HIdi	I	æ		[^bmrtw]yæ	verb:ter:sg:?perf
-HIdi	I	æ		liæ	verb:ter:sg:?perf
-HIdi	I	æ		¼dziæ	verb:ter:sg:?perf
+HIdi	I	æ		[^bmrtw]yæ	verb:sg:ter:?perf
+HIdi	I	æ		liæ	verb:sg:ter:?perf
+HIdi	I	æ		¼dziæ	verb:sg:ter:?perf
 HIdi	I	æ	cie	[^bmrtw]yæ	verb:pl:sec:?perf
 HIdi	I	æ	cie	liæ	verb:pl:sec:?perf
 HIdi	I	æ	cie	¼dziæ	verb:pl:sec:?perf
@@ -17452,7 +17499,7 @@ HIdi	I	æ	my	¼dziæ	verb:pl:pri:?perf
 HIdi	I	æ	sz	[^bmrtw]yæ	verb:sg:sec:?perf
 HIdi	I	æ	sz	liæ	verb:sg:sec:?perf
 HIdi	I	æ	sz	¼dziæ	verb:sg:sec:?perf
-HIdi	I	¼dziæ	¿d¿±	¼dziæ	verb:ter:pl:?perf
+HIdi	I	¼dziæ	¿d¿±	¼dziæ	verb:pl:ter:?perf
 HIdi	I	¼dziæ	¿d¿ê	¼dziæ	verb:sg:pri:?perf
 HIdi	d	eæ	ano	[^irz]eæ	verb:imps
 HIdi	d	iæ	ono	[^¶z¼][cl]iæ	verb:imps
@@ -17676,7 +17723,7 @@ HIdik	H	¶æ	d³yby¶my	a¶æ	verb:aglt:praet:pl:pri:n:?perf
 HIdik	H	¶æ	d³y¶cie	a¶æ	verb:praet:pl:sec:n:?perf
 HIdik	H	¶æ	d³y¶my	a¶æ	verb:praet:pl:pri:n:?perf
 HIdik	HIdik	0	0		verb:inf:?perf
-HIdik	I	eæ		dzieæ	verb:ter:sg:?perf
+HIdik	I	eæ		dzieæ	verb:sg:ter:?perf
 HIdik	I	eæ	cie	dzieæ	verb:pl:sec:?perf
 HIdik	I	eæ	my	dzieæ	verb:pl:pri:?perf
 HIdik	I	eæ	sz	dzieæ	verb:sg:sec:?perf
@@ -17688,9 +17735,9 @@ HIdik	I	eæ	ymy	[er]¿eæ	verb:pl:pri:?perf
 HIdik	I	eæ	ymy	zeæ	verb:pl:pri:?perf+verb:fin:pl:pri:imperf
 HIdik	I	eæ	ysz	[er]¿eæ	verb:sg:sec:?perf
 HIdik	I	eæ	ysz	zeæ	verb:sg:sec:?perf+verb:fin:sg:sec:imperf
-HIdik	I	eæ	±	[er]¿eæ	verb:ter:pl:?perf
-HIdik	I	eæ	±	reæ	verb:ter:pl:?perf
-HIdik	I	eæ	±	zeæ	verb:ter:pl:?perf
+HIdik	I	eæ	±	[er]¿eæ	verb:pl:ter:?perf
+HIdik	I	eæ	±	reæ	verb:pl:ter:?perf
+HIdik	I	eæ	±	zeæ	verb:pl:ter:?perf
 HIdik	I	eæ	ê	[er]¿eæ	verb:sg:pri:?perf
 HIdik	I	eæ	ê	reæ	verb:sg:pri:?perf
 HIdik	I	eæ	ê	zeæ	verb:sg:pri:?perf+verb:fin:sg:pri:imperf
@@ -17698,44 +17745,44 @@ HIdik	I	ieæ	e	hcieæ	verb:sg:ter:?perf
 HIdik	I	ieæ	ecie	hcieæ	verb:pl:sec:?perf
 HIdik	I	ieæ	emy	hcieæ	verb:pl:pri:?perf
 HIdik	I	ieæ	esz	hcieæ	verb:sg:sec:?perf
-HIdik	I	ieæ	±	dzieæ	verb:ter:pl:?perf
-HIdik	I	ieæ	±	hcieæ	verb:ter:pl:?perf
+HIdik	I	ieæ	±	dzieæ	verb:pl:ter:?perf
+HIdik	I	ieæ	±	hcieæ	verb:pl:ter:?perf
 HIdik	I	ieæ	ê	dzieæ	verb:sg:pri:?perf
 HIdik	I	ieæ	ê	hcieæ	verb:sg:pri:?perf
 HIdik	I	iæ	i	[^¶z]ciæ	verb:sg:ter:?perf
-HIdik	I	iæ	j±	[aeo]iæ	verb:ter:pl:?perf
+HIdik	I	iæ	j±	[aeo]iæ	verb:pl:ter:?perf
 HIdik	I	iæ	jê	[aeo]iæ	verb:sg:pri:?perf
-HIdik	I	iæ	z±	siæ	verb:ter:pl:?perf
+HIdik	I	iæ	z±	siæ	verb:pl:ter:?perf
 HIdik	I	iæ	zê	siæ	verb:sg:pri:?perf
-HIdik	I	iæ	±	[^¶z]ciæ	verb:ter:pl:?perf
-HIdik	I	iæ	±	[^¼][^aêor]ziæ	verb:ter:pl:?perf
-HIdik	I	iæ	±	liæ	verb:ter:pl:?perf
+HIdik	I	iæ	±	[^¶z]ciæ	verb:pl:ter:?perf
+HIdik	I	iæ	±	[^¼][^aêor]ziæ	verb:pl:ter:?perf
+HIdik	I	iæ	±	liæ	verb:pl:ter:?perf
 HIdik	I	iæ	ê	[^¶z]ciæ	verb:sg:pri:?perf
 HIdik	I	iæ	ê	[^¼][^aêor]ziæ	verb:sg:pri:?perf
 HIdik	I	iæ	ê	liæ	verb:sg:pri:?perf
-HIdik	I	yæ	±	[^bmrtw]yæ	verb:ter:pl:?perf
+HIdik	I	yæ	±	[^bmrtw]yæ	verb:pl:ter:?perf
 HIdik	I	yæ	ê	[^bmrtw]yæ	verb:sg:pri:?perf
-HIdik	I	ziæ	¿±	[aêor]ziæ	verb:ter:pl:?perf
+HIdik	I	ziæ	¿±	[aêor]ziæ	verb:pl:ter:?perf
 HIdik	I	ziæ	¿ê	[aêor]ziæ	verb:sg:pri:?perf
 HIdik	I	±c	êgnie	si±c	verb:sg:ter:?perf
 HIdik	I	±c	êgniecie	si±c	verb:pl:sec:?perf
 HIdik	I	±c	êgniemy	si±c	verb:pl:pri:?perf
 HIdik	I	±c	êgniesz	si±c	verb:sg:sec:?perf
-HIdik	I	±c	êgn±	si±c	verb:ter:pl:?perf
+HIdik	I	±c	êgn±	si±c	verb:pl:ter:?perf
 HIdik	I	±c	êgnê	si±c	verb:sg:pri:?perf
-HIdik	I	æ		[^bmrtw]yæ	verb:ter:sg:?perf
-HIdik	I	æ		[^bp]raæ	verb:ter:sg:?perf
-HIdik	I	æ		[^s]³aæ	verb:ter:sg:?perf
-HIdik	I	æ		[^¼][^aêor]ziæ	verb:ter:sg:?perf
-HIdik	I	æ		[aeo]iæ	verb:ter:sg:?perf
-HIdik	I	æ		[aêor]ziæ	verb:ter:sg:?perf
-HIdik	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:ter:sg:?perf
-HIdik	I	æ		[bfmnpw]iæ	verb:ter:sg:?perf
-HIdik	I	æ		liæ	verb:ter:sg:?perf
-HIdik	I	æ		reæ	verb:ter:sg:?perf
-HIdik	I	æ		siæ	verb:ter:sg:?perf
-HIdik	I	æ		¶ciæ	verb:ter:sg:?perf
-HIdik	I	æ		¼dziæ	verb:ter:sg:?perf
+HIdik	I	æ		[^bmrtw]yæ	verb:sg:ter:?perf
+HIdik	I	æ		[^bp]raæ	verb:sg:ter:?perf
+HIdik	I	æ		[^s]³aæ	verb:sg:ter:?perf
+HIdik	I	æ		[^¼][^aêor]ziæ	verb:sg:ter:?perf
+HIdik	I	æ		[aeo]iæ	verb:sg:ter:?perf
+HIdik	I	æ		[aêor]ziæ	verb:sg:ter:?perf
+HIdik	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:sg:ter:?perf
+HIdik	I	æ		[bfmnpw]iæ	verb:sg:ter:?perf
+HIdik	I	æ		liæ	verb:sg:ter:?perf
+HIdik	I	æ		reæ	verb:sg:ter:?perf
+HIdik	I	æ		siæ	verb:sg:ter:?perf
+HIdik	I	æ		¶ciæ	verb:sg:ter:?perf
+HIdik	I	æ		¼dziæ	verb:sg:ter:?perf
 HIdik	I	æ	cie	[^bmrtw]yæ	verb:pl:sec:?perf
 HIdik	I	æ	cie	[^bp]raæ	verb:pl:sec:?perf
 HIdik	I	æ	cie	[^s]³aæ	verb:pl:sec:?perf
@@ -17754,10 +17801,10 @@ HIdik	I	æ	je	leæ	verb:sg:ter:?perf
 HIdik	I	æ	jecie	leæ	verb:pl:sec:?perf
 HIdik	I	æ	jemy	leæ	verb:pl:pri:?perf
 HIdik	I	æ	jesz	leæ	verb:sg:sec:?perf
-HIdik	I	æ	j±	[^bp]raæ	verb:ter:pl:?perf
-HIdik	I	æ	j±	[^s]³aæ	verb:ter:pl:?perf
-HIdik	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:ter:pl:?perf
-HIdik	I	æ	j±	leæ	verb:ter:pl:?perf
+HIdik	I	æ	j±	[^bp]raæ	verb:pl:ter:?perf
+HIdik	I	æ	j±	[^s]³aæ	verb:pl:ter:?perf
+HIdik	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:pl:ter:?perf
+HIdik	I	æ	j±	leæ	verb:pl:ter:?perf
 HIdik	I	æ	jê	leæ	verb:sg:pri:?perf
 HIdik	I	æ	m	[^bp]raæ	verb:sg:pri:?perf
 HIdik	I	æ	m	[^s]³aæ	verb:sg:pri:?perf
@@ -17790,17 +17837,17 @@ HIdik	I	æ	sz	reæ	verb:sg:sec:?perf
 HIdik	I	æ	sz	siæ	verb:sg:sec:?perf
 HIdik	I	æ	sz	¶ciæ	verb:sg:sec:?perf
 HIdik	I	æ	sz	¼dziæ	verb:sg:sec:?perf
-HIdik	I	æ	±	[bfmnpw]iæ	verb:ter:pl:?perf
+HIdik	I	æ	±	[bfmnpw]iæ	verb:pl:ter:?perf
 HIdik	I	æ	ê	[bfmnpw]iæ	verb:sg:pri:?perf
-HIdik	I	¶ciæ	szcz±	¶ciæ	verb:ter:pl:?perf
+HIdik	I	¶ciæ	szcz±	¶ciæ	verb:pl:ter:?perf
 HIdik	I	¶ciæ	szczê	¶ciæ	verb:sg:pri:?perf
 HIdik	I	¶æ	dzie	³a¶æ	verb:sg:ter:?perf
 HIdik	I	¶æ	dziecie	³a¶æ	verb:pl:sec:?perf
 HIdik	I	¶æ	dziemy	³a¶æ	verb:pl:pri:?perf
 HIdik	I	¶æ	dziesz	³a¶æ	verb:sg:sec:?perf
-HIdik	I	¶æ	d±	³a¶æ	verb:ter:pl:?perf
+HIdik	I	¶æ	d±	³a¶æ	verb:pl:ter:?perf
 HIdik	I	¶æ	dê	³a¶æ	verb:sg:pri:?perf
-HIdik	I	¼dziæ	¿d¿±	¼dziæ	verb:ter:pl:?perf
+HIdik	I	¼dziæ	¿d¿±	¼dziæ	verb:pl:ter:?perf
 HIdik	I	¼dziæ	¿d¿ê	¼dziæ	verb:sg:pri:?perf
 HIdik	d	aæ	ano	[^cz]iaæ	verb:imps
 HIdik	d	eæ	ano	[^irz]eæ	verb:imps
@@ -18202,9 +18249,9 @@ HIdjk	H	æ	³yby¶my	[^±e¶¼]æ	verb:aglt:praet:pl:pri:n:?perf
 HIdjk	H	æ	³y¶cie	[^±e¶¼]æ	verb:praet:pl:sec:n:?perf
 HIdjk	H	æ	³y¶my	[^±e¶¼]æ	verb:praet:pl:pri:n:?perf
 HIdjk	HIdjk	0	0		verb:inf:?perf
-HIdjk	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:ter:sg:?perf
+HIdjk	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:sg:ter:?perf
 HIdjk	I	æ	cie	[bcdfghijlkmnstwz¿]aæ	verb:pl:sec:?perf
-HIdjk	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:ter:pl:?perf
+HIdjk	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:pl:ter:?perf
 HIdjk	I	æ	m	[bcdfghijlkmnstwz¿]aæ	verb:sg:pri:?perf
 HIdjk	I	æ	my	[bcdfghijlkmnstwz¿]aæ	verb:pl:pri:?perf
 HIdjk	I	æ	sz	[bcdfghijlkmnstwz¿]aæ	verb:sg:sec:?perf
@@ -18284,13 +18331,13 @@ HIdk	I	eæ	y	zeæ	verb:sg:ter:?perf
 HIdk	I	eæ	ycie	zeæ	verb:pl:sec:?perf
 HIdk	I	eæ	ymy	zeæ	verb:pl:pri:?perf
 HIdk	I	eæ	ysz	zeæ	verb:sg:sec:?perf
-HIdk	I	eæ	±	zeæ	verb:ter:pl:?perf
+HIdk	I	eæ	±	zeæ	verb:pl:ter:?perf
 HIdk	I	eæ	ê	zeæ	verb:sg:pri:?perf
 HIdk	I	±c	êgnie	si±c	verb:sg:ter:?perf
 HIdk	I	±c	êgniecie	si±c	verb:pl:sec:?perf
 HIdk	I	±c	êgniemy	si±c	verb:pl:pri:?perf
 HIdk	I	±c	êgniesz	si±c	verb:sg:sec:?perf
-HIdk	I	±c	êgn±	si±c	verb:ter:pl:?perf
+HIdk	I	±c	êgn±	si±c	verb:pl:ter:?perf
 HIdk	I	±c	êgnê	si±c	verb:sg:pri:?perf
 HIdk	d	eæ	ano	[cs]zeæ	verb:imps
 HIdk	d	±c	êgniêto	si±c	verb:imps
@@ -18337,15 +18384,15 @@ HIeik	H	æ	³yby¶my	[^±e¶¼]æ	verb:aglt:praet:pl:pri:n:?perf
 HIeik	H	æ	³y¶cie	[^±e¶¼]æ	verb:praet:pl:sec:n:?perf
 HIeik	H	æ	³y¶my	[^±e¶¼]æ	verb:praet:pl:pri:n:?perf
 HIeik	HIeik	0	0		verb:inf:?perf
-HIeik	I	æ		[^bp]raæ	verb:ter:sg:?perf
-HIeik	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:ter:sg:?perf
-HIeik	I	æ		[±æ]paæ	verb:ter:sg:?perf
+HIeik	I	æ		[^bp]raæ	verb:sg:ter:?perf
+HIeik	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:sg:ter:?perf
+HIeik	I	æ		[±æ]paæ	verb:sg:ter:?perf
 HIeik	I	æ	cie	[^bp]raæ	verb:pl:sec:?perf
 HIeik	I	æ	cie	[bcdfghijlkmnstwz¿]aæ	verb:pl:sec:?perf
 HIeik	I	æ	cie	[±æ]paæ	verb:pl:sec:?perf
-HIeik	I	æ	j±	[^bp]raæ	verb:ter:pl:?perf
-HIeik	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:ter:pl:?perf
-HIeik	I	æ	j±	[±æ]paæ	verb:ter:pl:?perf
+HIeik	I	æ	j±	[^bp]raæ	verb:pl:ter:?perf
+HIeik	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:pl:ter:?perf
+HIeik	I	æ	j±	[±æ]paæ	verb:pl:ter:?perf
 HIeik	I	æ	m	[^bp]raæ	verb:sg:pri:?perf
 HIeik	I	æ	m	[bcdfghijlkmnstwz¿]aæ	verb:sg:pri:?perf
 HIeik	I	æ	m	[±æ]paæ	verb:sg:pri:?perf
@@ -18449,13 +18496,13 @@ HIej	I	eæ	y	zeæ	verb:sg:ter:?perf
 HIej	I	eæ	ycie	zeæ	verb:pl:sec:?perf
 HIej	I	eæ	ymy	zeæ	verb:pl:pri:?perf
 HIej	I	eæ	ysz	zeæ	verb:sg:sec:?perf
-HIej	I	eæ	±	zeæ	verb:ter:pl:?perf
+HIej	I	eæ	±	zeæ	verb:pl:ter:?perf
 HIej	I	eæ	ê	zeæ	verb:sg:pri:?perf
 HIej	I	e¶æ	edzie	wie¶æ	verb:sg:ter:?perf
 HIej	I	e¶æ	edziecie	wie¶æ	verb:pl:sec:?perf
 HIej	I	e¶æ	edziemy	wie¶æ	verb:pl:pri:?perf
 HIej	I	e¶æ	edziesz	wie¶æ	verb:sg:sec:?perf
-HIej	I	e¶æ	od±	wie¶æ	verb:ter:pl:?perf
+HIej	I	e¶æ	od±	wie¶æ	verb:pl:ter:?perf
 HIej	I	e¶æ	odê	wie¶æ	verb:sg:pri:?perf
 HIej	e	eæ	ano	rzeæ	verb:imps
 HIej	e	¶æ	dziono	wie¶æ	verb:imps
@@ -18592,13 +18639,13 @@ HIejk	H	æ	³yby¶my	[^±e¶¼]æ	verb:aglt:praet:pl:pri:n:?perf
 HIejk	H	æ	³y¶cie	[^±e¶¼]æ	verb:praet:pl:sec:n:?perf
 HIejk	H	æ	³y¶my	[^±e¶¼]æ	verb:praet:pl:pri:n:?perf
 HIejk	HIejk	0	0		verb:inf:?perf
-HIejk	I	eæ		dzieæ	verb:ter:sg:?perf
+HIejk	I	eæ		dzieæ	verb:sg:ter:?perf
 HIejk	I	eæ	cie	dzieæ	verb:pl:sec:?perf
 HIejk	I	eæ	eje	[^cz]ieæ	verb:sg:ter:?perf
 HIejk	I	eæ	ejecie	[^cz]ieæ	verb:pl:sec:?perf
 HIejk	I	eæ	ejemy	[^cz]ieæ	verb:pl:pri:?perf
 HIejk	I	eæ	ejesz	[^cz]ieæ	verb:sg:sec:?perf
-HIejk	I	eæ	ej±	[^cz]ieæ	verb:ter:pl:?perf
+HIejk	I	eæ	ej±	[^cz]ieæ	verb:pl:ter:?perf
 HIejk	I	eæ	ejê	[^cz]ieæ	verb:sg:pri:?perf
 HIejk	I	eæ	my	dzieæ	verb:pl:pri:?perf
 HIejk	I	eæ	sz	dzieæ	verb:sg:sec:?perf
@@ -18606,31 +18653,31 @@ HIejk	I	eæ	y	zeæ	verb:sg:ter:?perf
 HIejk	I	eæ	ycie	zeæ	verb:pl:sec:?perf
 HIejk	I	eæ	ymy	zeæ	verb:pl:pri:?perf
 HIejk	I	eæ	ysz	zeæ	verb:sg:sec:?perf
-HIejk	I	eæ	±	zeæ	verb:ter:pl:?perf
+HIejk	I	eæ	±	zeæ	verb:pl:ter:?perf
 HIejk	I	eæ	ê	zeæ	verb:sg:pri:?perf
 HIejk	I	ieæ	e	hcieæ	verb:sg:ter:?perf
 HIejk	I	ieæ	ecie	hcieæ	verb:pl:sec:?perf
 HIejk	I	ieæ	emy	hcieæ	verb:pl:pri:?perf
 HIejk	I	ieæ	esz	hcieæ	verb:sg:sec:?perf
-HIejk	I	ieæ	±	dzieæ	verb:ter:pl:?perf
-HIejk	I	ieæ	±	hcieæ	verb:ter:pl:?perf
+HIejk	I	ieæ	±	dzieæ	verb:pl:ter:?perf
+HIejk	I	ieæ	±	hcieæ	verb:pl:ter:?perf
 HIejk	I	ieæ	ê	dzieæ	verb:sg:pri:?perf
 HIejk	I	ieæ	ê	hcieæ	verb:sg:pri:?perf
-HIejk	I	zi±æ	ezm±	zi±æ	verb:ter:pl:?perf
+HIejk	I	zi±æ	ezm±	zi±æ	verb:pl:ter:?perf
 HIejk	I	zi±æ	ezmê	zi±æ	verb:sg:pri:?perf
 HIejk	I	zi±æ	e¼mie	zi±æ	verb:sg:ter:?perf
 HIejk	I	zi±æ	e¼miecie	zi±æ	verb:pl:sec:?perf
 HIejk	I	zi±æ	e¼miemy	zi±æ	verb:pl:pri:?perf
 HIejk	I	zi±æ	e¼miesz	zi±æ	verb:sg:sec:?perf
-HIejk	I	æ		[^bp]raæ	verb:ter:sg:?perf
-HIejk	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:ter:sg:?perf
-HIejk	I	æ		[±æ]paæ	verb:ter:sg:?perf
+HIejk	I	æ		[^bp]raæ	verb:sg:ter:?perf
+HIejk	I	æ		[bcdfghijlkmnstwz¿]aæ	verb:sg:ter:?perf
+HIejk	I	æ		[±æ]paæ	verb:sg:ter:?perf
 HIejk	I	æ	cie	[^bp]raæ	verb:pl:sec:?perf
 HIejk	I	æ	cie	[bcdfghijlkmnstwz¿]aæ	verb:pl:sec:?perf
 HIejk	I	æ	cie	[±æ]paæ	verb:pl:sec:?perf
-HIejk	I	æ	j±	[^bp]raæ	verb:ter:pl:?perf
-HIejk	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:ter:pl:?perf
-HIejk	I	æ	j±	[±æ]paæ	verb:ter:pl:?perf
+HIejk	I	æ	j±	[^bp]raæ	verb:pl:ter:?perf
+HIejk	I	æ	j±	[bcdfghijlkmnstwz¿]aæ	verb:pl:ter:?perf
+HIejk	I	æ	j±	[±æ]paæ	verb:pl:ter:?perf
 HIejk	I	æ	m	[^bp]raæ	verb:sg:pri:?perf
 HIejk	I	æ	m	[bcdfghijlkmnstwz¿]aæ	verb:sg:pri:?perf
 HIejk	I	æ	m	[±æ]paæ	verb:sg:pri:?perf
@@ -18773,11 +18820,11 @@ HIek	H	æ	liby¶my	[^rz]eæ	verb:aglt:praet:pl:pri:m1:?perf
 HIek	H	æ	li¶cie	[^rz]eæ	verb:praet:pl:sec:m1:?perf
 HIek	H	æ	li¶my	[^rz]eæ	verb:praet:pl:pri:m1:?perf
 HIek	HIek	0	0		verb:inf:imperf
-HIek	I	eæ		dzieæ	verb:ter:sg:?perf
+HIek	I	eæ		dzieæ	verb:sg:ter:?perf
 HIek	I	eæ	cie	dzieæ	verb:fin:pl:sec:imperf
 HIek	I	eæ	my	dzieæ	verb:fin:pl:pri:imperf
 HIek	I	eæ	sz	dzieæ	verb:fin:sg:sec:imperf
-HIek	I	ieæ	±	dzieæ	verb:ter:pl:?perf
+HIek	I	ieæ	±	dzieæ	verb:pl:ter:?perf
 HIek	I	ieæ	ê	dzieæ	verb:sg:pri:?perf
 HIek	e	eæ	ano	zieæ	verb:imps
 HIek	k	zieæ	¼	[^e]dzieæ	verb:impt:sg:sec:imperf
@@ -18817,11 +18864,11 @@ HIik	H	æ	³yby¶my	[^±e¶¼]æ	verb:aglt:praet:pl:pri:n:?perf
 HIik	H	æ	³y¶cie	[^±e¶¼]æ	verb:praet:pl:sec:n:?perf
 HIik	H	æ	³y¶my	[^±e¶¼]æ	verb:praet:pl:pri:n:?perf
 HIik	HIik	0	0		verb:inf:perf
-HIik	I	æ		[bfmnpw]iæ	verb:ter:sg:?perf
+HIik	I	æ		[bfmnpw]iæ	verb:sg:ter:?perf
 HIik	I	æ	cie	[bfmnpw]iæ	verb:pl:sec:?perf
 HIik	I	æ	my	[bfmnpw]iæ	verb:pl:pri:?perf
 HIik	I	æ	sz	[bfmnpw]iæ	verb:sg:sec:?perf
-HIik	I	æ	±	[bfmnpw]iæ	verb:ter:pl:?perf
+HIik	I	æ	±	[bfmnpw]iæ	verb:pl:ter:?perf
 HIik	I	æ	ê	[bfmnpw]iæ	verb:sg:pri:?perf
 HIik	i	æ	enia	[^acelosz]iæ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
 HIik	i	æ	eniach	[^acelosz]iæ	subst:ger:pl:loc:n
@@ -18872,7 +18919,7 @@ HIjk	I	eæ	y	zeæ	verb:sg:ter:?perf
 HIjk	I	eæ	ycie	zeæ	verb:pl:sec:?perf
 HIjk	I	eæ	ymy	zeæ	verb:pl:pri:?perf
 HIjk	I	eæ	ysz	zeæ	verb:sg:sec:?perf
-HIjk	I	eæ	±	zeæ	verb:ter:pl:?perf
+HIjk	I	eæ	±	zeæ	verb:pl:ter:?perf
 HIjk	I	eæ	ê	zeæ	verb:sg:pri:?perf
 HIjk	j	eæ	enia	rzeæ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
 HIjk	j	eæ	eniach	rzeæ	subst:ger:pl:loc:n
@@ -18919,17 +18966,17 @@ HIk	H	æ	³yby¶my	[^±e¶¼]æ	verb:aglt:praet:pl:pri:n:?perf
 HIk	H	æ	³y¶cie	[^±e¶¼]æ	verb:praet:pl:sec:n:?perf
 HIk	H	æ	³y¶my	[^±e¶¼]æ	verb:praet:pl:pri:n:?perf
 HIk	HIk	0	0		verb:inf:?perf
-HIk	I	ziæ	¿±	[aêor]ziæ	verb:ter:pl:?perf
+HIk	I	ziæ	¿±	[aêor]ziæ	verb:pl:ter:?perf
 HIk	I	ziæ	¿ê	[aêor]ziæ	verb:sg:pri:?perf
-HIk	I	æ		[aêor]ziæ	verb:ter:sg:?perf
-HIk	I	æ		[bfmnpw]iæ	verb:ter:sg:?perf
+HIk	I	æ		[aêor]ziæ	verb:sg:ter:?perf
+HIk	I	æ		[bfmnpw]iæ	verb:sg:ter:?perf
 HIk	I	æ	cie	[aêor]ziæ	verb:pl:sec:?perf
 HIk	I	æ	cie	[bfmnpw]iæ	verb:pl:sec:?perf
 HIk	I	æ	my	[aêor]ziæ	verb:pl:pri:?perf
 HIk	I	æ	my	[bfmnpw]iæ	verb:pl:pri:?perf
 HIk	I	æ	sz	[aêor]ziæ	verb:sg:sec:?perf
 HIk	I	æ	sz	[bfmnpw]iæ	verb:sg:sec:?perf
-HIk	I	æ	±	[bfmnpw]iæ	verb:ter:pl:?perf
+HIk	I	æ	±	[bfmnpw]iæ	verb:pl:ter:?perf
 HIk	I	æ	ê	[bfmnpw]iæ	verb:sg:pri:?perf
 HIk	k	niæ	ñ	[^¶]niæ	verb:impt:sg:sec:perf
 HIk	k	niæ	ñcie	[^¶]niæ	verb:impt:pl:sec:perf
@@ -18978,12 +19025,12 @@ HJdhi	J	eæ	i	leæ	verb:sg:ter:?perf
 HJdhi	J	eæ	icie	leæ	verb:pl:sec:?perf
 HJdhi	J	eæ	imy	leæ	verb:pl:pri:?perf
 HJdhi	J	eæ	isz	leæ	verb:sg:sec:?perf
-HJdhi	J	eæ	±	leæ	verb:ter:pl:?perf
+HJdhi	J	eæ	±	leæ	verb:pl:ter:?perf
 HJdhi	J	eæ	ê	leæ	verb:sg:pri:?perf
 HJdhi	d	eæ	ano	[^irz]eæ	verb:imps
-HJdhi	h	eæ	±	leæ	verb:ter:pl:?perf
+HJdhi	h	eæ	±	leæ	verb:pl:ter:?perf
 HJdhi	h	eæ	ê	leæ	verb:sg:pri:?perf
-HJdhi	h	æ		leæ	verb:ter:sg:?perf
+HJdhi	h	æ		leæ	verb:sg:ter:?perf
 HJdhi	h	æ	cie	leæ	verb:pl:sec:?perf
 HJdhi	h	æ	my	leæ	verb:pl:pri:?perf
 HJdhi	h	æ	sz	leæ	verb:sg:sec:?perf
@@ -19056,15 +19103,15 @@ HJdi	H	æ	liby¶my	[^rz]eæ	verb:aglt:praet:pl:pri:m1:?perf
 HJdi	H	æ	li¶cie	[^rz]eæ	verb:praet:pl:sec:m1:?perf
 HJdi	H	æ	li¶my	[^rz]eæ	verb:praet:pl:pri:m1:?perf
 HJdi	HJdi	0	0		verb:inf:?perf
-HJdi	J	eæ		[mp]ieæ	verb:ter:sg:?perf
+HJdi	J	eæ		[mp]ieæ	verb:sg:ter:?perf
 HJdi	J	eæ	cie	[mp]ieæ	verb:pl:sec:?perf
 HJdi	J	eæ	my	[mp]ieæ	verb:pl:pri:?perf
 HJdi	J	eæ	sz	[mp]ieæ	verb:sg:sec:?perf
-HJdi	J	eæ	±	[mp]ieæ	verb:ter:pl:?perf
+HJdi	J	eæ	±	[mp]ieæ	verb:pl:ter:?perf
 HJdi	J	eæ	ê	[mp]ieæ	verb:sg:pri:?perf
-HJdi	J	zeæ	±	[^ao]rzeæ	verb:ter:pl:?perf
+HJdi	J	zeæ	±	[^ao]rzeæ	verb:pl:ter:?perf
 HJdi	J	zeæ	ê	[^ao]rzeæ	verb:sg:pri:?perf
-HJdi	J	æ		[^ao]rzeæ	verb:ter:sg:?perf
+HJdi	J	æ		[^ao]rzeæ	verb:sg:ter:?perf
 HJdi	J	æ	cie	[^ao]rzeæ	verb:pl:sec:?perf
 HJdi	J	æ	my	[^ao]rzeæ	verb:pl:pri:?perf
 HJdi	J	æ	sz	[^ao]rzeæ	verb:sg:sec:?perf
@@ -19147,7 +19194,7 @@ HJdik	H	æ	³yby¶my	[^±e¶¼]æ	verb:aglt:praet:pl:pri:n:?perf
 HJdik	H	æ	³y¶cie	[^±e¶¼]æ	verb:praet:pl:sec:n:?perf
 HJdik	H	æ	³y¶my	[^±e¶¼]æ	verb:praet:pl:pri:n:?perf
 HJdik	HJdik	0	0		verb:inf:?perf
-HJdik	J	eæ		[mp]ieæ	verb:ter:sg:?perf
+HJdik	J	eæ		[mp]ieæ	verb:sg:ter:?perf
 HJdik	J	eæ	cie	[mp]ieæ	verb:pl:sec:?perf
 HJdik	J	eæ	i	leæ	verb:sg:ter:?perf
 HJdik	J	eæ	icie	leæ	verb:pl:sec:?perf
@@ -19155,21 +19202,21 @@ HJdik	J	eæ	imy	leæ	verb:pl:pri:?perf
 HJdik	J	eæ	isz	leæ	verb:sg:sec:?perf
 HJdik	J	eæ	my	[mp]ieæ	verb:pl:pri:?perf
 HJdik	J	eæ	sz	[mp]ieæ	verb:sg:sec:?perf
-HJdik	J	eæ	±	[mp]ieæ	verb:ter:pl:?perf
-HJdik	J	eæ	±	leæ	verb:ter:pl:?perf
+HJdik	J	eæ	±	[mp]ieæ	verb:pl:ter:?perf
+HJdik	J	eæ	±	leæ	verb:pl:ter:?perf
 HJdik	J	eæ	ê	[mp]ieæ	verb:sg:pri:?perf
 HJdik	J	eæ	ê	leæ	verb:sg:pri:?perf
 HJdik	J	spaæ	¶pi	spaæ	verb:sg:ter:?perf
 HJdik	J	spaæ	¶picie	spaæ	verb:pl:sec:?perf
 HJdik	J	spaæ	¶pimy	spaæ	verb:pl:pri:?perf
 HJdik	J	spaæ	¶pisz	spaæ	verb:sg:sec:?perf
-HJdik	J	spaæ	¶pi±	spaæ	verb:ter:pl:?perf
+HJdik	J	spaæ	¶pi±	spaæ	verb:pl:ter:?perf
 HJdik	J	spaæ	¶piê	spaæ	verb:sg:pri:?perf
-HJdik	J	æ		êziæ	verb:ter:sg:?perf
+HJdik	J	æ		êziæ	verb:sg:ter:?perf
 HJdik	J	æ	cie	êziæ	verb:pl:sec:?perf
 HJdik	J	æ	my	êziæ	verb:pl:pri:?perf
 HJdik	J	æ	sz	êziæ	verb:sg:sec:?perf
-HJdik	J	æ	±	êziæ	verb:ter:pl:?perf
+HJdik	J	æ	±	êziæ	verb:pl:ter:?perf
 HJdik	J	æ	ê	êziæ	verb:sg:pri:?perf
 HJdik	d	eæ	ano	[^cz]ieæ	verb:imps
 HJdik	d	eæ	ano	[^irz]eæ	verb:imps
@@ -19278,7 +19325,7 @@ HJehj	J	aæ	oi	staæ	verb:sg:ter:?perf
 HJehj	J	aæ	oicie	staæ	verb:pl:sec:?perf
 HJehj	J	aæ	oimy	staæ	verb:pl:pri:?perf
 HJehj	J	aæ	oisz	staæ	verb:sg:sec:?perf
-HJehj	J	aæ	oj±	staæ	verb:ter:pl:?perf
+HJehj	J	aæ	oj±	staæ	verb:pl:ter:?perf
 HJehj	J	aæ	ojê	staæ	verb:sg:pri:?perf
 HJehj	e	æ	no	[^±ei¶uy¼]æ	verb:imps
 HJehj	h	æ	nie	taæ	verb:sg:ter:?perf
@@ -19326,7 +19373,7 @@ HJei	J	aæ	oi	staæ	verb:sg:ter:?perf
 HJei	J	aæ	oicie	staæ	verb:pl:sec:?perf
 HJei	J	aæ	oimy	staæ	verb:pl:pri:?perf
 HJei	J	aæ	oisz	staæ	verb:sg:sec:?perf
-HJei	J	aæ	oj±	staæ	verb:ter:pl:?perf
+HJei	J	aæ	oj±	staæ	verb:pl:ter:?perf
 HJei	J	aæ	ojê	staæ	verb:sg:pri:?perf
 HJei	e	æ	no	[^±ei¶uy¼]æ	verb:imps
 HJei	i	æ	nia	[^i]aæ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
@@ -19402,7 +19449,7 @@ HJej	J	aæ	oi	staæ	verb:sg:ter:?perf
 HJej	J	aæ	oicie	staæ	verb:pl:sec:?perf
 HJej	J	aæ	oimy	staæ	verb:pl:pri:?perf
 HJej	J	aæ	oisz	staæ	verb:sg:sec:?perf
-HJej	J	aæ	oj±	staæ	verb:ter:pl:?perf
+HJej	J	aæ	oj±	staæ	verb:pl:ter:?perf
 HJej	J	aæ	ojê	staæ	verb:sg:pri:?perf
 HJej	J	æ	je	[bfmnpw]iæ	verb:sg:ter:?perf
 HJej	J	æ	je	[uy]æ	verb:sg:ter:?perf
@@ -19412,15 +19459,15 @@ HJej	J	æ	jemy	[bfmnpw]iæ	verb:pl:pri:?perf
 HJej	J	æ	jemy	[uy]æ	verb:pl:pri:?perf
 HJej	J	æ	jesz	[bfmnpw]iæ	verb:sg:sec:?perf
 HJej	J	æ	jesz	[uy]æ	verb:sg:sec:?perf
-HJej	J	æ	j±	[bfmnpw]iæ	verb:ter:pl:?perf
-HJej	J	æ	j±	[uy]æ	verb:ter:pl:?perf
+HJej	J	æ	j±	[bfmnpw]iæ	verb:pl:ter:?perf
+HJej	J	æ	j±	[uy]æ	verb:pl:ter:?perf
 HJej	J	æ	jê	[bfmnpw]iæ	verb:sg:pri:?perf
 HJej	J	æ	jê	[uy]æ	verb:sg:pri:?perf
 HJej	J	¿±æ	e¿nie	¿±æ	verb:sg:ter:?perf
 HJej	J	¿±æ	e¿niecie	¿±æ	verb:pl:sec:?perf
 HJej	J	¿±æ	e¿niemy	¿±æ	verb:pl:pri:?perf
 HJej	J	¿±æ	e¿niesz	¿±æ	verb:sg:sec:?perf
-HJej	J	¿±æ	e¿n±	¿±æ	verb:ter:pl:?perf
+HJej	J	¿±æ	e¿n±	¿±æ	verb:pl:ter:?perf
 HJej	J	¿±æ	e¿nê	¿±æ	verb:sg:pri:?perf
 HJej	e	±æ	êto	[dijl¿]±æ	verb:imps
 HJej	e	æ	no	[^±ei¶uy¼]æ	verb:imps
@@ -19549,39 +19596,39 @@ HJejk	H	¶æ	d³by	ó¶æ	verb:aglt:praet:sg:ter:m:?perf
 HJejk	H	¶æ	d³bym	ó¶æ	verb:aglt:praet:sg:pri:m:?perf
 HJejk	H	¶æ	d³by¶	ó¶æ	verb:aglt:praet:sg:sec:m:?perf
 HJejk	HJejk	0	0		verb:inf:?perf
-HJejk	J	dzieæ		dzieæ	verb:ter:sg:?perf
+HJejk	J	dzieæ		dzieæ	verb:sg:ter:?perf
 HJejk	J	dzieæ	cie	dzieæ	verb:pl:sec:?perf
 HJejk	J	dzieæ	m	dzieæ	verb:sg:pri:?perf
 HJejk	J	dzieæ	my	dzieæ	verb:pl:pri:?perf
 HJejk	J	dzieæ	sz	dzieæ	verb:sg:sec:?perf
-HJejk	J	eæ		cieæ	verb:ter:sg:?perf
-HJejk	J	eæ		sieæ	verb:ter:sg:?perf
+HJejk	J	eæ		cieæ	verb:sg:ter:?perf
+HJejk	J	eæ		sieæ	verb:sg:ter:?perf
 HJejk	J	eæ	cie	cieæ	verb:pl:sec:?perf
 HJejk	J	eæ	cie	sieæ	verb:pl:sec:?perf
 HJejk	J	eæ	my	cieæ	verb:pl:pri:?perf
 HJejk	J	eæ	my	sieæ	verb:pl:pri:?perf
 HJejk	J	eæ	sz	cieæ	verb:sg:sec:?perf
 HJejk	J	eæ	sz	sieæ	verb:sg:sec:?perf
-HJejk	J	ieæ	z±	sieæ	verb:ter:pl:?perf
+HJejk	J	ieæ	z±	sieæ	verb:pl:ter:?perf
 HJejk	J	ieæ	zê	sieæ	verb:sg:pri:?perf
-HJejk	J	ieæ	±	cieæ	verb:ter:pl:?perf
-HJejk	J	ieæ	±	dzieæ	verb:ter:pl:?perf
-HJejk	J	ieæ	±	nieæ	verb:ter:pl:?perf
+HJejk	J	ieæ	±	cieæ	verb:pl:ter:?perf
+HJejk	J	ieæ	±	dzieæ	verb:pl:ter:?perf
+HJejk	J	ieæ	±	nieæ	verb:pl:ter:?perf
 HJejk	J	ieæ	ê	cieæ	verb:sg:pri:?perf
 HJejk	J	ieæ	ê	nieæ	verb:sg:pri:?perf
 HJejk	J	waæ	je	awaæ	verb:sg:ter:?perf
 HJejk	J	waæ	jecie	awaæ	verb:pl:sec:?perf
 HJejk	J	waæ	jemy	awaæ	verb:pl:pri:?perf
 HJejk	J	waæ	jesz	awaæ	verb:sg:sec:?perf
-HJejk	J	waæ	j±	awaæ	verb:ter:pl:?perf
+HJejk	J	waæ	j±	awaæ	verb:pl:ter:?perf
 HJejk	J	waæ	jê	awaæ	verb:sg:pri:?perf
 HJejk	J	ó¶æ	odzie	ó¶æ	verb:sg:ter:?perf
 HJejk	J	ó¶æ	odziecie	ó¶æ	verb:pl:sec:?perf
 HJejk	J	ó¶æ	odziemy	ó¶æ	verb:pl:pri:?perf
 HJejk	J	ó¶æ	odziesz	ó¶æ	verb:sg:sec:?perf
-HJejk	J	ó¶æ	od±	ó¶æ	verb:ter:pl:?perf
+HJejk	J	ó¶æ	od±	ó¶æ	verb:pl:ter:?perf
 HJejk	J	ó¶æ	odê	ó¶æ	verb:sg:pri:?perf
-HJejk	J	æ		nieæ	verb:ter:sg:?perf
+HJejk	J	æ		nieæ	verb:sg:ter:?perf
 HJejk	J	æ	cie	nieæ	verb:pl:sec:?perf
 HJejk	J	æ	my	nieæ	verb:pl:pri:?perf
 HJejk	J	æ	sz	nieæ	verb:sg:sec:?perf
@@ -19706,7 +19753,7 @@ HJk	H	æ	liby¶my	[^rz]eæ	verb:aglt:praet:pl:pri:m1:?perf
 HJk	H	æ	li¶cie	[^rz]eæ	verb:praet:pl:sec:m1:?perf
 HJk	H	æ	li¶my	[^rz]eæ	verb:praet:pl:pri:m1:?perf
 HJk	HJk	0	0		verb:inf:?perf
-HJk	J	eæ		sieæ	verb:ter:sg:?perf
+HJk	J	eæ		sieæ	verb:sg:ter:?perf
 HJk	J	eæ	cie	sieæ	verb:pl:sec:?perf
 HJk	J	eæ	my	sieæ	verb:pl:pri:?perf
 HJk	J	eæ	sz	sieæ	verb:sg:sec:?perf
@@ -19781,13 +19828,13 @@ Hdhi	H	æ	³y¶my	[^±e¶¼]æ	verb:praet:pl:pri:n:?perf
 Hdhi	Hdhi	0	0		verb:inf:?perf
 Hdhi	d	eæ	ano	[^irz]eæ	verb:imps
 Hdhi	d	æ	no	[^i]aæ	verb:imps
-Hdhi	h	eæ	±	leæ	verb:ter:pl:?perf
+Hdhi	h	eæ	±	leæ	verb:pl:ter:?perf
 Hdhi	h	eæ	ê	leæ	verb:sg:pri:?perf
-Hdhi	h	æ		kas³aæ	verb:ter:sg:?perf
-Hdhi	h	æ		leæ	verb:ter:sg:?perf
+Hdhi	h	æ		kas³aæ	verb:sg:ter:?perf
+Hdhi	h	æ		leæ	verb:sg:ter:?perf
 Hdhi	h	æ	cie	kas³aæ	verb:pl:sec:?perf
 Hdhi	h	æ	cie	leæ	verb:pl:sec:?perf
-Hdhi	h	æ	j±	kas³aæ	verb:ter:pl:?perf
+Hdhi	h	æ	j±	kas³aæ	verb:pl:ter:?perf
 Hdhi	h	æ	m	kas³aæ	verb:sg:pri:?perf
 Hdhi	h	æ	my	kas³aæ	verb:pl:pri:?perf
 Hdhi	h	æ	my	leæ	verb:pl:pri:?perf
@@ -20088,7 +20135,7 @@ Hehj	h	æ	je	zeæ	verb:sg:ter:?perf
 Hehj	h	æ	jecie	zeæ	verb:pl:sec:?perf
 Hehj	h	æ	jemy	zeæ	verb:pl:pri:?perf
 Hehj	h	æ	jesz	zeæ	verb:sg:sec:?perf
-Hehj	h	æ	j±	zeæ	verb:ter:pl:?perf
+Hehj	h	æ	j±	zeæ	verb:pl:ter:?perf
 Hehj	h	æ	jê	zeæ	verb:sg:pri:?perf
 Hehj	h	æ	nie	taæ	verb:sg:ter:?perf
 Hehj	h	æ	niecie	taæ	verb:pl:sec:?perf
@@ -20148,7 +20195,7 @@ Hehjk	h	ieæ	i	nieæ	verb:sg:ter:?perf
 Hehjk	h	ieæ	icie	nieæ	verb:pl:sec:?perf
 Hehjk	h	ieæ	imy	nieæ	verb:pl:pri:?perf
 Hehjk	h	ieæ	isz	nieæ	verb:sg:sec:?perf
-Hehjk	h	ieæ	±	nieæ	verb:ter:pl:?perf
+Hehjk	h	ieæ	±	nieæ	verb:pl:ter:?perf
 Hehjk	h	ieæ	ê	nieæ	verb:sg:pri:?perf
 Hehjk	j	æ	nia	[^csz]ieæ	subst:ger:pl:nom.acc.voc:n+subst:ger:sg:gen:n
 Hehjk	j	æ	niach	[^csz]ieæ	subst:ger:pl:loc:n
@@ -20339,9 +20386,9 @@ I	I	eæ	eje	[^cz]ieæ	verb:sg:ter:?perf
 I	I	eæ	ejecie	[^cz]ieæ	verb:pl:sec:?perf
 I	I	eæ	ejemy	[^cz]ieæ	verb:pl:pri:?perf
 I	I	eæ	ejesz	[^cz]ieæ	verb:sg:sec:?perf
-I	I	eæ	ej±	[^cz]ieæ	verb:ter:pl:?perf
+I	I	eæ	ej±	[^cz]ieæ	verb:pl:ter:?perf
 I	I	eæ	ejê	[^cz]ieæ	verb:sg:pri:?perf
-Idi	I	±¼æ	êzn±	±¼æ	verb:ter:pl:?perf
+Idi	I	±¼æ	êzn±	±¼æ	verb:pl:ter:?perf
 Idi	I	±¼æ	êznê	±¼æ	verb:sg:pri:?perf
 Idi	I	±¼æ	ê¼nie	±¼æ	verb:sg:ter:?perf
 Idi	I	±¼æ	ê¼niecie	±¼æ	verb:pl:sec:?perf
@@ -20361,7 +20408,7 @@ Idik	I	c	knie	[^t]rzec	verb:sg:ter:?perf
 Idik	I	c	kniecie	[^t]rzec	verb:pl:sec:?perf
 Idik	I	c	kniemy	[^t]rzec	verb:pl:pri:?perf
 Idik	I	c	kniesz	[^t]rzec	verb:sg:sec:?perf
-Idik	I	c	kn±	[^t]rzec	verb:ter:pl:?perf
+Idik	I	c	kn±	[^t]rzec	verb:pl:ter:?perf
 Idik	I	c	knê	[^t]rzec	verb:sg:pri:perf
 Idik	Idik	0	0		verb:inf:perf
 Idik	d	c	kniêto	rzec	verb:imps
@@ -20383,7 +20430,7 @@ Idk	I	c	knie	[^t]rzec	verb:sg:ter:?perf
 Idk	I	c	kniecie	[^t]rzec	verb:pl:sec:?perf
 Idk	I	c	kniemy	[^t]rzec	verb:pl:pri:?perf
 Idk	I	c	kniesz	[^t]rzec	verb:sg:sec:?perf
-Idk	I	c	kn±	[^t]rzec	verb:ter:pl:?perf
+Idk	I	c	kn±	[^t]rzec	verb:pl:ter:?perf
 Idk	I	c	knê	[^t]rzec	verb:sg:pri:?perf
 Idk	Idk	0	0		verb:inf:perf
 Idk	d	c	kniêto	rzec	verb:imps
@@ -20393,9 +20440,9 @@ Idk	k	c	knijcie¿	zec	verb:impt:pl:sec:perf
 Idk	k	c	knijmy	zec	verb:impt:pl:pri:perf
 Idk	k	c	knijmy¿	zec	verb:impt:pl:pri:perf
 Idk	k	c	knij¿e	zec	verb:impt:sg:sec:perf
-Ik	I	eæ	±	reæ	verb:ter:pl:?perf
+Ik	I	eæ	±	reæ	verb:pl:ter:?perf
 Ik	I	eæ	ê	reæ	verb:sg:pri:?perf
-Ik	I	æ		reæ	verb:ter:sg:?perf
+Ik	I	æ		reæ	verb:sg:ter:?perf
 Ik	I	æ	cie	reæ	verb:pl:sec:?perf
 Ik	I	æ	my	reæ	verb:pl:pri:?perf
 Ik	I	æ	sz	reæ	verb:sg:sec:?perf
@@ -20411,17 +20458,17 @@ J	J	sn±æ	¶nie	sn±æ	verb:sg:ter:?perf
 J	J	sn±æ	¶niecie	sn±æ	verb:pl:sec:?perf
 J	J	sn±æ	¶niemy	sn±æ	verb:pl:pri:?perf
 J	J	sn±æ	¶niesz	sn±æ	verb:sg:sec:?perf
-J	J	zeæ	±	[^ao]rzeæ	verb:ter:pl:?perf
+J	J	zeæ	±	[^ao]rzeæ	verb:pl:ter:?perf
 J	J	zeæ	ê	[^ao]rzeæ	verb:sg:pri:?perf
 J	J	±æ	ê	sn±æ	verb:sg:pri:?perf
-J	J	æ		[^ao]rzeæ	verb:ter:sg:?perf
-J	J	æ		sn±æ	verb:ter:pl:?perf
+J	J	æ		[^ao]rzeæ	verb:sg:ter:?perf
+J	J	æ		sn±æ	verb:pl:ter:?perf
 J	J	æ	cie	[^ao]rzeæ	verb:pl:sec:?perf
 J	J	æ	my	[^ao]rzeæ	verb:pl:pri:?perf
 J	J	æ	sz	[^ao]rzeæ	verb:sg:sec:?perf
-Jdi	J	zeæ	±	[^ao]rzeæ	verb:ter:pl:?perf
+Jdi	J	zeæ	±	[^ao]rzeæ	verb:pl:ter:?perf
 Jdi	J	zeæ	ê	[^ao]rzeæ	verb:sg:pri:?perf
-Jdi	J	æ		[^ao]rzeæ	verb:ter:sg:?perf
+Jdi	J	æ		[^ao]rzeæ	verb:sg:ter:?perf
 Jdi	J	æ	cie	[^ao]rzeæ	verb:pl:sec:?perf
 Jdi	J	æ	my	[^ao]rzeæ	verb:pl:pri:?perf
 Jdi	J	æ	sz	[^ao]rzeæ	verb:sg:sec:?perf
@@ -20435,9 +20482,9 @@ Jdi	i	rzeæ	arciem	rzeæ	subst:ger:sg:inst:n
 Jdi	i	rzeæ	arciom	rzeæ	subst:ger:pl:dat:n
 Jdi	i	rzeæ	arciu	rzeæ	subst:ger:sg:dat.loc:n
 Jdi	i	rzeæ	aræ	rzeæ	subst:ger:pl:gen:n
-Jej	J	zeæ	±	[^ao]rzeæ	verb:ter:pl:?perf
+Jej	J	zeæ	±	[^ao]rzeæ	verb:pl:ter:?perf
 Jej	J	zeæ	ê	[^ao]rzeæ	verb:sg:pri:?perf
-Jej	J	æ		[^ao]rzeæ	verb:ter:sg:?perf
+Jej	J	æ		[^ao]rzeæ	verb:sg:ter:?perf
 Jej	J	æ	cie	[^ao]rzeæ	verb:pl:sec:?perf
 Jej	J	æ	my	[^ao]rzeæ	verb:pl:pri:?perf
 Jej	J	æ	sz	[^ao]rzeæ	verb:sg:sec:?perf
@@ -21232,6 +21279,17 @@ MST	S	0	ch	a	subst:pl:loc:m
 MST	S	0	mi	a	subst:pl:inst:m
 MST	S	a	om	a	subst:pl:dat:m
 MST	T	a	ów	a	subst:pl:gen:m
+MSTm	M	a	ie	[^cfilt]owa	subst:sg:loc:m1
+MSTm	M	a	o	[^l]a	subst:sg:voc:m1
+MSTm	M	a	y	[^cfilt]owa	subst:sg:gen:m1
+MSTm	M	a	±	a	subst:sg:inst:m1
+MSTm	M	a	ê	[^cfilt]owa	subst:sg:acc:m1
+MSTm	MSTm	0	0		subst:sg:nom:m1
+MSTm	S	0	ch	a	subst:pl:loc:m1
+MSTm	S	0	mi	a	subst:pl:inst:m1
+MSTm	S	a	om	a	subst:pl:dat:m
+MSTm	T	a	ów	a	subst:pl:gen:m1
+MSTm	m	owa	ów	owa	subst:pl:gen:m1
 MSTn	M	a	ie	[^sz]na	subst:sg:dat.loc:m1
 MSTn	M	a	o	[^l]a	subst:sg:voc:m1
 MSTn	M	a	y	[bcdfh³mprstvz¿]a	subst:sg:gen:m1+subst:pl:nom.voc:m1
@@ -22037,6 +22095,7 @@ OSTs	O	0	owi	[^ó]w	subst:sg:dat:m
 OSTs	O	0	owi	[^æño¶tw¼x]	subst:sg:dat:m3
 OSTs	O	0	u	[^aou]z	subst:sg:loc.voc:m
 OSTs	O	0	u	[cghjkly¿]	subst:sg:gen.loc.voc:m3
+OSTs	O	0	u	¶wiat	subst:sg:dat:m
 OSTs	O	0	ze	r	subst:sg:loc.voc:m3
 OSTs	O	0	zie	[^z]d	subst:sg:loc.voc:m3
 OSTs	O	st	¶cie	st	subst:sg:loc.voc:m3
@@ -24057,6 +24116,7 @@ TVo	V	0	m	o	subst:pl:dat:m1
 TVo	V	o		[psw]o	subst:pl:gen:m1
 TVo	V	o	ach	o	subst:pl:loc:m1
 TVo	V	o	ami	o	subst:pl:inst:m1
+TVo	V	ro	er	[dht]ro	subst:pl:gen:m1
 TVo	o	0	wie	o	subst:pl:nom.voc:m1
 TVos	T	o	ów	o	subst:pl:gen:m
 TVos	TVos	0	0		subst:sg:nom:m
@@ -24522,6 +24582,7 @@ XY	XY	0	0		adj:sg:nom:m
 XY	Y	chy	si	chy	adj:pl:nom:m
 XY	Y	en	ne	den	adj:sg:nom.acc.voc:n+adj:pl:nom.acc.voc:f.n+adj:pl:nom:m3
 XY	Y	en	ni	den	adj:pl:nom:m
+XY	Y	gi	dzy	gi	adj:pl:nom.voc:m1
 XY	Y	iony	eni	dziony	subst:pl:nom.voc:m1
 XY	Y	ki	cy	ki	adj:pl:nom:m
 XY	Y	ony	eni	[^cz]iony	adj:pl:nom:m
@@ -24830,11 +24891,11 @@ dk	k	c	knijmy¿	zec	verb:impt:pl:pri:perf
 dk	k	c	knij¿e	zec	verb:impt:sg:sec:perf
 ehj	e	eæ	ano	rzeæ	verb:imps
 ehj	ehj	0	0		verb:inf:?perf
-ehj	h	æ	je	zeæ	verb:ter:sg:?perf
+ehj	h	æ	je	zeæ	verb:sg:ter:?perf
 ehj	h	æ	jecie	zeæ	verb:pl:sec:?perf
 ehj	h	æ	jemy	zeæ	verb:pl:pri:?perf
 ehj	h	æ	jesz	zeæ	verb:sg:sec:?perf
-ehj	h	æ	j±	zeæ	verb:ter:pl:?perf
+ehj	h	æ	j±	zeæ	verb:pl:ter:?perf
 ehj	h	æ	jê	zeæ	verb:sg:pri:?perf
 ehj	j	eæ	enia	rzeæ	subst:pl:ger:nom.acc.voc:n+subst:sg:ger:gen:n
 ehj	j	eæ	eniach	rzeæ	subst:pl:ger:loc:n
@@ -24935,6 +24996,7 @@ j	j	æ	ñ	[^±ei¶uy¼]æ	subst:pl:ger:gen:n
 l	l	0	0		subst:pltant:nom.voc:m1
 l	l	i	ów	i	subst:pltant:gen:m1
 m	m	0	0		subst:sg:nom:f
+m	m	cia	æ	cia	subst:pl:gen:f
 m	m	ni	ñ	ni	subst:pl:gen:f
 n	n	0	0		subst:sg:nom:f
 n	n	a		a	subst:pl:gen:f
