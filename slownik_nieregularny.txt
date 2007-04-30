@@ -345,7 +345,7 @@ dobitniej	dobitnie	adv:comp
 dobranoc	dobranoc	indecl
 dobroduszniej	dobrodusznie	adv:comp
 dobry	dobry	adj:sg:nom:m
-dobrze	dobry	adv:pneg
+dobrze	dobry	adv:aff
 docent	docent	subst:sg:nom:m
 dogodniej	dogodnie	adv:comp
 dojrzalej	dojrzale	adv:comp
@@ -2001,7 +2001,7 @@ naj¿wawiej	¿wawo	adv:sup
 naj¿yczliwiej	¿yczliwie	adv:sup
 naj¿ywiej	¿ywo	adv:sup
 naj¿ywotniej	¿ywotnie	adv:sup
-naj¿y¼niej	¿y¼nie	adv:sup 
+naj¿y¼niej	¿y¼nie	adv:sup
 naj¿ó³ciej	¿ó³to	adv:sup
 nam	my	ppron12:pl:dat:pri
 nami	my	ppron12:pl:inst:pri
@@ -3352,7 +3352,7 @@ obie	oba	num:pl:nom.acc:f
 obiema	oba	num:pl:inst:f
 oboje	oboje	num:pl:nom.acc:p1.p2
 obojga	oboje	num:pl:gen:p1.p2
-obojgiem	oboje	num:pl:instr:p1.p2
+obojgiem	oboje	num:pl:inst:p1.p2
 obojgu	oboje	num:pl:dat.loc:p1.p2
 oboma	oba	num:pl:inst:m1.m2.m3.f.n2
 obu	oba	num:pl:nom:m1:rec+num:pl:gen.dat.loc:m1.m2.m3.f.n2+num:pl:acc:m1+num:pl:inst:m1.m2.m3.n2
@@ -3439,7 +3439,7 @@ sze¶ædziesi±t	sze¶ædziesi±t	num:pl:nom.acc:m2.m3.f.n1.n2
 sze¶æset	sze¶æset	num:pl:nom.acc:m2.m3.f.n1.n2
 troje	troje	num:pl:nom.acc:p1.p2
 trojga	troje	num:pl:gen:p1.p2
-trojgiem	troje	num:pl:instr:p1.p2
+trojgiem	troje	num:pl:inst:p1.p2
 trojgu	troje	num:pl:dat.loc:p1.p2
 trzech	trzy	num:pl:nom:m1:rec+num:pl:gen.loc:m1.m2.m3.f.n2+num:pl:acc:m1
 trzej	trzy	num:pl:nom:m1:congr

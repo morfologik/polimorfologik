@@ -22,6 +22,9 @@ while ((getline < glosfile)  > 0){
 	split(wyrazy[$3"\t"$2], znaczniki, ":")
 	if ($1"__END"~/[³w]szy__END/)
 		print $1"\t"$2"\tpant:perf"
+	else
+		if ($1"__END"~/owo__END/ && $2"__END"~/owy__END/)
+		print $1"\t"$2"\tadv"
 	else 
 	if ($1"__END"~/¿e__END/ && znaczniki[1]~/verb|ppas/)
 		print $1"\t"$2"\tverb:impt:sg:sec:perf"

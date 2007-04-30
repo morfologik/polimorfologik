@@ -27,9 +27,9 @@ negated_pos=""
 split(pos,elements,"+")
 for (n in elements)
    if (negated_pos=="") 
-	negated_pos=elements[n] ":pneg" 
+	negated_pos=elements[n] ":aff" 
     else 
-	negated_pos=negated_pos "+" elements[n] ":pneg" 
+	negated_pos=negated_pos "+" elements[n] ":aff" 
 if (negated_pos=="") print "##B³¹d konwersji" pos
 return negated_pos 
 }
@@ -64,16 +64,16 @@ form_flag=gensub(/[b\!]/,"","g", sort_flags($4))
 #specjalny znacznik do regu³y pisowni ³±czniej z "nie"
 potencjalna_negacja=""
 if ($3~/b/ && $4!~/b/)
-	potencjalna_negacja=":pneg"
+	potencjalna_negacja=":aff"
 #stopieñ najwy¿szy
 sup=""
-if (potencjalna_negacja=="" && $2"__END"~/naj.*[ktbpjwr¿l]szy__END/)
+if (potencjalna_negacja=="" && $2"__END"~/naj.*[ñhdktbpjwr¿l]szy__END/)
 	sup=":sup"
 #stopieñ wy¿szy
 comp=""
-if (potencjalna_negacja=="" && sup=="" && $2"__END"~/.*[ktbpjwr¿l]szy__END/)
+if (potencjalna_negacja=="" && sup=="" && $2"__END"~/.*[ñhdktbpjwr¿l]szy__END/)
 	comp=":comp"
-	
+
 if ($4~/b/) {
 if (sort_flags($3)!=sort_flags($4))
 	print $1FS$2FS negate_pos(lista_obecnosci[lexem_flag FS form_flag FS$5FS$6FS$7])
@@ -92,7 +92,12 @@ for (ppp in znaczniki_pos)
 	if (sup!="" && znaczniki_pos[ppp]~/adj/) znacznik=znacznik plus znaczniki_pos[ppp] sup potencjalna_negacja
 	else {
 	if (comp!="" && znaczniki_pos[ppp]~/adj/) znacznik=znacznik plus znaczniki_pos[ppp] comp potencjalna_negacja
-	else znacznik=znacznik plus znaczniki_pos[ppp] potencjalna_negacja
+	else {
+	if (znaczniki_pos[ppp]~/adj/)
+	znacznik=znacznik plus znaczniki_pos[ppp] ":pos" potencjalna_negacja
+	else 
+	znacznik=znacznik plus znaczniki_pos[ppp] potencjalna_negacja
+	}
 	}
 	plus="+"
 	}

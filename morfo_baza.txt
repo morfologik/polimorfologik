@@ -149,48 +149,48 @@ AMN	A	¶	sie	[ou]¶	subst:pl:nom.acc.voc:f
 AMN	A	¼	zie	[^±d]¼	subst:pl:nom.acc.voc:f
 AMN	A	¼	zie	[^±ó]d¼	subst:pl:nom.acc.voc:f
 AMN	AMN	0	0		subst:sg:nom:f
-AMN	M	0	i	[^ó]l	subst:sg:gen:f
-AMN	M	0	i	p	subst:sg:gen:f
-AMN	M	0	y	[^±]¿	subst:sg:gen:f
-AMN	M	0	y	c	subst:sg:gen:f
+AMN	M	0	i	[^ó]l	subst:sg:gen.dat.loc:f+subst:pl:gen:f
+AMN	M	0	i	p	subst:sg:gen.dat.loc:f+subst:pl:gen:f
+AMN	M	0	y	[^±]¿	subst:sg:gen.dat.loc:f+subst:pl:gen:f
+AMN	M	0	y	c	subst:sg:gen.dat.loc:f+subst:pl:gen:f
 AMN	M	0	±	[^ó]l	subst:sg:inst:f
 AMN	M	0	±	c	subst:sg:inst:f
 AMN	M	0	±	¿	subst:sg:inst:f
-AMN	M	a	i	[^bcdfh³mnprstvwz¿]a	subst:sg:gen:f
+AMN	M	a	i	[^bcdfh³mnprstvwz¿]a	subst:sg:gen.dat.loc:f+subst:pl:gen:f
 AMN	M	a	o	[^a][bt]ula	subst:sg:voc:f
 AMN	M	a	o	[^bt]ula	subst:sg:voc:f
 AMN	M	a	o	[^l]a	subst:sg:voc:f
 AMN	M	a	o	[^u]la	subst:sg:voc:f
-AMN	M	a	y	[bcdfh³mprstvz¿]a	subst:sg:gen:f
+AMN	M	a	y	[bcdfh³mprstvz¿]a	subst:sg:gen.dat.loc:f+subst:pl:gen:f
 AMN	M	a	±	a	subst:sg:inst:f
 AMN	M	a	ê	[^w]a	subst:sg:acc:f
-AMN	M	ew	wi	[hnt]ew	subst:sg:gen:f
+AMN	M	ew	wi	[hnt]ew	subst:sg:gen.dat.loc:f+subst:pl:gen:f
 AMN	M	ew	wi±	[rt]ew	subst:sg:inst:f
-AMN	M	eæ	ci	[h³]eæ	subst:sg:gen:f
+AMN	M	eæ	ci	[h³]eæ	subst:sg:gen.dat.loc:f+subst:pl:gen:f
 AMN	M	eæ	ci±	[h³]eæ	subst:sg:inst:f
-AMN	M	iew	wi	[gk]iew	subst:sg:gen:f
+AMN	M	iew	wi	[gk]iew	subst:sg:gen.dat.loc:f+subst:pl:gen:f
 AMN	M	iew	wi±	[gk]iew	subst:sg:inst:f
-AMN	M	ie¶	si	wie¶	subst:sg:gen:f
+AMN	M	ie¶	si	wie¶	subst:sg:gen.dat.loc:f+subst:pl:gen:f
 AMN	M	ie¶	si±	wie¶	subst:sg:inst:f
-AMN	M	ód¼	odzi	ód¼	subst:sg:gen:f
+AMN	M	ód¼	odzi	ód¼	subst:sg:gen.dat.loc:f+subst:pl:gen:f
 AMN	M	ód¼	odzi±	ód¼	subst:sg:inst:f
-AMN	M	ól	oli	ól	subst:sg:gen:f
+AMN	M	ól	oli	ól	subst:sg:gen.dat.loc:f+subst:pl:gen:f
 AMN	M	ól	ol±	ól	subst:sg:inst:f
-AMN	M	æ	ci	[^e]¶æ	subst:sg:gen:f
-AMN	M	æ	ci	[^e¶]æ	subst:sg:gen:f
-AMN	M	æ	ci	[^h³]eæ	subst:sg:gen:f
-AMN	M	æ	ci	[^z]e¶æ	subst:sg:gen:f
+AMN	M	æ	ci	[^e]¶æ	subst:sg:gen.dat.loc:f+subst:pl:gen:f
+AMN	M	æ	ci	[^e¶]æ	subst:sg:gen.dat.loc:f+subst:pl:gen:f
+AMN	M	æ	ci	[^h³]eæ	subst:sg:gen.dat.loc:f+subst:pl:gen:f
+AMN	M	æ	ci	[^z]e¶æ	subst:sg:gen.dat.loc:f+subst:pl:gen:f
 AMN	M	æ	ci±	[^e]¶æ	subst:sg:inst:f
 AMN	M	æ	ci±	[^e¶]æ	subst:sg:inst:f
 AMN	M	æ	ci±	[^h³]eæ	subst:sg:inst:f
 AMN	M	æ	ci±	[^z]e¶æ	subst:sg:inst:f
-AMN	M	ñ	ni	[^d]eñ	subst:sg:gen:f
-AMN	M	ñ	ni	[^e]ñ	subst:sg:gen:f
+AMN	M	ñ	ni	[^d]eñ	subst:sg:gen.dat.loc:f+subst:pl:gen:f
+AMN	M	ñ	ni	[^e]ñ	subst:sg:gen.dat.loc:f+subst:pl:gen:f
 AMN	M	ñ	ni±	ñ	subst:sg:inst:f
-AMN	M	¶	si	[^e]¶	subst:sg:gen:f
+AMN	M	¶	si	[^e]¶	subst:sg:gen.dat.loc:f+subst:pl:gen:f
 AMN	M	¶	si±	[^e]¶	subst:sg:inst:f
-AMN	M	¼	zi	[^±d]¼	subst:sg:gen:f
-AMN	M	¼	zi	[^±ó]d¼	subst:sg:gen:f
+AMN	M	¼	zi	[^±d]¼	subst:sg:gen.dat.loc:f+subst:pl:gen:f
+AMN	M	¼	zi	[^±ó]d¼	subst:sg:gen.dat.loc:f+subst:pl:gen:f
 AMN	M	¼	zi±	[^d]¼	subst:sg:inst:f
 AMN	M	¼	zi±	[^ó]d¼	subst:sg:inst:f
 AMN	N	0	ach	[^s]z	subst:pl:loc:f
@@ -261,7 +261,7 @@ AMNT	T	a	ów	a	subst:pl:gen:m
 AMNTn	A	a	e	[cijl¿]a	subst:pl:nom.acc.voc:f
 AMNTn	AMNTn	0	0		subst:sg:nom:f
 AMNTn	M	a	o	[^l]a	subst:sg:voc:f
-AMNTn	M	a	y	[bcdfh³mprstvz¿]a	subst:sg:gen:f
+AMNTn	M	a	y	[bcdfh³mprstvz¿]a	subst:sg:gen.dat.loc:f
 AMNTn	M	a	±	a	subst:sg:inst:f
 AMNTn	M	a	ê	[^w]a	subst:sg:acc:f
 AMNTn	N	0	ch	[^w]a	subst:pl:loc:f
@@ -271,23 +271,23 @@ AMNTn	T	a	ów	a	subst:pl:gen:f
 AMNTn	n	a		.a	subst:pl:gen:f
 AMNTn	n	a		[^z]a	subst:pl:gen:f
 AMNTn	n	a		a	subst:pl:gen:f
-AMNTo	A	a	e	[cijl¿]a	subst:pl:nom.acc.voc:m
+AMNTo	A	a	e	[cijl¿]a	subst:pl:nom.acc.voc:m:depr
 AMNTo	AMNTo	0	0		subst:sg:nom:m1
-AMNTo	M	a	i	[^bcdfh³mnprstvwz¿]a	subst:sg:gen:m
+AMNTo	M	a	i	[^bcdfh³mnprstvwz¿]a	subst:sg:gen.dat.loc:m
 AMNTo	M	a	o	[^bt]ula	subst:sg:voc:m
 AMNTo	M	a	o	[^l]a	subst:sg:voc:m
 AMNTo	M	a	o	[^u]la	subst:sg:voc:m
-AMNTo	M	a	y	[bcdfh³mprstvz¿]a	subst:sg:gen:m
+AMNTo	M	a	y	[bcdfh³mprstvz¿]a	subst:sg:gen.dat.loc:m
 AMNTo	M	a	±	a	subst:sg:inst:m
 AMNTo	M	a	ê	[^w]a	subst:sg:acc:m
 AMNTo	N	0	ch	[^w]a	subst:pl:loc:m
 AMNTo	N	0	mi	[^w]a	subst:pl:inst:m
 AMNTo	N	a	om	[^w]a	subst:pl:dat:m
 AMNTo	T	a	ów	a	subst:pl:gen:m
-AMNTo	o	a	owie	a	subst:pl:nom:m1
+AMNTo	o	a	owie	a	subst:pl:nom.voc:m1
 AMNm	A	0	e	[iy]ni	subst:pl:nom.acc.voc:f
 AMNm	A	a	e	[cijl¿]a	subst:pl:nom.acc.voc:f
-AMNm	AMNm	0	0		subst:sg:nom:f
+AMNm	AMNm	0	0		subst:sg:nom.gen.dat.loc.voc:f
 AMNm	M	0	±	[yi]ni	subst:sg:inst:f
 AMNm	M	0	ê	[yi]ni	subst:sg:acc:f
 AMNm	M	a	i	[^bcdfh³mnprstvwz¿]a	subst:sg:gen:f
@@ -312,10 +312,10 @@ AMNm	m	ni	ñ	ni	subst:pl:gen:f
 AMNm	m	ola	ól	ola	subst:pl:gen:f
 AMNmn	A	a	e	[cijl¿]a	subst:pl:nom.acc.voc:f
 AMNmn	AMNmn	0	0		subst:sg:nom:f
-AMNmn	M	a	i	[^bcdfh³mnprstvwz¿]a	subst:sg:gen:f
+AMNmn	M	a	i	[^bcdfh³mnprstvwz¿]a	subst:sg:gen.dat.loc:f
 AMNmn	M	a	o	[^l]a	subst:sg:voc:f
 AMNmn	M	a	o	[^u]la	subst:sg:voc:f
-AMNmn	M	a	y	[bcdfh³mprstvz¿]a	subst:sg:gen:f
+AMNmn	M	a	y	[bcdfh³mprstvz¿]a	subst:sg:gen.dat.loc:f
 AMNmn	M	a	±	a	subst:sg:inst:f
 AMNmn	M	a	ê	[^w]a	subst:sg:acc:f
 AMNmn	N	0	ch	[^w]a	subst:pl:loc:f
@@ -329,7 +329,7 @@ AMNmn	n	a		[^z]a	subst:pl:gen:f
 AMNmn	n	a		a	subst:pl:gen:f
 AMNn	A	a	e	[cijl¿]a	subst:pl:nom.acc.voc:f
 AMNn	AMNn	0	0		subst:sg:nom:f
-AMNn	M	a	i	[^bcdfh³mnprstvwz¿]a	subst:sg:gen:f
+AMNn	M	a	i	[^bcdfh³mnprstvwz¿]a	subst:sg:gen.dat.loc:f
 AMNn	M	a	o	[^a][bt]ula	subst:sg:voc:f
 AMNn	M	a	o	[^b]abula	subst:sg:voc:f
 AMNn	M	a	o	[^bt]ula	subst:sg:voc:f
@@ -337,7 +337,7 @@ AMNn	M	a	o	[^l]a	subst:sg:voc:f
 AMNn	M	a	o	[^u]la	subst:sg:voc:f
 AMNn	M	a	u	babula	subst:sg:voc:f
 AMNn	M	a	u	matula	subst:sg:voc:f
-AMNn	M	a	y	[bcdfh³mprstvz¿]a	subst:sg:gen:f
+AMNn	M	a	y	[bcdfh³mprstvz¿]a	subst:sg:gen.dat.loc:f
 AMNn	M	a	±	a	subst:sg:inst:f
 AMNn	M	a	ê	[^w]a	subst:sg:acc:f
 AMNn	N	0	ch	[^o]wa	subst:pl:loc:f
@@ -20865,15 +20865,15 @@ MNT	N	a	om	[^o]wa	subst:pl:dat:m1
 MNT	N	a	om	[^w]a	subst:pl:dat:m1
 MNT	T	a	ów	a	subst:pl:gen:m1
 MNTm	M	a	i	[^bcdfh³mnprstvwz¿]a	subst:pl:nom.voc:m1
-MNTm	M	a	ie	[^cfilt]owa	subst:sg:loc:m1
-MNTm	M	a	o	[^l]a	subst:sg:voc:m1
-MNTm	M	a	y	[^cfilt]owa	subst:sg:gen:m1
-MNTm	M	a	±	a	subst:sg:inst:m
-MNTm	M	a	ê	[^cfilt]owa	subst:sg:acc:m1
+MNTm	M	a	ie	[^cfilt]owa	subst:sg:loc:f
+MNTm	M	a	o	[^l]a	subst:sg:voc:m1+subst:sg:voc:f
+MNTm	M	a	y	[^cfilt]owa	subst:sg:gen:f+subst.pl:nom.acc.voc:f
+MNTm	M	a	±	a	subst:sg:inst:m+subst:sg:inst:f
+MNTm	M	a	ê	[^cfilt]owa	subst:sg:acc:f
 MNTm	M	a	ê	[^w]a	subst:sg:acc:m1
 MNTm	M	ga	dze	ga	subst:sg:dat:m1
 MNTm	M	ka	ce	ka	subst:sg:dat.loc:m1
-MNTm	MNTm	0	0		subst:sg:nom:m1
+MNTm	MNTm	0	0		subst:sg:nom:m1+subst:sg:nom:f
 MNTm	N	0	ch	[^cfilt]owa	subst:pl:loc:f
 MNTm	N	0	ch	[^w]a	subst:pl:loc:m1
 MNTm	N	0	mi	[^cfilt]owa	subst:pl:inst:f
@@ -21008,13 +21008,13 @@ MNTq	MNTq	0	0		subst:sg:nom:m1
 MNTq	N	0	ch	[^w]a	subst:pl:loc:m
 MNTq	N	0	mi	[^w]a	subst:pl:inst:m
 MNTq	N	a	om	[^w]a	subst:pl:dat:m
-MNTq	T	a	ów	a	subst:pl:gen:m
-MNTq	q	a	zi	da	subst:pl:nom.voc:m
+MNTq	T	a	ów	a	subst:pl:gen.acc:m
+MNTq	q	a	zi	da	subst:pl:nom.voc:m1
 MNTq	q	a	zy	ra	subst:pl:nom.voc:m1
-MNTq	q	ga	dzy	ga	subst:pl:nom:m1
-MNTq	q	ka	cy	ka	subst:pl:nom:m1
-MNTq	q	sta	¶ci	sta	subst:pl:nom:m1
-MNTq	q	ta	ci	[^s]ta	subst:pl:nom:m1
+MNTq	q	ga	dzy	ga	subst:pl:nom.voc:m1
+MNTq	q	ka	cy	ka	subst:pl:nom.voc:m1
+MNTq	q	sta	¶ci	sta	subst:pl:nom.voc:m1
+MNTq	q	ta	ci	[^s]ta	subst:pl:nom.voc:m1
 MNm	M	0	±	[yi]ni	subst:sg:inst:f
 MNm	M	0	ê	[yi]ni	subst:sg:acc:f
 MNm	M	a	i	[^bcdfh³mnprstvwz¿]a	subst:sg:gen:f
@@ -21846,22 +21846,22 @@ OSToqs	S	x	ksom	x	subst:pl:dat:m
 OSToqs	T	0	ów	[^aæoñ¶w¼x]	subst:pl:gen:m
 OSToqs	T	0	ów	[^ó]w	subst:pl:gen:m
 OSToqs	T	x	ksów	x	subst:pl:gen:m
-OSToqs	o	0	owie	[^aæioñ¶y¼x]	subst:pl:nom:m1
-OSToqs	o	x	ksowie	x	subst:pl:nom.voc:m
-OSToqs	q	0	e	rz	subst:pl:nom:m1
-OSToqs	q	0	i	[bmnpsw]	subst:pl:nom:m1
-OSToqs	q	0	i	[ou]z	subst:pl:nom:m1
-OSToqs	q	0	zi	d	subst:pl:nom:m1
-OSToqs	q	0	zy	r	subst:pl:nom:m1
-OSToqs	q	ch	si	ch	subst:pl:nom:m1
-OSToqs	q	g	dzy	g	subst:pl:nom:m1
-OSToqs	q	k	cy	k	subst:pl:nom:m1
-OSToqs	q	t	ci	t	subst:pl:nom:m1
+OSToqs	o	0	owie	[^aæioñ¶y¼x]	subst:pl:nom.acc.voc:m1
+OSToqs	o	x	ksowie	x	subst:pl:nom.acc.voc:m
+OSToqs	q	0	e	rz	subst:pl:nom.voc:m1
+OSToqs	q	0	i	[bmnpsw]	subst:pl:nom.voc:m1
+OSToqs	q	0	i	[ou]z	subst:pl:nom.voc:m1
+OSToqs	q	0	zi	d	subst:pl:nom.voc:m1
+OSToqs	q	0	zy	r	subst:pl:nom.voc:m1
+OSToqs	q	ch	si	ch	subst:pl:nom.voc:m1
+OSToqs	q	g	dzy	g	subst:pl:nom.voc:m1
+OSToqs	q	k	cy	k	subst:pl:nom.voc:m1
+OSToqs	q	t	ci	t	subst:pl:nom.voc:m1
 OSToqs	q	x	ksi	x	subst:pl:nom.voc:m
-OSToqs	s	0	i	[kg]	subst:pl:nom:m
-OSToqs	s	0	y	[^acægjklño¶yz¼¿x]	subst:pl:nom:m
+OSToqs	s	0	i	[kg]	subst:pl:nom.voc:m
+OSToqs	s	0	y	[^acægjklño¶yz¼¿x]	subst:pl:nom.voc:m
 OSToqs	s	0	y	[^cds]z	subst:pl:gen:m1
-OSToqs	s	x	ksy	x	subst:pl:nom:m
+OSToqs	s	x	ksy	x	subst:pl:nom.voc:m:depr
 OSTos	O	0	a	[^ó]w	subst:sg:acc.gen:m
 OSTos	O	0	a	[^æño¶w¼x]	subst:sg:gen:m
 OSTos	O	0	em	[^ó]w	subst:sg:inst:m
