@@ -23,15 +23,21 @@ slownik:
 #przygotowanie form nieregularnych 
 	gawk -f nietypowe.awk polish.all >bez_flag.txt
 	gawk -f dopisane.awk odm.txt >nieregularne.txt
-anot:
+anot slownik_niereg.txt: nieregularne.txt slownik_regularny.txt
 	gawk -f anot_niereg.awk nieregularne.txt > slownik_niereg.txt
+
+join morfologik.txt: slownik_niereg.txt slownik_nieregularny.txt slownik_regularny.txt
 #po³¹czenie
-	cat slownik*.txt | sort -u > morfologik.txt
+	cat slownik*.txt | gawk -f anot_all.awk | sort -u > morfologik.txt
 
 fsa:
-	gawk -f morph_data.awk morfologik.txt | fsa_ubuild -O -o polish.dict
+	gawk -f ../fsa/morph_infix.awk morfologik.txt | sort -u |fsa_build -O -o polish.dict
+
+synteza polish_synth.dict: morfologik.txt
+	gawk -f tags.awk morfologik.txt | gawk -f format_tags.awk | sort -u > polish_tags.txt
+	gawk -f synteza_pl.awk morfologik.txt |gawk -f morph_data.awk | sort -u |fsa_build -O -o polish_synth.dict
 	
-all: formy lacz slownik anot fsa
+all: formy lacz slownik anot join fsa synteza
 
 test:
 #formy_ht_3.txt - plik testowy
@@ -45,3 +51,7 @@ clean:
 	rm slownik*.txt
 	rm nieregularne.txt
 	rm afiksy.txt
+	
+pack morfologik.zip polish-fsa.zip: morfologik.txt polish.dict polish_synth.dict readme.txt
+	7za a -tzip morfologik.zip morfologik.txt readme.txt
+	7za a -tzip polish-fsa.zip polish.dict polish_synth.dict readme.txt

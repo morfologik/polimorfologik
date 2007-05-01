@@ -2968,7 +2968,7 @@ wci±¿	wci±¿	adv
 wcze¶niej	wcze¶nie	adv:comp
 wczoraj	wczoraj	adv
 wdziêczniej	wdziêcznie	adv:comp
-we	we	prep:loc
+we	we	prep:acc.loc
 wedle	wedle	prep:gen
 wed³ug	wed³ug	prep:gen
 wenus	wenus	subst:sg:nom.gen.dat.acc.inst.loc.voc:f+subst:pl:nom.gen.dat.acc.inst.loc.voc:f
