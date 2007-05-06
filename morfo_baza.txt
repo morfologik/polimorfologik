@@ -1,4 +1,4 @@
-		0	0		adv
+		0	0		adv:pos
 A	A	0	0		subst:sg:nom:f
 A	A	a	e	[cijl¿]a	subst:pl:nom.acc.voc:f
 A	A	a	e	wna	subst:pl:nom.acc.voc:f
@@ -12785,7 +12785,7 @@ DSs	S	0	ami	[^aæño¶w¼x]	subst:pl:inst:m
 DSs	S	0	om	[^aæño¶w¼x]	subst:pl:dat:m
 DSs	s	0	e	[cjly¿]	subst:pl:nom.voc:m
 DSs	s	0	y	[^acægjklño¶yz¼¿x]	subst:pl:gen:m1
-E	E	0	0		verb:imps
+E	E	0	0		pred
 E	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 E	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:n
 E	E	æ	nego	[^¿]aæ	ppas:sg:gen:n+ppas:sg:acc.gen:m+ppas:sg:gen:m3
