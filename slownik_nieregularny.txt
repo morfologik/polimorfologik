@@ -3506,3 +3506,5 @@ sz³yby¶cie	i¶æ	verb:aglt:praet:pl:sec:f.n:imperf
 sz³yby¶my	i¶æ	verb:aglt:praet:pl:pri:f.n:imperf
 sz³y¶cie	i¶æ	verb:praet:pl:sec:f.n:imperf
 sz³y¶my	i¶æ	verb:praet:pl:pri:f.n:imperf
+tê	ten	adj:sg:acc:f
+t±	ten	adj:sg:inst:f
