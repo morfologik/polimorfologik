@@ -365,7 +365,7 @@ do	do	prep:gen
 dobitniej	dobitnie	adv:comp
 dobranoc	dobranoc	indecl
 dobroduszniej	dobrodusznie	adv:comp
-dobrze	dobry	adv:aff
+dobrze	dobry	adv:pos:aff
 docent	docent	subst:sg:nom:m
 dogodniej	dogodnie	adv:comp
 dojrzalej	dojrzale	adv:comp

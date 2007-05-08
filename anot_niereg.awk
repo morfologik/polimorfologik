@@ -24,7 +24,7 @@ while ((getline < glosfile)  > 0){
 		print $1"\t"$2"\tpant:perf"
 	else
 		if ($1"__END"~/owo__END/ && $2"__END"~/owy__END/)
-		print $1"\t"$2"\tadv"
+		print $1"\t"$2"\tadv:pos"
 	else 
 	if ($1"__END"~/¿e__END/ && znaczniki[1]~/verb|ppas/)
 		print $1"\t"$2"\tverb:impt:sg:sec:perf"
