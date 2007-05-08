@@ -17578,7 +17578,7 @@ HIdik	H	eæ	a³e¶	[^r]zeæ	verb:praet:sg:sec:m:?perf
 HIdik	H	eæ	a³e¶	[^rz]eæ	verb:praet:sg:sec:m:?perf
 HIdik	H	eæ	a³o	[^r]zeæ	verb:praet:sg:ter:n:imperf
 HIdik	H	eæ	a³o	[^rz]eæ	verb:praet:sg:ter:n:?perf
-HIdik	H	eæ	a³oby	[^r]zeæ	verb:pot:sg:ter:n:imperf
+HIdik	H	eæ	a³oby	[^r]zeæ	verb:pot:praet:sg:ter:n:imperf
 HIdik	H	eæ	a³oby	[^rz]eæ	verb:pot:praet:sg:ter:n:?perf
 HIdik	H	eæ	a³obym	[^r]zeæ	verb:pot:praet:sg:pri:n:?perf
 HIdik	H	eæ	a³obym	[^rz]eæ	verb:pot:praet:sg:pri:n:?perf
@@ -24854,12 +24854,12 @@ Zz	z	óz	ozy	óz	subst:pl:nom.acc.voc:m
 a	a	0	0		subst:pltant:nom.acc.voc:n
 a	a	e	ch	ie	adj:pl:acc.gen.loc:m1+adj:pl:gen.loc:f.n.m2.m3
 a	a	e	m	ie	adj:sg:inst.loc:m.n+adj:pl:dat:f.m.n
-a	a	e	mi	ie	adj:pl:loc:f.m.n
+a	a	e	mi	ie	adj:pl:inst:f.m.n
 a	a	e	ych	[^i]e	adj:pl:acc.gen.loc:m1+adj:pl:gen.loc:f.n.m2.m3
 a	a	e	ych	e	subst:pltant:gen.loc:n
 a	a	e	ym	[^i]e	adj:sg:inst.loc:m.n+adj:pl:dat:f.m.n
 a	a	e	ym	e	subst:pltant:dat:n
-a	a	e	ymi	[^i]e	adj:pl:loc:f.m.n
+a	a	e	ymi	[^i]e	adj:pl:inst:f.m.n
 a	a	e	ymi	e	subst:pltant:inst:n
 b	b	0	0		adv
 b	b	0	nie	.	adv
