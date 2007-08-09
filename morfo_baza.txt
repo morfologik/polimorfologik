@@ -261,7 +261,7 @@ AMNT	T	a	ów	a	subst:pl:acc.gen:m1
 AMNTn	A	a	e	[cijl¿]a	subst:pl:nom.acc.voc:f
 AMNTn	AMNTn	0	0		subst:sg:nom:f
 AMNTn	M	a	o	[^l]a	subst:sg:voc:f
-AMNTn	M	a	y	[bcdfh³mprstvz¿]a	subst:sg:gen.dat.loc:f+subst:pl:gen:f
+AMNTn	M	a	y	[bcdfh³mprstvz¿]a	subst:sg:gen.dat.loc:f+subst:pl:nom.acc:f
 AMNTn	M	a	±	a	subst:sg:inst:f
 AMNTn	M	a	ê	[^w]a	subst:sg:acc:f
 AMNTn	N	0	ch	[^w]a	subst:pl:loc:f
@@ -312,10 +312,10 @@ AMNm	m	ni	ñ	ni	subst:pl:gen:f
 AMNm	m	ola	ól	ola	subst:pl:gen:f
 AMNmn	A	a	e	[cijl¿]a	subst:pl:nom.acc.voc:f
 AMNmn	AMNmn	0	0		subst:sg:nom:f
-AMNmn	M	a	i	[^bcdfh³mnprstvwz¿]a	subst:sg:gen.dat.loc:f+subst:pl:gen:f
+AMNmn	M	a	i	[^bcdfh³mnprstvwz¿]a	subst:sg:gen.dat.loc:f
 AMNmn	M	a	o	[^l]a	subst:sg:voc:f
 AMNmn	M	a	o	[^u]la	subst:sg:voc:f
-AMNmn	M	a	y	[bcdfh³mprstvz¿]a	subst:sg:gen.dat.loc:f+subst:pl:gen:f
+AMNmn	M	a	y	[bcdfh³mprstvz¿]a	subst:sg:gen.dat.loc:f
 AMNmn	M	a	±	a	subst:sg:inst:f
 AMNmn	M	a	ê	[^w]a	subst:sg:acc:f
 AMNmn	N	0	ch	[^w]a	subst:pl:loc:f
@@ -329,7 +329,7 @@ AMNmn	n	a		[^z]a	subst:pl:gen:f
 AMNmn	n	a		a	subst:pl:gen:f
 AMNn	A	a	e	[cijl¿]a	subst:pl:nom.acc.voc:f
 AMNn	AMNn	0	0		subst:sg:nom:f
-AMNn	M	a	i	[^bcdfh³mnprstvwz¿]a	subst:sg:gen.dat.loc:f+subst:pl:gen:f
+AMNn	M	a	i	[^bcdfh³mnprstvwz¿]a	subst:sg:gen.dat.loc:f
 AMNn	M	a	o	[^a][bt]ula	subst:sg:voc:f
 AMNn	M	a	o	[^b]abula	subst:sg:voc:f
 AMNn	M	a	o	[^bt]ula	subst:sg:voc:f
@@ -337,7 +337,7 @@ AMNn	M	a	o	[^l]a	subst:sg:voc:f
 AMNn	M	a	o	[^u]la	subst:sg:voc:f
 AMNn	M	a	u	babula	subst:sg:voc:f
 AMNn	M	a	u	matula	subst:sg:voc:f
-AMNn	M	a	y	[bcdfh³mprstvz¿]a	subst:sg:gen.dat.loc:f+subst:pl:gen:f
+AMNn	M	a	y	[bcdfh³mprstvz¿]a	subst:sg:gen.dat.loc:f
 AMNn	M	a	±	a	subst:sg:inst:f
 AMNn	M	a	ê	[^w]a	subst:sg:acc:f
 AMNn	N	0	ch	[^o]wa	subst:pl:loc:f
@@ -612,7 +612,7 @@ BEFHJej	BEFHJej	0	0		verb:inf:perf
 BEFHJej	E	sn±æ	¶niêci	sn±æ	ppas:pl:nom.voc:m1
 BEFHJej	E	sn±æ	¶niêta	sn±æ	ppas:sg:nom.voc:f
 BEFHJej	E	sn±æ	¶niête	sn±æ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEFHJej	E	sn±æ	¶niêtego	sn±æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEFHJej	E	sn±æ	¶niêtego	sn±æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEFHJej	E	sn±æ	¶niêtej	sn±æ	ppas:sg:gen.dat.loc:f
 BEFHJej	E	sn±æ	¶niêtemu	sn±æ	ppas:sg:dat:m.n
 BEFHJej	E	sn±æ	¶niêty	sn±æ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -705,7 +705,7 @@ BEFIdi	BEFIdi	0	0		verb:inf:?perf
 BEFIdi	E	±æ	iêci	[^s]n±æ	ppas:pl:nom.voc:m1
 BEFIdi	E	±æ	iêta	[^s]n±æ	ppas:sg:nom.voc:f
 BEFIdi	E	±æ	iête	[^s]n±æ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEFIdi	E	±æ	iêtego	[^s]n±æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEFIdi	E	±æ	iêtego	[^s]n±æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEFIdi	E	±æ	iêtej	[^s]n±æ	ppas:sg:gen.dat.loc:f
 BEFIdi	E	±æ	iêtemu	[^s]n±æ	ppas:sg:dat:m.n
 BEFIdi	E	±æ	iêty	[^s]n±æ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -780,7 +780,7 @@ BEFIej	BEFIej	0	0		verb:inf:perf
 BEFIej	E	sn±æ	¶niêci	sn±æ	ppas:pl:nom.voc:m1
 BEFIej	E	sn±æ	¶niêta	sn±æ	ppas:sg:nom.voc:f
 BEFIej	E	sn±æ	¶niête	sn±æ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEFIej	E	sn±æ	¶niêtego	sn±æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEFIej	E	sn±æ	¶niêtego	sn±æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEFIej	E	sn±æ	¶niêtej	sn±æ	ppas:sg:gen.dat.loc:f
 BEFIej	E	sn±æ	¶niêtemu	sn±æ	ppas:sg:dat:m.n
 BEFIej	E	sn±æ	¶niêty	sn±æ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -791,7 +791,7 @@ BEFIej	E	sn±æ	¶niêt±	sn±æ	ppas:sg:acc.inst:f
 BEFIej	E	±æ	iêci	[^s]n±æ	ppas:pl:nom.voc:m1
 BEFIej	E	±æ	iêta	[^s]n±æ	ppas:sg:nom.voc:f
 BEFIej	E	±æ	iête	[^s]n±æ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEFIej	E	±æ	iêtego	[^s]n±æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEFIej	E	±æ	iêtego	[^s]n±æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEFIej	E	±æ	iêtej	[^s]n±æ	ppas:sg:gen.dat.loc:f
 BEFIej	E	±æ	iêtemu	[^s]n±æ	ppas:sg:dat:m.n
 BEFIej	E	±æ	iêty	[^s]n±æ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -929,7 +929,7 @@ BEFJej	BEFJej	0	0		verb:inf:perf
 BEFJej	E	sn±æ	¶niêci	sn±æ	ppas:pl:nom.voc:m1
 BEFJej	E	sn±æ	¶niêta	sn±æ	ppas:sg:nom.voc:f
 BEFJej	E	sn±æ	¶niête	sn±æ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEFJej	E	sn±æ	¶niêtego	sn±æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEFJej	E	sn±æ	¶niêtego	sn±æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEFJej	E	sn±æ	¶niêtej	sn±æ	ppas:sg:gen.dat.loc:f
 BEFJej	E	sn±æ	¶niêtemu	sn±æ	ppas:sg:dat:m.n
 BEFJej	E	sn±æ	¶niêty	sn±æ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -940,7 +940,7 @@ BEFJej	E	sn±æ	¶niêt±	sn±æ	ppas:sg:acc.inst:f
 BEFJej	E	±æ	iêci	[^s]n±æ	ppas:pl:nom.voc:m1
 BEFJej	E	±æ	iêta	[^s]n±æ	ppas:sg:nom.voc:f
 BEFJej	E	±æ	iête	[^s]n±æ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEFJej	E	±æ	iêtego	[^s]n±æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEFJej	E	±æ	iêtego	[^s]n±æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEFJej	E	±æ	iêtej	[^s]n±æ	ppas:sg:gen.dat.loc:f
 BEFJej	E	±æ	iêtemu	[^s]n±æ	ppas:sg:dat:m.n
 BEFJej	E	±æ	iêty	[^s]n±æ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -1059,7 +1059,7 @@ BEGHIej	B	æ	j¿e	ieæ	verb:impt:sg:sec:perf
 BEGHIej	BEGHIej	0	0		verb:inf:?perf
 BEGHIej	E	eæ	ana	ieæ	ppas:sg:nom.voc:f
 BEGHIej	E	eæ	ane	ieæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEGHIej	E	eæ	anego	ieæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEGHIej	E	eæ	anego	ieæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEGHIej	E	eæ	anej	ieæ	ppas:sg:gen.dat.loc:f
 BEGHIej	E	eæ	anemu	ieæ	ppas:sg:dat:m.n
 BEGHIej	E	eæ	ani	ieæ	ppas:pl:nom.voc:m1
@@ -1071,7 +1071,7 @@ BEGHIej	E	eæ	an±	ieæ	ppas:sg:acc.inst:f
 BEGHIej	E	sn±æ	¶niêci	sn±æ	ppas:pl:nom.voc:m1
 BEGHIej	E	sn±æ	¶niêta	sn±æ	ppas:sg:nom.voc:f
 BEGHIej	E	sn±æ	¶niête	sn±æ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEGHIej	E	sn±æ	¶niêtego	sn±æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEGHIej	E	sn±æ	¶niêtego	sn±æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEGHIej	E	sn±æ	¶niêtej	sn±æ	ppas:sg:gen.dat.loc:f
 BEGHIej	E	sn±æ	¶niêtemu	sn±æ	ppas:sg:dat:m.n
 BEGHIej	E	sn±æ	¶niêty	sn±æ	ppas:pl:nom.voc:m1
@@ -1082,7 +1082,7 @@ BEGHIej	E	sn±æ	¶niêt±	sn±æ	ppas:sg:acc.inst:f
 BEGHIej	E	±æ	iêci	[^s]n±æ	ppas:pl:nom.voc:m1
 BEGHIej	E	±æ	iêta	[^s]n±æ	ppas:sg:nom.voc:f
 BEGHIej	E	±æ	iête	[^s]n±æ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEGHIej	E	±æ	iêtego	[^s]n±æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEGHIej	E	±æ	iêtego	[^s]n±æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEGHIej	E	±æ	iêtej	[^s]n±æ	ppas:sg:gen.dat.loc:f
 BEGHIej	E	±æ	iêtemu	[^s]n±æ	ppas:sg:dat:m.n
 BEGHIej	E	±æ	iêty	[^s]n±æ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -1622,7 +1622,7 @@ BEGHJej	BEGHJej	0	0		verb:inf:perf
 BEGHJej	E	sn±æ	¶niêci	sn±æ	ppas:pl:nom.voc:m1
 BEGHJej	E	sn±æ	¶niêta	sn±æ	ppas:sg:nom.voc:f
 BEGHJej	E	sn±æ	¶niête	sn±æ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEGHJej	E	sn±æ	¶niêtego	sn±æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEGHJej	E	sn±æ	¶niêtego	sn±æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEGHJej	E	sn±æ	¶niêtej	sn±æ	ppas:sg:gen.dat.loc:f
 BEGHJej	E	sn±æ	¶niêtemu	sn±æ	ppas:sg:dat:m.n
 BEGHJej	E	sn±æ	¶niêty	sn±æ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -1633,7 +1633,7 @@ BEGHJej	E	sn±æ	¶niêt±	sn±æ	ppas:sg:acc.inst:f
 BEGHJej	E	¼æ	zieni	[ey]¼æ	ppas:pl:nom.voc:m1
 BEGHJej	E	¼æ	ziona	[ey]¼æ	ppas:sg:nom.voc:f
 BEGHJej	E	¼æ	zione	[ey]¼æ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEGHJej	E	¼æ	zionego	[ey]¼æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEGHJej	E	¼æ	zionego	[ey]¼æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEGHJej	E	¼æ	zionej	[ey]¼æ	ppas:sg:gen.dat.loc:f
 BEGHJej	E	¼æ	zionemu	[ey]¼æ	ppas:sg:dat:m.n
 BEGHJej	E	¼æ	ziony	[ey]¼æ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -1863,7 +1863,7 @@ BEHIJdik	B	zaæ	¿¿e	[^cdr]zaæ	verb:impt:sg:sec:perf
 BEHIJdik	BEHIJdik	0	0		verb:inf:?perf
 BEHIJdik	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 BEHIJdik	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHIJdik	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHIJdik	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHIJdik	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 BEHIJdik	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 BEHIJdik	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -2022,7 +2022,7 @@ BEHIJeik	B	zaæ	¿¿e	[^cdr]zaæ	verb:impt:sg:sec:perf
 BEHIJeik	BEHIJeik	0	0		verb:inf:perf
 BEHIJeik	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 BEHIJeik	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHIJeik	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHIJeik	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHIJeik	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 BEHIJeik	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 BEHIJeik	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -2110,7 +2110,7 @@ BEHIJej	BEHIJej	0	0		verb:inf:?perf
 BEHIJej	E	0	zeni	[il]ec	ppas:pl:nom.voc:m1
 BEHIJej	E	0	zona	[il]ec	ppas:sg:nom.voc:f
 BEHIJej	E	0	zone	[il]ec	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHIJej	E	0	zonego	[il]ec	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHIJej	E	0	zonego	[il]ec	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHIJej	E	0	zonej	[il]ec	ppas:sg:gen.dat.loc:f
 BEHIJej	E	0	zonemu	[il]ec	ppas:sg:dat:m.n
 BEHIJej	E	0	zony	[il]ec	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -2220,7 +2220,7 @@ BEHIJejk	B	ywaæ	uj¿e	ywaæ	verb:impt:sg:sec:perf
 BEHIJejk	BEHIJejk	0	0		verb:inf:?perf
 BEHIJejk	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 BEHIJejk	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHIJejk	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHIJejk	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHIJejk	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 BEHIJejk	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 BEHIJejk	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -2320,7 +2320,7 @@ BEHIdeij	BEHIdeij	0	0		verb:inf:?perf
 BEHIdeij	E	0	zeni	[il]ec	ppas:pl:nom.voc:m1
 BEHIdeij	E	0	zona	[il]ec	ppas:sg:nom.voc:f
 BEHIdeij	E	0	zone	[il]ec	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHIdeij	E	0	zonego	[il]ec	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHIdeij	E	0	zonego	[il]ec	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHIdeij	E	0	zonej	[il]ec	ppas:sg:gen.dat.loc:f
 BEHIdeij	E	0	zonemu	[il]ec	ppas:sg:dat:m.n
 BEHIdeij	E	0	zony	[il]ec	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -2403,7 +2403,7 @@ BEHIdhik	B	kaæ	zcz¿e	skaæ	verb:impt:sg:sec:perf
 BEHIdhik	BEHIdhik	0	0		verb:inf:?perf
 BEHIdhik	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 BEHIdhik	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHIdhik	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHIdhik	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHIdhik	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 BEHIdhik	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 BEHIdhik	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -2590,7 +2590,7 @@ BEHIdi	E	iæ	eni	¶liæ	ppas:pl:nom.voc:m1
 BEHIdi	E	iæ	jeni	[aeo]iæ	ppas:pl:nom.voc:m1
 BEHIdi	E	iæ	jona	[aeo]iæ	ppas:sg:nom.voc:f
 BEHIdi	E	iæ	jone	[aeo]iæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHIdi	E	iæ	jonego	[aeo]iæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHIdi	E	iæ	jonego	[aeo]iæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHIdi	E	iæ	jonej	[aeo]iæ	ppas:sg:gen.dat.loc:f
 BEHIdi	E	iæ	jonemu	[aeo]iæ	ppas:sg:dat:m.n
 BEHIdi	E	iæ	jony	[aeo]iæ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -2604,9 +2604,9 @@ BEHIdi	E	iæ	ona	¶liæ	ppas:sg:nom.voc:f
 BEHIdi	E	iæ	one	[^¶z][cl]iæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
 BEHIdi	E	iæ	one	[^¼]dziæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
 BEHIdi	E	iæ	one	¶liæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHIdi	E	iæ	onego	[^¶z][cl]iæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
-BEHIdi	E	iæ	onego	[^¼]dziæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
-BEHIdi	E	iæ	onego	¶liæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHIdi	E	iæ	onego	[^¶z][cl]iæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
+BEHIdi	E	iæ	onego	[^¼]dziæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
+BEHIdi	E	iæ	onego	¶liæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHIdi	E	iæ	onej	[^¶z][cl]iæ	ppas:sg:gen.dat.loc:f
 BEHIdi	E	iæ	onej	[^¼]dziæ	ppas:sg:gen.dat.loc:f
 BEHIdi	E	iæ	onej	¶liæ	ppas:sg:gen.dat.loc:f
@@ -2631,7 +2631,7 @@ BEHIdi	E	iæ	on±	¶liæ	ppas:sg:acc.inst:f
 BEHIdi	E	yæ	eni	[z¿]yæ	ppas:pl:nom.voc:m1
 BEHIdi	E	yæ	ona	[z¿]yæ	ppas:sg:nom.voc:f
 BEHIdi	E	yæ	one	[z¿]yæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHIdi	E	yæ	onego	[z¿]yæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHIdi	E	yæ	onego	[z¿]yæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHIdi	E	yæ	onej	[z¿]yæ	ppas:sg:gen.dat.loc:f
 BEHIdi	E	yæ	onemu	[z¿]yæ	ppas:sg:dat:m.n
 BEHIdi	E	yæ	ony	[z¿]yæ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -2642,7 +2642,7 @@ BEHIdi	E	yæ	on±	[z¿]yæ	ppas:sg:acc.inst:f
 BEHIdi	E	±c	êgniêci	z±c	ppas:pl:nom.voc:m1
 BEHIdi	E	±c	êgniêta	z±c	ppas:sg:nom.voc:f
 BEHIdi	E	±c	êgniête	z±c	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHIdi	E	±c	êgniêtego	z±c	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHIdi	E	±c	êgniêtego	z±c	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHIdi	E	±c	êgniêtej	z±c	ppas:sg:gen.dat.loc:f
 BEHIdi	E	±c	êgniêtemu	z±c	ppas:sg:dat:m.n
 BEHIdi	E	±c	êgniêty	z±c	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -2653,7 +2653,7 @@ BEHIdi	E	±c	êgniêt±	z±c	ppas:sg:acc.inst:f
 BEHIdi	E	±æ	iêci	[^s]n±æ	ppas:pl:nom.voc:m1
 BEHIdi	E	±æ	iêta	[^s]n±æ	ppas:sg:nom.voc:f
 BEHIdi	E	±æ	iête	[^s]n±æ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHIdi	E	±æ	iêtego	[^s]n±æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHIdi	E	±æ	iêtego	[^s]n±æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHIdi	E	±æ	iêtej	[^s]n±æ	ppas:sg:gen.dat.loc:f
 BEHIdi	E	±æ	iêtemu	[^s]n±æ	ppas:sg:dat:m.n
 BEHIdi	E	±æ	iêty	[^s]n±æ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -2664,7 +2664,7 @@ BEHIdi	E	±æ	iêt±	[^s]n±æ	ppas:sg:acc.inst:f
 BEHIdi	E	±æ	êci	[dijlz¿]±æ	ppas:pl:nom.voc:m1
 BEHIdi	E	±æ	êta	[dijlz¿]±æ	ppas:sg:nom.voc:f
 BEHIdi	E	±æ	ête	[dijlz¿]±æ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHIdi	E	±æ	êtego	[dijlz¿]±æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHIdi	E	±æ	êtego	[dijlz¿]±æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHIdi	E	±æ	êtej	[dijlz¿]±æ	ppas:sg:gen.dat.loc:f
 BEHIdi	E	±æ	êtemu	[dijlz¿]±æ	ppas:sg:dat:m.n
 BEHIdi	E	±æ	êty	[dijlz¿]±æ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -2675,7 +2675,7 @@ BEHIdi	E	±æ	êt±	[dijlz¿]±æ	ppas:sg:acc.inst:f
 BEHIdi	E	æ	eni	[bfmnpw]iæ	ppas:pl:nom.voc:m1
 BEHIdi	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 BEHIdi	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHIdi	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHIdi	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHIdi	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 BEHIdi	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 BEHIdi	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -2686,7 +2686,7 @@ BEHIdi	E	æ	nymi	[^¿]aæ	ppas:pl:inst:f.m.n
 BEHIdi	E	æ	n±	[^¿]aæ	ppas:sg:acc.inst:f
 BEHIdi	E	æ	ona	[bfmnpw]iæ	ppas:sg:nom.voc:f
 BEHIdi	E	æ	one	[bfmnpw]iæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHIdi	E	æ	onego	[bfmnpw]iæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHIdi	E	æ	onego	[bfmnpw]iæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHIdi	E	æ	onej	[bfmnpw]iæ	ppas:sg:gen.dat.loc:f
 BEHIdi	E	æ	onemu	[bfmnpw]iæ	ppas:sg:dat:m.n
 BEHIdi	E	æ	ony	[bfmnpw]iæ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -2697,7 +2697,7 @@ BEHIdi	E	æ	on±	[bfmnpw]iæ	ppas:sg:acc.inst:f
 BEHIdi	E	¶ciæ	szczeni	¶ciæ	ppas:pl:nom.voc:m1
 BEHIdi	E	¶ciæ	szczona	¶ciæ	ppas:sg:nom.voc:f
 BEHIdi	E	¶ciæ	szczone	¶ciæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHIdi	E	¶ciæ	szczonego	¶ciæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHIdi	E	¶ciæ	szczonego	¶ciæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHIdi	E	¶ciæ	szczonej	¶ciæ	ppas:sg:gen.dat.loc:f
 BEHIdi	E	¶ciæ	szczonemu	¶ciæ	ppas:sg:dat:m.n
 BEHIdi	E	¶ciæ	szczony	¶ciæ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -3057,8 +3057,8 @@ BEHIdik	E	iæ	ona	[^¶z][cl]iæ	ppas:sg:nom.voc:f
 BEHIdik	E	iæ	ona	[^¼]dziæ	ppas:sg:nom.voc:f
 BEHIdik	E	iæ	one	[^¶z][cl]iæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
 BEHIdik	E	iæ	one	[^¼]dziæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHIdik	E	iæ	onego	[^¶z][cl]iæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
-BEHIdik	E	iæ	onego	[^¼]dziæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHIdik	E	iæ	onego	[^¶z][cl]iæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
+BEHIdik	E	iæ	onego	[^¼]dziæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHIdik	E	iæ	onej	[^¶z][cl]iæ	ppas:sg:gen.dat.loc:f
 BEHIdik	E	iæ	onej	[^¼]dziæ	ppas:sg:gen.dat.loc:f
 BEHIdik	E	iæ	onemu	[^¶z][cl]iæ	ppas:sg:dat:m.n
@@ -3076,7 +3076,7 @@ BEHIdik	E	iæ	on±	[^¼]dziæ	ppas:sg:acc.inst:f
 BEHIdik	E	yæ	eni	[z¿]yæ	ppas:pl:nom.voc:m1
 BEHIdik	E	yæ	ona	[z¿]yæ	ppas:sg:nom.voc:f
 BEHIdik	E	yæ	one	[z¿]yæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHIdik	E	yæ	onego	[z¿]yæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHIdik	E	yæ	onego	[z¿]yæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHIdik	E	yæ	onej	[z¿]yæ	ppas:sg:gen.dat.loc:f
 BEHIdik	E	yæ	onemu	[z¿]yæ	ppas:sg:dat:m.n
 BEHIdik	E	yæ	ony	[z¿]yæ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -3087,7 +3087,7 @@ BEHIdik	E	yæ	on±	[z¿]yæ	ppas:sg:acc.inst:f
 BEHIdik	E	æ	eni	[bfmnpw]iæ	ppas:pl:nom.voc:m1
 BEHIdik	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 BEHIdik	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHIdik	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHIdik	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHIdik	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 BEHIdik	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 BEHIdik	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -3098,7 +3098,7 @@ BEHIdik	E	æ	nymi	[^¿]aæ	ppas:pl:inst:f.m.n
 BEHIdik	E	æ	n±	[^¿]aæ	ppas:sg:acc.inst:f
 BEHIdik	E	æ	ona	[bfmnpw]iæ	ppas:sg:nom.voc:f
 BEHIdik	E	æ	one	[bfmnpw]iæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHIdik	E	æ	onego	[bfmnpw]iæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHIdik	E	æ	onego	[bfmnpw]iæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHIdik	E	æ	onej	[bfmnpw]iæ	ppas:sg:gen.dat.loc:f
 BEHIdik	E	æ	onemu	[bfmnpw]iæ	ppas:sg:dat:m.n
 BEHIdik	E	æ	ony	[bfmnpw]iæ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -3307,7 +3307,7 @@ BEHIdj	B	aæ	¿e	[bp]aæ	verb:impt:sg:sec:perf
 BEHIdj	BEHIdj	0	0		verb:inf:?perf
 BEHIdj	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 BEHIdj	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHIdj	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHIdj	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHIdj	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 BEHIdj	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 BEHIdj	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -3370,7 +3370,7 @@ BEHIehik	B	aæ	yj¿e	czaæ	verb:impt:sg:sec:perf
 BEHIehik	BEHIehik	0	0		verb:inf:perf
 BEHIehik	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 BEHIehik	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHIehik	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHIehik	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHIehik	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 BEHIehik	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 BEHIehik	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -3445,7 +3445,7 @@ BEHIehj	B	aæ	yj¿e	czaæ	verb:impt:sg:sec:perf
 BEHIehj	BEHIehj	0	0		verb:inf:perf
 BEHIehj	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 BEHIehj	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHIehj	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHIehj	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHIehj	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 BEHIehj	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 BEHIehj	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -3520,7 +3520,7 @@ BEHIehjk	B	kaæ	zcz¿e	skaæ	verb:impt:sg:sec:perf
 BEHIehjk	BEHIehjk	0	0		verb:inf:?perf
 BEHIehjk	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 BEHIehjk	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHIehjk	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHIehjk	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHIehjk	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 BEHIehjk	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 BEHIehjk	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -3614,7 +3614,7 @@ BEHIei	BEHIei	0	0		verb:inf:?perf
 BEHIei	E	æ	eni	[bfmnpw]iæ	ppas:pl:nom.voc:m1
 BEHIei	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 BEHIei	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHIei	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHIei	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHIei	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 BEHIei	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 BEHIei	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -3625,7 +3625,7 @@ BEHIei	E	æ	nymi	[^¿]aæ	ppas:pl:inst:f.m.n
 BEHIei	E	æ	n±	[^¿]aæ	ppas:sg:acc.inst:f
 BEHIei	E	æ	ona	[bfmnpw]iæ	ppas:sg:nom.voc:f
 BEHIei	E	æ	one	[bfmnpw]iæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHIei	E	æ	onego	[bfmnpw]iæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHIei	E	æ	onego	[bfmnpw]iæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHIei	E	æ	onej	[bfmnpw]iæ	ppas:sg:gen.dat.loc:f
 BEHIei	E	æ	onemu	[bfmnpw]iæ	ppas:sg:dat:m.n
 BEHIei	E	æ	ony	[bfmnpw]iæ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -3714,7 +3714,7 @@ BEHIeik	B	taæ	zcz¿e	staæ	verb:impt:sg:sec:perf
 BEHIeik	BEHIeik	0	0		verb:inf:?perf
 BEHIeik	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 BEHIeik	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHIeik	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHIeik	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHIeik	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 BEHIeik	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 BEHIeik	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -3850,7 +3850,7 @@ BEHIej	BEHIej	0	0		verb:inf:?perf
 BEHIej	E	0	zeni	[il]ec	ppas:pl:nom.voc:m1
 BEHIej	E	0	zona	[il]ec	ppas:sg:nom.voc:f
 BEHIej	E	0	zone	[il]ec	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHIej	E	0	zonego	[il]ec	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHIej	E	0	zonego	[il]ec	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHIej	E	0	zonej	[il]ec	ppas:sg:gen.dat.loc:f
 BEHIej	E	0	zonemu	[il]ec	ppas:sg:dat:m.n
 BEHIej	E	0	zony	[il]ec	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -3861,7 +3861,7 @@ BEHIej	E	0	zon±	[il]ec	ppas:sg:acc.inst:f
 BEHIej	E	c	¿eni	z[ey]c	ppas:pl:nom.voc:m1
 BEHIej	E	c	¿ona	z[ey]c	ppas:sg:nom.voc:f
 BEHIej	E	c	¿one	z[ey]c	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHIej	E	c	¿onego	z[ey]c	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHIej	E	c	¿onego	z[ey]c	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHIej	E	c	¿onej	z[ey]c	ppas:sg:gen.dat.loc:f
 BEHIej	E	c	¿onemu	z[ey]c	ppas:sg:dat:m.n
 BEHIej	E	c	¿ony	z[ey]c	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -3872,7 +3872,7 @@ BEHIej	E	c	¿on±	z[ey]c	ppas:sg:acc.inst:f
 BEHIej	E	iæ	jeni	[aeo]iæ	ppas:pl:nom.voc:m1
 BEHIej	E	iæ	jona	[aeo]iæ	ppas:sg:nom.voc:f
 BEHIej	E	iæ	jone	[aeo]iæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHIej	E	iæ	jonego	[aeo]iæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHIej	E	iæ	jonego	[aeo]iæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHIej	E	iæ	jonej	[aeo]iæ	ppas:sg:gen.dat.loc:f
 BEHIej	E	iæ	jonemu	[aeo]iæ	ppas:sg:dat:m.n
 BEHIej	E	iæ	jony	[aeo]iæ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -3883,7 +3883,7 @@ BEHIej	E	iæ	jon±	[aeo]iæ	ppas:sg:acc.inst:f
 BEHIej	E	±æ	iêci	[^s]n±æ	ppas:pl:nom.voc:m1
 BEHIej	E	±æ	iêta	[^s]n±æ	ppas:sg:nom.voc:f
 BEHIej	E	±æ	iête	[^s]n±æ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHIej	E	±æ	iêtego	[^s]n±æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHIej	E	±æ	iêtego	[^s]n±æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHIej	E	±æ	iêtej	[^s]n±æ	ppas:sg:gen.dat.loc:f
 BEHIej	E	±æ	iêtemu	[^s]n±æ	ppas:sg:dat:m.n
 BEHIej	E	±æ	iêty	[^s]n±æ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -3894,7 +3894,7 @@ BEHIej	E	±æ	iêt±	[^s]n±æ	ppas:sg:acc.inst:f
 BEHIej	E	±æ	êci	[dijlz¿]±æ	ppas:pl:nom.voc:m1
 BEHIej	E	±æ	êta	[dijlz¿]±æ	ppas:sg:nom.voc:f
 BEHIej	E	±æ	ête	[dijlz¿]±æ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHIej	E	±æ	êtego	[dijlz¿]±æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHIej	E	±æ	êtego	[dijlz¿]±æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHIej	E	±æ	êtej	[dijlz¿]±æ	ppas:sg:gen.dat.loc:f
 BEHIej	E	±æ	êtemu	[dijlz¿]±æ	ppas:sg:dat:m.n
 BEHIej	E	±æ	êty	[dijlz¿]±æ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -3905,7 +3905,7 @@ BEHIej	E	±æ	êt±	[dijlz¿]±æ	ppas:sg:acc.inst:f
 BEHIej	E	æ	ci	[bmr]yæ	ppas:pl:nom.voc:m1
 BEHIej	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 BEHIej	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHIej	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHIej	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHIej	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 BEHIej	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 BEHIej	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -3916,7 +3916,7 @@ BEHIej	E	æ	nymi	[^¿]aæ	ppas:pl:inst:f.m.n
 BEHIej	E	æ	n±	[^¿]aæ	ppas:sg:acc.inst:f
 BEHIej	E	æ	ta	[bmr]yæ	ppas:sg:nom.voc:f
 BEHIej	E	æ	te	[bmr]yæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHIej	E	æ	tego	[bmr]yæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHIej	E	æ	tego	[bmr]yæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHIej	E	æ	tej	[bmr]yæ	ppas:sg:gen.dat.loc:f
 BEHIej	E	æ	temu	[bmr]yæ	ppas:sg:dat:m.n
 BEHIej	E	æ	ty	[bmr]yæ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -4470,7 +4470,7 @@ BEHJdi	B	æ	j¿e	[ae]waæ	verb:impt:sg:sec:perf
 BEHJdi	BEHJdi	0	0		verb:inf:?perf
 BEHJdi	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 BEHJdi	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHJdi	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHJdi	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHJdi	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 BEHJdi	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 BEHJdi	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -4638,7 +4638,7 @@ BEHJdik	B	taæ	cz¿e	[op]taæ	verb:impt:sg:sec:imperf
 BEHJdik	BEHJdik	0	0		verb:inf:imperf
 BEHJdik	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 BEHJdik	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHJdik	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHJdik	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHJdik	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 BEHJdik	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 BEHJdik	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -4715,7 +4715,7 @@ BEHJdj	B	ywaæ	uj¿e	ywaæ	verb:impt:sg:sec:perf
 BEHJdj	BEHJdj	0	0		verb:inf:?perf
 BEHJdj	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 BEHJdj	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHJdj	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHJdj	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHJdj	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 BEHJdj	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 BEHJdj	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -4832,7 +4832,7 @@ BEHJei	B	ywaæ	uj¿e	ywaæ	verb:impt:sg:sec:perf
 BEHJei	BEHJei	0	0		verb:inf:?perf
 BEHJei	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 BEHJei	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHJei	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHJei	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHJei	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 BEHJei	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 BEHJei	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -5096,7 +5096,7 @@ BEHJej	BEHJej	0	0		verb:inf:?perf
 BEHJej	E	0	zeni	³uc	ppas:pl:nom.voc:m1
 BEHJej	E	0	zona	³uc	ppas:sg:nom.voc:f
 BEHJej	E	0	zone	³uc	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHJej	E	0	zonego	³uc	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHJej	E	0	zonego	³uc	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHJej	E	0	zonej	³uc	ppas:sg:gen.dat.loc:f
 BEHJej	E	0	zonemu	³uc	ppas:sg:dat:m.n
 BEHJej	E	0	zony	³uc	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -5107,7 +5107,7 @@ BEHJej	E	0	zon±	³uc	ppas:sg:acc.inst:f
 BEHJej	E	sn±æ	¶niêci	sn±æ	ppas:pl:nom.voc:m1
 BEHJej	E	sn±æ	¶niêta	sn±æ	ppas:sg:nom.voc:f
 BEHJej	E	sn±æ	¶niête	sn±æ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHJej	E	sn±æ	¶niêtego	sn±æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHJej	E	sn±æ	¶niêtego	sn±æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHJej	E	sn±æ	¶niêtej	sn±æ	ppas:sg:gen.dat.loc:f
 BEHJej	E	sn±æ	¶niêtemu	sn±æ	ppas:sg:dat:m.n
 BEHJej	E	sn±æ	¶niêty	sn±æ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -5118,7 +5118,7 @@ BEHJej	E	sn±æ	¶niêt±	sn±æ	ppas:sg:acc.inst:f
 BEHJej	E	±æ	êci	[dijlz¿]±æ	ppas:pl:nom.voc:m1
 BEHJej	E	±æ	êta	[dijlz¿]±æ	ppas:sg:nom.voc:f
 BEHJej	E	±æ	ête	[dijlz¿]±æ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHJej	E	±æ	êtego	[dijlz¿]±æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHJej	E	±æ	êtego	[dijlz¿]±æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHJej	E	±æ	êtej	[dijlz¿]±æ	ppas:sg:gen.dat.loc:f
 BEHJej	E	±æ	êtemu	[dijlz¿]±æ	ppas:sg:dat:m.n
 BEHJej	E	±æ	êty	[dijlz¿]±æ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -5130,7 +5130,7 @@ BEHJej	E	æ	ci	[bmr]yæ	ppas:pl:nom.voc:m1
 BEHJej	E	æ	ci	[kl³nr]uæ	ppas:pl:nom.voc:m1
 BEHJej	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 BEHJej	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHJej	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHJej	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHJej	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 BEHJej	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 BEHJej	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -5143,8 +5143,8 @@ BEHJej	E	æ	ta	[bmr]yæ	ppas:sg:nom.voc:f
 BEHJej	E	æ	ta	[kl³nr]uæ	ppas:sg:nom.voc:f
 BEHJej	E	æ	te	[bmr]yæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
 BEHJej	E	æ	te	[kl³nr]uæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHJej	E	æ	tego	[bmr]yæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
-BEHJej	E	æ	tego	[kl³nr]uæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHJej	E	æ	tego	[bmr]yæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
+BEHJej	E	æ	tego	[kl³nr]uæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHJej	E	æ	tej	[bmr]yæ	ppas:sg:gen.dat.loc:f
 BEHJej	E	æ	tej	[kl³nr]uæ	ppas:sg:gen.dat.loc:f
 BEHJej	E	æ	temu	[bmr]yæ	ppas:sg:dat:m.n
@@ -5162,7 +5162,7 @@ BEHJej	E	æ	t±	[kl³nr]uæ	ppas:sg:acc.inst:f
 BEHJej	E	¼æ	zieni	[ey]¼æ	ppas:pl:nom.voc:m1
 BEHJej	E	¼æ	ziona	[ey]¼æ	ppas:sg:nom.voc:f
 BEHJej	E	¼æ	zione	[ey]¼æ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHJej	E	¼æ	zionego	[ey]¼æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHJej	E	¼æ	zionego	[ey]¼æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHJej	E	¼æ	zionej	[ey]¼æ	ppas:sg:gen.dat.loc:f
 BEHJej	E	¼æ	zionemu	[ey]¼æ	ppas:sg:dat:m.n
 BEHJej	E	¼æ	ziony	[ey]¼æ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -5643,7 +5643,7 @@ BEHJejk	B	aæ	¿e	[bp]aæ	verb:impt:sg:sec:perf
 BEHJejk	BEHJejk	0	0		verb:inf:?perf
 BEHJejk	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 BEHJejk	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHJejk	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHJejk	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHJejk	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 BEHJejk	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 BEHJejk	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -5742,7 +5742,7 @@ BEHdhi	B	æ	j¿e	ieæ	verb:impt:sg:sec:perf
 BEHdhi	BEHdhi	0	0		verb:inf:?perf
 BEHdhi	E	eæ	ana	ieæ	ppas:sg:nom.voc:f
 BEHdhi	E	eæ	ane	ieæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHdhi	E	eæ	anego	ieæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHdhi	E	eæ	anego	ieæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHdhi	E	eæ	anej	ieæ	ppas:sg:gen.dat.loc:f
 BEHdhi	E	eæ	anemu	ieæ	ppas:sg:dat:m.n
 BEHdhi	E	eæ	ani	ieæ	ppas:pl:nom.voc:m1
@@ -5753,7 +5753,7 @@ BEHdhi	E	eæ	anymi	ieæ	ppas:pl:inst:f.m.n
 BEHdhi	E	eæ	an±	ieæ	ppas:sg:acc.inst:f
 BEHdhi	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 BEHdhi	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHdhi	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHdhi	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHdhi	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 BEHdhi	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 BEHdhi	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -5873,7 +5873,7 @@ BEHdi	B	æ	j¿e	ieæ	verb:impt:sg:sec:perf
 BEHdi	BEHdi	0	0		verb:inf:imperf
 BEHdi	E	eæ	ana	ieæ	ppas:sg:nom.voc:f
 BEHdi	E	eæ	ane	ieæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHdi	E	eæ	anego	ieæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHdi	E	eæ	anego	ieæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHdi	E	eæ	anej	ieæ	ppas:sg:gen.dat.loc:f
 BEHdi	E	eæ	anemu	ieæ	ppas:sg:dat:m.n
 BEHdi	E	eæ	ani	ieæ	ppas:pl:nom.voc:m1
@@ -5930,7 +5930,7 @@ BEHehi	B	aæ	uj¿e	[^ghk]iwaæ	verb:impt:sg:sec:perf
 BEHehi	BEHehi	0	0		verb:inf:?perf
 BEHehi	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 BEHehi	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHehi	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHehi	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHehi	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 BEHehi	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 BEHehi	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -6005,7 +6005,7 @@ BEHehj	B	aæ	yj¿e	czaæ	verb:impt:sg:sec:perf
 BEHehj	BEHehj	0	0		verb:inf:?perf
 BEHehj	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 BEHehj	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHehj	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHehj	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHehj	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 BEHehj	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 BEHehj	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -6099,7 +6099,7 @@ BEHej	BEHej	0	0		verb:inf:?perf
 BEHej	E	±æ	êci	[dijlz¿]±æ	ppas:pl:nom.voc:m1
 BEHej	E	±æ	êta	[dijlz¿]±æ	ppas:sg:nom.voc:f
 BEHej	E	±æ	ête	[dijlz¿]±æ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHej	E	±æ	êtego	[dijlz¿]±æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHej	E	±æ	êtego	[dijlz¿]±æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHej	E	±æ	êtej	[dijlz¿]±æ	ppas:sg:gen.dat.loc:f
 BEHej	E	±æ	êtemu	[dijlz¿]±æ	ppas:sg:dat:m.n
 BEHej	E	±æ	êty	[dijlz¿]±æ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -6109,7 +6109,7 @@ BEHej	E	±æ	êtymi	[dijlz¿]±æ	ppas:pl:inst:f.m.n
 BEHej	E	±æ	êt±	[dijlz¿]±æ	ppas:sg:acc.inst:f
 BEHej	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 BEHej	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEHej	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEHej	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEHej	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 BEHej	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 BEHej	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -6206,7 +6206,7 @@ BEIej	BEIej	0	0		verb:inf:?perf
 BEIej	E	±æ	iêci	[^s]n±æ	ppas:pl:nom.voc:m1
 BEIej	E	±æ	iêta	[^s]n±æ	ppas:sg:nom.voc:f
 BEIej	E	±æ	iête	[^s]n±æ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-BEIej	E	±æ	iêtego	[^s]n±æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+BEIej	E	±æ	iêtego	[^s]n±æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 BEIej	E	±æ	iêtej	[^s]n±æ	ppas:sg:gen.dat.loc:f
 BEIej	E	±æ	iêtemu	[^s]n±æ	ppas:sg:dat:m.n
 BEIej	E	±æ	iêty	[^s]n±æ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -12788,7 +12788,7 @@ DSs	s	0	y	[^acægjklño¶yz¼¿x]	subst:pl:gen:m1
 E	E	0	0		pred
 E	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 E	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-E	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+E	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 E	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 E	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 E	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -12800,7 +12800,7 @@ E	E	æ	n±	[^¿]aæ	ppas:sg:acc.inst:f
 EFJ	E	eprzeæ	parci	weprzeæ	ppas:pl:nom.voc:m1
 EFJ	E	eprzeæ	parta	weprzeæ	ppas:sg:nom.voc:f
 EFJ	E	eprzeæ	parte	weprzeæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EFJ	E	eprzeæ	partego	weprzeæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EFJ	E	eprzeæ	partego	weprzeæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EFJ	E	eprzeæ	partej	weprzeæ	ppas:sg:gen.dat.loc:f
 EFJ	E	eprzeæ	partemu	weprzeæ	ppas:sg:dat:m.n
 EFJ	E	eprzeæ	party	weprzeæ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -12848,7 +12848,7 @@ EFJ	J	æ	sz	[^ao]rzeæ	verb:fin:sg:sec:?perf
 EFJdi	E	rzeæ	arci	trzeæ	ppas:pl:nom.voc:m1
 EFJdi	E	rzeæ	arta	trzeæ	ppas:sg:nom.voc:f
 EFJdi	E	rzeæ	arte	trzeæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EFJdi	E	rzeæ	artego	trzeæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EFJdi	E	rzeæ	artego	trzeæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EFJdi	E	rzeæ	artej	trzeæ	ppas:sg:gen.dat.loc:f
 EFJdi	E	rzeæ	artemu	trzeæ	ppas:sg:dat:m.n
 EFJdi	E	rzeæ	arty	trzeæ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -12904,7 +12904,7 @@ EFJdi	i	rzeæ	arciu	rzeæ	subst:ger:sg:dat.loc:n
 EFJdi	i	rzeæ	aræ	rzeæ	subst:ger:pl:gen:n
 EHIJdik	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 EHIJdik	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHIJdik	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHIJdik	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHIJdik	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 EHIJdik	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 EHIJdik	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -12973,7 +12973,7 @@ EHIJdik	k	æ	jmy¿	[^b³p]aæ	verb:impt:pl:pri:perf
 EHIJdik	k	æ	j¿e	[^b³p]aæ	verb:impt:sg:sec:perf
 EHIJejk	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 EHIJejk	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHIJejk	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHIJejk	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHIJejk	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 EHIJejk	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 EHIJejk	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -13042,7 +13042,7 @@ EHIJejk	k	æ	jmy¿	[^b³p]aæ	verb:impt:pl:pri:perf
 EHIJejk	k	æ	j¿e	[^b³p]aæ	verb:impt:sg:sec:perf
 EHIdhik	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 EHIdhik	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHIdhik	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHIdhik	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHIdhik	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 EHIdhik	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 EHIdhik	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -13115,8 +13115,8 @@ EHIdi	E	iæ	ona	[^¶z][cl]iæ	ppas:sg:nom.voc:f
 EHIdi	E	iæ	ona	[^¼]dziæ	ppas:sg:nom.voc:f
 EHIdi	E	iæ	one	[^¶z][cl]iæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
 EHIdi	E	iæ	one	[^¼]dziæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHIdi	E	iæ	onego	[^¶z][cl]iæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
-EHIdi	E	iæ	onego	[^¼]dziæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHIdi	E	iæ	onego	[^¶z][cl]iæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
+EHIdi	E	iæ	onego	[^¼]dziæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHIdi	E	iæ	onej	[^¶z][cl]iæ	ppas:sg:gen.dat.loc:f
 EHIdi	E	iæ	onej	[^¼]dziæ	ppas:sg:gen.dat.loc:f
 EHIdi	E	iæ	onemu	[^¶z][cl]iæ	ppas:sg:dat:m.n
@@ -13134,7 +13134,7 @@ EHIdi	E	iæ	on±	[^¼]dziæ	ppas:sg:acc.inst:f
 EHIdi	E	yæ	eni	[z¿]yæ	ppas:pl:nom.voc:m1
 EHIdi	E	yæ	ona	[z¿]yæ	ppas:sg:nom.voc:f
 EHIdi	E	yæ	one	[z¿]yæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHIdi	E	yæ	onego	[z¿]yæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHIdi	E	yæ	onego	[z¿]yæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHIdi	E	yæ	onej	[z¿]yæ	ppas:sg:gen.dat.loc:f
 EHIdi	E	yæ	onemu	[z¿]yæ	ppas:sg:dat:m.n
 EHIdi	E	yæ	ony	[z¿]yæ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -13145,7 +13145,7 @@ EHIdi	E	yæ	on±	[z¿]yæ	ppas:sg:acc.inst:f
 EHIdi	E	æ	eni	[bfmnpw]iæ	ppas:pl:nom.voc:m1
 EHIdi	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 EHIdi	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHIdi	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHIdi	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHIdi	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 EHIdi	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 EHIdi	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -13156,7 +13156,7 @@ EHIdi	E	æ	nymi	[^¿]aæ	ppas:pl:inst:f.m.n
 EHIdi	E	æ	n±	[^¿]aæ	ppas:sg:acc.inst:f
 EHIdi	E	æ	ona	[bfmnpw]iæ	ppas:sg:nom.voc:f
 EHIdi	E	æ	one	[bfmnpw]iæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHIdi	E	æ	onego	[bfmnpw]iæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHIdi	E	æ	onego	[bfmnpw]iæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHIdi	E	æ	onej	[bfmnpw]iæ	ppas:sg:gen.dat.loc:f
 EHIdi	E	æ	onemu	[bfmnpw]iæ	ppas:sg:dat:m.n
 EHIdi	E	æ	ony	[bfmnpw]iæ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -13271,7 +13271,7 @@ EHIdi	i	æ	niu	[^i]aæ	subst:ger:sg:dat.loc:n
 EHIdi	i	æ	ñ	[^i]aæ	subst:ger:pl:gen:n
 EHIdik	E	eæ	ana	ieæ	ppas:sg:nom.voc:f
 EHIdik	E	eæ	ane	ieæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHIdik	E	eæ	anego	ieæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHIdik	E	eæ	anego	ieæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHIdik	E	eæ	anej	ieæ	ppas:sg:gen.dat.loc:f
 EHIdik	E	eæ	anemu	ieæ	ppas:sg:dat:m.n
 EHIdik	E	eæ	ani	ieæ	ppas:pl:nom.voc:m1
@@ -13286,7 +13286,7 @@ EHIdik	E	iæ	eni	¶liæ	ppas:pl:nom.voc:m1
 EHIdik	E	iæ	jeni	[aeo]iæ	ppas:pl:nom.voc:m1
 EHIdik	E	iæ	jona	[aeo]iæ	ppas:sg:nom.voc:f
 EHIdik	E	iæ	jone	[aeo]iæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHIdik	E	iæ	jonego	[aeo]iæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHIdik	E	iæ	jonego	[aeo]iæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHIdik	E	iæ	jonej	[aeo]iæ	ppas:sg:gen.dat.loc:f
 EHIdik	E	iæ	jonemu	[aeo]iæ	ppas:sg:dat:m.n
 EHIdik	E	iæ	jony	[aeo]iæ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -13300,9 +13300,9 @@ EHIdik	E	iæ	ona	¶liæ	ppas:sg:nom.voc:f
 EHIdik	E	iæ	one	[^¶z][cl]iæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
 EHIdik	E	iæ	one	[^¼]dziæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
 EHIdik	E	iæ	one	¶liæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHIdik	E	iæ	onego	[^¶z][cl]iæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
-EHIdik	E	iæ	onego	[^¼]dziæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
-EHIdik	E	iæ	onego	¶liæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHIdik	E	iæ	onego	[^¶z][cl]iæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
+EHIdik	E	iæ	onego	[^¼]dziæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
+EHIdik	E	iæ	onego	¶liæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHIdik	E	iæ	onej	[^¶z][cl]iæ	ppas:sg:gen.dat.loc:f
 EHIdik	E	iæ	onej	[^¼]dziæ	ppas:sg:gen.dat.loc:f
 EHIdik	E	iæ	onej	¶liæ	ppas:sg:gen.dat.loc:f
@@ -13330,8 +13330,8 @@ EHIdik	E	iæ	zona	siæ	ppas:sg:nom.voc:f
 EHIdik	E	iæ	zona	zciæ	ppas:sg:nom.voc:f
 EHIdik	E	iæ	zone	siæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
 EHIdik	E	iæ	zone	zciæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHIdik	E	iæ	zonego	siæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
-EHIdik	E	iæ	zonego	zciæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHIdik	E	iæ	zonego	siæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
+EHIdik	E	iæ	zonego	zciæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHIdik	E	iæ	zonej	siæ	ppas:sg:gen.dat.loc:f
 EHIdik	E	iæ	zonej	zciæ	ppas:sg:gen.dat.loc:f
 EHIdik	E	iæ	zonemu	siæ	ppas:sg:dat:m.n
@@ -13349,7 +13349,7 @@ EHIdik	E	iæ	zon±	zciæ	ppas:sg:acc.inst:f
 EHIdik	E	reæ	arci	¿reæ	ppas:pl:nom.voc:m1
 EHIdik	E	reæ	arta	¿reæ	ppas:sg:nom.voc:f
 EHIdik	E	reæ	arte	¿reæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHIdik	E	reæ	artego	¿reæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHIdik	E	reæ	artego	¿reæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHIdik	E	reæ	artej	¿reæ	ppas:sg:gen.dat.loc:f
 EHIdik	E	reæ	artemu	¿reæ	ppas:sg:dat:m.n
 EHIdik	E	reæ	arty	¿reæ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -13360,7 +13360,7 @@ EHIdik	E	reæ	art±	¿reæ	ppas:sg:acc.inst:f
 EHIdik	E	yæ	eni	[z¿]yæ	ppas:pl:nom.voc:m1
 EHIdik	E	yæ	ona	[z¿]yæ	ppas:sg:nom.voc:f
 EHIdik	E	yæ	one	[z¿]yæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHIdik	E	yæ	onego	[z¿]yæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHIdik	E	yæ	onego	[z¿]yæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHIdik	E	yæ	onej	[z¿]yæ	ppas:sg:gen.dat.loc:f
 EHIdik	E	yæ	onemu	[z¿]yæ	ppas:sg:dat:m.n
 EHIdik	E	yæ	ony	[z¿]yæ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -13371,7 +13371,7 @@ EHIdik	E	yæ	on±	[z¿]yæ	ppas:sg:acc.inst:f
 EHIdik	E	ziæ	¿eni	[^d]ziæ	ppas:pl:nom.voc:m1
 EHIdik	E	ziæ	¿ona	[^d]ziæ	ppas:sg:nom.voc:f
 EHIdik	E	ziæ	¿one	[^d]ziæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHIdik	E	ziæ	¿onego	[^d]ziæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHIdik	E	ziæ	¿onego	[^d]ziæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHIdik	E	ziæ	¿onej	[^d]ziæ	ppas:sg:gen.dat.loc:f
 EHIdik	E	ziæ	¿onemu	[^d]ziæ	ppas:sg:dat:m.n
 EHIdik	E	ziæ	¿ony	[^d]ziæ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -13384,8 +13384,8 @@ EHIdik	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 EHIdik	E	æ	na	¿aæ	ppas:sg:nom.voc:f
 EHIdik	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
 EHIdik	E	æ	ne	¿aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHIdik	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
-EHIdik	E	æ	nego	¿aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHIdik	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
+EHIdik	E	æ	nego	¿aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHIdik	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 EHIdik	E	æ	nej	¿aæ	ppas:sg:gen.dat.loc:f
 EHIdik	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
@@ -13404,7 +13404,7 @@ EHIdik	E	æ	n±	[^¿]aæ	ppas:sg:acc.inst:f
 EHIdik	E	æ	n±	¿aæ	ppas:sg:acc.inst:f
 EHIdik	E	æ	ona	[bfmnpw]iæ	ppas:sg:nom.voc:f
 EHIdik	E	æ	one	[bfmnpw]iæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHIdik	E	æ	onego	[bfmnpw]iæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHIdik	E	æ	onego	[bfmnpw]iæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHIdik	E	æ	onej	[bfmnpw]iæ	ppas:sg:gen.dat.loc:f
 EHIdik	E	æ	onemu	[bfmnpw]iæ	ppas:sg:dat:m.n
 EHIdik	E	æ	ony	[bfmnpw]iæ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -13415,7 +13415,7 @@ EHIdik	E	æ	on±	[bfmnpw]iæ	ppas:sg:acc.inst:f
 EHIdik	E	¶ciæ	szczeni	¶ciæ	ppas:pl:nom.voc:m1
 EHIdik	E	¶ciæ	szczona	¶ciæ	ppas:sg:nom.voc:f
 EHIdik	E	¶ciæ	szczone	¶ciæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHIdik	E	¶ciæ	szczonego	¶ciæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHIdik	E	¶ciæ	szczonego	¶ciæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHIdik	E	¶ciæ	szczonej	¶ciæ	ppas:sg:gen.dat.loc:f
 EHIdik	E	¶ciæ	szczonemu	¶ciæ	ppas:sg:dat:m.n
 EHIdik	E	¶ciæ	szczony	¶ciæ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -13426,7 +13426,7 @@ EHIdik	E	¶ciæ	szczon±	¶ciæ	ppas:sg:acc.inst:f
 EHIdik	E	¼dziæ	¿d¿eni	¼dziæ	ppas:pl:nom.voc:m1
 EHIdik	E	¼dziæ	¿d¿ona	¼dziæ	ppas:sg:nom.voc:f
 EHIdik	E	¼dziæ	¿d¿one	¼dziæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHIdik	E	¼dziæ	¿d¿onego	¼dziæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHIdik	E	¼dziæ	¿d¿onego	¼dziæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHIdik	E	¼dziæ	¿d¿onej	¼dziæ	ppas:sg:gen.dat.loc:f
 EHIdik	E	¼dziæ	¿d¿onemu	¼dziæ	ppas:sg:dat:m.n
 EHIdik	E	¼dziæ	¿d¿ony	¼dziæ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -14001,7 +14001,7 @@ EHIdik	k	æ	j¿e	zciæ	verb:impt:sg:sec:perf
 EHIdjk	E	iæ	eni	[^¶z][cl]iæ	ppas:pl:nom.voc:m1
 EHIdjk	E	iæ	ona	[^¶z][cl]iæ	ppas:sg:nom.voc:f
 EHIdjk	E	iæ	one	[^¶z][cl]iæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHIdjk	E	iæ	onego	[^¶z][cl]iæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHIdjk	E	iæ	onego	[^¶z][cl]iæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHIdjk	E	iæ	onej	[^¶z][cl]iæ	ppas:sg:gen.dat.loc:f
 EHIdjk	E	iæ	onemu	[^¶z][cl]iæ	ppas:sg:dat:m.n
 EHIdjk	E	iæ	ony	[^¶z][cl]iæ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -14011,7 +14011,7 @@ EHIdjk	E	iæ	onymi	[^¶z][cl]iæ	ppas:pl:inst:f.m.n
 EHIdjk	E	iæ	on±	[^¶z][cl]iæ	ppas:sg:acc.inst:f
 EHIdjk	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 EHIdjk	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHIdjk	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHIdjk	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHIdjk	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 EHIdjk	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 EHIdjk	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -14101,7 +14101,7 @@ EHIdjk	k	æ	jmy¿	[^b³p]aæ	verb:impt:pl:pri:perf
 EHIdjk	k	æ	j¿e	[^b³p]aæ	verb:impt:sg:sec:perf
 EHIdk	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 EHIdk	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHIdk	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHIdk	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHIdk	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 EHIdk	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 EHIdk	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -14157,7 +14157,7 @@ EHIdk	k	æ	j¿e	[^b³p]aæ	verb:impt:sg:sec:imperf
 EHIeik	E	iæ	eni	[^¶z][cl]iæ	ppas:pl:nom.voc:m1
 EHIeik	E	iæ	ona	[^¶z][cl]iæ	ppas:sg:nom.voc:f
 EHIeik	E	iæ	one	[^¶z][cl]iæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHIeik	E	iæ	onego	[^¶z][cl]iæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHIeik	E	iæ	onego	[^¶z][cl]iæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHIeik	E	iæ	onej	[^¶z][cl]iæ	ppas:sg:gen.dat.loc:f
 EHIeik	E	iæ	onemu	[^¶z][cl]iæ	ppas:sg:dat:m.n
 EHIeik	E	iæ	ony	[^¶z][cl]iæ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -14167,7 +14167,7 @@ EHIeik	E	iæ	onymi	[^¶z][cl]iæ	ppas:pl:inst:f.m.n
 EHIeik	E	iæ	on±	[^¶z][cl]iæ	ppas:sg:acc.inst:f
 EHIeik	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 EHIeik	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHIeik	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHIeik	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHIeik	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 EHIeik	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 EHIeik	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -14266,7 +14266,7 @@ EHIeik	k	æ	j¿e	[^b³p]aæ	verb:impt:sg:sec:perf
 EHIej	E	±æ	êci	[dijlz¿]±æ	ppas:pl:nom.voc:m1
 EHIej	E	±æ	êta	[dijlz¿]±æ	ppas:sg:nom.voc:f
 EHIej	E	±æ	ête	[dijlz¿]±æ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHIej	E	±æ	êtego	[dijlz¿]±æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHIej	E	±æ	êtego	[dijlz¿]±æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHIej	E	±æ	êtej	[dijlz¿]±æ	ppas:sg:gen.dat.loc:f
 EHIej	E	±æ	êtemu	[dijlz¿]±æ	ppas:sg:dat:m.n
 EHIej	E	±æ	êty	[dijlz¿]±æ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -14276,7 +14276,7 @@ EHIej	E	±æ	êtymi	[dijlz¿]±æ	ppas:pl:inst:f.m.n
 EHIej	E	±æ	êt±	[dijlz¿]±æ	ppas:sg:acc.inst:f
 EHIej	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 EHIej	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHIej	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHIej	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHIej	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 EHIej	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 EHIej	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -14378,7 +14378,7 @@ EHIej	j	æ	niu	[^±ei¶uy¼]æ	subst:ger:sg:dat.loc:n
 EHIej	j	æ	ñ	[^±ei¶uy¼]æ	subst:ger:pl:gen:n
 EHIejk	E	eæ	ana	ieæ	ppas:sg:nom.voc:f
 EHIejk	E	eæ	ane	ieæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHIejk	E	eæ	anego	ieæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHIejk	E	eæ	anego	ieæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHIejk	E	eæ	anej	ieæ	ppas:sg:gen.dat.loc:f
 EHIejk	E	eæ	anemu	ieæ	ppas:sg:dat:m.n
 EHIejk	E	eæ	ani	ieæ	ppas:pl:nom.voc:m1
@@ -14390,7 +14390,7 @@ EHIejk	E	eæ	an±	ieæ	ppas:sg:acc.inst:f
 EHIejk	E	iæ	eni	[^¶z][cl]iæ	ppas:pl:nom.voc:m1
 EHIejk	E	iæ	ona	[^¶z][cl]iæ	ppas:sg:nom.voc:f
 EHIejk	E	iæ	one	[^¶z][cl]iæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHIejk	E	iæ	onego	[^¶z][cl]iæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHIejk	E	iæ	onego	[^¶z][cl]iæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHIejk	E	iæ	onej	[^¶z][cl]iæ	ppas:sg:gen.dat.loc:f
 EHIejk	E	iæ	onemu	[^¶z][cl]iæ	ppas:sg:dat:m.n
 EHIejk	E	iæ	ony	[^¶z][cl]iæ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -14401,7 +14401,7 @@ EHIejk	E	iæ	on±	[^¶z][cl]iæ	ppas:sg:acc.inst:f
 EHIejk	E	±æ	êci	[dijlz¿]±æ	ppas:pl:nom.voc:m1
 EHIejk	E	±æ	êta	[dijlz¿]±æ	ppas:sg:nom.voc:f
 EHIejk	E	±æ	ête	[dijlz¿]±æ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHIejk	E	±æ	êtego	[dijlz¿]±æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHIejk	E	±æ	êtego	[dijlz¿]±æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHIejk	E	±æ	êtej	[dijlz¿]±æ	ppas:sg:gen.dat.loc:f
 EHIejk	E	±æ	êtemu	[dijlz¿]±æ	ppas:sg:dat:m.n
 EHIejk	E	±æ	êty	[dijlz¿]±æ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -14411,7 +14411,7 @@ EHIejk	E	±æ	êtymi	[dijlz¿]±æ	ppas:pl:inst:f.m.n
 EHIejk	E	±æ	êt±	[dijlz¿]±æ	ppas:sg:acc.inst:f
 EHIejk	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 EHIejk	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHIejk	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHIejk	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHIejk	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 EHIejk	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 EHIejk	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -14423,7 +14423,7 @@ EHIejk	E	æ	n±	[^¿]aæ	ppas:sg:acc.inst:f
 EHIejk	E	¼æ	zieni	[ey]¼æ	ppas:pl:nom.voc:m1
 EHIejk	E	¼æ	ziona	[ey]¼æ	ppas:sg:nom.voc:f
 EHIejk	E	¼æ	zione	[ey]¼æ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHIejk	E	¼æ	zionego	[ey]¼æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHIejk	E	¼æ	zionego	[ey]¼æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHIejk	E	¼æ	zionej	[ey]¼æ	ppas:sg:gen.dat.loc:f
 EHIejk	E	¼æ	zionemu	[ey]¼æ	ppas:sg:dat:m.n
 EHIejk	E	¼æ	ziony	[ey]¼æ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -14747,7 +14747,7 @@ EHIejk	k	æ	j¿e	hcieæ	verb:impt:sg:sec:perf
 EHIik	E	æ	eni	[bfmnpw]iæ	ppas:pl:nom.voc:m1
 EHIik	E	æ	ona	[bfmnpw]iæ	ppas:sg:nom.voc:f
 EHIik	E	æ	one	[bfmnpw]iæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHIik	E	æ	onego	[bfmnpw]iæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHIik	E	æ	onego	[bfmnpw]iæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHIik	E	æ	onej	[bfmnpw]iæ	ppas:sg:gen.dat.loc:f
 EHIik	E	æ	onemu	[bfmnpw]iæ	ppas:sg:dat:m.n
 EHIik	E	æ	ony	[bfmnpw]iæ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -14809,7 +14809,7 @@ EHIik	k	niæ	ñ¿e	[^¶]niæ	verb:impt:sg:sec:perf
 EHIk	E	ziæ	¿eni	[^d]ziæ	ppas:pl:nom.voc:m1
 EHIk	E	ziæ	¿ona	[^d]ziæ	ppas:sg:nom.voc:f
 EHIk	E	ziæ	¿one	[^d]ziæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHIk	E	ziæ	¿onego	[^d]ziæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHIk	E	ziæ	¿onego	[^d]ziæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHIk	E	ziæ	¿onej	[^d]ziæ	ppas:sg:gen.dat.loc:f
 EHIk	E	ziæ	¿onemu	[^d]ziæ	ppas:sg:dat:m.n
 EHIk	E	ziæ	¿ony	[^d]ziæ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -14862,7 +14862,7 @@ EHIk	k	ziæ	¼my¿	ziæ	verb:impt:pl:pri:perf
 EHIk	k	ziæ	¼¿e	ziæ	verb:impt:sg:sec:perf
 EHJdhi	E	eæ	ona	leæ	ppas:sg:nom.voc:f
 EHJdhi	E	eæ	one	leæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHJdhi	E	eæ	onego	leæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHJdhi	E	eæ	onego	leæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHJdhi	E	eæ	onej	leæ	ppas:sg:gen.dat.loc:f
 EHJdhi	E	eæ	onemu	leæ	ppas:sg:dat:m.n
 EHJdhi	E	eæ	ony	leæ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -14921,7 +14921,7 @@ EHJdhi	i	æ	niu	[^irz]eæ	subst:ger:sg:dat.loc:n
 EHJdhi	i	æ	ñ	[^irz]eæ	subst:ger:pl:gen:n
 EHJdi	E	eæ	ana	ieæ	ppas:sg:nom.voc:f
 EHJdi	E	eæ	ane	ieæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHJdi	E	eæ	anego	ieæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHJdi	E	eæ	anego	ieæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHJdi	E	eæ	anej	ieæ	ppas:sg:gen.dat.loc:f
 EHJdi	E	eæ	anemu	ieæ	ppas:sg:dat:m.n
 EHJdi	E	eæ	ani	ieæ	ppas:pl:nom.voc:m1
@@ -14933,7 +14933,7 @@ EHJdi	E	eæ	an±	ieæ	ppas:sg:acc.inst:f
 EHJdi	E	rzeæ	arci	[^w]eprzeæ	ppas:pl:nom.voc:m1
 EHJdi	E	rzeæ	arta	[^w]eprzeæ	ppas:sg:nom.voc:f
 EHJdi	E	rzeæ	arte	[^w]eprzeæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHJdi	E	rzeæ	artego	[^w]eprzeæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHJdi	E	rzeæ	artego	[^w]eprzeæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHJdi	E	rzeæ	artej	[^w]eprzeæ	ppas:sg:gen.dat.loc:f
 EHJdi	E	rzeæ	artemu	[^w]eprzeæ	ppas:sg:dat:m.n
 EHJdi	E	rzeæ	arty	[^w]eprzeæ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -14943,7 +14943,7 @@ EHJdi	E	rzeæ	artymi	[^w]eprzeæ	ppas:pl:inst:f.m.n
 EHJdi	E	rzeæ	art±	[^w]eprzeæ	ppas:sg:acc.inst:f
 EHJdi	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 EHJdi	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHJdi	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHJdi	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHJdi	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 EHJdi	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 EHJdi	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -15102,7 +15102,7 @@ EHJdi	i	æ	ñ	[^cz]i[ae]æ	subst:ger:pl:gen:n
 EHJdi	i	æ	ñ	[^i]aæ	subst:ger:pl:gen:n
 EHJdik	E	eæ	ana	ieæ	ppas:sg:nom.voc:f
 EHJdik	E	eæ	ane	ieæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHJdik	E	eæ	anego	ieæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHJdik	E	eæ	anego	ieæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHJdik	E	eæ	anej	ieæ	ppas:sg:gen.dat.loc:f
 EHJdik	E	eæ	anemu	ieæ	ppas:sg:dat:m.n
 EHJdik	E	eæ	ani	ieæ	ppas:pl:nom.voc:m1
@@ -15113,7 +15113,7 @@ EHJdik	E	eæ	anymi	ieæ	ppas:pl:inst:f.m.n
 EHJdik	E	eæ	an±	ieæ	ppas:sg:acc.inst:f
 EHJdik	E	eæ	ona	leæ	ppas:sg:nom.voc:f
 EHJdik	E	eæ	one	leæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHJdik	E	eæ	onego	leæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHJdik	E	eæ	onego	leæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHJdik	E	eæ	onej	leæ	ppas:sg:gen.dat.loc:f
 EHJdik	E	eæ	onemu	leæ	ppas:sg:dat:m.n
 EHJdik	E	eæ	ony	leæ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -15122,7 +15122,7 @@ EHJdik	E	eæ	onym	leæ	ppas:sg:inst.loc:m.n+ppas:pl:dat:f.m.n
 EHJdik	E	eæ	onymi	leæ	ppas:pl:inst:f.m.n
 EHJdik	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 EHJdik	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHJdik	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHJdik	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHJdik	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 EHJdik	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 EHJdik	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -15274,7 +15274,7 @@ EHJdik	k	æ	jmy¿	[^b³p]aæ	verb:impt:pl:pri:perf
 EHJdik	k	æ	j¿e	[^b³p]aæ	verb:impt:sg:sec:perf
 EHJehj	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 EHJehj	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHJehj	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHJehj	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHJehj	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 EHJehj	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 EHJehj	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -15337,7 +15337,7 @@ EHJehj	j	æ	niu	[^±ei¶uy¼]æ	subst:ger:sg:dat.loc:n
 EHJehj	j	æ	ñ	[^±ei¶uy¼]æ	subst:ger:pl:gen:n
 EHJei	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 EHJei	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHJei	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHJei	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHJei	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 EHJei	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 EHJei	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -15395,7 +15395,7 @@ EHJei	i	æ	ñ	[^i]aæ	subst:ger:pl:gen:n
 EHJej	E	±æ	êci	[dijlz¿]±æ	ppas:pl:nom.voc:m1
 EHJej	E	±æ	êta	[dijlz¿]±æ	ppas:sg:nom.voc:f
 EHJej	E	±æ	ête	[dijlz¿]±æ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHJej	E	±æ	êtego	[dijlz¿]±æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHJej	E	±æ	êtego	[dijlz¿]±æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHJej	E	±æ	êtej	[dijlz¿]±æ	ppas:sg:gen.dat.loc:f
 EHJej	E	±æ	êtemu	[dijlz¿]±æ	ppas:sg:dat:m.n
 EHJej	E	±æ	êty	[dijlz¿]±æ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -15405,7 +15405,7 @@ EHJej	E	±æ	êtymi	[dijlz¿]±æ	ppas:pl:inst:f.m.n
 EHJej	E	±æ	êt±	[dijlz¿]±æ	ppas:sg:acc.inst:f
 EHJej	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 EHJej	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHJej	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHJej	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHJej	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 EHJej	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 EHJej	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -15513,7 +15513,7 @@ EHJej	j	æ	niu	[^±ei¶uy¼]æ	subst:ger:sg:dat.loc:n
 EHJej	j	æ	ñ	[^±ei¶uy¼]æ	subst:ger:pl:gen:n
 EHJejk	E	eæ	ana	ieæ	ppas:sg:nom.voc:f
 EHJejk	E	eæ	ane	ieæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHJejk	E	eæ	anego	ieæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHJejk	E	eæ	anego	ieæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHJejk	E	eæ	anej	ieæ	ppas:sg:gen.dat.loc:f
 EHJejk	E	eæ	anemu	ieæ	ppas:sg:dat:m.n
 EHJejk	E	eæ	ani	ieæ	ppas:pl:nom.voc:m1
@@ -15525,7 +15525,7 @@ EHJejk	E	eæ	an±	ieæ	ppas:sg:acc.inst:f
 EHJejk	E	±æ	êci	[dijlz¿]±æ	ppas:pl:nom.voc:m1
 EHJejk	E	±æ	êta	[dijlz¿]±æ	ppas:sg:nom.voc:f
 EHJejk	E	±æ	ête	[dijlz¿]±æ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHJejk	E	±æ	êtego	[dijlz¿]±æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHJejk	E	±æ	êtego	[dijlz¿]±æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHJejk	E	±æ	êtej	[dijlz¿]±æ	ppas:sg:gen.dat.loc:f
 EHJejk	E	±æ	êtemu	[dijlz¿]±æ	ppas:sg:dat:m.n
 EHJejk	E	±æ	êty	[dijlz¿]±æ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -15535,7 +15535,7 @@ EHJejk	E	±æ	êtymi	[dijlz¿]±æ	ppas:pl:inst:f.m.n
 EHJejk	E	±æ	êt±	[dijlz¿]±æ	ppas:sg:acc.inst:f
 EHJejk	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 EHJejk	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHJejk	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHJejk	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHJejk	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 EHJejk	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 EHJejk	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -15712,7 +15712,7 @@ EHJejk	k	æ	jmy¿	[^b³p]aæ	verb:impt:pl:pri:perf
 EHJejk	k	æ	j¿e	[^b³p]aæ	verb:impt:sg:sec:perf
 EHdhi	E	eæ	ona	leæ	ppas:sg:nom.voc:f
 EHdhi	E	eæ	one	leæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHdhi	E	eæ	onego	leæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHdhi	E	eæ	onego	leæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHdhi	E	eæ	onej	leæ	ppas:sg:gen.dat.loc:f
 EHdhi	E	eæ	onemu	leæ	ppas:sg:dat:m.n
 EHdhi	E	eæ	ony	leæ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -15722,7 +15722,7 @@ EHdhi	E	eæ	onymi	leæ	ppas:pl:inst:f.m.n
 EHdhi	E	eæ	on±	leæ	ppas:sg:acc.inst:f
 EHdhi	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 EHdhi	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHdhi	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHdhi	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHdhi	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 EHdhi	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 EHdhi	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -15843,7 +15843,7 @@ EHdhi	i	æ	ñ	[^i]aæ	subst:ger:pl:gen:n
 EHdhi	i	æ	ñ	[^irz]eæ	subst:ger:pl:gen:n
 EHdhik	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 EHdhik	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHdhik	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHdhik	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHdhik	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 EHdhik	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 EHdhik	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -15912,7 +15912,7 @@ EHdhik	k	æ	jmy¿	[^b³p]aæ	verb:impt:pl:pri:perf
 EHdhik	k	æ	j¿e	[^b³p]aæ	verb:impt:sg:sec:perf
 EHdhj	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 EHdhj	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHdhj	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHdhj	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHdhj	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 EHdhj	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 EHdhj	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -15969,7 +15969,7 @@ EHdhj	j	æ	niu	[^±ei¶uy¼]æ	subst:ger:sg:dat.loc:n
 EHdhj	j	æ	ñ	[^±ei¶uy¼]æ	subst:ger:pl:gen:n
 EHdi	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 EHdi	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHdi	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHdi	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHdi	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 EHdi	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 EHdi	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -16021,7 +16021,7 @@ EHdi	i	æ	ñ	[^i]aæ	subst:ger:pl:gen:n
 EHdik	E	yæ	eni	[z¿]yæ	ppas:pl:nom.voc:m1
 EHdik	E	yæ	ona	[z¿]yæ	ppas:sg:nom.voc:f
 EHdik	E	yæ	one	[z¿]yæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHdik	E	yæ	onego	[z¿]yæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHdik	E	yæ	onego	[z¿]yæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHdik	E	yæ	onej	[z¿]yæ	ppas:sg:gen.dat.loc:f
 EHdik	E	yæ	onemu	[z¿]yæ	ppas:sg:dat:m.n
 EHdik	E	yæ	ony	[z¿]yæ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -16031,7 +16031,7 @@ EHdik	E	yæ	onymi	[z¿]yæ	ppas:pl:inst:f.m.n
 EHdik	E	yæ	on±	[z¿]yæ	ppas:sg:acc.inst:f
 EHdik	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 EHdik	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHdik	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHdik	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHdik	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 EHdik	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 EHdik	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -16109,7 +16109,7 @@ EHdik	k	æ	j¿e	[^b³p]aæ	verb:impt:sg:sec:perf
 EHdik	k	æ	j¿e	[aedkmoprtuy]³aæ	verb:impt:sg:sec:perf
 EHehi	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 EHehi	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHehi	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHehi	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHehi	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 EHehi	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 EHehi	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -16172,7 +16172,7 @@ EHehi	i	æ	niu	[^i]aæ	subst:ger:sg:dat.loc:n
 EHehi	i	æ	ñ	[^i]aæ	subst:ger:pl:gen:n
 EHehj	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 EHehj	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHehj	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHehj	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHehj	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 EHehj	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 EHehj	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -16235,7 +16235,7 @@ EHehj	j	æ	niu	[^±ei¶uy¼]æ	subst:ger:sg:dat.loc:n
 EHehj	j	æ	ñ	[^±ei¶uy¼]æ	subst:ger:pl:gen:n
 EHehjk	E	eæ	ana	ieæ	ppas:sg:nom.voc:f
 EHehjk	E	eæ	ane	ieæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHehjk	E	eæ	anego	ieæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHehjk	E	eæ	anego	ieæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHehjk	E	eæ	anej	ieæ	ppas:sg:gen.dat.loc:f
 EHehjk	E	eæ	anemu	ieæ	ppas:sg:dat:m.n
 EHehjk	E	eæ	ani	ieæ	ppas:pl:nom.voc:m1
@@ -16246,7 +16246,7 @@ EHehjk	E	eæ	anymi	ieæ	ppas:pl:inst:f.m.n
 EHehjk	E	eæ	an±	ieæ	ppas:sg:acc.inst:f
 EHehjk	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 EHehjk	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHehjk	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHehjk	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHehjk	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 EHehjk	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 EHehjk	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -16360,7 +16360,7 @@ EHehjk	k	æ	jmy¿	[^b³p]aæ	verb:impt:pl:pri:perf
 EHehjk	k	æ	j¿e	[^b³p]aæ	verb:impt:sg:sec:perf
 EHei	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 EHei	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHei	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHei	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHei	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 EHei	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 EHei	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -16412,7 +16412,7 @@ EHei	i	æ	ñ	[^i]aæ	subst:ger:pl:gen:n
 EHej	E	±æ	êci	[dijlz¿]±æ	ppas:pl:nom.voc:m1
 EHej	E	±æ	êta	[dijlz¿]±æ	ppas:sg:nom.voc:f
 EHej	E	±æ	ête	[dijlz¿]±æ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHej	E	±æ	êtego	[dijlz¿]±æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHej	E	±æ	êtego	[dijlz¿]±æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHej	E	±æ	êtej	[dijlz¿]±æ	ppas:sg:gen.dat.loc:f
 EHej	E	±æ	êtemu	[dijlz¿]±æ	ppas:sg:dat:m.n
 EHej	E	±æ	êty	[dijlz¿]±æ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -16422,7 +16422,7 @@ EHej	E	±æ	êtymi	[dijlz¿]±æ	ppas:pl:inst:f.m.n
 EHej	E	±æ	êt±	[dijlz¿]±æ	ppas:sg:acc.inst:f
 EHej	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 EHej	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHej	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHej	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHej	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 EHej	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 EHej	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -16513,7 +16513,7 @@ EHej	j	æ	ñ	[^±ei¶uy¼]æ	subst:ger:pl:gen:n
 EHejk	E	±æ	êci	[dijlz¿]±æ	ppas:pl:nom.voc:m1
 EHejk	E	±æ	êta	[dijlz¿]±æ	ppas:sg:nom.voc:f
 EHejk	E	±æ	ête	[dijlz¿]±æ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHejk	E	±æ	êtego	[dijlz¿]±æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHejk	E	±æ	êtego	[dijlz¿]±æ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHejk	E	±æ	êtej	[dijlz¿]±æ	ppas:sg:gen.dat.loc:f
 EHejk	E	±æ	êtemu	[dijlz¿]±æ	ppas:sg:dat:m.n
 EHejk	E	±æ	êty	[dijlz¿]±æ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -16570,7 +16570,7 @@ EHejk	k	d±æ	edmij¿e	d±æ	verb:impt:sg:sec:perf
 EHk	E	ziæ	¿eni	[^d]ziæ	ppas:pl:nom.voc:m1
 EHk	E	ziæ	¿ona	[^d]ziæ	ppas:sg:nom.voc:f
 EHk	E	ziæ	¿one	[^d]ziæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHk	E	ziæ	¿onego	[^d]ziæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHk	E	ziæ	¿onego	[^d]ziæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHk	E	ziæ	¿onej	[^d]ziæ	ppas:sg:gen.dat.loc:f
 EHk	E	ziæ	¿onemu	[^d]ziæ	ppas:sg:dat:m.n
 EHk	E	ziæ	¿ony	[^d]ziæ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -16618,7 +16618,7 @@ EHk	k	ziæ	¼¿e	ziæ	verb:impt:sg:sec:perf
 EJdi	E	rzeæ	arci	trzeæ	ppas:pl:nom.voc:m1
 EJdi	E	rzeæ	arta	trzeæ	ppas:sg:nom.voc:f
 EJdi	E	rzeæ	arte	trzeæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EJdi	E	rzeæ	artego	trzeæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EJdi	E	rzeæ	artego	trzeæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EJdi	E	rzeæ	artej	trzeæ	ppas:sg:gen.dat.loc:f
 EJdi	E	rzeæ	artemu	trzeæ	ppas:sg:dat:m.n
 EJdi	E	rzeæ	arty	trzeæ	ppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2
@@ -20542,7 +20542,7 @@ KMNn	K	a	±	a	subst:sg:inst:f
 KMNn	KMNn	0	0		subst:sg:nom:f
 KMNn	M	a	ie	[^sz]na	subst:pl:nom.acc.voc:f
 KMNn	M	a	o	[^l]a	subst:sg:voc:f
-KMNn	M	a	y	na	subst:sg:gen.dat.loc:f+subst:pl:gen:f
+KMNn	M	a	y	na	subst:sg:gen.dat.loc:f
 KMNn	M	a	±	a	subst:sg:inst:f
 KMNn	M	a	ê	[^w]a	subst:sg:acc:f
 KMNn	N	0	ch	[^w]a	subst:pl:loc:f
@@ -20566,7 +20566,7 @@ L	L	ia	i	ia	subst:sg:gen.dat.loc:f+subst:pl:gen:f
 L	L	ja	i	ja	subst:sg:gen.dat.loc:f+subst:pl:gen:f
 LMNn	L	a	o	[^i]a	subst:sg:voc:f
 LMNn	LMNn	0	0		subst:sg:nom:f
-LMNn	M	a	i	[^bcdfh³mnprstvwz¿]a	subst:sg:gen.dat.loc:f+subst:pl:gen:f
+LMNn	M	a	i	[^bcdfh³mnprstvwz¿]a	subst:sg:gen.dat.loc:f
 LMNn	M	a	±	a	subst:sg:inst:f
 LMNn	M	a	ê	[^w]a	subst:sg:acc:f
 LMNn	N	0	ch	[^w]a	subst:pl:loc:f
@@ -21088,17 +21088,17 @@ MNm	m	³a	ie³	[gk]³a	subst:pl:gen:f
 MNm	m	ñka	niek	ñka	subst:pl:gen:f
 MNm	m	¶ka	siek	¶ka	subst:pl:gen:f
 MNm	m	¼ka	ziek	¼ka	subst:pl:gen:f
-MNmn	M	a	i	[^bcdfh³mnprstvwz¿]a	subst:sg:gen.dat.loc:f+subst:pl:gen:f
+MNmn	M	a	i	[^bcdfh³mnprstvwz¿]a	subst:sg:gen.dat.loc:f+subst:pl:nom.acc.voc:f
 MNmn	M	a	ie	[^cdghijkl³nrtvwz¿]a	subst:sg:dat.loc:f
 MNmn	M	a	ie	[^cfilt]owa	subst:sg:dat.loc:f
 MNmn	M	a	ie	[^o]va	subst:sg:dat.loc:f
 MNmn	M	a	ie	[^o]wa	subst:sg:dat.loc:f
 MNmn	M	a	ie	[^sz]na	subst:sg:dat.loc:f
 MNmn	M	a	o	[^l]a	subst:sg:voc:f
-MNmn	M	a	y	[^cfilt]owa	subst:sg:gen.dat.loc:f+subst:pl:gen:f
-MNmn	M	a	y	[^o]wa	subst:sg:gen.dat.loc:f+subst:pl:gen:f
-MNmn	M	a	y	[bcdfh³mprstvz¿]a	subst:sg:gen.dat.loc:f+subst:pl:gen:f
-MNmn	M	a	y	na	subst:sg:gen.dat.loc:f+subst:pl:gen:f
+MNmn	M	a	y	[^cfilt]owa	subst:sg:gen.dat.loc:f+subst:pl:nom.acc.voc:f
+MNmn	M	a	y	[^o]wa	subst:sg:gen.dat.loc:f+subst:pl:nom.acc.voc:f
+MNmn	M	a	y	[bcdfh³mprstvz¿]a	subst:sg:gen.dat.loc:f+subst:pl:nom.acc.voc:f
+MNmn	M	a	y	na	subst:sg:gen.dat.loc:f+subst:pl:nom.acc.voc:f
 MNmn	M	a	ze	[^a]ra	subst:sg:dat.loc:f
 MNmn	M	a	zie	[^z]da	subst:sg:dat.loc:f
 MNmn	M	a	±	a	subst:sg:inst:f
@@ -21139,7 +21139,7 @@ MNmn	m	êba	±b	êba	subst:pl:gen:f
 MNmn	n	a		.a	subst:pl:gen:f
 MNmn	n	a		[^z]a	subst:pl:gen:f
 MNmn	n	a		a	subst:pl:gen:f
-MNn	M	a	i	[^bcdfh³mnprstvwz¿]a	subst:sg:gen.dat.loc:f+subst:pl:gen:f
+MNn	M	a	i	[^bcdfh³mnprstvwz¿]a	subst:sg:gen.dat.loc:f
 MNn	M	a	ie	[^cdghijkl³nrtvwz¿]a	subst:sg:dat.loc:f
 MNn	M	a	ie	[^cdrs]za	subst:sg:dat.loc:f
 MNn	M	a	ie	[^cfilt]owa	subst:sg:dat.loc:f
@@ -21149,10 +21149,10 @@ MNn	M	a	ie	[^sz]na	subst:sg:dat.loc:f
 MNn	M	a	o	[^bt]ula	subst:sg:voc:f
 MNn	M	a	o	[^l]a	subst:sg:voc:f
 MNn	M	a	o	[^u]la	subst:sg:voc:f
-MNn	M	a	y	[^cfilt]owa	subst:sg:gen.dat.loc:f+subst:pl:gen:f
-MNn	M	a	y	[^o]wa	subst:sg:gen.dat.loc:f+subst:pl:gen:f
-MNn	M	a	y	[bcdfh³mprstvz¿]a	subst:sg:gen.dat.loc:f+subst:pl:gen:f
-MNn	M	a	y	na	subst:sg:gen.dat.loc:f+subst:pl:gen:f
+MNn	M	a	y	[^cfilt]owa	subst:sg:gen.dat.loc:f+subst:pl:nom.acc.voc:f
+MNn	M	a	y	[^o]wa	subst:sg:gen.dat.loc:f+subst:pl:nom.acc.voc:f
+MNn	M	a	y	[bcdfh³mprstvz¿]a	subst:sg:gen.dat.loc:f+subst:pl:nom.acc.voc:f
+MNn	M	a	y	na	subst:sg:gen.dat.loc:f+subst:pl:nom.acc.voc:f
 MNn	M	a	ze	[^a]ra	subst:sg:dat.loc:f
 MNn	M	a	ze	[^fmw]iara	subst:sg:dat.loc:f
 MNn	M	a	ze	[^i]ara	subst:sg:dat.loc:f
@@ -24156,8 +24156,8 @@ UV	U	0	cia	[^i]ê	subst:pl:nom.acc.voc:n+subst:sg:gen:n
 UV	U	0	cia	[^m]iê	subst:pl:nom.acc.voc:n+subst:sg:gen:n
 UV	U	0	ciem	[^i]ê	subst:sg:inst:n
 UV	U	0	ciem	[^m]iê	subst:sg:inst:n
-UV	U	0	ciu	[^i]ê	subst:sg:dat:n
-UV	U	0	ciu	[^m]iê	subst:sg:dat:n
+UV	U	0	ciu	[^i]ê	subst:sg:dat.loc:n
+UV	U	0	ciu	[^m]iê	subst:sg:dat.loc:n
 UV	U	0	m	e	subst:sg:inst:n
 UV	U	asto	e¶cie	asto	subst:sg:loc:n
 UV	U	ato	ecie	lato	subst:sg:loc:n
@@ -24165,7 +24165,7 @@ UV	U	at³o	etle	at³o	subst:sg:loc:n
 UV	U	azdo	e¼dzie	azdo	subst:sg:loc:n
 UV	U	a³o	ele	a³o	subst:sg:loc:n
 UV	U	e	a	e	subst:sg:gen:n+subst:pl:nom.acc.voc:n
-UV	U	e	u	e	subst:sg:dat:n
+UV	U	e	u	e	subst:sg:dat.loc:n
 UV	U	o	a	o	subst:pl:nom.acc.voc:n+subst:sg:gen:n
 UV	U	o	cie	tto	subst:sg:dat:m
 UV	U	o	em	[^gk]o	subst:sg:inst:n
@@ -24175,8 +24175,8 @@ UV	U	o	ie	[^zs]no	subst:sg:loc:n
 UV	U	o	ie	[mpw]o	subst:sg:loc:n
 UV	U	o	ie	bo	subst:sg:loc:n
 UV	U	o	iem	[gk]o	subst:sg:inst:n
-UV	U	o	u	[ki]o	subst:sg:dat:n+subst:sg:loc:n
-UV	U	o	u	o	subst:sg:dat:n+subst:sg:loc:n
+UV	U	o	u	[ki]o	subst:sg:dat.loc:n
+UV	U	o	u	o	subst:sg:dat.loc:n
 UV	U	o	ze	ro	subst:sg:loc:n
 UV	U	o	zie	[^z]do	subst:sg:loc:n
 UV	U	smo	¶mie	smo	subst:sg:loc:n
@@ -24190,7 +24190,7 @@ UV	U	zno	¼nie	zno	subst:sg:loc:n
 UV	U	z³o	¼le	z³o	subst:sg:loc:n
 UV	U	ê	enia	miê	subst:pl:nom.acc.voc:n+subst:sg:gen:n
 UV	U	ê	eniem	miê	subst:sg:inst:n
-UV	U	ê	eniu	miê	subst:sg:dat:n
+UV	U	ê	eniu	miê	subst:sg:dat.loc:n
 UV	U	³o	le	[^astz]³o	subst:sg:loc:n
 UV	UV	0	0		subst:sg:nom.acc.voc:n
 UV	V	0	m	o	subst:pl:dat:n
@@ -24567,16 +24567,16 @@ X	X	i	emu	li	subst:sg:dat:m
 X	X	y	ego	y	subst:sg:acc.gen:m
 X	X	y	emu	y	subst:sg:dat:m
 XY	X	0	ch	[iy]	adj:pl:acc.gen.loc:m1+adj:pl:gen.loc:f.n.m2.m3
-XY	X	0	ego	[^l]i	adj:sg:acc.gen:m1+adj:sg:acc:m2.m3.n
+XY	X	0	ego	[^l]i	adj:sg:acc.gen:m1+adj:sg:acc:m2.m3.n+adj:sg:gen:n
 XY	X	0	emu	[^l]i	adj:sg:dat:m.n
 XY	X	0	m	[iy]	adj:sg:inst.loc:m.n+adj:pl:dat:f.m.n
 XY	X	0	mi	[iy]	adj:pl:inst:f.m.n
-XY	X	en	nego	den	adj:sg:acc.gen:m1+adj:sg:acc:m2.m3.n
+XY	X	en	nego	den	adj:sg:acc.gen:m1+adj:sg:acc:m2.m3.n+adj:sg:gen:n
 XY	X	en	nemu	den	adj:sg:dat:m.n
 XY	X	en	nych	den	adj:pl:acc.gen.loc:m1+adj:pl:gen.loc:f.n.m2.m3
 XY	X	en	nym	den	adj:sg:inst.loc:m.n+adj:pl:dat:f.m.n
 XY	X	en	nymi	den	adj:pl:inst:f.m.n
-XY	X	y	ego	y	adj:sg:acc.gen:m1+adj:sg:acc:m2.m3.n
+XY	X	y	ego	y	adj:sg:acc.gen:m1+adj:sg:acc:m2.m3.n+adj:sg:gen:n
 XY	X	y	emu	y	adj:sg:dat:m.n
 XY	XY	0	0		adj:sg:nom.acc:m3+adj:sg:nom.voc:m1.m2
 XY	Y	chy	si	chy	adj:pl:nom.voc:m1
@@ -24611,11 +24611,11 @@ XYo	Y	zy	i	szy	subst:pl:nom.voc:m1
 XYo	o	0	owie	[ae]y	subst:pl:nom.voc:m1
 XYo	o	y	owie	[z¿]y	subst:pl:nom.voc:m1
 XYx	X	0	ch	[iy]	adj:pl:acc.gen.loc:m1+adj:pl:gen.loc:f.n.m2.m3
-XYx	X	0	ego	[^l]i	adj:sg:acc.gen:m1+adj:sg:acc:m2.m3.n
+XYx	X	0	ego	[^l]i	adj:sg:acc.gen:m1+adj:sg:acc:m2.m3.n+adj:sg:gen:n
 XYx	X	0	emu	[^l]i	adj:sg:dat:m.n
 XYx	X	0	m	[iy]	adj:sg:inst.loc:m.n+adj:pl:dat:f.m.n
 XYx	X	0	mi	[iy]	adj:pl:inst:f.m.n
-XYx	X	en	nego	den	adj:sg:acc.gen:m1+adj:sg:acc:m2.m3.n
+XYx	X	en	nego	den	adj:sg:acc.gen:m1+adj:sg:acc:m2.m3.n+adj:sg:gen:n
 XYx	X	en	nemu	den	adj:sg:dat:m.n
 XYx	X	en	nych	den	adj:pl:acc.gen.loc:m1+adj:pl:gen.loc:f.n.m2.m3
 XYx	X	en	nym	den	adj:sg:inst.loc:m.n+adj:pl:dat:f.m.n
@@ -24623,9 +24623,9 @@ XYx	X	en	nymi	den	adj:pl:inst:f.m.n
 XYx	X	en	ych	[^d]en	adj:pl:acc.gen.loc:m1+adj:pl:gen.loc:f.n.m2.m3
 XYx	X	en	ym	[^d]en	adj:sg:inst.loc:m.n+adj:pl:dat:f.m.n
 XYx	X	en	ymi	[^d]en	adj:pl:inst:f.m.n
-XYx	X	n	go	[^d]en	adj:sg:acc.gen:m1+adj:sg:acc:m2.m3.n
+XYx	X	n	go	[^d]en	adj:sg:acc.gen:m1+adj:sg:acc:m2.m3.n+adj:sg:gen:n
 XYx	X	n	mu	[^d]en	adj:sg:dat:m.n
-XYx	X	y	ego	y	adj:sg:acc.gen:m1+adj:sg:acc:m2.m3.n
+XYx	X	y	ego	y	adj:sg:acc.gen:m1+adj:sg:acc:m2.m3.n+adj:sg:gen:n
 XYx	X	y	emu	y	adj:sg:dat:m.n
 XYx	XYx	0	0		adj:sg:nom.acc:m3+adj:sg:nom.voc:m1.m2
 XYx	Y	chy	si	chy	adj:pl:nom.voc:m1
@@ -24675,11 +24675,11 @@ XYx	x	y	e	y	adj:sg:nom.acc.voc:n+adj:pl:nom.acc.voc:f.n.m2.m3
 XYx	x	y	ej	y	adj:sg:gen.dat.loc:f
 XYx	x	y	±	y	adj:sg:acc.inst:f
 XYxy	X	0	ch	[iy]	adj:pl:acc.gen.loc:m1+adj:pl:gen.loc:f.n.m2.m3
-XYxy	X	0	ego	[^l]i	adj:sg:acc.gen:m1+adj:sg:acc:m2.m3.n
+XYxy	X	0	ego	[^l]i	adj:sg:acc.gen:m1+adj:sg:acc:m2.m3.n+adj:sg:gen:n
 XYxy	X	0	emu	[^l]i	adj:sg:dat:m.n
 XYxy	X	0	m	[iy]	adj:sg:inst.loc:m.n+adj:pl:dat:f.m.n
 XYxy	X	0	mi	[iy]	adj:pl:inst:f.m.n
-XYxy	X	y	ego	y	adj:sg:acc.gen:m1+adj:sg:acc:m2.m3.n
+XYxy	X	y	ego	y	adj:sg:acc.gen:m1+adj:sg:acc:m2.m3.n+adj:sg:gen:n
 XYxy	X	y	emu	y	adj:sg:dat:m.n
 XYxy	XYxy	0	0		adj:sg:nom.acc:m3+adj:sg:nom.voc:m1.m2
 XYxy	Y	chy	si	chy	adj:pl:nom.voc:m1
@@ -24746,13 +24746,13 @@ Xo	o	0	owie	[ae]y	subst:pl:nom.voc:m1
 Xo	o	i	owie	li	subst:pl:nom.voc:m1
 Xo	o	y	owie	[z¿]y	subst:pl:nom.voc:m1
 Xx	X	0	ch	[iy]	adj:pl:acc.gen.loc:m1+adj:pl:gen.loc:f.n.m2.m3
-Xx	X	0	ego	[^l]i	adj:sg:acc.gen:m1+adj:sg:acc:m2.m3.n
+Xx	X	0	ego	[^l]i	adj:sg:acc.gen:m1+adj:sg:acc:m2.m3.n+adj:sg:gen:n
 Xx	X	0	emu	[^l]i	adj:sg:dat:m.n
 Xx	X	0	m	[iy]	adj:sg:inst.loc:m.n+adj:pl:dat:f.m.n
 Xx	X	0	mi	[iy]	adj:pl:inst:f.m.n
-Xx	X	i	ego	li	adj:sg:acc.gen:m1+adj:sg:acc:m2.m3.n
+Xx	X	i	ego	li	adj:sg:acc.gen:m1+adj:sg:acc:m2.m3.n+adj:sg:gen:n
 Xx	X	i	emu	li	adj:sg:dat:m.n
-Xx	X	y	ego	y	adj:sg:acc.gen:m1+adj:sg:acc:m2.m3.n
+Xx	X	y	ego	y	adj:sg:acc.gen:m1+adj:sg:acc:m2.m3.n+adj:sg:gen:n
 Xx	X	y	emu	y	adj:sg:dat:m.n
 Xx	Xx	0	0		adj:sg:nom.acc:m3+adj:sg:nom.voc:m1.m2
 Xx	x	0	a	[^gkl]i	adj:sg:nom.voc:f
@@ -25150,7 +25150,7 @@ EHJdj	H	æ	li¶cie	[^±e¶¼]æ	verb:praet:pl:sec:m1:?perf
 EHJdj	H	æ	li¶my	[^±e¶¼]æ	verb:praet:pl:pri:m1:?perf
 EHJdj	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 EHJdj	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHJdj	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHJdj	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHJdj	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 EHJdj	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 EHJdj	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
@@ -25255,7 +25255,7 @@ EHhj	H	æ	li¶cie	[^±e¶¼]æ	verb:praet:pl:sec:m1:?perf
 EHhj	H	æ	li¶my	[^±e¶¼]æ	verb:praet:pl:pri:m1:?perf
 EHhj	E	æ	na	[^¿]aæ	ppas:sg:nom.voc:f
 EHhj	E	æ	ne	[^¿]aæ	ppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3
-EHhj	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1
+EHhj	E	æ	nego	[^¿]aæ	ppas:sg:gen:n.m2.m3+ppas:sg:acc.gen:m1+ppas:sg:gen:n
 EHhj	E	æ	nej	[^¿]aæ	ppas:sg:gen.dat.loc:f
 EHhj	E	æ	nemu	[^¿]aæ	ppas:sg:dat:m.n
 EHhj	E	æ	ni	[^¿]aæ	ppas:pl:nom.voc:m1
