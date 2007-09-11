@@ -13,16 +13,16 @@ while ((getline < glosfile)  > 0){
 
 }
 
-imiesl["±ca"]="pact:sg:nom.voc:f:pos:aff"
-imiesl["±ce"]="pact:sg:nom.acc.voc:n:pos:aff+pact:pl:nom.acc.voc:f.n.m2.m3:pos:aff"
-imiesl["±cego"]="pact:sg:gen:m2.m3.n:pos:aff+pact:sg:acc.gen:m1:pos:aff"
-imiesl["±cej"]="pact:sg:gen.dat.loc:f:pos:aff"
-imiesl["±cemu"]="pact:sg:dat:m.n:pos:aff"
-imiesl["±cy"]="pact:sg:nom.acc:m3:pos:aff+pact:sg:nom.voc:m1.m2:pos:aff+pact:pl:nom.voc:m1.m2:pos:aff"
-imiesl["±cych"]="pact:pl:acc.gen.loc:m1:pos:aff+pact:pl:gen.loc:f.n.m2.m3:pos:aff"
-imiesl["±cym"]="pact:sg:inst.loc:m.n:pos:aff+pact:pl:dat:f.m.n:pos:aff"
-imiesl["±cymi"]="pact:pl:inst:f.m.n:pos:aff"
-imiesl["±c±"]="pact:sg:acc.inst:f:pos:aff"
+imiesl["±ca"]="pact:sg:nom.voc:f:aff"
+imiesl["±ce"]="pact:sg:nom.acc.voc:n:aff+pact:pl:nom.acc.voc:f.n.m2.m3:aff"
+imiesl["±cego"]="pact:sg:gen:m2.m3.n:aff+pact:sg:acc.gen:m1:aff"
+imiesl["±cej"]="pact:sg:gen.dat.loc:f:aff"
+imiesl["±cemu"]="pact:sg:dat:m.n:aff"
+imiesl["±cy"]="pact:sg:nom.acc:m3:aff+pact:sg:nom.voc:m1.m2:aff+pact:pl:nom.voc:m1.m2:aff"
+imiesl["±cych"]="pact:pl:acc.gen.loc:m1:aff+pact:pl:gen.loc:f.n.m2.m3:aff"
+imiesl["±cym"]="pact:sg:inst.loc:m.n:aff+pact:pl:dat:f.m.n:aff"
+imiesl["±cymi"]="pact:pl:inst:f.m.n:aff"
+imiesl["±c±"]="pact:sg:acc.inst:f:aff"
 
 przym["a"]="adj:sg:nom.voc:f:pos:aff"
 przym["e"]="adj:sg:nom.acc.voc:n:pos:aff+adj:pl:nom.acc.voc:f.n.m2.m3:pos:aff"
@@ -66,7 +66,7 @@ przym["±"]="adj:sg:acc.inst:f:pos:aff"
 		aspekt = "?perf"
 	}
 		
-	if ($2"__END"~/æ__END/ && znacznik[1]~/adj|pact/)
+	if ($2"__END"~/æ__END/ && znaczniki[1]~/adj|pact/)
 		znaczniki[1]="verb"
 	
 	if ($1"__END"~/±c__END/ && znaczniki[1]~/verb|ppas/) 
@@ -95,7 +95,7 @@ przym["±"]="adj:sg:acc.inst:f:pos:aff"
 		print $1"\t"$2"\tadv:pos"	
 		}
 	else
-	if ($1"__END"~/¿e__END/ && znaczniki[1]~/verb|ppas|adj/)	
+	if ($1"__END"~/¿e__END/ && znaczniki[1]~/verb|ppas/)	
 		print $1"\t"$2"\tverb:impt:sg:sec:"aspekt
 	else
 	if ($1"__END"~/[^eai¶]my__END/ && znaczniki[1]~/verb|ppas/)
@@ -196,37 +196,37 @@ przym["±"]="adj:sg:acc.inst:f:pos:aff"
 	else
 	if ($1"__END"~/rzej__END/ && znaczniki[1]~/verb|ppas/)
 		print $1"\t"$2"\tverb:impt:sg:sec:"aspekt
-	if ($1"__END"~/na__END/ && znaczniki[1]~/verb|ppas/)
+	if ($1"__END"~/[tn]a__END/ && znaczniki[1]~/verb|ppas/)
 		print $1"\t"$2"\tppas:sg:nom.voc:f"		
 	else 
-	if ($1"__END"~/ne__END/ && znaczniki[1]~/verb|ppas/)
+	if ($1"__END"~/[tn]e__END/ && znaczniki[1]~/verb|ppas/)
 		print $1"\t"$2"\tppas:sg:nom.acc.voc:n+ppas:pl:nom.acc.voc:f.n.m2.m3"		
 	else 		
-	if ($1"__END"~/nego__END/ && znaczniki[1]~/verb|ppas/)
+	if ($1"__END"~/[tn]ego__END/ && znaczniki[1]~/verb|ppas/)
 		print $1"\t"$2"\tppas:sg:gen:m2.m3.n+ppas:sg:acc.gen:m1"		
 	else 
-	if ($1"__END"~/nej__END/ && znaczniki[1]~/verb|ppas/)
+	if ($1"__END"~/[tn]ej__END/ && znaczniki[1]~/verb|ppas/)
 		print $1"\t"$2"\tppas:sg:gen.dat.loc:f"		
 	else 
-	if ($1"__END"~/nemu__END/ && znaczniki[1]~/verb|ppas/)
+	if ($1"__END"~/[tn]emu__END/ && znaczniki[1]~/verb|ppas/)
 		print $1"\t"$2"\tppas:sg:dat:m.n"		
 	else 	
-	if ($1"__END"~/ni__END/ && znaczniki[1]~/verb|ppas/)
+	if ($1"__END"~/[tn]i__END/ && znaczniki[1]~/verb|ppas/)
 		print $1"\t"$2"\tppas:pl:nom.voc:m1"		
 	else 		
-	if ($1"__END"~/ny__END/ && znaczniki[1]~/verb|ppas/)
+	if ($1"__END"~/[tn]y__END/ && znaczniki[1]~/verb|ppas/)
 		print $1"\t"$2"\tppas:sg:nom.acc.voc:m3+ppas:sg:nom.voc:m1.m2"		
 	else 		
-	if ($1"__END"~/nych__END/ && znaczniki[1]~/verb|ppas/)
+	if ($1"__END"~/[tn]ych__END/ && znaczniki[1]~/verb|ppas/)
 		print $1"\t"$2"\tppas:pl:acc.gen.loc:m1+ppas:pl:gen.loc:f.n.m2.m3"		
 	else 		
-	if ($1"__END"~/nym__END/ && znaczniki[1]~/verb|ppas/)
+	if ($1"__END"~/[tn]ym__END/ && znaczniki[1]~/verb|ppas/)
 		print $1"\t"$2"\tppas:sg:inst.loc:m.n+ppas:pl:dat:f.m.n"		
 	else 		
-	if ($1"__END"~/nymi__END/ && znaczniki[1]~/verb|ppas/)
+	if ($1"__END"~/[tn]ymi__END/ && znaczniki[1]~/verb|ppas/)
 		print $1"\t"$2"\tppas:pl:inst:f.m.n"		
 	else 		
-	if ($1"__END"~/n±__END/ && znaczniki[1]~/verb|ppas/)
+	if ($1"__END"~/[tn]±__END/ && znaczniki[1]~/verb|ppas/)
 		print $1"\t"$2"\tppas:sg:acc.inst:f"		
 	else 			
 	if (znaczniki[1]~/verb|ppas/) {
