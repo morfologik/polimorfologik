@@ -13,16 +13,16 @@ while ((getline < glosfile)  > 0){
 
 }
 
-imiesl["±ca"]="adj:sg:nom.voc:f:pos:aff"
-imiesl["±ce"]="adj:sg:nom.acc.voc:n:pos:aff+adj:pl:nom.acc.voc:f.n.m2.m3:pos:aff"
-imiesl["±cego"]="adj:sg:gen:m2.m3.n:pos:aff+adj:sg:acc.gen:m1:pos:aff"
-imiesl["±cej"]="adj:sg:gen.dat.loc:f:pos:aff"
-imiesl["±cemu"]="adj:sg:dat:m.n:pos:aff"
-imiesl["±cy"]="adj:sg:nom.acc:m3:pos:aff+adj:sg:nom.voc:m1.m2:pos:aff+adj:pl:nom.voc:m1.m2:pos:aff"
-imiesl["±cych"]="adj:pl:acc.gen.loc:m1:pos:aff+adj:pl:gen.loc:f.n.m2.m3:pos:aff"
-imiesl["±cym"]="adj:sg:inst.loc:m.n:pos:aff+adj:pl:dat:f.m.n:pos:aff"
-imiesl["±cymi"]="adj:pl:inst:f.m.n:pos:aff"
-imiesl["±c±"]="adj:sg:acc.inst:f:pos:aff"
+imiesl["±ca"]="pact:sg:nom.voc:f:pos:aff"
+imiesl["±ce"]="pact:sg:nom.acc.voc:n:pos:aff+pact:pl:nom.acc.voc:f.n.m2.m3:pos:aff"
+imiesl["±cego"]="pact:sg:gen:m2.m3.n:pos:aff+pact:sg:acc.gen:m1:pos:aff"
+imiesl["±cej"]="pact:sg:gen.dat.loc:f:pos:aff"
+imiesl["±cemu"]="pact:sg:dat:m.n:pos:aff"
+imiesl["±cy"]="pact:sg:nom.acc:m3:pos:aff+pact:sg:nom.voc:m1.m2:pos:aff+pact:pl:nom.voc:m1.m2:pos:aff"
+imiesl["±cych"]="pact:pl:acc.gen.loc:m1:pos:aff+pact:pl:gen.loc:f.n.m2.m3:pos:aff"
+imiesl["±cym"]="pact:sg:inst.loc:m.n:pos:aff+pact:pl:dat:f.m.n:pos:aff"
+imiesl["±cymi"]="pact:pl:inst:f.m.n:pos:aff"
+imiesl["±c±"]="pact:sg:acc.inst:f:pos:aff"
 
 przym["a"]="adj:sg:nom.voc:f:pos:aff"
 przym["e"]="adj:sg:nom.acc.voc:n:pos:aff+adj:pl:nom.acc.voc:f.n.m2.m3:pos:aff"
@@ -66,7 +66,7 @@ przym["±"]="adj:sg:acc.inst:f:pos:aff"
 		aspekt = "?perf"
 	}
 		
-	if ($2"__END"~/æ__END/)
+	if ($2"__END"~/æ__END/ && znacznik[1]~/adj|pact/)
 		znaczniki[1]="verb"
 	
 	if ($1"__END"~/±c__END/ && znaczniki[1]~/verb|ppas/) 
