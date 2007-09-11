@@ -63,7 +63,7 @@ morfologik.zip : morfologik.txt readme.txt readme_pl.txt
 	7za a -tzip morfologik.zip morfologik.txt readme.txt readme_pl.txt
 
 polish-fsa.zip: polish.dict polish_synth.dict readme.txt readme_pl.txt polish.info polish_synth.info
-	7za a -tzip polish-fsa.zip polish.dict polish_synth.dict readme.txt readme_pl.txt
+	7za a -tzip polish-fsa.zip polish.dict polish_synth.dict readme.txt readme_pl.txt polish.info polish_synth.info
 
 #wsteczna kompatybilnosc :)
 formy: formy.txt formy_pdst.txt
