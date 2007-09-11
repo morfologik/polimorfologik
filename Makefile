@@ -26,8 +26,8 @@ nieregularne.txt:odm.txt
 slownik_niereg.txt: nieregularne.txt 
 	gawk -f anot_niereg.awk nieregularne.txt > slownik_niereg.txt
 
-#po³¹czenie
-morfologik.txt: slownik_niereg.txt slownik_regularny.txt slownik_nieregularny.txt
+#po³±czenie
+morfologik.txt: slownik_regularny.txt slownik_niereg.txt slownik_nieregularny.txt
 	cat slownik*.txt | gawk -f anot_all.awk | sort -u > morfologik.txt
 
 polish.dict: morfologik.txt
