@@ -81,7 +81,7 @@ beta	beta	subst:sg:nom:f
 bez	bez	prep:gen
 bezcen	bezcen	adv
 bezczelniej	bezczelnie	adv:comp
-beze	beze	prep:gen
+beze	bez	prep:gen
 bezecniej	bezecnie	adv:comp
 bezinteresowniej	bezinteresownie	adv:comp
 bezkarniej	bezkarnie	adv:comp
@@ -1072,7 +1072,7 @@ nabo¿niej	nabo¿nie	adv:comp
 nachalniej	nachalnie	adv:comp
 nad	nad	prep:inst
 nadal	nadal	adv
-nade	nade	prep:inst
+nade	nad	prep:inst
 nader	nader	adv
 nadobniej	nadobnie	adv:comp
 nadto	nadto	adv
@@ -2313,7 +2313,7 @@ och	och	indecl
 ochotniej	ochotnie	adv:comp
 ochêdo¿niej	ochêdo¿nie	adv:comp
 od	od	prep:gen
-ode	ode	prep:gen
+ode	od	prep:gen
 odeñ	odeñ	indecl
 odk±d	odk±d	indecl
 odno¶nie	odno¶nie	prep:gen
@@ -2480,7 +2480,7 @@ pocze¶niej	pocze¶nie	adv:comp
 pod	pod	prep:gen.acc.inst
 podchwytliwiej	podchwytliwie	adv:comp
 podczas	podczas	prep:gen
-pode	pode	prep:gen.acc.inst
+pode	pod	prep:gen.acc.inst
 podeñ	podeñ	indecl
 podle	podle	prep:gen
 podlej	podle	adv:comp
@@ -2612,7 +2612,7 @@ przeci±glej	przeci±gle	adv:comp
 przeciêtniej	przeciêtnie	adv:comp
 przecudniej	przecudnie	adv:comp
 przed	przed	prep:acc.inst
-przede	przede	prep:acc.inst
+przede	przed	prep:acc.inst
 przedeñ	przedeñ	indecl
 przedtem	przedtem	indecl
 przedwczoraj	przedwczoraj	adv
@@ -2635,7 +2635,7 @@ przewa¿nie	przewa¿nie	adv
 przewiewniej	przewiewnie	adv:comp
 przewrotniej	przewrotnie	adv:comp
 przez	przez	prep:acc
-przeze	przeze	prep:acc
+przeze	przez	prep:acc
 przezeñ	przezeñ	prep:acc
 przezorniej	przezornie	adv:comp
 przezroczy¶ciej	przezroczy¶cie	adv:comp
@@ -3196,7 +3196,7 @@ wci±¿	wci±¿	adv
 wcze¶niej	wcze¶nie	adv:comp
 wczoraj	wczoraj	adv
 wdziêczniej	wdziêcznie	adv:comp
-we	we	prep:acc.loc
+we	w	prep:acc.loc
 wedle	wedle	prep:gen
 wed³ug	wed³ug	prep:gen
 wenus	wenus	subst:sg:nom.gen.dat.acc.inst.loc.voc:f+subst:pl:nom.gen.dat.acc.inst.loc.voc:f
@@ -3397,7 +3397,7 @@ zbytkowniej	zbytkownie	adv:comp
 zdatniej	zdatnie	adv:comp
 zdradliwiej	zdradliwie	adv:comp
 zdrowiej	zdrowo	adv:comp
-ze	ze	prep:gen.inst
+ze	z	prep:gen.inst
 zebu	zebu	subst:sg:nom.gen.dat.acc.inst.loc.voc:n+subst:pl:nom.gen.dat.acc.inst.loc.voc:n
 zel¿ywiej	zel¿ywie	adv:comp
 zet	zet	subst:sg:nom:m

@@ -9,8 +9,7 @@ while ((getline < glosfile)  > 0){
 
 glosfile="slownik_nieregularny.txt"; 
 while ((getline < glosfile)  > 0){ 
-	nieodm[$1"\t"$2]=$3;
-
+	nieodm[$1"\t"$2]=$3"nieodm";
 }
 
 imiesl["±ca"]="pact:sg:nom.voc:f:aff"
@@ -52,7 +51,8 @@ przym["±"]="adj:sg:acc.inst:f:pos:aff"
 
 
 }
-{if (nieodm[$1"\t"$2]=="" && wyrazy[$1"\t"$2]=="")
+{
+if (nieodm[$1"\t"$2]=="" && wyrazy[$1"\t"$2]=="")
 	{
 	detected=""
 	if (wyrazy[$3"\t"$2]!="") {
