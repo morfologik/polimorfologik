@@ -35,6 +35,9 @@ niemiecki|adjp
 
 daje "niemiecku+".
 
+4. polish.info i polish_synth.info - pliki wymagane do u¿ycia plików
+binarnych w bibliotece morfologik-stemming.
+
 Do wykonania skryptów ¼ród³owych s± potrzebne nastêpuj±ce pliki:
 
 Plik:   odm.txt  - aktualny s³ownik z witryny www.kurnik.pl/slownik (s³ownik odmian)

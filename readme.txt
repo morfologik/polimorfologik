@@ -35,6 +35,9 @@ niemiecki|adjp
 
 gives "niemiecku+".
 
+4. polish.info and polish_synth.info are required for using the binary
+dictionaries in morfologik-stemming Java library.
+
 TAGSET
 
 The tagset used is roughly similar to IPI corpus tagset. See www.korpus.pl.
