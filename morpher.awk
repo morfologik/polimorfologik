@@ -26,7 +26,7 @@ for (n in elements)
 	else
 	negated_pos=negated_pos "+" elements[n] ":neg" 
 	}
-if (negated_pos=="") print "##B³¹d konwersji" pos
+if (negated_pos=="") print "##B³±d konwersji" pos
 return negated_pos 
 }
 
@@ -47,7 +47,7 @@ for (n in elements)
 	else
 		negated_pos=negated_pos "+" elements[n] ":aff"
 	}
-if (negated_pos=="") print "##B³¹d konwersji" pos
+if (negated_pos=="") print "##B³±d konwersji" pos
 return negated_pos 
 }
 
@@ -80,7 +80,7 @@ form_flag=gensub(/[b\!]/,"","g", sort_flags($4))
 
 #specjalny znacznik do regu³y pisowni ³±czniej z "nie"
 potencjalna_negacja=""
-if ($3~/b/ && $4!~/b/)
+if (($3~/b/ || ($4~/[Ggv]/ && $3~/H/ && $5!="0" && $6!="0")) && $4!~/b/)
 	potencjalna_negacja=":aff"
 #stopieñ najwy¿szy
 stopien=""
