@@ -59,7 +59,7 @@ clean:
 
 pack: morfologik.zip polish-fsa.zip
  
-morfologik.zip : morfologik.txt readme.txt readme_pl.zip
+morfologik.zip : morfologik.txt readme.txt readme_pl.txt
 	7za a -tzip morfologik.zip morfologik.txt readme.txt readme_pl.txt
 
 polish-fsa.zip: polish.dict polish_synth.dict readme.txt readme_pl.txt polish.info polish_synth.info
