@@ -1286,9 +1286,9 @@ na	na	prep:acc.loc
 naboi	nabój	subst:pl:gen:m3
 nabo¿niej	nabo¿nie	adv:comp
 nachalniej	nachalnie	adv:comp
-nad	nad	prep:inst
+nad	nad	prep:acc.inst
 nadal	nadal	adv
-nade	nad	prep:inst
+nade	nad	prep:acc.inst
 nader	nader	adv
 nadobniej	nadobnie	adv:comp
 nadto	nadto	adv
