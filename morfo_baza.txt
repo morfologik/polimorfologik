@@ -31789,7 +31789,7 @@ MN	M	æ	ci±	[^h³]eæ	subst:sg:inst:f
 MN	M	æ	ci±	[^z]e¶æ	subst:sg:inst:f
 MN	M	ñ	ni	[^e]ñ	subst:sg:gen.dat.loc:f+subst:pl:gen:f
 MN	M	ñ	ni±	ñ	subst:sg:inst:f
-MN	MN	0	0		subst:sg:nom:f
+MN	MN	0	0		subst:sg:nom.acc:f
 MN	N	0	ach	[^e]sz	subst:pl:loc:f
 MN	N	0	ach	[^s]z	subst:pl:loc:f
 MN	N	0	ach	[^ó]l	subst:pl:loc:f
@@ -32036,7 +32036,7 @@ MNTq	q	sta	¶ci	sta	subst:pl:nom.voc:m1
 MNTq	q	ta	ci	[^s]ta	subst:pl:nom.voc:m1
 MNm	M	0	±	[yi]ni	subst:sg:inst:f
 MNm	M	0	ê	[yi]ni	subst:sg:acc:f
-MNm	M	a	i	[^bcdfh³mnprstvwz¿]a	subst:sg:gen.dat.loc:f+subst:pl:gen:f
+MNm	M	a	i	[^bcdfh³mnprstvwz¿]a	subst:sg:gen.dat.loc:f+subst:pl:gen:f+subst:pl:nom.acc.voc:f
 MNm	M	a	ie	[^cdeghijkl³nrtvwz¿]a	subst:sg:dat.loc:f
 MNm	M	a	ie	[^cdghijkl³nrtvwz¿]a	subst:sg:dat.loc:f
 MNm	M	a	ie	[^cdrs]za	subst:sg:dat.loc:f
@@ -32047,10 +32047,10 @@ MNm	M	a	ie	[^sz]na	subst:sg:dat.loc:f
 MNm	M	a	ie	rzna	subst:sg:dat.loc:f
 MNm	M	a	ie	szna	subst:sg:dat.loc:f
 MNm	M	a	o	[^l]a	subst:sg:voc:f
-MNm	M	a	y	[^cfilt]owa	subst:sg:gen.dat.loc:f+subst:pl:gen:f
-MNm	M	a	y	[^o]wa	subst:sg:gen.dat.loc:f+subst:pl:gen:f
-MNm	M	a	y	[bcdfh³mprstvz¿]a	subst:sg:gen.dat.loc:f+subst:pl:gen:f
-MNm	M	a	y	na	subst:sg:gen.dat.loc:f+subst:pl:gen:f
+MNm	M	a	y	[^cfilt]owa	subst:sg:gen.dat.loc:f+subst:pl:gen:f+subst:pl:nom.acc.voc:f
+MNm	M	a	y	[^o]wa	subst:sg:gen.dat.loc:f+subst:pl:gen:f+subst:pl:nom.acc.voc:f
+MNm	M	a	y	[bcdfh³mprstvz¿]a	subst:sg:gen.dat.loc:f+subst:pl:gen:f+subst:pl:nom.acc.voc:f
+MNm	M	a	y	na	subst:sg:gen.dat.loc:f+subst:pl:gen:f++subst:pl:nom.acc.voc:f
 MNm	M	a	ze	[^a]ra	subst:sg:dat.loc:f
 MNm	M	a	zie	[^z]da	subst:sg:dat.loc:f
 MNm	M	a	±	a	subst:sg:inst:f
