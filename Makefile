@@ -1,6 +1,6 @@
 #Makefile do tworzenia s³ownika morfologicznego
 
-all: morfologik.txt polish.dict polish_synth.dict
+all: morfologik.txt polish.dict polish_synth.dict polish_tags.txt
 
 formy.txt : polish.all
 	gawk -f aff5.awk polish.all >formy.txt
@@ -20,10 +20,11 @@ slownik_regularny.txt: formy_ost.txt morfo_baza.txt
 bez_flag.txt: polish.all
 	gawk -f nietypowe.awk polish.all >bez_flag.txt
 
-nieregularne.txt:odm.txt
+nieregularne.txt:odm.txt bez_flag.txt
 	gawk -f dopisane.awk odm.txt >nieregularne.txt
 
 slownik_niereg.txt: nieregularne.txt 
+	-rm aspekt.txt
 	gawk -f anot_niereg.awk nieregularne.txt > slownik_niereg.txt
 
 #po³±czenie
@@ -51,7 +52,7 @@ test:
 clean:
 	rm -f  formy*.txt
 	rm -f bez_flag.txt
-	rm -f slownik*.txt
+	rm -f slownik_regularny.txt slownik_niereg.txt
 	rm -f nieregularne.txt
 	rm -f afiksy.txt
 	rm -f aspekt.txt

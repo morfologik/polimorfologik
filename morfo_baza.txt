@@ -31725,8 +31725,8 @@ M	M	¼	zi	[^±d]¼	subst:sg:gen.dat.loc:f
 M	M	¼	zi	[^±ó]d¼	subst:sg:gen.dat.loc:f
 M	M	¼	zi±	[^d]¼	subst:sg:inst:f
 M	M	¼	zi±	[^ó]d¼	subst:sg:inst:f
-M	M	æ	ci	[^e]¶æ	subst:sg:gen.dat.loc:f+subst:pl:gen:f
-M	M	æ	ci	[^e¶]æ	subst:sg:gen.dat.loc:f+subst:pl:gen:f
+M	M	æ	ci	[^e]¶æ	subst:sg:gen.dat.loc:f
+M	M	æ	ci	[^e¶]æ	subst:sg:gen.dat.loc:f
 M	M	æ	ci	[^h³]eæ	subst:sg:gen.dat.loc:f
 M	M	æ	ci±	[^e]¶æ	subst:sg:inst:f
 M	M	æ	ci±	[^e¶]æ	subst:sg:inst:f
@@ -31779,10 +31779,10 @@ MN	M	¼	zi	[^±d]¼	subst:sg:gen.dat.loc:f+subst:pl:gen:f
 MN	M	¼	zi	[^±ó]d¼	subst:sg:gen.dat.loc:f+subst:pl:gen:f
 MN	M	¼	zi±	[^d]¼	subst:sg:inst:f
 MN	M	¼	zi±	[^ó]d¼	subst:sg:inst:f
-MN	M	æ	ci	[^e]¶æ	subst:sg:gen.dat.loc:f+subst:pl:gen:f
-MN	M	æ	ci	[^e¶]æ	subst:sg:gen.dat.loc:f+subst:pl:gen:f
-MN	M	æ	ci	[^h³]eæ	subst:sg:gen.dat.loc:f+subst:pl:gen:f
-MN	M	æ	ci	[^z]e¶æ	subst:sg:gen.dat.loc:f+subst:pl:gen:f
+MN	M	æ	ci	[^e]¶æ	subst:sg:gen.dat.loc:f+subst:pl:gen:f+subst:pl:acc.nom.voc:f
+MN	M	æ	ci	[^e¶]æ	subst:sg:gen.dat.loc:f+subst:pl:gen:f+subst:pl:acc.nom.voc:f
+MN	M	æ	ci	[^h³]eæ	subst:sg:gen.dat.loc:f+subst:pl:gen:f+subst:pl:acc.nom.voc:f
+MN	M	æ	ci	[^z]e¶æ	subst:sg:gen.dat.loc:f+subst:pl:gen:f+subst:pl:acc.nom.voc:f
 MN	M	æ	ci±	[^e]¶æ	subst:sg:inst:f
 MN	M	æ	ci±	[^e¶]æ	subst:sg:inst:f
 MN	M	æ	ci±	[^h³]eæ	subst:sg:inst:f
