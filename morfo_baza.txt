@@ -33121,7 +33121,7 @@ OSTqs	q	t	ci	t	subst:pl:nom.voc:m1
 OSTqs	s	0	e	[cjly¿]	subst:pl:nom.voc:m1
 OSTqs	s	0	i	[kg]	subst:pl:nom.voc:m
 OSTqs	s	0	y	[^acægjklño¶yz¼¿x]	subst:pl:nom.voc:m
-OSTqs	s	0	y	[^cds]z	subst:pl:nom.voc:m
+OSTqs	s	0	y	[^cds]z	subst:pl:nom.voc:m+subst:pl:gen:m1
 OSTqsz	O	0	a	[^æño¶w¼x]	subst:sg:acc.gen:m
 OSTqsz	O	0	em	[^ægkño¶w¼x]	subst:sg:inst:m
 OSTqsz	O	0	ie	[^cædghjkl³ñor¶twyz¿¼x]	subst:sg:loc.voc:m
@@ -34630,13 +34630,13 @@ QSTs	T	0	ów	[^aæoñ¶w¼x]	subst:pl:acc.gen:m1+subst:pl:gen:m3
 QSTs	T	0	ów	[^ó]w	subst:pl:acc.gen:m1+subst:pl:gen:m3
 QSTs	T	x	ksów	x	subst:pl:acc.gen:m1+subst:pl:gen:m3
 QSTs	T	ñ	niów	ñ	subst:pl:acc.gen:m1+subst:pl:gen:m3
-QSTs	s	0	e	[cds]z	subst:pl:nom.voc:m
-QSTs	s	0	e	[cjly¿]	subst:pl:nom.voc:m
-QSTs	s	0	i	[kg]	subst:pl:nom.voc:m
-QSTs	s	0	y	[^acægjklño¶yz¼¿x]	subst:pl:nom.voc:m
-QSTs	s	0	y	[^cds]z	subst:pl:nom.voc:m
-QSTs	s	x	ksy	x	subst:pl:nom.voc:m
-QSTs	s	ñ	nie	ñ	subst:pl:nom.voc:m
+QSTs	s	0	e	[cds]z	subst:pl:nom.acc.voc:m
+QSTs	s	0	e	[cjly¿]	subst:pl:nom.acc.voc:m
+QSTs	s	0	i	[kg]	subst:pl:nom.acc.voc:m
+QSTs	s	0	y	[^acægjklño¶yz¼¿x]	subst:pl:nom.acc.voc:m
+QSTs	s	0	y	[^cds]z	subst:pl:nom.acc.voc:m
+QSTs	s	x	ksy	x	subst:pl:nom.acc.voc:m
+QSTs	s	ñ	nie	ñ	subst:pl:nom.acc.voc:m
 QSTsz	Q	0	em	[^gkñx]	subst:sg:inst:m3
 QSTsz	Q	0	ie	[^cædghjkl³mñrtyz¿¼x]	subst:sg:loc.voc:m3
 QSTsz	Q	0	owi	[^ñx]	subst:sg:dat:m3
@@ -35123,9 +35123,9 @@ STs	S	o	ami	o	subst:pl:inst:m
 STs	STs	0	0		subst:sg:nom.acc:m3
 STs	T	0	ów	[^aæoñ¶w¼x]	subst:pl:gen:m
 STs	T	o	ów	o	subst:pl:gen:m
-STs	s	0	y	[^acægjklño¶yz¼¿x]	subst:pl:nom.voc:m
-STs	s	0	y	[^cds]z	subst:pl:nom.voc:m
-STs	s	o	e	o	subst:pl:nom.voc:m
+STs	s	0	y	[^acægjklño¶yz¼¿x]	subst:pl:nom.acc.voc:m
+STs	s	0	y	[^cds]z	subst:pl:nom.acc.voc:m
+STs	s	o	e	o	subst:pl:nom.acc.voc:m
 SU	S	0	m	o	subst:pl:dat:n
 SU	S	o	ach	o	subst:pl:loc:n
 SU	S	o	ami	o	subst:pl:inst:n
