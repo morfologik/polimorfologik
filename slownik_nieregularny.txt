@@ -420,7 +420,7 @@ dla	dla	prep:gen
 dlaczego	dlaczego	indecl
 dlaczego¿	dlaczego¿	indecl
 dlaczegó¿	dlaczegó¿	indecl
-dlañ	dlañ	indecl
+dlañ	dla	prep
 dlatego	dlatego	conj
 d³oñmi	d³oñ	subst:pl:inst:f
 d³u¿ej	d³ugo	adv:comp
@@ -446,7 +446,7 @@ domy¶lniej	domy¶lnie	adv:comp
 donik±d	donik±d	indecl
 donio¶lej	donio¶le	adv:comp
 dono¶niej	dono¶nie	adv:comp
-doñ	doñ	indecl
+doñ	do	prep
 dooko³a	dooko³a	prep:gen
 dopiero	dopiero	adv
 dopiero¿	dopiero¿	adv
@@ -2334,7 +2334,7 @@ nam	my	ppron12:pl:dat:pri
 nami	my	ppron12:pl:inst:pri
 namiêtniej	namiêtnie	adv:comp
 namolniej	namolnie	adv:comp
-nañ	nañ	indecl
+nañ	na	prep
 naoko³o	naoko³o	prep:gen
 naokó³	naokó³	prep:gen
 naonczas	naonczas	adv
@@ -2572,7 +2572,7 @@ oczu	oko	subst:pl:gen:n
 oczy	oko	subst:pl:acc.nom.voc:n
 od	od	prep:gen
 ode	od	prep:gen
-odeñ	odeñ	indecl
+odeñ	od	prep
 odk±d	odk±d	indecl
 odno¶nie	odno¶nie	prep:gen
 odporniej	odpornie	adv:comp
@@ -2785,7 +2785,7 @@ pod	pod	prep:gen.acc.inst
 podchwytliwiej	podchwytliwie	adv:comp
 podczas	podczas	prep:gen
 pode	pod	prep:gen.acc.inst
-podeñ	podeñ	indecl
+podeñ	pod	prep
 podle	podle	prep:gen
 podlej	podle	adv:comp
 pod³ug	pod³ug	prep:gen
@@ -2947,7 +2947,7 @@ przeciwko	przeciwko	prep:gen.dat
 przecudniej	przecudnie	adv:comp
 przed	przed	prep:acc.inst
 przede	przed	prep:acc.inst
-przedeñ	przedeñ	indecl
+przedeñ	przed	prep
 przedtem	przedtem	indecl
 przedwczoraj	przedwczoraj	adv
 przedziwniej	przedziwnie	adv:comp
@@ -2971,7 +2971,7 @@ przewiewniej	przewiewnie	adv:comp
 przewrotniej	przewrotnie	adv:comp
 przez	przez	prep:acc
 przeze	przez	prep:acc
-przezeñ	przezeñ	prep:acc
+przezeñ	przez	prep
 przezorniej	przezornie	adv:comp
 przezroczy¶ciej	przezroczy¶cie	adv:comp
 prze¼roczy¶ciej	prze¼roczy¶cie	adv:comp
@@ -3615,7 +3615,7 @@ wedle	wedle	prep:gen
 wed³ug	wed³ug	prep:gen
 wegetarianów	wegetarianin	subst:pl:acc.gen:m1
 wenus	wenus	subst:sg:nom.gen.dat.acc.inst.loc.voc:f+subst:pl:nom.gen.dat.acc.inst.loc.voc:f
-weñ	weñ	indecl
+weñ	w	prep
 weselej	weso³o	adv:comp
 weselniej	weselnie	adv:comp
 wespó³	wespó³	indecl
@@ -3793,7 +3793,7 @@ zamiast	zamiast	prep:gen
 zamo¿niej	zamo¿nie	adv:comp
 zanadto	zanadto	adv
 zanim	zanim	conj
-zañ	zañ	indecl
+zañ	za	prep
 zapalczywiej	zapalczywie	adv:comp
 zapalniej	zapalnie	adv:comp
 zapamiêtalej	zapamiêtale	adv:comp
@@ -3831,7 +3831,7 @@ zdrowiej	zdrowo	adv:comp
 ze	z	prep:gen.inst
 zebu	zebu	subst:sg:nom.gen.dat.acc.inst.loc.voc:n+subst:pl:nom.gen.dat.acc.inst.loc.voc:n
 zel¿ywiej	zel¿ywie	adv:comp
-zeñ	zeñ	indecl
+zeñ	z	prep
 zet	zet	subst:sg:nom:m
 zewn±trz	zewn±trz	qub
 zewsz±d	zewsz±d	indecl
@@ -4361,3 +4361,11 @@ winny¶my	winien	verb:winien:pl:sec:f:imperf
 winni¶my	winien	verb:winien:pl:sec:m1:imperf
 winni¶cie	winien	verb:winien:pl:ter:f.m1:imperf
 jakie¶	jaki¶	adj:sg:nom.acc.voc:n:pos+adj:pl:nom.acc.voc:f.n.m2.m3:pos
+zañ	za	prep
+mi±s  miêso subst:pl:gen:n
+ludzie  cz³owiek  subst:pl:nom.voc:m1
+ludzi cz³owiek  subst:pl:acc.gen:m1
+ludziom cz³owiek  subst:pl:dat:m1
+lud¼mi  cz³owiek  subst:pl:inst:m1
+ludziach  cz³owiek  subst:pl:loc:m1
+cz³owiecze  cz³owiek  subst:sg:voc:m1

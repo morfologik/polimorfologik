@@ -35553,7 +35553,7 @@ Wfl	l	y	ów	y	subst:pltant:gen:n
 Wfn	W	0	ch	a	subst:pltant:loc:n
 Wfn	W	0	mi	[^i]a	subst:pltant:inst:n
 Wfn	W	a	om	a	subst:pltant:dat:n
-Wfn	Wfn	0	0		subst:pltant:nom.acc.voc:m2
+Wfn	Wfn	0	0		subst:pltant:nom.acc.voc:n
 Wfn	f	na	en	na	subst:pltant:gen:n
 Wfn	n	a		a	subst:pl:gen:f
 Wl	W	0	ch	a	subst:pltant:loc:n
@@ -35570,7 +35570,7 @@ Wl	W	y	ach	[^c]y	subst:pltant:loc:n
 Wl	W	y	ach	[^m]cy	subst:pltant:loc:n
 Wl	W	y	ami	y	subst:pltant:inst:n
 Wl	W	y	om	y	subst:pltant:dat:n
-Wl	Wl	0	0		subst:pltant:nom:m
+Wl	Wl	0	0		subst:pltant:nom.acc.voc:n
 Wl	l	a	ów	a	subst:pltant:gen:n
 Wl	l	e	ów	e	subst:pltant:gen:n
 Wl	l	i	ów	i	subst:pltant:gen:n

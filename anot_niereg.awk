@@ -19,6 +19,17 @@ verb_qub["rozemleæ"]="perf"
 verb_qub["zemleæ"]="perf"
 verb_qub["lec"]="perf"
 verb_qub["za¿ec"]="perf"
+verb_qub["cniæ"]="imperf"
+verb_qub["ckniæ"]="imperf"
+verb_qub["brakn±æ"]="imperf"
+verb_qub["dnieæ"]="imperf"
+verb_qub["przystaæ"]="perf"
+verb_qub["rozednieæ"]="perf"
+verb_qub["rozedniewaæ"]="imperf"
+verb_qub["rozs³ociæ"]="perf"
+verb_qub["zabrakn±æ"]="perf"
+verb_qub["zadnieæ"]="perf"
+verb_qub["zbrakn±æ"]="perf"
 
 imiesl["±ca"]="pact:sg:nom.voc:f:aff"
 imiesl["±ce"]="pact:sg:nom.acc.voc:n:aff+pact:pl:nom.acc.voc:f.n.m2.m3:aff"
@@ -123,6 +134,34 @@ ger["(rc|n)iom"]="subst:ger:pl:dat:n"
 ger["[cn]iu"]="subst:ger:sg:dat.loc:n"
 ger["[æñ]"]="subst:ger:pl:gen:n"
 
+subs["em"]="subst:sg:inst:"
+subs["(rz|i)e"]="subst:sg:loc:"
+subs["a"]="subst:sg:acc.gen:"
+subs["[kg]i"]="subst:sg:gen:"
+subs["[kg]ê"]="subst:sg:acc:"
+subs["(dz|[lc])e"]="subst:sg:dat.loc:"
+subs["wu"]="subst:sg:dat:"
+subs["[ci]u"]="subst:sg:loc.voc:"
+subs["ach"]="subst:pl:loc:"
+subs["ami"]="subst:pl:inst:"
+subs["om"]="subst:pl:dat:"
+subs["ów"]="subst:pl:gen:"
+subs["rzy"]="subst:pl:nom.acc.voc:"
+subs["ny"]="subst:pl:nom.acc.voc:"
+subs["±"]="subst:sg:inst:"
+subs["ê"]="subst:sg:acc:"
+subs["os"]="subst:pl:nom.voc:"
+subs["³y"]="subst:sg:gen:"
+subs["[^s]ty"]="subst:sg:gen:"
+subs["[^aety]ry"]="subst:sg:gen:"
+
+subs_f["u"]="subst:sg:voc:"
+subs_f["o"]="subst:sg:voc:"
+subs_f["±"]="subst:sg:inst:"
+subs_f["ê"]="subst:sg:acc:"
+subs_f["i"]="subst:sg:gen:"
+subs_f["ñ"]="subst:pl:gen:"
+subs_f["([sdr]z|c|i)e"]="subst:sg:dat.loc:"
 }
 {
 
@@ -271,17 +310,8 @@ if (nieodm[$1"\t"$2]=="" && (wyrazy[$1"\t"$2]=="" || $2 in verb_qub))
 	}
 	else	
 		if ($1"__END"~/owi__END/ && znaczniki[1]~/subst/)
-			print $1"\t"$2"\tsubst:sg:dat:m1"
-	else 
-		if ($1"__END"~/owi__END/ && znaczniki[1]~/subst/)
 			print $1"\t"$2"\tsubst:sg:dat:m1"			
-	else 
-		if ($1"__END"~/ssem__END/ && znaczniki[1]~/subst/)
-			print $1"\t"$2"\tsubst:sg:inst:m1"						
-	else 
-		if ($1"__END"~/ssa__END/ && znaczniki[1]~/subst/)
-			print $1"\t"$2"\tsubst:sg:acc.gen:m1"									
-	else			
+	else    			
 		if ($1"__END"~/[wlmñbjp¼æ]cze__END/ && $2"__END"~/([wnmbcpz]i|l)ec__END/ && znaczniki[1]~/subst/)
 			print $1"\t"$2"\tsubst:sg:voc:m1"											
 	else 
@@ -292,7 +322,10 @@ if (nieodm[$1"\t"$2]=="" && (wyrazy[$1"\t"$2]=="" || $2 in verb_qub))
 			print $1"\t"$2"\tsubst:sg:voc:f"
 	else 
 		if($1"__END"~/ru__END/ && $2"__END"~/r__END/ && znacznik[1]~/subst/) 
-			print $1"\t"$2"\tsubst:sg:gen:m2"						
+			print $1"\t"$2"\tsubst:sg:gen:m2"
+  else
+    if ($1"__END"~/±ce__END/ && $2"__END"~/±cy__END/) 
+			print $1"\t"$2"\tsubst:pl:nom.acc.voc:m:depr"      						
 	else {
 	if (znaczniki[1]~/ad[jv]/) {
 		for (koncowka in przym) {
@@ -305,7 +338,41 @@ if (nieodm[$1"\t"$2]=="" && (wyrazy[$1"\t"$2]=="" || $2 in verb_qub))
 		 detected="true"
 		 }
 		}
-	}	
+	}
+	else
+  if ($2"__END"~/o__END/ && znaczniki[1]~/subst/) {
+      for (koncowka in subs) {
+		  rzeczownik = koncowka"__END"
+		  forma = subs[koncowka]
+		  if ($1"__END"~rzeczownik) {
+		    lastelement = split(wyrazy[$3"\t"$2], znaczniki, ":")
+		    rodzaj = znaczniki[lastelement]
+		    if (rodzaj=="depr") {
+		      rodzaj = znaczniki[lastelement - 1]
+        }        
+        if (rodzaj=="n" && forma~/nom\.voc/) {
+          forma = gensub(/nom\.voc/, "nom.acc.voc", "g", forma)
+        }         		      
+    		print $1"\t"$2"\t"forma rodzaj 
+    		detected="true"
+    	 }
+    	}
+    	}
+  if ($2"__END"~/a__END/ && znaczniki[1]~/subst/) {
+      for (koncowka in subs_f) {
+		  rzeczownik = koncowka"__END"
+		  forma = subs_f[koncowka]
+		  if ($1"__END"~rzeczownik) {
+ 		    lastelement = split(wyrazy[$3"\t"$2], znaczniki, ":")		    
+    		rodzaj = znaczniki[lastelement]
+		    if (rodzaj=="depr") {
+		      rodzaj = znaczniki[lastelement - 1]
+        } 		      
+    		print $1"\t"$2"\t"forma rodzaj
+    		detected="true"
+    	 }
+    	}
+    	}	
 	if (detected!="true")
 		print $1"\t"$2"\t"znaczniki[1]":irreg" 
 	}
