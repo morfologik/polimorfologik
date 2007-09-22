@@ -31771,12 +31771,12 @@ MN	M	ka	ce	ka	subst:sg:dat.loc:f
 MN	M	ta	cie	[^s]ta	subst:sg:dat.loc:f
 MN	M	zna	¼nie	[^crs]zna	subst:sg:dat.loc:f
 MN	M	³a	le	[^³s]³a	subst:sg:dat.loc:f
-MN	M	¶	si	[^e]¶	subst:sg:gen.loc:f
+MN	M	¶	si	[^e]¶	subst:sg:gen.loc:f+subst:pl:gen:f+subst:pl:acc.nom.voc:f
 MN	M	¶	si	[^w]ie¶	subst:pl:gen:m1
 MN	M	¶	si±	[^e]¶	subst:sg:inst:f
 MN	M	¶	si±	cie¶	subst:sg:inst:f
-MN	M	¼	zi	[^±d]¼	subst:sg:gen.dat.loc:f+subst:pl:gen:f
-MN	M	¼	zi	[^±ó]d¼	subst:sg:gen.dat.loc:f+subst:pl:gen:f
+MN	M	¼	zi	[^±d]¼	subst:sg:gen.dat.loc:f+subst:pl:gen:f+subst:pl:acc.nom.voc:f
+MN	M	¼	zi	[^±ó]d¼	subst:sg:gen.dat.loc:f+subst:pl:gen:f+subst:pl:acc.nom.voc:f
 MN	M	¼	zi±	[^d]¼	subst:sg:inst:f
 MN	M	¼	zi±	[^ó]d¼	subst:sg:inst:f
 MN	M	æ	ci	[^e]¶æ	subst:sg:gen.dat.loc:f+subst:pl:gen:f+subst:pl:acc.nom.voc:f
@@ -33220,8 +33220,8 @@ OSTs	T	ów	owów	ów	subst:pl:acc.gen:m1+subst:pl:gen:m3
 OSTs	s	0	e	[cds]z	subst:pl:nom.voc:m
 OSTs	s	0	e	[cjly¿]	subst:pl:nom.voc:m
 OSTs	s	0	i	[kg]	subst:pl:nom.voc:m
-OSTs	s	0	y	[^acægjklño¶yz¼¿x]	subst:pl:nom.voc:m
-OSTs	s	0	y	[^cds]z	subst:pl:nom.voc:m
+OSTs	s	0	y	[^acægjklño¶yz¼¿x]	subst:pl:nom.acc.voc:m
+OSTs	s	0	y	[^cds]z	subst:pl:nom.acc.voc:m2+subst:pl:nom.voc:m1:depr
 OSTs	s	x	ksy	x	subst:pl:nom.voc:m
 OSTs	s	¶	sie	¶	subst:pl:nom.voc:m
 OSTs	s	¼	zie	¼	subst:pl:nom.voc:m

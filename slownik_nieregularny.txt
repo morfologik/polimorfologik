@@ -3861,8 +3861,8 @@ z³ó¿	z³o¿e	subst:pl:gen:n
 z³udniej	z³udnie	adv:comp
 zmy¶lniej	zmy¶lnie	adv:comp
 znaczniej	znacznie	adv:comp
-znad	znad	prep:inst
-znade	znade	prep:inst
+znad	znad	prep:gen
+znade	znad	prep:gen
 znakomiciej	znakomicie	adv:comp
 znienacka	znienacka	adv
 znik±d	znik±d	indecl
