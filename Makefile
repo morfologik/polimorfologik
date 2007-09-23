@@ -14,7 +14,7 @@ formy_ost.txt: formy.txt formy_pdst.txt
 
 #slownik regularny
 slownik_regularny.txt: formy_ost.txt morfo_baza.txt
-	gawk -f morpher.awk formy_ost.txt >slownik_regularny.txt
+	gawk -f morpher.awk formy_ost.txt |gawk -f correct_case.awk >slownik_regularny.txt
 
 #przygotowanie form nieregularnych 
 bez_flag.txt: polish.all

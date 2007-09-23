@@ -1,15 +1,35 @@
 #na podstawie form regularnych
-BEGIN {FS="\t"
+BEGIN {
+
+FS="\/"
+glosfile="polish.all"; 
+while ((getline < glosfile)  > 0){	
+  if ($2=="W") {
+    pltant[$1]=$1
+    }
+  }
+
+FS="\t"
+#wyrazy nieregularne, wczytywane 
+#w celu zmniejszenia zapotrzebowania na pamiêæ
+glosfile="nieregularne.txt"; 
+while ((getline < glosfile)  > 0){
+  nieregularne[$3"\t"$2]=$3"\t"$2
+  duplikowane[$1"\t"$2]=$1"\t"$2
+}
+
+
+FS="\t"
 #wyrazy regularne, wygenerowane skryptem morpher.awk
-#wczytanie trwa dosyc dlugo, ale nic dziwnego!
 glosfile="slownik_regularny.txt"; 
-while ((getline < glosfile)  > 0){ 
-	wyrazy[$1"\t"$2]=$3;
+while ((getline < glosfile)  > 0){
+  if ($1"\t"$2 in nieregularne || $1"\t"$2 in duplikowane) 
+	 wyrazy[$1"\t"$2]=$3
 }
 
 glosfile="slownik_nieregularny.txt"; 
 while ((getline < glosfile)  > 0){ 
-	nieodm[$1"\t"$2]=$3"nieodm";
+	nieodm[$1"\t"$2]=$3"nieodm"
 }
 
 verb_qub["grze¶æ"]="imperf"
@@ -30,6 +50,7 @@ verb_qub["rozs³ociæ"]="perf"
 verb_qub["zabrakn±æ"]="perf"
 verb_qub["zadnieæ"]="perf"
 verb_qub["zbrakn±æ"]="perf"
+verb_qub["pogrzebaæ"]="perf"
 
 imiesl["±ca"]="pact:sg:nom.voc:f:aff"
 imiesl["±ce"]="pact:sg:nom.acc.voc:n:aff+pact:pl:nom.acc.voc:f.n.m2.m3:aff"
@@ -138,7 +159,7 @@ subs["em"]="subst:sg:inst:"
 subs["(rz|i)e"]="subst:sg:loc:"
 subs["a"]="subst:sg:acc.gen:"
 subs["[kg]i"]="subst:sg:gen:"
-subs["[kg]ê"]="subst:sg:acc:"
+#subs["[kg]ê"]="subst:sg:acc:"
 subs["(dz|[lc])e"]="subst:sg:dat.loc:"
 subs["wu"]="subst:sg:dat:"
 subs["[ci]u"]="subst:sg:loc.voc:"
@@ -162,13 +183,23 @@ subs_f["ê"]="subst:sg:acc:"
 subs_f["i"]="subst:sg:gen:"
 subs_f["ñ"]="subst:pl:gen:"
 subs_f["([sdr]z|c|i)e"]="subst:sg:dat.loc:"
+
+vus["ach"]="subst:pl:loc:m2"
+vus["ami"]="subst:pl:inst:m2"
+vus["em"]="subst:sg:inst:m2"
+vus["ie"]="subst:sg:loc.voc:m2"
+vus["om"]="subst:pl:dat:m2"
+vus["owi"]="subst:sg:dat:m2"
+vus["u"]="subst:sg:gen:m2"
+vus["y"]="subst:pl:nom.acc.voc:m2"
+vus["ów"]="subst:pl:gen:m2"
 }
 {
 
 if (nieodm[$1"\t"$2]=="" && (wyrazy[$1"\t"$2]=="" || $2 in verb_qub))
 	{
 	detected=""
-	if (wyrazy[$3"\t"$2]!="" || $2 in verb_qub) {
+	if (wyrazy[$3"\t"$2]!="" || $2 in verb_qub) {	
 	lastelement = split(wyrazy[$3"\t"$2], znaczniki, ":")
 	if (znaczniki[1]~/ppas/) {
 		aspekt = "?perf"
@@ -191,6 +222,7 @@ if (nieodm[$1"\t"$2]=="" && (wyrazy[$1"\t"$2]=="" || $2 in verb_qub))
 	if ($1"__END"~/±c__END/ && znaczniki[1]~/verb|ppas/) 
 		{
 		print $1"\t"$2"\tpcon:imperf"
+		detected ="true"
 		if (aspekt!="imperf" && aspekt!="?perf")
 			print "Blad oznaczenia aspektu: " aspekt ": " $2 >>"aspekt.txt"
 		else 
@@ -372,12 +404,29 @@ if (nieodm[$1"\t"$2]=="" && (wyrazy[$1"\t"$2]=="" || $2 in verb_qub))
     		detected="true"
     	 }
     	}
-    	}	
+    	}
+  if ($1 in pltant && znaczniki[2]=="pltant") {
+    print $1"\t"$2"\tsubst:pltant:gen:n"
+    detected = "true"
+  }	
+  
 	if (detected!="true")
 		print $1"\t"$2"\t"znaczniki[1]":irreg" 
 	}
-	}
-	else 
+	}	
+	else {
+    if ($2~/[wv]us$/) {
+    for (koncowka in vus) {
+		  rzeczownik = koncowka"__END"
+		  forma = vus[koncowka]
+		  if ($1"__END"~rzeczownik) {
+      print $1"\t"$2"\t" forma          
+      detected="true"
+      }
+    }
+    }  
+	if (detected!="true")   
 		print $1 "\t" $2 "\tqub"
+	}
 	}
 }
