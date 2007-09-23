@@ -32068,7 +32068,7 @@ MNm	N	0	ach	[iy]ni	subst:pl:loc:f
 MNm	N	0	ami	[iy]ni	subst:pl:inst:f
 MNm	N	0	ch	[^cfilt]owa	subst:pl:loc:f
 MNm	N	0	ch	[^o]wa	subst:pl:loc:f
-MNm	N	0	ch	[^w]a	subst:pl:loc:m
+MNm	N	0	ch	[^w]a	subst:pl:loc:f
 MNm	N	0	mi	[^cfilt]owa	subst:pl:inst:f
 MNm	N	0	mi	[^o]wa	subst:pl:inst:f
 MNm	N	0	mi	[^w]a	subst:pl:inst:f
@@ -32216,8 +32216,8 @@ MNn	n	a		[^n]isza	subst:pl:gen:f
 MNn	n	a		[^s]za	subst:pl:gen:f
 MNn	n	a		[^z]a	subst:pl:gen:f
 MNn	n	a		a	subst:pl:gen:f
-MNnq	M	a	o	[^l]a	subst:sg:voc:f
-MNnq	M	a	y	na	subst:sg:gen.dat.loc:f+subst:pl:gen:f
+MNnq	M	a	o	[^l]a	subst:sg:voc:m1
+MNnq	M	a	y	na	subst:sg:gen.dat.loc:m1+subst:pl:gen:f
 MNnq	M	a	±	a	subst:sg:inst:m
 MNnq	M	a	ê	[^w]a	subst:sg:acc:f
 MNnq	M	zna	¼nie	[^crs]zna	subst:sg:dat.loc:f
@@ -32227,7 +32227,7 @@ MNnq	N	0	mi	[^w]a	subst:pl:inst:m
 MNnq	N	a	om	[^w]a	subst:pl:dat:m
 MNnq	n	a		.a	subst:pl:gen:m1
 MNnq	n	a		[^z]a	subst:pl:acc.gen:m1
-MNnq	n	a		a	subst:pl:gen:f
+MNnq	n	a		a	subst:pl:acc.gen:m1
 MNnq	q	zna	¼ni	zna	subst:pl:nom.voc:m1
 MOSTos	M	j	i	j	subst:pl:gen:m1
 MOSTos	MOSTos	0	0		subst:sg:nom:m1

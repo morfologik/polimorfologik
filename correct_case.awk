@@ -16,7 +16,7 @@ while ((getline < glosfile)  > 0){
   if ($2=="W") {
     pltant[$1]=$1
   }
-  if ($2~/M/) {
+  if ($2~/M/ && $2!~/A/) {
     datloc[$1]=$1
   if ($2~/N/ && $2!~/o/) {
     pluralis[$1]=$1
@@ -44,6 +44,7 @@ while ((getline < glosfile)  > 0){
   }
 }
   
+irregular["rêka"]="rêka"
     
 FS="\t"    
 }
@@ -64,6 +65,7 @@ if ($2 in datlocnotgen && $1"__END"~/y__END/ && $3~/subst:/) {
     }
     print $1"\t"$2"\tsubst:sg:gen:" rodzaj
     }
-else    
+else
+    if (!($2 in irregular))    
     print
 }
