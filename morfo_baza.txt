@@ -34662,12 +34662,12 @@ QSs	Q	0	em	[^gkñx]	subst:sg:inst:m3
 QSs	Q	0	ie	[aeiou]z	subst:sg:loc.voc:m3
 QSs	Q	0	owi	[^ñx]	subst:sg:dat:m3
 QSs	Q	0	u	[^ñx]	subst:sg:gen:m3
-QSs	QSs	0	0		subst:sg:nom.acc:m3+subst:sg:nom:m
-QSs	S	0	ach	[^aæño¶w¼x]	subst:pl:loc:m
-QSs	S	0	ami	[^aæño¶w¼x]	subst:pl:inst:m
-QSs	S	0	om	[^aæño¶w¼x]	subst:pl:dat:m
-QSs	s	0	y	[^acægjklño¶yz¼¿x]	subst:pl:nom.voc:m
-QSs	s	0	y	[^cds]z	subst:pl:gen:m1
+QSs	QSs	0	0		subst:sg:nom.acc:m3
+QSs	S	0	ach	[^aæño¶w¼x]	subst:pl:loc:m3
+QSs	S	0	ami	[^aæño¶w¼x]	subst:pl:inst:m3
+QSs	S	0	om	[^aæño¶w¼x]	subst:pl:dat:m3
+QSs	s	0	y	[^acægjklño¶yz¼¿x]	subst:pl:nom.voc:m3
+QSs	s	0	y	[^cds]z	subst:pl:gen:m3
 R	R	0	0		subst:pl:nom.voc:m
 R	R	ec	cem	ec	subst:sg:inst:m1
 R	R	ec	cowi	ec	subst:sg:dat:m
