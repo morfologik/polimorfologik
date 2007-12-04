@@ -57,6 +57,12 @@ Pobraæ ftp://ftp.pg.gda.pl/pub/software/xtras-PG/fsa/fsa_current.tar.gz i zbudow
 Z tego pakietu wykorzystany bedzie skrypt *morph_infix.awk*.
 W pliku Makefile nale¿y sprawdziæ, czy ¶cie¿ka do pliku jest prawid³owa.
 
+Warto pamiêtaæ o ustawieniu zmiennej œrodowiskowej LC_ALL na wartoœæ C (export LC_ALL=C). 
+Ma to znaczenie dla programu sort i jest wymagane do poprawnego skompilowania s³ownika.
+
+U¿ytkownicy systemów Linux b¹dŸ Unix powinni równie¿ upewniæ siê, ¿e w ¿adnym z plików wejœciowych
+(równie¿ w tych pobranych z powy¿szych lokalizacji) nie ma znaków CR (\r).
+
 
 ZNACZNIKI MORFOSYNTAKTYCZNE
 
