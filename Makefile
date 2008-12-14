@@ -34,7 +34,7 @@ morfologik.txt: slownik_regularny.txt slownik_niereg.txt slownik_nieregularny.tx
 polish.dict: morfologik.txt
 	gawk -f ../fsa/morph_infix.awk morfologik.txt | sort -u |../fsa/fsa_build -O -o polish.dict
 
-polish_tags.txt: morfologik.txt
+polish_tags.txt: morfologik.txt slownik_regularny.txt slownik_nieregularny.txt
 	gawk -f tags.awk morfologik.txt | gawk -f format_tags.awk | sort -u > polish_tags.txt
 
 polish_synth.dict: morfologik.txt
@@ -43,11 +43,16 @@ polish_synth.dict: morfologik.txt
 
 
 
-test:
+test: polish_tags.txt slownik_regularny.txt
 #formy_ht_3.txt - plik testowy
 #	gawk -f compare.awk formy_ht_3.txt >konflikty.txt
 	-grep "##" slownik_regularny.txt >raport.txt
 #	gawk -f test_oboczne.awk slownik_regularny.txt >>raport.txt
+	gawk -f checktags.awk polish_tags.txt
+
+test_completeness: odm.txt polish.dict
+	gawk -f format_for_fsa.awk odm.txt | fsa_morph -I -d polish.dict > odm-tagged.txt
+	gawk -f check_tagging.awk odm-tagged.txt > test_complete.txt
 
 clean:
 	rm -f  formy*.txt
