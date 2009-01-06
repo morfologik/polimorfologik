@@ -75,7 +75,7 @@ BEGIN {
 			}
 		if (error=="")
 			print "! " lemma " is correct and complete"
-		}
+		} 
 	}
 
 if (cnt==1) {
@@ -84,26 +84,27 @@ if (cnt==1) {
 	lemmaint_cnt=0
 	formcnt=0
 	for (j=1; j<=i; j++) {
-		n = split(interps[j], lemma_tag, "\+")
-		for (k = 2; k <= n; k ++) {
+		n = split(interps[j], lemma_tag, "\+")		
+		for (k = 2; k <= 4; k++) {		
 		if (lemma_tag[1]==lemma) {
 		if (lemma_tag[k]~/(pltant|sg):nom/) {
 			lemmaint_cnt++
-			lemmaint[lemmaint_cnt]=lemma_tag[2]
-		} else 
-			forms[formcnt++]=lemma_tag[k]
+			lemmaint[lemmaint_cnt]=lemma_tag[k]			
+		} else {		
+			forms[formcnt++]=lemma_tag[k]			
+			}
 		}
 	}		
 	}
 	#for (j=1;j<=lemmaint_cnt;j++)
-	#	print lemmaint[j]	
+		#print "lemm" lemmaint[j]	
 } else {
-	i = split($2, interps, ", ")	
+	i = split($2, interps, ", ")		
 	for (j = 1; j <= i; j++) {
 		n = split(interps[j], lemma_tag, "\+")
 		for (k = 2; k <= n; k ++)
 		if (lemma_tag[1]==lemma) {							
-			forms[formcnt++]=lemma_tag[k]
+			forms[formcnt++]=lemma_tag[k]			
 		}
 	}
 }
