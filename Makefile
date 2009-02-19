@@ -47,8 +47,10 @@ test: polish_tags.txt slownik_regularny.txt
 #formy_ht_3.txt - plik testowy
 #	gawk -f compare.awk formy_ht_3.txt >konflikty.txt
 	-grep "##" slownik_regularny.txt >raport.txt
+	-grep " " slownik*.txt >>raport.txt
 #	gawk -f test_oboczne.awk slownik_regularny.txt >>raport.txt
 	gawk -f checktags.awk polish_tags.txt
+	gawk -f check_fields.awk morfologik.txt
 
 test_completeness: odm.txt polish.dict
 	gawk -f format_for_fsa.awk odm.txt | fsa_morph -I -d polish.dict > odm-tagged.txt
