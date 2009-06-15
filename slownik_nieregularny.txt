@@ -358,8 +358,8 @@ czyj±	czyj	adj:sg:acc.inst:f:pos
 czyj±¶	czyj¶	adj:sg:acc.inst:f:pos
 czyje	czyj	adj:sg:nom.acc.voc:n:pos+adj:pl:nom.acc.voc:f.n.m2.m3:pos
 czyje¶	czyj¶	adj:sg:nom.acc.voc:n:pos+adj:pl:nom.acc.voc:f.n.m2.m3:pos
-czyjego	czyj	adj:sg:gen:m3.n.m2.m3:pos+adj:sg:acc.gen:m1.m2:pos
-czyjego¶	czyj¶	adj:sg:gen:m3.n.m2.m3:pos+adj:sg:acc.gen:m1.m2:pos
+czyjego	czyj	adj:sg:acc.gen:m1:pos+adj:sg:acc:m2.m3.n:pos:aff+adj:sg:gen:n:pos
+czyjego¶	czyj¶	adj:sg:acc.gen:m1:pos+adj:sg:acc:m2.m3.n:pos:aff+adj:sg:gen:n:pos
 czyjej	czyj	adj:sg:gen.dat.loc:f:pos
 czyjej¶	czyj¶	adj:sg:gen.dat.loc:f:pos
 czyjemu	czyj	adj:sg:dat:m.n:pos
@@ -871,7 +871,7 @@ jak	jak	conj
 jaka¶	jaki¶	adj:sg:nom.voc:f:pos
 jak±¶	jaki¶	adj:sg:acc.inst:f:pos
 jakich¶	jaki¶	adj:pl:acc.gen.loc:m1:pos+adj:pl:gen.loc:f.n.m2.m3:pos
-jakiego¶	jaki¶	adj:sg:gen:m3.n.m2.m3:pos+adj:sg:acc.gen:m1.m2:pos
+jakiego¶	jaki¶	adj:sg:acc.gen:m1:pos+adj:sg:acc:m2.m3.n:pos:aff+adj:sg:gen:n:pos
 jakiej¶	jaki¶	adj:sg:gen.dat.loc:f:pos
 jakiemu¶	jaki¶	adj:sg:dat:m.n:pos
 jakimi¶	jaki¶	adj:pl:inst:f.m.n:pos
@@ -1199,7 +1199,7 @@ mbar	mbar	ign
 md³awiej	md³awo	adv:comp
 me	mój	adj:sg:nom.acc.voc:n:pos+adj:pl:nom.acc.voc:f.n.m2.m3:pos
 mec	mec	ign
-mego	mój	adj:sg:gen:m3.n.m2.m3:pos+adj:sg:acc.gen:m1.m2:pos
+mego	mój	adj:sg:acc.gen:m1:pos+adj:sg:acc:m2.m3.n:pos:aff+adj:sg:gen:n:pos
 mej	mój	adj:sg:gen.dat.loc:f:pos
 melancholiczniej	melancholicznie	adv:comp
 melancholijniej	melancholijnie	adv:comp
@@ -1256,7 +1256,7 @@ moimi	mój	adj:pl:inst:f.m.n:pos
 moja	mój	adj:sg:nom.voc:f:pos
 moj±	mój	adj:sg:acc.inst:f:pos
 moje	mój	adj:sg:nom.acc.voc:n:pos+adj:pl:nom.acc.voc:f.n.m2.m3:pos
-mojego	mój	adj:sg:gen:m3.n.m2.m3:pos+adj:sg:acc.gen:m1.m2:pos
+mojego	mój	adj:sg:acc.gen:m1:pos+adj:sg:acc:m2.m3.n:pos:aff+adj:sg:gen:n:pos
 mojej	mój	adj:sg:gen.dat.loc:f:pos
 mojemu	mój	adj:sg:dat:m.n
 mokrzej	mokro	adv:comp
@@ -2356,7 +2356,7 @@ nas	my	ppron12:pl:gen.acc.loc:pri
 nasz	nasz	adj:sg:nom.acc:m3:pos+adj:sg:nom.voc:m1.m2:pos
 nasza	nasz	adj:sg:nom.voc:f:pos
 nasz±	nasz	adj:sg:acc.inst:f:pos
-naszego	nasz	adj:sg:gen:m3.n.m2.m3:pos+adj:sg:acc.gen:m1.m2:pos
+naszego	nasz	adj:sg:acc.gen:m1:pos+adj:sg:acc:m2.m3.n:pos:aff+adj:sg:gen:n:pos
 naszej	nasz	adj:sg:gen.dat.loc:f:pos
 naszych	nasz	adj:pl:acc.gen.loc:m1:pos+adj:pl:gen.loc:f.n.m2.m3:pos
 naszym	nasz	adj:sg:inst.loc:m.n:pos+adj:pl:dat:f.m.n:pos
@@ -2388,7 +2388,7 @@ niczyimi	niczyj	adj:pl:inst:f.m.n:pos
 niczyj	niczyj	adj:sg:nom.acc:m3:pos+adj:sg:nom.voc:m1.m2:pos
 niczyja	niczyj	adj:sg:nom.voc:f:pos
 niczyj±	niczyj	adj:sg:acc.inst:f:pos
-niczyjego	niczyj	adj:sg:gen:m3.n.m2.m3:pos+adj:sg:acc.gen:m1.m2:pos
+niczyjego	niczyj	adj:sg:acc.gen:m1:pos+adj:sg:acc:m2.m3.n:pos:aff+adj:sg:gen:n:pos
 niczyjej	niczyj	adj:sg:gen.dat.loc:f:pos
 niczym	nic	subst:sg:inst:m1
 nie	nie	indecl
@@ -2657,7 +2657,7 @@ owa	ów	adj:sg:nom.voc:f:pos
 owak	owak	indecl
 ow±	ów	adj:sg:acc.inst:f:pos
 owe	ów	adj:sg:nom.acc.voc:n:pos+adj:pl:nom.acc.voc:f.n.m2.m3:pos
-owego	ów	adj:sg:gen:m3.n.m2.m3:pos+adj:sg:acc.gen:m1.m2:pos
+owego	ów	adj:sg:acc.gen:m1:pos+adj:sg:acc:m2.m3.n:pos:aff+adj:sg:gen:n:pos
 owej	ów	adj:sg:gen.dat.loc:f:pos
 owemu	ów	adj:sg:dat:m.n
 owêdy	owêdy	indecl
@@ -3263,7 +3263,7 @@ swarliwiej	swarliwie	adv:comp
 swawolniej	swawolnie	adv:comp
 sw±	swój	adj:sg:acc.inst:f:pos
 swe	swój	adj:sg:nom.acc.voc:n:pos+adj:pl:nom.acc.voc:f.n.m2.m3:pos
-swego	swój	adj:sg:gen:m3.n.m2.m3:pos+adj:sg:acc.gen:m1.m2:pos
+swego	swój	adj:sg:acc.gen:m1:pos+adj:sg:acc:m2.m3.n:pos:aff+adj:sg:gen:n:pos
 swej	swój	adj:sg:gen.dat.loc:f:pos
 swemu	swój	adj:sg:dat:m.n
 swobodniej	swobodnie	adv:comp
@@ -3275,7 +3275,7 @@ swoi¶ciej	swoi¶cie	adv:comp
 swoja	swój	adj:sg:nom.voc:f:pos
 swoj±	swój	adj:sg:acc.inst:f:pos
 swoje	swój	adj:sg:nom.acc.voc:n:pos+adj:pl:nom.acc.voc:f.n.m2.m3:pos
-swojego	swój	adj:sg:gen:m3.n.m2.m3:pos+adj:sg:acc.gen:m1.m2:pos
+swojego	swój	adj:sg:acc.gen:m1:pos+adj:sg:acc:m2.m3.n:pos:aff+adj:sg:gen:n:pos
 swojej	swój	adj:sg:gen.dat.loc:f:pos
 swojemu	swój	adj:sg:dat:m.n
 swój	swój	adj:sg:nom.acc:m3:pos+adj:sg:nom.voc:m1.m2:pos
@@ -3496,7 +3496,7 @@ twa	twój	adj:sg:nom.voc:f:pos
 twardziej	twardo	adv:comp
 tw±	twój	adj:sg:acc.inst:f:pos
 twe	twój	adj:sg:nom.acc.voc:n:pos+adj:pl:nom.acc.voc:f.n.m2.m3:pos
-twego	twój	adj:sg:gen:m3.n.m2.m3:pos+adj:sg:acc.gen:m1.m2:pos
+twego	twój	adj:sg:acc.gen:m1:pos+adj:sg:acc:m2.m3.n:pos:aff+adj:sg:gen:n:pos
 twej	twój	adj:sg:gen.dat.loc:f:pos
 twemu	twój	adj:sg:dat:m.n
 twierdze	twierdza	subst:pl:nom.acc.voc:f
@@ -3507,7 +3507,7 @@ twoimi	twój	adj:pl:inst:f.m.n:pos
 twoja	twój	adj:sg:nom.voc:f:pos
 twoj±	twój	adj:sg:acc.inst:f:pos
 twoje	twój	adj:sg:nom.acc.voc:n:pos+adj:pl:nom.acc.voc:f.n.m2.m3:pos
-twojego	twój	adj:sg:gen:m3.n.m2.m3:pos+adj:sg:acc.gen:m1.m2:pos
+twojego	twój	adj:sg:acc.gen:m1:pos+adj:sg:acc:m2.m3.n:pos:aff+adj:sg:gen:n:pos
 twojej	twój	adj:sg:gen.dat.loc:f:pos
 twojemu	twój	adj:sg:dat:m.n
 twój	twój	adj:sg:nom.acc:m3:pos+adj:sg:nom.voc:m1.m2:pos
@@ -3596,7 +3596,7 @@ was	wy	ppron12:pl:gen.acc.loc:sec
 wasz	wasz	adj:sg:nom.acc:m3:pos+adj:sg:nom.voc:m1.m2:pos
 wasza	wasz	adj:sg:nom.voc:f:pos
 wasz±	wasz	adj:sg:acc.inst:f:pos
-waszego	wasz	adj:sg:gen:m3.n.m2.m3:pos+adj:sg:acc.gen:m1.m2:pos
+waszego	wasz	adj:sg:acc.gen:m1:pos+adj:sg:acc:m2.m3.n:pos:aff+adj:sg:gen:n:pos
 waszej	wasz	adj:sg:gen.dat.loc:f:pos
 waszych	wasz	adj:pl:acc.gen.loc:m1:pos+adj:pl:gen.loc:f.n.m2.m3:pos
 waszym	wasz	adj:sg:inst.loc:m.n:pos+adj:pl:dat:f.m.n:pos
@@ -3717,7 +3717,7 @@ wszystka	wszystek	adj:sg:nom.voc:f:pos
 wszystk±	wszystek	adj:sg:acc.inst:f:pos
 wszystkich	wszystek	adj:pl:acc.gen.loc:m1:pos+adj:pl:gen.loc:f.n.m2.m3:pos
 wszystkie	wszystek	adj:sg:nom.acc.voc:n:pos+adj:pl:nom.acc.voc:f.n.m2.m3:pos
-wszystkiego	wszystek	adj:sg:gen:m3.n.m2.m3:pos+adj:sg:acc.gen:m1.m2:pos
+wszystkiego	wszystek	adj:sg:acc.gen:m1:pos+adj:sg:acc:m2.m3.n:pos:aff+adj:sg:gen:n:pos
 wszystkiego	wszystko	subst:sg:gen:n
 wszystkiej	wszystek	adj:sg:gen.dat.loc:f:pos
 wszystkiemu	wszystek	adj:sg:dat:m.n
@@ -4275,7 +4275,7 @@ którymi¶kolwiek	który¶kolwiek	adj:pl:inst:f.m.n:pos
 któr±¶kolwiek	który¶kolwiek	adj:sg:acc.inst:f:pos
 czyjemukolwiek	czyjkolwiek	adj:sg:dat:m.n:pos
 czyichkolwiek	czyjkolwiek	adj:pl:acc.gen.loc:m1:pos+adj:pl:gen.loc:f.n.m2.m3:pos
-czyjegokolwiek	czyjkolwiek	adj:sg:gen:m3.n.m2.m3:pos+adj:sg:acc.gen:m1.m2:pos
+czyjegokolwiek	czyjkolwiek	adj:sg:acc.gen:m1:pos+adj:sg:acc:m2.m3.n:pos:aff+adj:sg:gen:n:pos
 czego¶kolwiek	co¶kolwiek	subst:sg:gen:n
 kimkolwiek	ktokolwiek	subst:sg:inst.loc:m1
 kim¶kolwiek	kto¶kolwiek	subst:sg:inst.loc:m1
