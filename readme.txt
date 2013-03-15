@@ -4,13 +4,34 @@ Morfologik is a project aiming at generating Polish morphosyntactic
 dictionaries (hence the name) used for part-of-speech tagging and
 part-of-speech synthesis.
 
+VERSION: 2.0 PoliMorf
+
+BUILD: 15 mar 2013 13:18:43
+
 LICENCE
 
-The data comes from Polish ispell/myspell dictionary hosted at 
-kurnik.pl/slownik and licenced on the terms of (inter alia) LGPL. 
-Morfologik is also licenced on terms of LGPL.
+Copyright (c) 2013, Marcin Mi³kowski
+All rights reserved.
 
-FILES
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met: 
+
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer. 
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution. 
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 1. morfologik.txt is a tab-separated file, containing the following format:
 
@@ -24,7 +45,7 @@ fsa_morph program by Jan Daciuk
 usable also in LanguageTool grammar checker.
 
 3. polish_synth.dict is a binary file for grammatical synthesis, usable
-in fsa_morph and in LanguageTool. To get an inflected word, use the 
+by morfologik-stemming library. To get an inflected word, use the 
 following syntax in fsa_morph:
 
 <word>|<tag>
@@ -40,6 +61,7 @@ dictionaries in morfologik-stemming Java library.
 
 TAGSET
 
-The tagset used is roughly similar to IPI corpus tagset. See www.korpus.pl.
+The tagset used is roughly similar to IPI/NKJP corpus tagset, and described in more detail in the readme_pl.txt file.
+See also www.nkjp.pl.
 
-Morfologik, (c) 2007 Marcin Mi³kowski.
+Morfologik, (c) 2007-2013 Marcin Mi³kowski.
