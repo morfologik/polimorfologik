@@ -1,139 +1,134 @@
-INFORMACJA
+ï»¿INFORMACJA
 
-Morfologik to projekt tworzenia polskich s³owników
-morfosyntaktycznych (st±d nazwa) s³u¿±cych do znakowania 
+Morfologik to projekt tworzenia polskich sÅ‚ownikÃ³w morfosyntaktycznych (stÄ…d nazwa) sÅ‚uÅ¼Ä…cych do znakowania 
 morfosyntaktycznego i syntezy gramatycznej.
+
+WERSJA: 2.0 PoliMorf
+
+UTWORZONA: 15 mar 2013 13:18:44
 
 LICENCJA
 
-Dane pochodz± ze s³ownika alternatywnego ze strony
-kurnik.pl/slownik i s± licencjonowane na licencji (m.in.) LGPL. 
-Morfologik ma równie¿ licencjê LGPL.
+Copyright Â© 2013 Marcin MiÅ‚kowski
+Wszelkie prawa zastrzeÅ¼one
+Redystrybucja i uÅ¼ywanie, czy to w formie kodu ÅºrÃ³dÅ‚owego, czy w formie kodu wykonawczego, sÄ… dozwolone pod warunkiem speÅ‚nienia poniÅ¼szych warunkÃ³w:
+1.	Redystrybucja kodu ÅºrÃ³dÅ‚owego musi zawieraÄ‡ powyÅ¼szÄ… notÄ™ copyrightowÄ…, niniejszÄ… listÄ™ warunkÃ³w oraz poniÅ¼sze oÅ›wiadczenie o wyÅ‚Ä…czeniu odpowiedzialnoÅ›ci.
+2.	Redystrybucja kodu wykonawczego musi zawieraÄ‡ powyÅ¼szÄ… notÄ™ copyrightowÄ…, niniejszÄ… listÄ™ warunkÃ³w oraz poniÅ¼sze oÅ›wiadczenie o wyÅ‚Ä…czeniu odpowiedzialnoÅ›ci w dokumentacji i/lub w innych materiaÅ‚ach dostarczanych wraz z kopiÄ… oprogramowania.
+TO OPROGRAMOWANIE JEST DOSTARCZONE PRZEZ <POSIADACZA PRAW AUTORSKICH> â€TAKIM, JAKIE JESTâ€. KAÅ»DA, DOROZUMIANA LUB BEZPOÅšREDNIO WYRAÅ»ONA GWARANCJA, NIE WYÅÄ„CZAJÄ„C DOROZUMIANEJ GWARANCJI PRZYDATNOÅšCI HANDLOWEJ I PRZYDATNOÅšCI DO OKREÅšLONEGO ZASTOSOWANIA, JEST WYÅÄ„CZONA. W Å»ADNYM WYPADKU <POSIADACZE PRAW AUTORSKICH> NIE MOGÄ„ BYÄ† ODPOWIEDZIALNI ZA JAKIEKOLWIEK BEZPOÅšREDNIE, POÅšREDNIE, INCYDENTALNE, SPECJALNE, UBOCZNE I WTÃ“RNE SZKODY (NIE WYÅÄ„CZAJÄ„C OBOWIÄ„ZKU DOSTARCZENIA PRODUKTU ZASTÄ˜PCZEGO LUB SERWISU, ODPOWIEDZIALNOÅšCI Z TYTUÅU UTRATY WALORÃ“W UÅ»YTKOWYCH, UTRATY DANYCH LUB KORZYÅšCI, A TAKÅ»E PRZERW W PRACY PRZEDSIÄ˜BIORSTWA) SPOWODOWANE W JAKIKOLWIEK SPOSÃ“B I NA PODSTAWIE ISTNIEJÄ„CEJ W TEORII ODPOWIEDZIALNOÅšCI KONTRAKTOWEJ, CAÅKOWITEJ LUB DELIKTOWEJ (WYNIKÅEJ ZARÃ“WNO Z NIEDBALSTWA JAK INNYCH POSTACI WINY), POWSTAÅE W JAKIKOLWIEK SPOSÃ“B W WYNIKU UÅ»YWANIA LUB MAJÄ„CE ZWIÄ„ZEK Z UÅ»YWANIEM OPROGRAMOWANIA, NAWET JEÅšLI O MOÅ»LIWOÅšCI POWSTANIA TAKICH SZKÃ“D OSTRZEÅ»ONO.
+
+Å¹RÃ“DÅO
+
+Dane pochodzÄ… ze sÅ‚ownika sjp.pl oraz sÅ‚ownika PoliMorf i sÄ… licencjonowane na powyÅ¼szej licencji. Dane ÅºrÃ³dÅ‚owe pochodzÄ… z polskiego sÅ‚ownika ispell, nastÄ™pnie redagowanego na stronach kurnik.pl/slownik i sjp.pl, a takÅ¼e SÅ‚ownika Gramatycznego JÄ™zyka Polskiego. Autorzy: (1) ispell: MirosÅ‚aw Prywata, Piotr Gackiewicz, WÅ‚odzimierz Macewicz, Åukasz SzaÅ‚kiewicz, Marek Futrega.
+(2) SGJP: Zygmunt Saloni, WÅ‚odzimierz GruszczyÅ„ski, Marcin WoliÅ„ski, Robert WoÅ‚osz.
+
+Wersja PoliMorf zostaÅ‚a opracowana w ramach projektu CESAR realizowanego w Zespole InÅ¼ynierii Lingwistycznej IPI PAN. 
+W przygotowaniu ostatecznej wersji 2.0 dopomogli Jan Szejko i Adam Radziszewski.
 
 PLIKI
 
 1. morfologik.txt to plik tekstowy z polami rozdzielanymi tabulatorem,
-o nastêpuj±cym formacie:
+o nastÄ™pujÄ…cym formacie:
 
 forma-odmienionaHTforma-podstawowaHTznaczniki
 
 gdzie HT oznacza tabulator poziomy.
 
-2. polish.dict to binarny plik s³ownika dla programu fsa_morph Jana Daciuka 
-(zob. http://www.eti.pg.gda.pl/katedry/kiw/pracownicy/Jan.Daciuk/personal/fsa.html), 
-wykorzystywany równie¿ bezpo¶rednio przez korektor gramatyczny LanguageTool.
+Kodowanie: UTF-8
 
-3. polish_synth.dict to binarny plik s³ownika syntezy gramatycznej,
-u¿ywany w fsa_morph i LanguageTool. Aby uzyskaæ formê odmienion±,
-nale¿y u¿ywaæ nastêpuj±cej sk³adni w zapytaniu programu fsa_morph:
+2. polish.dict to binarny plik sÅ‚ownika dla programu fsa_morph Jana Daciuka 
+(zob. http://www.eti.pg.gda.pl/katedry/kiw/pracownicy/Jan.Daciuk/personal/fsa.html), 
+wykorzystywany rÃ³wnieÅ¼ bezpoÅ›rednio przez korektor gramatyczny LanguageTool.
+
+3. polish_synth.dict to binarny plik sÅ‚ownika syntezy gramatycznej,
+uÅ¼ywany w fsa_morph i LanguageTool. Aby uzyskaÄ‡ formÄ™ odmienionÄ…,
+naleÅ¼y uÅ¼ywaÄ‡ nastÄ™pujÄ…cej skÅ‚adni w zapytaniu programu fsa_morph:
 
 <wyraz>|<znacznik>
 
-Na przyk³ad:
+Na przykÅ‚ad:
 
 niemiecki|adjp
 
 daje "niemiecku+".
 
-4. polish.info i polish_synth.info - pliki wymagane do u¿ycia plików
+4. polish.info i polish_synth.info - pliki wymagane do uÅ¼ycia plikÃ³w
 binarnych w bibliotece morfologik-stemming.
-
-Do wykonania skryptów ¼ród³owych s± potrzebne nastêpuj±ce pliki:
-
-Plik:   odm.txt  - aktualny s³ownik z witryny www.kurnik.pl/slownik (s³ownik odmian)
-Strona: http://www.kurnik.pl/slownik/odmiany/
-Pobieranie: http://www.kurnik.org/dictionary/odm/alt-odm-<data>.tar.gz
-
-Plik:   polish.all - ze s³ownika alternatywnego
-Strona: http://www.kurnik.pl/slownik/ort/
-Pobieranie: http://www.kurnik.org/dictionary/alt-ispell-pl-src.tar.bz2
-
-Plik : pl_PL.aff (plik afiksów)
-Strona: http://www.kurnik.pl/slownik/ort/
-Pobieranie: http://www.kurnik.org/dictionary/alt-myspell-pl.tar.bz2 
-
-Nale¿y te¿ ze strony http://www.eti.pg.gda.pl/katedry/kiw/pracownicy/Jan.Daciuk/personal/fsa_polski.html
-Pobraæ ftp://ftp.pg.gda.pl/pub/software/xtras-PG/fsa/fsa_current.tar.gz i zbudowaæ *fsa_build
-Z tego pakietu wykorzystany bedzie skrypt *morph_infix.awk*.
-W pliku Makefile nale¿y sprawdziæ, czy ¶cie¿ka do pliku jest prawid³owa.
-
-Warto pamiêtaæ o ustawieniu zmiennej œrodowiskowej LC_ALL na wartoœæ C (export LC_ALL=C). 
-Ma to znaczenie dla programu sort i jest wymagane do poprawnego skompilowania s³ownika.
-
-U¿ytkownicy systemów Linux b¹dŸ Unix powinni równie¿ upewniæ siê, ¿e w ¿adnym z plików wejœciowych
-(równie¿ w tych pobranych z powy¿szych lokalizacji) nie ma znaków CR (\r).
-
 
 ZNACZNIKI MORFOSYNTAKTYCZNE
 
-Zestaw znaczników jest zbli¿ony do zestawu korpusu IPI (www.korpus.pl).
+Zestaw znacznikÃ³w jest zbliÅ¼ony do zestawu korpusu NKJP (www.nkjp.pl).
 
-    * adj - przymiotnik (np. "niemiecki")
-    * adjp - przymiotnik poprzyimkowy (np. "niemiecku")
-    * adv - przys³ówek (np. "g³upio")
-    * conj - spójnik
-    * ign - ignorowana czê¶æ mowy
-    * indecl - nieodmienna czê¶æ mowy
+    * adj - przymiotnik (np. â€niemieckiâ€)
+	* adjc - przymiotnik przedykatywny (np. â€ciekawâ€, â€dÅ‚uÅ¼enâ€)
+    * adjp - przymiotnik poprzyimkowy (np. â€niemieckuâ€)
+    * adv - przysÅ‚Ã³wek (np. â€gÅ‚upioâ€)
+	* burk - burkinostka (np. â€Burkina Fasoâ€)
+	* depr - forma deprecjatywna
+	* ger - rzeczownik odsÅ‚owny
+    * conj - spÃ³jnik Å‚Ä…czÄ…cy zdania wspÃ³Å‚rzÄ™dne
+	* comp - spÃ³jnik wprowadzajÄ…cy zdanie podrzÄ™dne
     * num - liczebnik
-    * pact - imies³ów przymiotnikowy czynny
-    * pant - imies³ów przys³ówkowy uprzedni
-    * pcon - imies³ów przys³ówkowy wspó³czesny
-    * ppas - imies³ów przymiotnikowy bierny
+    * pact - imiesÅ‚Ã³w przymiotnikowy czynny
+    * pant - imiesÅ‚Ã³w przysÅ‚Ã³wkowy uprzedni
+    * pcon - imiesÅ‚Ã³w przysÅ‚Ã³wkowy wspÃ³Å‚czesny
+    * ppas - imiesÅ‚Ã³w przymiotnikowy bierny
     * ppron12 - zaimek nietrzecioosobowy
     * ppron3 - zaimek trzecioosobowy
-    * pred - predykatyw (np. "trzeba")
+    * pred - predykatyw (np. â€trzebaâ€)
     * prep - przyimek
     * siebie - zaimek "siebie"
     * subst - rzeczownik
     * verb - czasownik
+    * brev - skrÃ³t
+    * interj - wykrzyknienie
+	* qub - kublik (np. â€nieâ€ lub â€takâ€)
 
 Atrybuty podstawowych form:
 
-    * sg - liczba pojedyncza
-    * pl - liczba mnoga
-    * indecl - forma nieodmienna
-    * irreg - forma nieregularna (nierozpoznana dok³adniej pod wzglêdem warto¶ci atrybutów, np. subst:irreg)
+    * sg / pl - liczba pojedyncza / liczba mnoga    
     * nom - mianownik
-    * gen - dope³niacz
+    * gen - dopeÅ‚niacz
     * acc - biernik
     * dat - celownik
-    * inst - narzêdnik
+    * inst - narzÄ™dnik
     * loc - miejscownik
-    * voc - wo³acz
-    * pos - stopieñ równy
-    * comp - stopieñ wy¿szy
-    * sup - stopieñ najwy¿szy
-    * m (a tak¿e, w sposób nie do koñca uporz±dkowany, m1... m4) - rodzaj mêski
-    * n - rodzaj nijaki
-    * f - rodzaj ¿eñski
+    * voc - woÅ‚acz
+    * pos - stopieÅ„ rÃ³wny
+    * com - stopieÅ„ wyÅ¼szy
+    * sup - stopieÅ„ najwyÅ¼szy
+    * m1, m2, m3 - rodzaje mÄ™skie
+    * n1, n2 - rodzaje nijakie
+	* p1, p2, p3 - rodzaje rzeczownikÃ³w majÄ…cych tylko liczbÄ™ mnogÄ… (pluralium tantum)
+    * f - rodzaj Å¼eÅ„ski
     * pri - pierwsza osoba
     * sec - druga osoba
-    * tri - trzecia osoba
-    * depr - forma deprecjatywna
+    * ter - trzecia osoba
     * aff - forma niezanegowana
     * neg - forma zanegowana
-    * refl - forma zwrotna czasownika [nie wystêpuje w znacznikach IPI]
+    * refl - forma zwrotna czasownika
+	* nonrefl - forma niezwrotna czasownika
+	* refl.nonrefl - forma moÅ¼e byÄ‡ zwrotna lub niezwrotna
     * perf - czasownik dokonany
     * imperf - czasownik niedokonany
-    * ?perf - czasownik nierozpoznany pod wzglêdem aspektu
-    * nakc - forma nieakcentowana zaimka
+    * imperf.perf - czasownik, ktÃ³ry moÅ¼e wystÄ™powaÄ‡ zarÃ³wno jako dokonany, jak i jako niedokonany
+    * nakc - forma nieakcentowana zaimka (ppron lub siebie)
     * akc - forma akcentowana zaimka
     * praep - forma poprzyimkowa
     * npraep - forma niepoprzyimkowa
-    * ger - rzeczownik ods³owny
+    * ger - rzeczownik odsÅ‚owny
     * imps - forma bezosobowa
-    * impt - tryb rozkazuj±cy
+    * impt - tryb rozkazujÄ…cy
     * inf - bezokolicznik
-    * fin - forma nieprzesz³a
-    * bedzie - forma przysz³a "byæ"
-    * praet - forma przesz³a czasownika (pseudoimies³ów)
-    * pot - tryb przypuszczaj±cy [nie wystêpuje w znacznikach IPI]
+    * fin - forma nieprzeszÅ‚a
+    * bedzie - forma przyszÅ‚a "byÄ‡"
+    * praet - forma przeszÅ‚a czasownika (pseudoimiesÅ‚Ã³w)
+    * pot - tryb przypuszczajÄ…cy [nie wystÄ™puje w znacznikach NKJP]
+    * pun - skrÃ³t z kropkÄ… [za NKJP]
+    * npun - bez kropki [za NKJP]	
+	* wok / nwok: forma wokaliczna / niewokaliczna
+	
+Uwaga: formy trybu przypuszczajÄ…cego sÄ… jednolicie oznaczone tylko znacznikiem pot, bez znacznika praet.
 
-W znacznikach Morfologika nie wystêpuje i nie bêdzie wystêpowaæ 
-znacznik aglt, a to ze wzglêdu na inn± zasadê segmentacji wyrazów 
-(zasady IPI utrudnia³yby w ogromnym stopniu realizacjê wielu zasad 
-poprawnej pisowni ³±cznej i roz³±cznej, gdy¿ stosowana w korpusie IPI 
-segmentacja nie pokrywa³a siê z granic± wyrazu definiowan± przez spacjê 
-lub znak przestankowy).
+W znacznikach Morfologika nie wystÄ™puje i nie bÄ™dzie wystÄ™powaÄ‡ znacznik aglt, a to ze wzglÄ™du na innÄ… zasadÄ™ segmentacji wyrazÃ³w.
 
-Morfologik, (c) 2007 Marcin Mi³kowski.
+Morfologik, (c) 2007-2013 Marcin MiÅ‚kowski.
