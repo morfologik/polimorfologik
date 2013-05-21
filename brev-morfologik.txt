@@ -395,7 +395,7 @@ pw	patrz wyżej	brev:pun
 pózn	późniejszy	brev:pun
 płd	południe	brev:pun
 płd	południowy	brev:pun
-płk	pułkownik	brev:pun
+płk	pułkownik	brev:npun
 płn	północ	brev:pun
 płn	północny	brev:pun
 płw	półwysep	brev:pun
