@@ -12,7 +12,7 @@ W	wat	brev:npun
 WF	wychowanie fizyczne	brev:npun
 aa	ad acta	brev:npun
 abl	ablativus	brev:pun
-abp	arcybiskup	brev:pun
+abp	arcybiskup	brev:npun
 ac	a capite	brev:npun
 acc	accusativus	brev:pun
 accel	accelerando	brev:pun
@@ -64,7 +64,7 @@ blm	bez liczby mnogiej	brev:pun
 bln	bilion	brev:npun
 blp	bez liczby pojedynczej	brev:pun
 bm	bieżącego miesiąca	brev:pun
-bp	biskup	brev:pun
+bp	biskup	brev:npun
 bpstwo	bpstwo	brev:npun
 br	bieżącego roku	brev:pun
 bryt	brytyjski	brev:pun
@@ -135,7 +135,7 @@ dost	dostateczny	brev:pun
 dosł	dosłownie	brev:pun
 dot	dotyczy	brev:pun
 dpi	dots per inch	brev:npun
-dr	doktor	brev:pun
+dr	doktor	brev:npun
 ds	do spraw	brev:pun
 dst	dostateczny	brev:pun
 duszp	duszpasterz	brev:pun
@@ -320,7 +320,7 @@ mgr	magister	brev:npun
 mies	miesięcznie	brev:pun
 min	minimum	brev:pun
 min	minuta	brev:npun
-mjr	major	brev:pun
+mjr	major	brev:npun
 ml	mililitr	brev:npun
 mld	miliard	brev:npun
 mln	milion	brev:npun
