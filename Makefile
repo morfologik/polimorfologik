@@ -1,10 +1,12 @@
-#Makefile do tworzenia s³ownika morfologicznego
+#Makefile do tworzenia sÅ‚ownika morfologicznego
 
 morfologik = morfologik-tools-1.6.0-standalone.jar
 
 all: polimorfologik.txt polish.dict polish_synth.dict polish_tags.txt
 
-#po³±czenie
+# NOTE: get polimorfologik.txt directly from sourceforge:
+# http://sourceforge.net/projects/morfologik/files,
+# as described here: https://github.com/morfologik/morfologik-scripts/issues/1
 polimorfologik.txt: eksport.tab brev-morfologik.txt
 	sort -u eksport.tab brev-morfologik.txt | gawk -f join_tags.awk > polimorfologik.txt
 
