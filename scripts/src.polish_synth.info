@@ -1,9 +1,8 @@
-#
 # 
 # Morfologik synthesis dictionary
 # Version: $v
 # Date: $build
-# Copyright (c) $d, Marcin Mi≥kowski
+# Copyright (c) $d, Marcin Mi≈Çkowski
 # All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
@@ -27,8 +26,7 @@
 # SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
-fsa.dict.separator=+
-fsa.dict.encoding=utf-8
+fsa.dict.separator=\t
+fsa.dict.encoding=UTF-8
 
-fsa.dict.uses-prefixes=false
-fsa.dict.uses-infixes=false
+fsa.dict.encoder=INFIX
