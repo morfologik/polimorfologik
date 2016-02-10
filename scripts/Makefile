@@ -4,13 +4,16 @@ morfologik = morfologik-tools-1.6.0-standalone.jar
 
 all: polimorfologik.txt polish.dict polish_synth.dict polish_tags.txt
 
+$(morfologik):
+	wget http://repo1.maven.org/maven2/org/carrot2/morfologik-tools/1.6.0/morfologik-tools-1.6.0-standalone.jar
+
 # NOTE: get polimorfologik.txt directly from sourceforge:
 # http://sourceforge.net/projects/morfologik/files,
 # as described here: https://github.com/morfologik/morfologik-scripts/issues/1
 polimorfologik.txt: eksport.tab brev-morfologik.txt
 	sort -u eksport.tab brev-morfologik.txt | gawk -f join_tags.awk > polimorfologik.txt
 
-pol.txt: polimorfologik.txt
+pol.txt: polimorfologik.txt $(morfologik)
 	java -jar $(morfologik) tab2morph -inf -i polimorfologik.txt -o pol.txt
 
 polish.dict: pol.txt	
