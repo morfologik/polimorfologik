@@ -12,7 +12,7 @@ $(morfologik):
 # http://sourceforge.net/projects/morfologik/files,
 # as described here: https://github.com/morfologik/morfologik-scripts/issues/1
 polimorfologik.txt: eksport.tab brev-morfologik.txt
-	sort $(sortopts) -u eksport.tab brev-morfologik.txt | gawk -f join_tags.awk > polimorfologik.txt
+	LANG=C sort $(sortopts) -u eksport.tab brev-morfologik.txt | gawk -f join_tags.awk > polimorfologik.txt
 
 pol.txt: polimorfologik.txt $(morfologik)
 	java -jar $(morfologik) tab2morph -inf -i polimorfologik.txt -o pol.txt
@@ -21,7 +21,7 @@ polish.dict: pol.txt
 	java -jar -Xmx700m $(morfologik) fsa_build -i pol.txt -f fsa5 -o polish.dict
 
 polish_tags.txt: polimorfologik.txt eksport.tab format_tags.awk
-	gawk -f tags.awk polimorfologik.txt | gawk -f format_tags.awk | sort $(sortopts) -u > polish_tags.txt
+	LANG=C gawk -f tags.awk polimorfologik.txt | gawk -f format_tags.awk | sort $(sortopts) -u > polish_tags.txt
 
 synt_in.txt: polimorfologik.txt
 	gawk -f synteza_pl.awk polimorfologik.txt > synt.txt
