@@ -1,6 +1,7 @@
 #Makefile do tworzenia słownika morfologicznego
 
 morfologik = morfologik-tools-1.6.0-standalone.jar
+sortopts   = --buffer-size=1G
 
 all: polimorfologik.txt polish.dict polish_synth.dict polish_tags.txt
 
@@ -11,7 +12,7 @@ $(morfologik):
 # http://sourceforge.net/projects/morfologik/files,
 # as described here: https://github.com/morfologik/morfologik-scripts/issues/1
 polimorfologik.txt: eksport.tab brev-morfologik.txt
-	sort -u eksport.tab brev-morfologik.txt | gawk -f join_tags.awk > polimorfologik.txt
+	sort $(sortopts) -u eksport.tab brev-morfologik.txt | gawk -f join_tags.awk > polimorfologik.txt
 
 pol.txt: polimorfologik.txt $(morfologik)
 	java -jar $(morfologik) tab2morph -inf -i polimorfologik.txt -o pol.txt
@@ -20,7 +21,7 @@ polish.dict: pol.txt
 	java -jar -Xmx700m $(morfologik) fsa_build -i pol.txt -f fsa5 -o polish.dict
 
 polish_tags.txt: polimorfologik.txt eksport.tab format_tags.awk
-	gawk -f tags.awk polimorfologik.txt | gawk -f format_tags.awk | sort -u > polish_tags.txt
+	gawk -f tags.awk polimorfologik.txt | gawk -f format_tags.awk | sort $(sortopts) -u > polish_tags.txt
 
 synt_in.txt: polimorfologik.txt
 	gawk -f synteza_pl.awk polimorfologik.txt > synt.txt
@@ -67,10 +68,10 @@ readme_pl.txt: version_script.awk src.readme_pl.txt
 	 gawk -f version_script.awk src.readme_pl.txt > readme_pl.txt
  
 morfologik.zip : polimorfologik.txt readme.txt readme_pl.txt
-	 /cygdrive/c/Program\ Files/7-Zip/7z a -tzip morfologik.zip polimorfologik.txt readme.txt readme_pl.txt
+	 zip morfologik.zip polimorfologik.txt readme.txt readme_pl.txt
 
 polish-fsa.zip: polish.dict polish_synth.dict readme.txt readme_pl.txt polish.info polish_synth.info polimorfologik.txt
-	 /cygdrive/c/Program\ Files/7-Zip/7z a -tzip polish-fsa.zip polish.dict polish_synth.dict readme.txt readme_pl.txt polish.info polish_synth.info
+	 zip polish-fsa.zip polish.dict polish_synth.dict readme.txt readme_pl.txt polish.info polish_synth.info
 
 pl_cfsa2: pl.dict pl.info
 
