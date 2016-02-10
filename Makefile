@@ -7,7 +7,7 @@ input      = eksport.tab
 #
 # Everything.
 #
-all: build/polish.dict
+all: build/polish.dict build/polish_synth.dict
 
 #
 # Fetch morfologik-tools (FSA compilers) using Apache Maven.
@@ -34,3 +34,19 @@ build/polish.dict: $(morfologik) build/combined.tab build/polish.info
 
 build/polish.info: src/polish.info awk/version_script.awk
 	gawk -f awk/version_script.awk src/polish.info > build/polish.info
+
+
+#
+# Build the synthesis dictionary.
+#
+build/polish_synth.dict: $(morfologik) build/polish_synth.input build/polish_synth.info
+	java $(javaopts) -jar $(morfologik) dict_compile --format cfsa2 -i build/polish_synth.input --overwrite
+	cp build/polish_synth.dict build/polish_synth.dict.cfsa2
+	java $(javaopts) -jar $(morfologik) dict_compile --format fsa5  -i build/polish_synth.input --overwrite
+	java $(javaopts) -jar $(morfologik) fsa_dump -i build/polish_synth.dict -o build/polish_synth.dump
+
+build/polish_synth.input: build/combined.tab
+	gawk -f awk/combined-to-synth.awk build/combined.tab > build/polish_synth.input
+
+build/polish_synth.info: src/polish_synth.info awk/version_script.awk
+	gawk -f awk/version_script.awk src/polish_synth.info > build/polish_synth.info
