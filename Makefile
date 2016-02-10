@@ -1,5 +1,5 @@
 
-morfologik = lib/morfologik-tools-2.0.1.jar
+morfologik = lib/target/morfologik-tools-2.0.1.jar
 sortopts   = --buffer-size=1G
 javaopts   = -ea -Xmx1G
 input      = eksport.tab
@@ -7,7 +7,7 @@ input      = eksport.tab
 #
 # Everything.
 #
-all: build/polish.dict build/polish_synth.dict
+all: build/polish.dict build/polish_synth.dict test
 
 #
 # Fetch morfologik-tools (FSA compilers) using Apache Maven.
@@ -50,3 +50,10 @@ build/polish_synth.input: build/combined.tab
 
 build/polish_synth.info: src/polish_synth.info awk/version_script.awk
 	gawk -f awk/version_script.awk src/polish_synth.info > build/polish_synth.info
+
+#
+# Sanity checks.
+#
+.PHONY: test
+test:
+	cd lib && mvn test -Dpolish.dict=../build/polish.dict -Dpolish_synth.dict=../build/polish_synth.dict -Dcombined.input=../build/combined.tab
