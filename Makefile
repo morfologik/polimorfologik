@@ -7,13 +7,19 @@ input      = eksport.tab
 #
 # Everything.
 #
-all: build/polish.dict build/polish_synth.dict test
+all: eksport.tab build/polish.dict build/polish_synth.dict test
 
 #
 # Fetch morfologik-tools (FSA compilers) using Apache Maven.
 #
 $(morfologik):
 	cd lib && mvn
+
+#
+# Check if the input is present.
+#
+eksport.tab:
+	test -s eksport.tab || { echo "ERROR: eksport.tab not found."; exit 1; }
 
 #
 # Preprocess the raw input.
@@ -57,3 +63,12 @@ build/polish_synth.info: src/polish_synth.info awk/version_script.awk
 .PHONY: test
 test:
 	cd lib && mvn test -Dpolish.dict=../build/polish.dict -Dpolish_synth.dict=../build/polish_synth.dict -Dcombined.input=../build/combined.tab
+
+#
+# clean
+#
+.PHONY: clean
+clean:
+	rm -rf build
+	rm -rf lib/target
+
