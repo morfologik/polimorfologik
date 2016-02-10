@@ -7,13 +7,14 @@ input      = eksport.tab
 #
 # Everything.
 #
-all: eksport.tab build/polish.dict build/polish_synth.dict test
+all: compile test
+compile: eksport.tab build/polish.dict build/polish_synth.dict
 
 #
 # Fetch morfologik-tools (FSA compilers) using Apache Maven.
 #
 $(morfologik):
-	cd lib && mvn
+	cd lib && mvn dependency:copy-dependencies
 
 #
 # Check if the input is present.
@@ -24,15 +25,15 @@ eksport.tab:
 #
 # Preprocess the raw input.
 #
-build/combined.tab:
+build/combined.input:
 	mkdir -p build
-	LANG=C sort $(sortopts) -u $(input) eksport.quickfix.tab | gawk -f awk/join_tags_reverse.awk > build/combined.tab
+	LANG=C sort $(sortopts) -u $(input) eksport.quickfix.tab | gawk -f awk/join_tags_reverse.awk > build/combined.input
 
 #
 # Build the stemming dictionary.
 #
-build/polish.dict: $(morfologik) build/combined.tab build/polish.info
-	cp build/combined.tab build/polish.input
+build/polish.dict: $(morfologik) build/combined.input build/polish.info
+	cp build/combined.input build/polish.input
 	java $(javaopts) -jar $(morfologik) dict_compile --format cfsa2 -i build/polish.input --overwrite
 	cp build/polish.dict build/polish.dict.cfsa2
 	java $(javaopts) -jar $(morfologik) dict_compile --format fsa5  -i build/polish.input --overwrite
@@ -51,8 +52,8 @@ build/polish_synth.dict: $(morfologik) build/polish_synth.input build/polish_syn
 	java $(javaopts) -jar $(morfologik) dict_compile --format fsa5  -i build/polish_synth.input --overwrite
 	java $(javaopts) -jar $(morfologik) fsa_dump -i build/polish_synth.dict -o build/polish_synth.dump
 
-build/polish_synth.input: build/combined.tab
-	gawk -f awk/combined-to-synth.awk build/combined.tab > build/polish_synth.input
+build/polish_synth.input: build/combined.input
+	gawk -f awk/combined-to-synth.awk build/combined.input > build/polish_synth.input
 
 build/polish_synth.info: src/polish_synth.info awk/version_script.awk
 	gawk -f awk/version_script.awk src/polish_synth.info > build/polish_synth.info
@@ -62,7 +63,7 @@ build/polish_synth.info: src/polish_synth.info awk/version_script.awk
 #
 .PHONY: test
 test:
-	cd lib && mvn test -Dpolish.dict=../build/polish.dict -Dpolish_synth.dict=../build/polish_synth.dict -Dcombined.input=../build/combined.tab
+	cd lib && mvn test -Dpolish.dict=../build/polish.dict -Dpolish_synth.dict=../build/polish_synth.dict -Dcombined.input=../build/combined.input
 
 #
 # clean

@@ -38,8 +38,6 @@
   </dependencies>
 
   <build>
-    <defaultGoal>package</defaultGoal>
-
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -61,13 +59,14 @@
         <version>2.10</version>
         <executions>
           <execution>
-            <id>copy-dependencies</id>
+            <id>default-cli</id>
             <phase>package</phase>
             <goals>
               <goal>copy-dependencies</goal>
             </goals>
             <configuration>
               <outputDirectory>${project.build.directory}</outputDirectory>
+              <includeScope>runtime</includeScope>
             </configuration>
           </execution>
         </executions>
