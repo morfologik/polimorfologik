@@ -47,6 +47,7 @@ ZNACZNIKI MORFOSYNTAKTYCZNE
 Zestaw znaczników jest zbliżony do zestawu korpusu NKJP (www.nkjp.pl).
 
     * adj - przymiotnik (np. „niemiecki”)
+    * adja - przymiotnik przyprzymiotnikowy (np. „niemiecko”, w wyrażeniach typu „niemiecko-chiński”)
     * adjc - przymiotnik przedykatywny (np. „ciekaw”, „dłużen”)
     * adjp - przymiotnik poprzyimkowy (np. „niemiecku”)
     * adv - przysłówek (np. „głupio”)
