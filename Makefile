@@ -7,7 +7,7 @@ input      = eksport.tab
 #
 # Everything.
 #
-all: compile test
+all: compile build/polish_tags.txt test
 compile: eksport.tab build/polish.dict build/polish_synth.dict
 
 #
@@ -57,6 +57,12 @@ build/polish_synth.input: build/combined.input
 
 build/polish_synth.info: src/polish_synth.info awk/version_script.awk
 	gawk -f awk/version_script.awk src/polish_synth.info > build/polish_synth.info
+
+#
+# Extract unique tags
+#
+build/polish_tags.txt: build/combined.input
+	LANG=C gawk -f awk/tags.awk build/combined.input | sort -u > build/polish_tags.txt
 
 #
 # Sanity checks.
