@@ -1,5 +1,5 @@
 BEGIN {
-version="2.0 PoliMorf"
+version="2.1 PoliMorf"
 "date +%Y" | getline cop_date;
 "date" | getline creation;
 }
