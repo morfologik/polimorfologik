@@ -123,7 +123,7 @@ zip: compile \
          README.* \
          LICENSE.* \
          fsa_morph/* )
-	@echo ### Distribution ZIP ready: build/polimorfologik-$(version_number).zip
+	@echo -e "\n\n### Distribution ZIP ready: build/polimorfologik-$(version_number).zip"
 
 #
 # clean
