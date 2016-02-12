@@ -1,4 +1,5 @@
 ﻿INFORMACJA
+==========
 
 Morfologik to projekt tworzenia polskich słowników morfosyntaktycznych (stąd 
 nazwa) służących do znakowania morfosyntaktycznego i syntezy gramatycznej.
@@ -6,26 +7,33 @@ nazwa) służących do znakowania morfosyntaktycznego i syntezy gramatycznej.
 WERSJA: $v
 UTWORZONA: $build
 
+
 ŹRÓDŁO
+======
 
 Dane pochodzą ze słownika sjp.pl oraz słownika PoliMorf i są licencjonowane na 
 licencji zawartej w pliku LICENSE.Polish.txt. Dane źródłowe pochodzą z 
 polskiego słownika ispell, następnie redagowanego na stronach 
 kurnik.pl/slownik i sjp.pl, a także Słownika Gramatycznego Języka Polskiego. 
-Autorzy: 
+
+Autorzy:
+
   (1) ispell: Mirosław Prywata, Piotr Gackiewicz, Włodzimierz Macewicz, 
       Łukasz Szałkiewicz, Marek Futrega.
   (2) SGJP: Zygmunt Saloni, Włodzimierz Gruszczyński, Marcin Woliński, 
       Robert Wołosz.
+
 Wersja PoliMorf została opracowana w ramach projektu CESAR realizowanego w 
 Zespole Inżynierii Lingwistycznej IPI PAN. W przygotowaniu ostatecznej 
 wersji 2.0 dopomogli Jan Szejko i Adam Radziszewski.
 
+
 PLIKI
+=====
 
 1. polish.dict to binarny plik słownika dla programu fsa_morph Jana Daciuka 
-(zob. http://www.eti.pg.gda.pl/katedry/kiw/pracownicy/Jan.Daciuk/personal/fsa.html),
-wykorzystywany również bezpośrednio przez korektor gramatyczny LanguageTool.
+(zob. [1]), wykorzystywany również bezpośrednio przez korektor gramatyczny 
+LanguageTool (zob. [2]) oraz pakiet morfologik-stemming (zob. [3]).
 
 2. polish_synth.dict to binarny plik słownika syntezy gramatycznej,
 używany w fsa_morph i LanguageTool. Aby uzyskać formę odmienioną,
@@ -39,10 +47,16 @@ niemiecki|adjp
 
 daje "niemiecku+".
 
-4. polish.info i polish_synth.info - pliki wymagane do użycia powyższych 
+3. polish.info i polish_synth.info - pliki metadanych wymagane do użycia powyższych 
 plików binarnych w bibliotece morfologik-stemming.
 
+[1] http://www.eti.pg.gda.pl/katedry/kiw/pracownicy/Jan.Daciuk/personal/fsa.html
+[2] https://languagetool.org/
+[3] https://github.com/morfologik/morfologik-stemming
+
+
 ZNACZNIKI MORFOSYNTAKTYCZNE
+===========================
 
 Zestaw znaczników jest zbliżony do zestawu korpusu NKJP (www.nkjp.pl).
 
