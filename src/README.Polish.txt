@@ -29,13 +29,13 @@ wersji 2.0 dopomogli Jan Szejko i Adam Radziszewski.
 PLIKI
 =====
 
-1. polish.dict to binarny plik słownika dla programu fsa_morph Jana Daciuka 
-(zob. [1]), wykorzystywany również bezpośrednio przez korektor gramatyczny 
-LanguageTool (zob. [2]) oraz pakiet morfologik-stemming (zob. [3]).
+1. polish.dict oraz polish.info to pliki słownika morfologikcznego dla programu
+   morfologik-stemming (zob. [3]), wykorzystywanego również przez projekt
+   LanguageTool (zob. [2]).
 
-2. polish_synth.dict to binarny plik słownika syntezy gramatycznej,
-używany w fsa_morph i LanguageTool. Aby uzyskać formę odmienioną,
-należy używać następującej składni w zapytaniu programu fsa_morph:
+2. polish_synth.dict oraz polish_synth.info to pliki słownika syntezy 
+   gramatycznej dla LanguageTool (zob. [2]). Aby uzyskać formę odmienioną,
+   należy używać następującej składni:
 
 <wyraz>|<znacznik>
 
@@ -43,10 +43,12 @@ Na przykład:
 
 niemiecki|adjp
 
-daje "niemiecku+".
+daje "niemiecku".
 
-3. polish.info i polish_synth.info - pliki metadanych wymagane do użycia powyższych 
-plików binarnych w bibliotece morfologik-stemming.
+3. fsa_morph/polish.dict i fsa_morph/polish_synth.dict to pliki słowników jak
+   powyżej, ale przeznaczone dla programu fsa_morph z pakietu fsa
+   Janka Daciuka (zob. [1]). Słowniki te są identyczne jak te powyżej, różnią 
+   się jedynie metodą kompresji.
 
 [1] http://www.eti.pg.gda.pl/katedry/kiw/pracownicy/Jan.Daciuk/personal/fsa.html
 [2] https://languagetool.org/

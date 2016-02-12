@@ -1,5 +1,6 @@
 
-version        = 2.1 PoliMorf
+version_number = 2.1
+version        = $(version_number) PoliMorf
 release_date   = $(shell date --rfc-3339=seconds)
 copyright_date = $(shell date +%Y)
 githash        = $(shell git log --pretty=format:'%h' -n 1)
@@ -45,18 +46,26 @@ build/combined.input:
 #
 build/polish.dict: $(morfologik) build/combined.input build/polish.info
 	cp build/combined.input build/polish.input
-	java $(javaopts) -jar $(morfologik) dict_compile --format cfsa2 -i build/polish.input --overwrite
-	cp build/polish.dict build/polish.dict.cfsa2
+	mkdir -p build/fsa_morph
+	@echo "### Building FSA5 (fsa_morph-compatible) polish.dict"
 	java $(javaopts) -jar $(morfologik) dict_compile --format fsa5  -i build/polish.input --overwrite
+	mv build/polish.dict build/fsa_morph/
+	@echo "### Building CFSA2 (morfologik-stemming, LT) polish.dict"
+	java $(javaopts) -jar $(morfologik) dict_compile --format cfsa2 -i build/polish.input --overwrite
+	@echo "### Dumping raw automaton for polish.dict -> build/polish.dump"
 	java $(javaopts) -jar $(morfologik) fsa_dump -i build/polish.dict -o build/polish.dump
 
 #
 # Build the synthesis dictionary.
 #
 build/polish_synth.dict: $(morfologik) build/polish_synth.input build/polish_synth.info
-	java $(javaopts) -jar $(morfologik) dict_compile --format cfsa2 -i build/polish_synth.input --overwrite
-	cp build/polish_synth.dict build/polish_synth.dict.cfsa2
+	mkdir -p build/fsa_morph
+	@echo "### Building FSA5 (fsa_morph-compatible) polish_synth.dict"
 	java $(javaopts) -jar $(morfologik) dict_compile --format fsa5  -i build/polish_synth.input --overwrite
+	mv build/polish_synth.dict build/fsa_morph/
+	@echo "### Building CFSA2 (morfologik-stemming, LT) polish_synth.dict"
+	java $(javaopts) -jar $(morfologik) dict_compile --format cfsa2 -i build/polish_synth.input --overwrite
+	@echo "### Dumping raw automaton for polish_synth.dict -> build/polish_synth.dump"
 	java $(javaopts) -jar $(morfologik) fsa_dump -i build/polish_synth.dict -o build/polish_synth.dump
 
 build/polish_synth.input: build/combined.input
@@ -105,14 +114,16 @@ zip: compile \
      build/README.Polish.txt \
      build/LICENSE.txt \
      build/LICENSE.Polish.txt
-	rm -f build/polimorfologik.zip
-	(cd build && zip -9 polimorfologik.zip \
+	rm -f build/polimorfologik-$(version_number).zip
+	(cd build && zip -9 polimorfologik-$(version_number).zip \
          polish.info \
          polish.dict \
          polish_synth.info \
          polish_synth.dict \
          README.* \
-         LICENSE.* )
+         LICENSE.* \
+         fsa_morph/* )
+	@echo ### Distribution ZIP ready: build/polimorfologik-$(version_number).zip
 
 #
 # clean
