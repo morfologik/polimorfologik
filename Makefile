@@ -14,6 +14,7 @@ input          = eksport.tab
 # Aggregate targets.
 #
 all: compile \
+     compile-fsamorph \
      build/polish_tags.txt \
      test \
      zip
@@ -46,10 +47,6 @@ build/combined.input:
 #
 build/polish.dict: $(morfologik) build/combined.input build/polish.info
 	cp build/combined.input build/polish.input
-	mkdir -p build/fsa_morph
-	@echo "### Building FSA5 (fsa_morph-compatible) polish.dict"
-	java $(javaopts) -jar $(morfologik) dict_compile --format fsa5  -i build/polish.input --overwrite
-	mv build/polish.dict build/fsa_morph/
 	@echo "### Building CFSA2 (morfologik-stemming, LT) polish.dict"
 	java $(javaopts) -jar $(morfologik) dict_compile --format cfsa2 -i build/polish.input --overwrite
 	@echo "### Dumping raw automaton for polish.dict -> build/polish.dump"
@@ -59,10 +56,6 @@ build/polish.dict: $(morfologik) build/combined.input build/polish.info
 # Build the synthesis dictionary.
 #
 build/polish_synth.dict: $(morfologik) build/polish_synth.input build/polish_synth.info
-	mkdir -p build/fsa_morph
-	@echo "### Building FSA5 (fsa_morph-compatible) polish_synth.dict"
-	java $(javaopts) -jar $(morfologik) dict_compile --format fsa5  -i build/polish_synth.input --overwrite
-	mv build/polish_synth.dict build/fsa_morph/
 	@echo "### Building CFSA2 (morfologik-stemming, LT) polish_synth.dict"
 	java $(javaopts) -jar $(morfologik) dict_compile --format cfsa2 -i build/polish_synth.input --overwrite
 	@echo "### Dumping raw automaton for polish_synth.dict -> build/polish_synth.dump"
@@ -70,6 +63,26 @@ build/polish_synth.dict: $(morfologik) build/polish_synth.input build/polish_syn
 
 build/polish_synth.input: build/combined.input
 	gawk -f awk/combined-to-synth.awk build/combined.input > build/polish_synth.input
+
+#
+# fsa_morph backwards-compatible dictionaries.
+#
+compile-fsamorph: build/fsa_morph/polish.dict \
+                  build/fsa_morph/polish_synth.dict
+
+build/fsa_morph/polish.dict: build/polish.dict
+	mkdir -p build/fsa_morph
+	@echo "### Building FSA5 (fsa_morph-compatible) polish.dict"
+	tr ';+' '+|' < build/polish.input > build/fsa_morph/polish.input
+	cp src/fsa_morph.info               build/fsa_morph/polish.info
+	java $(javaopts) -jar $(morfologik) dict_compile --format fsa5  -i build/fsa_morph/polish.input --overwrite
+
+build/fsa_morph/polish_synth.dict: build/polish_synth.dict
+	mkdir -p build/fsa_morph
+	@echo "### Building FSA5 (fsa_morph-compatible) polish_synth.dict"
+	tr ';+' '+|' < build/polish_synth.input > build/fsa_morph/polish_synth.input
+	cp src/fsa_morph.info                     build/fsa_morph/polish_synth.info
+	java $(javaopts) -jar $(morfologik) dict_compile --format fsa5  -i build/fsa_morph/polish_synth.input --overwrite
 
 #
 # Extract unique tags
@@ -109,7 +122,7 @@ build/%.info: src/%.info
 # Create a ZIP distribution.
 #
 .PHONY: zip
-zip: compile \
+zip: compile compile-fsamorph \
      build/README.txt \
      build/README.Polish.txt \
      build/LICENSE.txt \
@@ -122,7 +135,7 @@ zip: compile \
          polish_synth.dict \
          README.* \
          LICENSE.* \
-         fsa_morph/* )
+         fsa_morph/*.dict )
 	@echo -e "\n\n### Distribution ZIP ready: build/polimorfologik-$(version_number).zip"
 
 #

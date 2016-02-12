@@ -35,20 +35,37 @@ PLIKI
 
 2. polish_synth.dict oraz polish_synth.info to pliki słownika syntezy 
    gramatycznej dla LanguageTool (zob. [2]). Aby uzyskać formę odmienioną,
-   należy używać następującej składni:
+   należy używać następującej składni "zapytania" do słownika:
 
-<wyraz>|<znacznik>
+     <wyraz>|<znacznik>
 
-Na przykład:
+   Przykład:
 
-niemiecki|adjp
+     niemiecki|adjp
 
-daje "niemiecku".
+   daje "niemiecku".
 
 3. fsa_morph/polish.dict i fsa_morph/polish_synth.dict to pliki słowników jak
    powyżej, ale przeznaczone dla programu fsa_morph z pakietu fsa
-   Janka Daciuka (zob. [1]). Słowniki te są identyczne jak te powyżej, różnią 
-   się jedynie metodą kompresji.
+   Janka Daciuka (zob. [1]). Słowniki te zawierają te same dane co słowniki
+   powyżej, różnią się jednak metodą kompresji oraz:
+   - mają separator w automacie ustawiony na sztywno na '+',
+   - mają znaczniki morfosyntaktyczne rozdzielone znakiem '|',
+   - mają kodowanie "prefiksowe", które wymaga podania flagi "-P" do fsa_morph,
+   - znaki diakrytyczne są kodowane w UTF-8 (ma znaczenie jeśli terminal ma
+     ustawione inne).
+
+   Przykład:
+
+     $ echo "krowami" | ./fsa_morph -P -d polish.dict
+     krowami: krowa+subst:pl:inst:f
+     $ echo "zamek"   | ./fsa_morph -P -d polish.dict
+     zamek: zamek+subst:sg:acc:m3|subst:sg:nom:m3
+
+   Synteza:
+
+     $ echo "niemiecki|adjp" | ./fsa_morph -P -d polish_synth.dict
+     niemiecki|adjp: niemiecku
 
 [1] http://www.eti.pg.gda.pl/katedry/kiw/pracownicy/Jan.Daciuk/personal/fsa.html
 [2] https://languagetool.org/

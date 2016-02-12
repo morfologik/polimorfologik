@@ -1,0 +1,18 @@
+#
+# This metadata describes dictionaries built for
+# fsa_morph
+#
+# The difference is in:
+#
+# - separator character is fixed to '+' (hardcoded in fsa_morph),
+# - tags are separated with '|'
+#
+
+fsa.dict.author=morfologik.blogspot.com
+fsa.dict.created=$release_date
+fsa.dict.license=BSD. http://morfologik.blogspot.com
+
+fsa.dict.separator=+
+fsa.dict.encoding=UTF-8
+
+fsa.dict.encoder=PREFIX
