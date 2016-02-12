@@ -89,21 +89,21 @@ test:
 #
 # Substitute variables in template files.
 #
-define replaceVariables =
+TXT_FILES := $(wildcard src/*.txt)
+build/%.txt: src/%.txt
 	sed -e 's/$$version/$(version)/g' \
       -e 's/$$release_date/$(release_date)/g' \
       -e 's/$$copyright_date/$(copyright_date)/g' \
       -e 's/$$githash/$(githash)/g' \
       $< >$@
-endef
-
-TXT_FILES := $(wildcard src/*.txt)
-build/%.txt: src/%.txt
-	$(replaceVariables)
 
 INFO_FILES := $(wildcard src/*.info)
 build/%.info: src/%.info
-	$(replaceVariables)
+	sed -e 's/$$version/$(version)/g' \
+      -e 's/$$release_date/$(release_date)/g' \
+      -e 's/$$copyright_date/$(copyright_date)/g' \
+      -e 's/$$githash/$(githash)/g' \
+      $< >$@
 
 #
 # Create a ZIP distribution.
