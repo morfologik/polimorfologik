@@ -7,5 +7,6 @@ See LICENSE.txt for license restrictions.
 See README.Polish.txt for more information concerning authorship and
 dictionary data format.
 
-VERSION: $v
-BUILD: $build
+VERSION: $version
+BUILD:   $release_date
+GIT:     $githash

@@ -1,11 +1,9 @@
-﻿INFORMACJA
-==========
-
-Morfologik to projekt tworzenia polskich słowników morfosyntaktycznych (stąd 
+﻿Morfologik to projekt tworzenia polskich słowników morfosyntaktycznych (stąd 
 nazwa) służących do znakowania morfosyntaktycznego i syntezy gramatycznej.
 
-WERSJA: $v
-UTWORZONA: $build
+WERSJA:    $version
+UTWORZONA: $release_date
+GIT:       $githash
 
 
 ŹRÓDŁO

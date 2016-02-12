@@ -1,8 +1,10 @@
 Morfologik
-VERSION: $v
-BUILD: $build
 
-Copyright © $d Marcin Miłkowski
+VERSION: $version
+BUILD:   $release_date
+GIT:     $githash
+
+Copyright (c) $copyright_date, Marcin Miłkowski
 Wszelkie prawa zastrzeżone
 
 Redystrybucja i używanie, czy to w formie kodu źródłowego, czy w formie kodu 

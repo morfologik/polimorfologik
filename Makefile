@@ -1,14 +1,25 @@
 
-morfologik = lib/target/morfologik-tools-2.0.1.jar
-sortopts   = --buffer-size=1G
-javaopts   = -ea -Xmx1G
-input      = eksport.tab
+version        = 2.1 PoliMorf
+release_date   = $(shell date --rfc-3339=seconds)
+copyright_date = $(shell date +%Y)
+githash        = $(shell git log --pretty=format:'%h' -n 1)
+
+morfologik     = lib/target/morfologik-tools-2.0.1.jar
+sortopts       = --buffer-size=1G
+javaopts       = -ea -Xmx1G
+input          = eksport.tab
 
 #
-# Everything.
+# Aggregate targets.
 #
-all: compile build/polish_tags.txt test
-compile: eksport.tab build/polish.dict build/polish_synth.dict
+all: compile \
+     build/polish_tags.txt \
+     test \
+     zip
+
+compile: eksport.tab \
+         build/polish.dict \
+         build/polish_synth.dict
 
 #
 # Fetch morfologik-tools (FSA compilers) using Apache Maven.
@@ -39,10 +50,6 @@ build/polish.dict: $(morfologik) build/combined.input build/polish.info
 	java $(javaopts) -jar $(morfologik) dict_compile --format fsa5  -i build/polish.input --overwrite
 	java $(javaopts) -jar $(morfologik) fsa_dump -i build/polish.dict -o build/polish.dump
 
-build/polish.info: src/polish.info awk/version_script.awk
-	gawk -f awk/version_script.awk src/polish.info > build/polish.info
-
-
 #
 # Build the synthesis dictionary.
 #
@@ -55,9 +62,6 @@ build/polish_synth.dict: $(morfologik) build/polish_synth.input build/polish_syn
 build/polish_synth.input: build/combined.input
 	gawk -f awk/combined-to-synth.awk build/combined.input > build/polish_synth.input
 
-build/polish_synth.info: src/polish_synth.info awk/version_script.awk
-	gawk -f awk/version_script.awk src/polish_synth.info > build/polish_synth.info
-
 #
 # Extract unique tags
 #
@@ -69,7 +73,46 @@ build/polish_tags.txt: build/combined.input
 #
 .PHONY: test
 test:
-	cd lib && mvn test -Dpolish.dict=../build/polish.dict -Dpolish_synth.dict=../build/polish_synth.dict -Dcombined.input=../build/combined.input
+	cd lib && mvn test -Dpolish.dict=../build/polish.dict \
+                     -Dpolish_synth.dict=../build/polish_synth.dict \
+                     -Dcombined.input=../build/combined.input
+
+#
+# Substitute variables in template files.
+#
+define replaceVariables =
+	sed -e 's/$$version/$(version)/g' \
+      -e 's/$$release_date/$(release_date)/g' \
+      -e 's/$$copyright_date/$(copyright_date)/g' \
+      -e 's/$$githash/$(githash)/g' \
+      $< >$@
+endef
+
+TXT_FILES := $(wildcard src/*.txt)
+build/%.txt: src/%.txt
+	$(replaceVariables)
+
+INFO_FILES := $(wildcard src/*.info)
+build/%.info: src/%.info
+	$(replaceVariables)
+
+#
+# Create a ZIP distribution.
+#
+.PHONY: zip
+zip: compile \
+     build/README.txt \
+     build/README.Polish.txt \
+     build/LICENSE.txt \
+     build/LICENSE.Polish.txt
+	rm -f build/polimorfologik.zip
+	(cd build && zip -9 polimorfologik.zip \
+         polish.info \
+         polish.dict \
+         polish_synth.info \
+         polish_synth.dict \
+         README.* \
+         LICENSE.* )
 
 #
 # clean
