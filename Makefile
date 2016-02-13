@@ -33,6 +33,7 @@ $(morfologik):
 # Check if the input is present.
 #
 eksport.tab:
+	test -s eksport.tab || { wget http://marcinmilkowski.pl/downloads/eksport.tab.gz; gzip -d eksport.tab.gz; }
 	test -s eksport.tab || { echo "ERROR: eksport.tab not found."; exit 1; }
 
 #
