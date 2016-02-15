@@ -138,7 +138,7 @@ zip: compile compile-fsamorph \
          polish_synth.dict \
          README.* \
          LICENSE.* \
-         polimorfologik*.txt
+         polimorfologik*.txt \
          fsa_morph/*.dict )
 	@echo -e "\n\n### Distribution ZIP ready: build/polimorfologik-$(version_number).zip"
 
