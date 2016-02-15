@@ -3,4 +3,4 @@ part-of-speech synthesis.
 
 The dictionaries can be used with [morfologik-stemming library and tools](https://github.com/morfologik/morfologik-stemming). 
 
-See src/LICENSE.txt for license information.
+See [src/LICENSE.txt](src/LICENSE.txt) for license information.
