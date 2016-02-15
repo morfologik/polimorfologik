@@ -1,4 +1,4 @@
-﻿Morfologik to projekt tworzenia polskich słowników morfosyntaktycznych (stąd 
+Morfologik to projekt tworzenia polskich słowników morfosyntaktycznych (stąd 
 nazwa) służących do znakowania morfosyntaktycznego i syntezy gramatycznej.
 
 WERSJA:    $version
@@ -12,7 +12,7 @@ GIT:       $githash
 Dane pochodzą ze słownika sjp.pl oraz słownika PoliMorf i są licencjonowane na 
 licencji zawartej w pliku LICENSE.Polish.txt. Dane źródłowe pochodzą z 
 polskiego słownika ispell, następnie redagowanego na stronach 
-kurnik.pl/slownik i sjp.pl, a także Słownika Gramatycznego Języka Polskiego. 
+kurnik.pl/slownik i sjp.pl, a także Słownika gramatycznego języka polskiego. 
 
 Autorzy:
 
@@ -29,7 +29,7 @@ wersji 2.0 dopomogli Jan Szejko i Adam Radziszewski.
 PLIKI
 =====
 
-1. polish.dict oraz polish.info to pliki słownika morfologikcznego dla programu
+1. polish.dict oraz polish.info to pliki słownika morfologicznego dla programu
    morfologik-stemming (zob. [3]), wykorzystywanego również przez projekt
    LanguageTool (zob. [2]).
 
@@ -47,12 +47,12 @@ PLIKI
 
 3. fsa_morph/polish.dict i fsa_morph/polish_synth.dict to pliki słowników jak
    powyżej, ale przeznaczone dla programu fsa_morph z pakietu fsa
-   Janka Daciuka (zob. [1]). Słowniki te zawierają te same dane co słowniki
+   Janka Daciuka (zob. [1]). Słowniki te zawierają te same dane, co słowniki
    powyżej, różnią się jednak metodą kompresji oraz:
    - mają separator w automacie ustawiony na sztywno na '+',
    - mają znaczniki morfosyntaktyczne rozdzielone znakiem '|',
    - mają kodowanie "prefiksowe", które wymaga podania flagi "-P" do fsa_morph,
-   - znaki diakrytyczne są kodowane w UTF-8 (ma znaczenie jeśli terminal ma
+   - znaki diakrytyczne są kodowane w UTF-8 (ma znaczenie, jeśli terminal ma
      ustawione inne).
 
    Przykład:
@@ -66,6 +66,9 @@ PLIKI
 
      $ echo "niemiecki|adjp" | ./fsa_morph -P -d polish_synth.dict
      niemiecki|adjp: niemiecku
+     
+4. polimorfologik-$version.txt to zwykły plik tekstowy w kodowaniu UTF-8 o formacie:
+    forma podstawowa;forma odmieniona;znaczniki gramatyczne
 
 [1] http://www.eti.pg.gda.pl/katedry/kiw/pracownicy/Jan.Daciuk/personal/fsa.html
 [2] https://languagetool.org/
@@ -79,7 +82,7 @@ Zestaw znaczników jest zbliżony do zestawu korpusu NKJP (www.nkjp.pl).
 
     * adj - przymiotnik (np. „niemiecki”)
     * adja - przymiotnik przyprzymiotnikowy (np. „niemiecko”, w wyrażeniach typu „niemiecko-chiński”)
-    * adjc - przymiotnik przedykatywny (np. „ciekaw”, „dłużen”)
+    * adjc - przymiotnik predykatywny (np. „ciekaw”, „dłużen”)
     * adjp - przymiotnik poprzyimkowy (np. „niemiecku”)
     * adv - przysłówek (np. „głupio”)
     * burk - burkinostka (np. „Burkina Faso”)
