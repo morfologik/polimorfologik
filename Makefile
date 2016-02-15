@@ -131,6 +131,7 @@ zip: compile compile-fsamorph \
 	rm -f build/polimorfologik-$(version_number).zip
 	rm -f build/polimorfologik-$(version_number).txt
 	cp build/combined.input build/polimorfologik-$(version_number).txt
+	cp CHANGES.md build
 	(cd build && zip -9 polimorfologik-$(version_number).zip \
          polish.info \
          polish.dict \
@@ -139,6 +140,7 @@ zip: compile compile-fsamorph \
          README.* \
          LICENSE.* \
          polimorfologik*.txt \
+		 CHANGES.md \
          fsa_morph/*.dict )
 	@echo -e "\n\n### Distribution ZIP ready: build/polimorfologik-$(version_number).zip"
 
