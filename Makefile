@@ -1,14 +1,16 @@
 
-version_number = 2.1
-version        = $(version_number) PoliMorf
-release_date   = $(shell date --rfc-3339=seconds)
-copyright_date = $(shell date +%Y)
-githash        = $(shell git log --pretty=format:'%h' -n 1)
+version_number     = 2.1
+version            = $(version_number) PoliMorf
+release_date       = $(shell date --rfc-3339=seconds)
+copyright_date     = $(shell date +%Y)
+githash            = $(shell git log --pretty=format:'%h' -n 1)
 
-morfologik     = lib/target/morfologik-tools-2.0.1.jar
-sortopts       = --buffer-size=1G
-javaopts       = -ea -Xmx1G
-input          = eksport.tab
+input              = eksport.tab
+morfologik         = lib/target/morfologik-tools-2.0.1.jar
+sortopts           = --buffer-size=1G
+javaopts           = -ea -Xmx1G
+
+polimorfologik.txt = build/polimorfologik-$(version_number).txt
 
 #
 # Aggregate targets.
@@ -33,21 +35,21 @@ $(morfologik):
 # Check if the input is present.
 #
 eksport.tab:
-	test -s eksport.tab || { wget --continue --progress=bar:force http://marcinmilkowski.pl/downloads/eksport.tab.gz && gzip -d eksport.tab.gz; }
-	test -s eksport.tab || { echo "ERROR: eksport.tab not found."; exit 1; }
+	@test -s eksport.tab || { wget --continue --progress=bar:force http://marcinmilkowski.pl/downloads/eksport.tab.gz && gzip -d eksport.tab.gz; }
+	@test -s eksport.tab || { echo "ERROR: eksport.tab not found."; exit 1; }
 
 #
 # Preprocess the raw input.
 #
-build/combined.input:
+$(polimorfologik.txt):
 	mkdir -p build
-	LANG=C sort $(sortopts) -u $(input) eksport.quickfix.tab | gawk -f awk/join_tags_reverse.awk > build/combined.input
+	LANG=C sort $(sortopts) -u $(input) eksport.quickfix.tab | gawk -f awk/join_tags_reverse.awk > $(polimorfologik.txt)
 
 #
 # Build the stemming dictionary.
 #
-build/polish.dict: $(morfologik) build/combined.input build/polish.info
-	cp build/combined.input build/polish.input
+build/polish.dict: $(morfologik) $(polimorfologik.txt) build/polish.info
+	cp $(polimorfologik.txt) build/polish.input
 	@echo "### Building CFSA2 (morfologik-stemming, LT) polish.dict"
 	java $(javaopts) -jar $(morfologik) dict_compile --format cfsa2 -i build/polish.input --overwrite
 	@echo "### Dumping raw automaton for polish.dict -> build/polish.dump"
@@ -62,8 +64,8 @@ build/polish_synth.dict: $(morfologik) build/polish_synth.input build/polish_syn
 	@echo "### Dumping raw automaton for polish_synth.dict -> build/polish_synth.dump"
 	java $(javaopts) -jar $(morfologik) fsa_dump -i build/polish_synth.dict -o build/polish_synth.dump
 
-build/polish_synth.input: build/combined.input
-	gawk -f awk/combined-to-synth.awk build/combined.input > build/polish_synth.input
+build/polish_synth.input: $(polimorfologik.txt)
+	gawk -f awk/combined-to-synth.awk $(polimorfologik.txt) > build/polish_synth.input
 
 #
 # fsa_morph backwards-compatible dictionaries.
@@ -88,8 +90,8 @@ build/fsa_morph/polish_synth.dict: build/polish_synth.dict
 #
 # Extract unique tags
 #
-build/polish_tags.txt: build/combined.input
-	LANG=C gawk -f awk/tags.awk build/combined.input | sort -u > build/polish_tags.txt
+build/polish_tags.txt: $(polimorfologik.txt)
+	LANG=C gawk -f awk/tags.awk $(polimorfologik.txt) | sort -u > build/polish_tags.txt
 
 #
 # Sanity checks.
@@ -98,7 +100,7 @@ build/polish_tags.txt: build/combined.input
 test:
 	cd lib && mvn test -Dpolish.dict=../build/polish.dict \
                      -Dpolish_synth.dict=../build/polish_synth.dict \
-                     -Dcombined.input=../build/combined.input
+                     -Dcombined.input=../$(polimorfologik.txt)
 
 #
 # Substitute variables in template files.
@@ -129,8 +131,6 @@ zip: compile compile-fsamorph \
      build/LICENSE.txt \
      build/LICENSE.Polish.txt
 	rm -f build/polimorfologik-$(version_number).zip
-	rm -f build/polimorfologik-$(version_number).txt
-	cp build/combined.input build/polimorfologik-$(version_number).txt
 	cp CHANGES.md build
 	(cd build && zip -9 polimorfologik-$(version_number).zip \
          polish.info \
