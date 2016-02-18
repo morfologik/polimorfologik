@@ -31,7 +31,22 @@ PLIKI
 
 1. polish.dict oraz polish.info to pliki słownika morfologicznego dla programu
    morfologik-stemming (zob. [3]), wykorzystywanego również przez projekt
-   LanguageTool (zob. [2]).
+   LanguageTool (zob. [2]). Aby uruchomić słowniki z linii poleceń należy pobrać
+   dystrybucję morfologik-stemming (tę lub nowszą):
+   
+   https://github.com/morfologik/morfologik-stemming/releases/download/2.1.0/morfologik-tools-2.1.0-package.zip
+    
+   a następnie, po rozpakowaniu archiwum, wydać polecenie:
+
+   java -jar lib/morfologik-tools-2.1.0.jar dict_apply -d polish.dict
+
+   Po uruchomieniu każda linia z wejścia podana do programu będzie analizowana
+   danymi ze słownika. Przykładowo:
+
+   $ java -jar lib/morfologik-tools-2.1.0.jar dict_apply -d polish.dict
+   $ NOTE: Using Console for input, character encoding is unknown but should be all right.
+   $ łódź
+   $ łódź => łódź subst:sg:acc:f+subst:sg:nom:f
 
 2. polish_synth.dict oraz polish_synth.info to pliki słownika syntezy 
    gramatycznej dla LanguageTool (zob. [2]). Aby uzyskać formę odmienioną,
