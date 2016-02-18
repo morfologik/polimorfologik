@@ -6,7 +6,7 @@ copyright_date     = $(shell date +%Y)
 githash            = $(shell git log --pretty=format:'%h' -n 1)
 
 input              = eksport.tab
-morfologik         = lib/target/morfologik-tools-2.0.1.jar
+morfologik         = lib/target/morfologik-tools-2.1.0.jar
 sortopts           = --buffer-size=1G
 javaopts           = -ea -Xmx1G
 
