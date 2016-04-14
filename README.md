@@ -1,5 +1,8 @@
+PoliMorfologik
+==============
+
 Morfologik is a project aiming at generating Polish morphosyntactic dictionaries (hence the name) used for part-of-speech tagging and
-part-of-speech synthesis. The dictionary is a result of the [PoliMorf project](http://zil.ipipan.waw.pl/PoliMorf). It contains around It over 215 thousand lexemes and around 3.5 million word forms.
+part-of-speech synthesis. The PoliMorfologik dictionary is a result of the [PoliMorf project](http://zil.ipipan.waw.pl/PoliMorf). It contains around It over 215 thousand lexemes and around 3.5 million word forms.
 
 The dictionary was created by enriching the Polish ispell/hunspell dictionary with morphological information, which was possible thanks to the structure of the original dictionary that retained important grammatical distinctions. The process of conversion relied on a series of scripts, and the resulting dictionary was later augmented with manually entered information. Unfortunately, the original source dictionary did not contain sufficient structure to allow reliable detection of some information, such as the exact subgender of the masculine for substantives. This information was added manually and using heuristic methods, however its reliability is low. Considering the fact that the substantives are about one third of the dictionary content (and almost half of them are masculine), this limitation is severe.
 
